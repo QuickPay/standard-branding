@@ -1,0 +1,73 @@
+de:
+  title: Bezahlen per Kreditkarte
+  cancel:
+    dialog: Du bist dabei, die Zahlung abzubrechen. Bist du sicher?
+    title: Das Zahlungs-Fenster schließen
+  waiting:
+    help: Bitte habe einen Moment Geduld, während wir deine Zahlung bearbeiten...
+    refresh: Click here if processing takes a long time
+  info:
+    order_number: Buchungsnummer
+    type: Art
+    amount: Betrag
+    change_method: Zahlungsweise ändern
+    fee: Gebühr
+    total: Gesamt
+    enter_card: Karte eingeben
+    payment: Zahlung
+    subscription: Anmeldung
+    time_left: Time left
+    card: Card on file
+  form:
+    errors:
+      try_again: Es ist ein Fehler aufgetreten, bitte versuche es noch einmal.
+    card:
+      card_number: Kartennummer
+      expiration: Gültig bis
+      card_verification_data: CVC
+      cvd_explained: Die CVC Nummer dient deiner Sicherheit. Die Verifikationsnummer besteht gewöhnlicherweise aus drei Ziffern auf der Rückseite der Karte.
+      submit_payment: Zahlung abschließen
+      submit_subscription: Complete subscription
+      submit_card: Complete
+    edankort:
+      help: !simple_format |
+            When you click the button below, the eDankort payment window will open. You will have to select your bank and identify using your regular credentials.
+            When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
+    mobilepay:
+      help: !simpe_format |
+        When you click the button below, the MobilePay payment window will open.
+        When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
+    sofort:
+      help: !simpe_format |
+        When you click the button below, the Sofort payment window will open.
+        When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
+    klarna:
+      nin:
+        number: Sozialversicherungsnummer
+        gender: Geschlecht
+        country_code: Land
+      submit: Complete payment
+    country:
+      denmark: Dänemark
+      sweden: Schweden
+      norway: Norwegen
+      finland: Finnland
+      netherlands: Niederlande
+      germany: Deutschland
+      austria: Österreich
+    gender:
+      male: Mann
+      female: Frau
+  wait_3d: 3d Secure Payment wird gestartet. Bitte warte...
+  error:
+    errors:
+      continue_to_shop: Continue to the shop
+      try_again: Es ist ein Fehler aufgetreten, bitte versuche es noch einmal.
+      unable_to_complete: Die Zahlung konnte nicht durchgeführt werden
+      secure_3d_not_enrolled: Your creditcard is not enrolled for 3D Secure. Try again or select another payment option.
+      payment_link_changed: The payment details have changed since you initiated the payment.
+      payment_link_changed_link: Click here to start over
+    retry: Noch einmal versuchen

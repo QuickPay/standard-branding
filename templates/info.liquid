@@ -1,0 +1,36 @@
+<div id="order_details" class="col-md-4" data-fee-no-card="{{ lang.info.enter_card }}">
+  {% if model.show_selected_payment_methods %}
+    <div class="row cardlist {%if model.payment_method_logos.size == 1%}only_one_card {% endif %}">
+      {% for type in model.payment_method_logos %}
+        <img src="{{ type.image_path }}" alt="{{ type.nice_name }}" title="{{ type.nice_name }}"/>
+      {% endfor %}
+    </div>
+
+    {% if model.allow_card_reselection %}
+      <div class="row select_undo">
+        <a href="{{ model.session_id }}/payment-method-undo">({{ lang.info.change_method }})</a>
+      </div>
+    {% endif %}
+  {% endif %}
+
+  <dl class="dl-horizontal" >
+    {% if model.order_id %}
+      <dt>{{ lang.info.order_number }}</dt>  <dd>{{ model.order_id }}</dd>
+    {% endif %}
+
+    <dt>{{ lang.info.type }}</dt>  <dd>{{ model.transaction_type | translate: lang.info }}</dd>
+
+    {% if model.amount %}
+      <dt>{{ lang.info.amount }}</dt>  <dd>{{ model.currency }} <span id="amountField">{{ model.amount | currency: lang }}</span></dd>
+    {% endif %}
+
+    {% if model.calculate_fee %}
+      <dt>{{ lang.info.fee }}</dt>    <dd><span id="feeField">{{ lang.info.enter_card }}</span></dd>
+      <dt>{{ lang.info.total }}</dt>  <dd><span id="totalField">{{ lang.info.enter_card }}</span></dd>
+    {% endif %}
+
+    {% if model.deadline? %}
+      <dt>{{ lang.info.time_left }}</dt>  <dd><span id="time_left"></span></dd>
+    {% endif %}
+  </dl>
+</div>

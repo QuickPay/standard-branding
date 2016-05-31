@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row" id="header">
+    <div class="col-md-10">
+      <h1>
+        {{ model.displayname }}
+      </h1>
+    </div>
+
+    {% if model.show_cancel %}
+      <div class="col-md-2" id="cancel">
+        <a href="{{ model.session_id }}/cancel-payment" data-confirm="{{ lang.cancel.dialog }}">
+          <img id="cancel-button" src="{{ images.cancel.png }}" alt="{{ lang.cancel.title }}" title="{{ lang.cancel.title }}" >
+        </a>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="row" id="content">
+    {% include 'content' %}
+    {% include 'info' %}
+  </div>
+
+  <div class="row" id="footer">
+    <div class="col-md-6" id="qickpay_branding"><img src="{{ images.qp_logo.gif }}" /></div>
+    <div class="col-md-6" id="security_information"><img src="{{ images.qp_text.gif }}" /></div>
+  </div>
+</div>

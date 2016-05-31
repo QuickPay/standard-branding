@@ -1,0 +1,5 @@
+{% if model.error %}
+  <p class="error">
+    {{ model.error | translate: lang.form.errors }}
+  </p>
+{% endif %}

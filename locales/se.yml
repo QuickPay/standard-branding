@@ -1,0 +1,93 @@
+se:
+  cancel:
+    dialog: Du avbryter nu betalningen. Är du säker?
+    title: Stäng betalningsfönstret
+  waiting:
+    help: Vänta medan vi bearbetar din betalning
+    taking_long_time: Betalningen tar längre tid än normalt. Vänta eller kontakta säljaren.
+    refresh: Click here if processing takes a long time
+  info:
+    order_number: Beställningsnummer
+    type: Type
+    amount: Belopp
+    change_method: Ändra betalningssätt
+    fee: Fee
+    total: Total
+    enter_card: Enter card
+    payment: Betalning
+    subscription: Prenumeration
+    time_left: Tid kvar
+    card: Card on file
+  form:
+    errors:
+      try_again: Det uppstod ett fel. Försök igen.
+      live_payment_on_test_transaction: Du försökte genomföra en verklig betalning på en transaktion som är i testläge.
+      test_payment_on_live_transaction: Du försökte utföra försöket betalning i en transaktion som inte är i testläge.
+    card:
+      card_number: Kortnummer
+      expiration: Giltighetstid
+      card_verification_data: CVD
+      cvd_explained: CVD är att öka säkerheten. Det är oftast de tre sista siffrorna i nummersekvensen som står i signaturen rutan på baksidan av kortet.
+      submit_payment: Skicka betalning
+      submit_subscription: Skicka prenumeration
+      submit_card: Complete
+    edankort:
+      help: !simple_format |
+        När du klickar på knappen nedan öppnar edankort betalningsfönster. Du måste välja din bank och logga in på ditt Internetbank med din vanliga Internetbank inloggning.
+        När du är klar, kommer du att omdirigeras till ditt kvitto.
+      submit: Fortsätt till betalning
+    mobilepay:
+      help: !simpe_format |
+        När du klickar på knappen nedan öppnar MobilePay betalningsfönster.
+        När du är klar, kommer du att omdirigeras till ditt kvitto.
+      submit: Fortsätt till betalning
+    paypal:
+      help: !simpe_format |
+        När du klickar på knappen nedan öppnar PayPal betalningsfönster.
+        När du är klar, kommer du att omdirigeras till ditt kvitto.
+      submit: Fortsätt till betalning
+    viabill:
+      help: !simpe_format |
+        När du klickar på knappen nedan öppnar ViaBill betalningsfönster.
+        När du är klar, kommer du att omdirigeras till ditt kvitto.
+      submit: Fortsätt till betalning
+    sofort:
+      help: !simpe_format |
+        När du klickar på knappen nedan öppnar Sofort betalningsfönster.
+        När du är klar, kommer du att omdirigeras till ditt kvitto.
+      submit: Fortsätt till betalning
+    klarna:
+      nin:
+        number: Personnummer
+        gender: Kön
+        country_code: Land
+      submit: Skicka betalning
+    country:
+      denmark: Danmark
+      sweden: Sverige
+      norway: Norge
+      finland: Finland
+      netherlands: Nederländerna
+      germany: Tyskland
+      austria: Österrike
+    gender:
+      male: Man
+      female: Kvinna
+  wait_3d: Startar 3D Secure betalning. Var god vänta ...
+  error:
+    errors:
+      already_paid: Ordern är redan betald.
+      continue_to_shop: Continue to the shop
+      try_again: Det uppstod ett fel. Försök igen.
+      unable_to_complete: Betalningen kunde inte slutföras.
+      secure_3d_auth_failed: 3D Secure godkänna tion misslyckades. Försök igen.
+      secure_3d_auth_failed_other_options: 3D Secure godkänna tion misslyckades. Försök igen eller välj en annan betalningsmetod.
+      secure_3d_not_enrolled: Your creditcard is not enrolled for 3D Secure. Try again or select another payment option.
+      payment_link_changed: The payment details have changed since you initiated the payment.
+      payment_link_changed_link: Click here to start over
+    retry: Försök igen
+  success:
+    message: Betalning slutförd
+  deadline:
+    info: Du har inte slutföra köpet inom tidsramen.
+    continue: Klicka för att fortsätta

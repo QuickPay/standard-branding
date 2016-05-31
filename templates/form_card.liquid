@@ -1,0 +1,28 @@
+<div id="payment_details" class="col-md-8">
+  {% include 'form_error' %}
+  <form method="post" autocomplete="off" action="{{ model.form_action }}">
+    <dl class="dl-horizontal">
+      <dt>{{ lang.form.card.card_number }}:</dt>
+      <dd><input type="text" name="card_number" id="card_number" ></dd>
+
+      <dt>{{ lang.form.card.expiration }} (mm/yy):</dt>
+      <dd>
+        <input type="text" name="month" size="2" maxlength="2" id="month" >
+        <input type="text" name="year" size="2" maxlength="2" id="year">
+      </dd>
+
+      <dt id="cvd_title">{{ lang.form.card.card_verification_data }}:</dt>
+      <dd id="cvd_field"><input type="text" name="cvd" id="cvd" size="4" maxlength="4"><img id="cvd_help" src="{{ images.information.gif }}" alt="Show help" title="Show help"/></dd>
+    </dl>
+
+    <div id="cvd_help_info">
+      <p>{{ lang.form.card.cvd_explained }}</p>
+      <img src="{{ images.dankort_cvd_trans.gif }}"/>
+      <img src="{{ images.master_cvd_trans.gif }}"/>
+    </div>
+
+    <input type="hidden" name="session_id" value="{{ model.session_id }}" />
+
+    <input type="submit" name="submit" value="{{ model.transaction_type | prepend: 'submit_' | translate: lang.form.card }}">
+  </form>
+</div>

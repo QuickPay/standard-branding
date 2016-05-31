@@ -1,0 +1,94 @@
+en:
+  cancel:
+    dialog: Are you about to abort the payment. Are you sure?
+    title: Close the payment window
+  waiting:
+    help: Please wait while we process your payment...
+    taking_long_time: The processing takes longer than normal. Please wait or contact the merchant.
+    refresh: Click here if processing takes a long time
+  info:
+    order_number: Order number
+    type: Type
+    amount: Amount
+    change_method: Change method
+    fee: Fee
+    total: Total
+    enter_card: Enter card
+    payment: Payment
+    subscription: Subscription
+    time_left: Time left
+    card: Card on file
+  form:
+    errors:
+      try_again: An error happened, please try again.
+      live_payment_on_test_transaction: You tried to make a live payment on a test transaction.
+      test_payment_on_live_transaction: You tried to make a test payment on a live transaction.
+    card:
+      card_number: Card number
+      expiration: Expiration
+      card_verification_data: Card verification data
+      cvd_explained: The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card.
+      submit_payment: Complete payment
+      submit_subscription: Complete subscription
+      submit_card: Complete
+    edankort:
+      help: !simple_format |
+            When you click the button below, the eDankort payment window will open. You will have to select your bank and identify using your regular credentials.
+            When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
+    mobilepay:
+      help: !simpe_format |
+        When you click the button below, the MobilePay payment window will open.
+        When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
+    paypal:
+      help: !simpe_format |
+        When you click the button below, the PayPal payment window will open.
+        When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
+    viabill:
+      help: !simpe_format |
+        When you click the button below, the ViaBill payment window will open.
+        When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
+    sofort:
+      help: !simpe_format |
+        When you click the button below, the Sofort payment window will open.
+        When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
+    klarna:
+      nin:
+        number: Social security number
+        gender: Gender
+        country_code: Country
+      submit: Complete payment
+    country:
+      denmark: Denmark
+      sweden: Sweden
+      norway: Norway
+      finland: Finland
+      netherlands: Netherlands
+      germany: Germany
+      austria: Austria
+    gender:
+      male: Male
+      female: Female
+  wait_3d: Starting 3D Secure payment. Please wait...
+  error:
+    errors:
+      already_paid: The order is already paid.
+      continue_to_shop: Continue to the shop
+      try_again: An error happened, please try again
+      unable_to_complete: Unable to complete payment
+      secure_3d_auth_failed: 3D Secure authorization failed. Please try again.
+      secure_3d_auth_failed_other_options: 3D Secure authorization failed. Please try again or select another payment method.
+      secure_3d_not_enrolled: 3D Secure enrollment failed. Please try again or select another payment option.
+      payment_link_changed: The payment details have changed since you initiated the payment.
+      payment_link_changed_link: Click here to start over
+    retry: Try again
+  cancelled: You have cancelled the payment
+  success:
+    message: You have completed the payment
+  deadline:
+    info: You did not finish the purchase within the time frame.
+    continue: Click here to continue

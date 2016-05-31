@@ -1,0 +1,23 @@
+<div id="payment_details" class="col-md-8">
+  <p class="error text-center">
+    {{ model.error | translate: lang.error.errors }}
+  </p>
+
+  {% if model.link_url %}
+    <p class="error text-center">
+      <a class="btn btn-default btn-sm" href="{{ model.link_url }}">
+        {{ model.link_key | translate: lang.error.errors }}
+      </a>
+    </p>
+  {% endif %}
+
+  {% if model.description %}
+    <p class="error text-center"> {{ model.description }}</p>
+  {% endif %}
+
+  {% if model.retry %}
+    <form class="text-center" action="{{ model.session_id }}/payment-method-undo">
+      <button type="submit">{{ lang.error.retry }}</button>
+    </form>
+  {% endif %}
+</div>
