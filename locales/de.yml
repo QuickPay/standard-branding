@@ -45,6 +45,11 @@ de:
         gender: Geschlecht
         country_code: Land
       submit: Complete payment
+    swipp:
+      help: !simpe_format |
+        When you click the button below, the Swipp payment window will open.
+        When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
     country:
       denmark: Dänemark
       sweden: Schweden
