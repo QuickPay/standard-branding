@@ -67,7 +67,7 @@
       continue_to_shop: Continue to the shop
       try_again: En feil har oppstått, vennligst prøv igjen
       unable_to_complete: Betalingen var mislykket
-      secure_3d_not_enrolled: Your creditcard is not enrolled for 3D Secure. Try again or select another payment option.
+      secure_3d_not_enrolled: 3D Secure enrollment failed. Please try again or select another payment option.
       payment_link_changed: The payment details have changed since you initiated the payment.
       payment_link_changed_link: Click here to start over
     retry: Prøv igjen

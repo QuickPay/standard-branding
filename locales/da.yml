@@ -82,7 +82,7 @@ da:
       unable_to_complete: Betalingen kunne ikke gennemføres.
       secure_3d_auth_failed: 3D Secure godkendendelse fejlede. Prøv venligst igen.
       secure_3d_auth_failed_other_options: 3D Secure godkendendelse fejlede. Prøv venligst igen eller vælg en anden betalingsmetode.
-      secure_3d_not_enrolled: Dit betalingskort er ikke oprettet til 3D Secure. Prøv igen eller vælg en anden betalingsmetode.
+      secure_3d_not_enrolled: 3D Secure fejlede. Prøv igen eller vælg en anden betalingsmetode.
       payment_link_changed: Betalingsdetaljerne har ændret sig siden du åbnede betalingsvinduet.
       payment_link_changed_link: Klik her for at starte forfra
     retry: Prøv igen
