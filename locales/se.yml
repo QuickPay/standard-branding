@@ -82,7 +82,7 @@ se:
       unable_to_complete: Betalningen kunde inte slutföras.
       secure_3d_auth_failed: 3D Secure godkänna tion misslyckades. Försök igen.
       secure_3d_auth_failed_other_options: 3D Secure godkänna tion misslyckades. Försök igen eller välj en annan betalningsmetod.
-      secure_3d_not_enrolled: Your creditcard is not enrolled for 3D Secure. Try again or select another payment option.
+      secure_3d_not_enrolled: 3D Secure enrollment failed. Please try again or select another payment option.
       payment_link_changed: The payment details have changed since you initiated the payment.
       payment_link_changed_link: Click here to start over
     retry: Försök igen
