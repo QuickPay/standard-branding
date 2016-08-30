@@ -59,8 +59,11 @@ a{
     border-top: none;
   }
   #payment_details, #payment_methods {
-    min-height: 300px; 
+    min-height: 300px;
     margin-bottom: 10px;
+  }
+  #form_with_selector #payment_details, #form_with_selector #payment_methods {
+    min-height: auto;
   }
 }
 

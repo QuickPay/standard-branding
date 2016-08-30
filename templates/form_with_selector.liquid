@@ -1,0 +1,48 @@
+<div id="form_with_selector" class="col-md-8">
+  <div id="payment_details">
+    {% include 'form_error' %}
+
+    {% for method in model.card_payment_methods %}
+      <img src="{{ method.image_path }}" alt="{{ method.nice_name }}" title="{{ method.nice_name }}"/>
+    {% endfor %}
+
+    <form method="post" autocomplete="off" action="{{ model.form.form_action }}">
+      <dl class="dl-horizontal">
+        <dt>{{ lang.form.card.card_number }}:</dt>
+        <dd><input type="text" name="card_number" id="card_number" ></dd>
+
+        <dt>{{ lang.form.card.expiration }} (mm/yy):</dt>
+        <dd>
+          <input type="text" name="month" size="2" maxlength="2" id="month" >
+          <input type="text" name="year" size="2" maxlength="2" id="year">
+        </dd>
+
+        <dt id="cvd_title">{{ lang.form.card.card_verification_data }}:</dt>
+        <dd id="cvd_field"><input type="text" name="cvd" id="cvd" size="4" maxlength="4"><img id="cvd_help" src="{{ images.information.gif }}" alt="Show help" title="Show help"/></dd>
+      </dl>
+
+      <div id="cvd_help_info">
+        <p>{{ lang.form.card.cvd_explained }}</p>
+        <img src="{{ images.dankort_cvd_trans.gif }}"/>
+        <img src="{{ images.master_cvd_trans.gif }}"/>
+      </div>
+
+      <input type="hidden" name="session_id" value="{{ model.session_id }}" />
+
+      <input type="submit" name="submit" value="{{ model.transaction_type | prepend: 'submit_' | translate: lang.form.card }}">
+    </form>
+  </div>
+
+  <div id="payment_methods">
+    <ul>
+      {% for method in model.alternative_payment_methods %}
+        <li>
+        <a href="{{ model.session_id }}/payment-method/{{ method.name }}">
+            <img src="{{ method.image_path }}" alt="{{ method.nice_name }}" title="{{ method.nice_name }}"/>
+            {{ method.nice_name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
