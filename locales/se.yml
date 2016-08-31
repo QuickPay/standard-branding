@@ -62,6 +62,11 @@ se:
         gender: Kön
         country_code: Land
       submit: Skicka betalning
+    swipp:
+      help: !simpe_format |
+        När du klickar på knappen nedan öppnar Swipp betalningsfönster.
+        När du är klar, kommer du att omdirigeras till ditt kvitto.
+      submit: Fortsätt till betalning
     country:
       denmark: Danmark
       sweden: Sverige
