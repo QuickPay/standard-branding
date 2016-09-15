@@ -7,16 +7,16 @@ en:
     taking_long_time: The processing takes longer than normal. Please wait or contact the merchant.
     refresh: Click here if processing takes a long time
   info:
-    order_number: Order number
+    order_number: Order ID
     type: Type
-    amount: Amount
+    amount: Order amount
     change_method: Change method
-    fee: Fee
+    fee: Payment fee
     total: Total
-    enter_card: Enter card
+    enter_card: Enter card number
     payment: Payment
     subscription: Subscription
-    time_left: Time left
+    time_left: Expires in
     card: Card on file
   form:
     errors:
@@ -26,16 +26,11 @@ en:
     card:
       card_number: Card number
       expiration: Expiration
-      card_verification_data: Card verification data
+      card_verification_data: CVV/CVD
       cvd_explained: The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card.
       submit_payment: Complete payment
       submit_subscription: Complete subscription
       submit_card: Complete
-    edankort:
-      help: !simple_format |
-            When you click the button below, the eDankort payment window will open. You will have to select your bank and identify using your regular credentials.
-            When finished, you will be redirected back to your receipt.
-      submit: Proceed to payment
     mobilepay:
       help: !simpe_format |
         When you click the button below, the MobilePay payment window will open.
