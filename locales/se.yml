@@ -46,6 +46,11 @@ se:
         När du klickar på knappen nedan öppnar PayPal betalningsfönster.
         När du är klar, kommer du att omdirigeras till ditt kvitto.
       submit: Fortsätt till betalning
+    paysafecard:
+      help: !simple_format |
+        När du klickar på knappen nedan öppnar Paysafecard betalningsfönster.
+        När du är klar, kommer du att omdirigeras till ditt kvitto.
+      submit: Fortsätt till Paysafecard
     viabill:
       help: !simpe_format |
         När du klickar på knappen nedan öppnar ViaBill betalningsfönster.

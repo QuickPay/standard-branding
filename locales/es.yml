@@ -39,6 +39,11 @@ es:
         When you click the button below, the MobilePay payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
+    paysafecard:
+      help: !simple_format |
+        When you click the button below, the Paysafecard payment window will open.
+        When finished, you will be redirected back to your receipt.
+      submit: Proceed to Paysafecard
     sofort:
       help: !simpe_format |
         When you click the button below, the Sofort payment window will open.
