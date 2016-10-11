@@ -1,0 +1,34 @@
+
+
+<!-- case form_type  -->
+<!-- when card -->
+{% "form/card" %}
+<!-- when klarna -->
+{% "form/klarna" %}
+<!-- when mobilepay -->
+{% "form/mobilepay" %}
+<!-- when paypal -->
+{% "form/paypal" %}
+<!-- when sofort -->
+{% "form/sofort" %}
+<!-- when swipp -->
+{% "form/swipp" %}
+<!-- when viabill -->
+{% "form/viabill" %}
+<!-- endcase form_type  -->
+
+<!-- if has_alternative_payment_methods -->
+<div id="alternative-payment-methods">
+  <div class="container">
+    <div class="row">
+      {% for method in model.alternative_payment_methods %}
+        <div class="col-sm-4 col-xs-6 payment-method">
+          <a href="{{ model.session_id }}/payment-method/{{ method.name }}" class="btn btn-default">
+            <img src="{{ method.image_path }}" alt="{{ method.nice_name }}" title="{{ method.nice_name }}"/>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<!-- if has_alternative_payment_methods -->

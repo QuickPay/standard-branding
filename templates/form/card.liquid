@@ -1,0 +1,71 @@
+<div id="active-payment-method">
+  <div class="container">
+    <form class="form-horizontal" autocomplete="off" action="{{ model.form_action }}" method="post">
+      <input type="hidden" name="session_id" value="{{ model.session_id }}" />
+      <div class="row">
+        <div id="payment-details" class="col-sm-push-0 col-sm-12 col-xs-12">
+          {% for method in model.card_payment_methods %}
+            <img class="card-logo" src="{{ method.image_path }}" alt="{{ method.nice_name }}" title="{{ method.nice_name }}"/>
+          {% endfor %}
+        </div>
+
+        <div class="col-sm-pull-0 col-sm-12 col-xs-12">
+
+          <div class="form-group has-feedback">
+            <div class="col-xs-12">
+              <label for="cardnumber" class="control-label">{{ lang.form.card.card_number }}</label>
+              <input type="text" id="cardnumber" name="cardnumber" class="form-control" autocomplete="on" autofocus="autofocus" aria-describedby="cardnumberSuccess" pattern="[0-9]*">
+              <span class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
+              <span id="cardnumber" class="sr-only">(success)</span>
+            </div>
+          </div>
+
+          <div class="form-group has-feedback">
+            <label class="col-sm-6 col-xs-6" for="expiration-month" class="control-label" style="margin-bottom: 0px !important">{{ lang.form.card.expiration }}</label>
+            <div class="col-sm-6 col-xs-6"><label for="cvd" class="control-label" style="margin-bottom: 0px !important">{{ lang.form.card.card_verification_data }}</label> <i class="fa fa-question-circle clickable" data-toggle="#cvv-help"></i></div>
+
+            <div class="col-sm-3 col-xs-3" style="padding-right: 2px;">
+              <input type="text" id="expiration-month" name="expiration-month" class="form-control" aria-describedby="expiration-month-sr" placeholder="MM" maxlength="2" pattern="[0-9]*" style="padding-right: 32.5px !important; margin-right: 30px !important">
+              <span class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="right: 2.5px; display:none;"></span>
+              <span id="expiration-month-sr" class="sr-only">(success)</span>
+            </div>
+
+            <div class="col-sm-3 col-xs-3" style="padding-left: 2px;">
+              <input type="text" id="expiration-year" name="expiration-year" class="form-control" aria-describedby="expiration-year-sr" placeholder="YY" maxlength="2" pattern="[0-9]*" style="padding-right: 32.5px !important">
+              <span class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
+              <span id="expiration-year-sr" class="sr-only">(success)</span>
+            </div>
+
+            <div class="col-sm-6 col-xs-6">
+              <input type="text" id="cvd" name="cvd" class="form-control" aria-describedby="cvd" maxlength="4" pattern="[0-9]*">
+              <span class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
+              <span id="cvd" class="sr-only">(success)</span>
+            </div>
+          </div>
+
+          <div id="cvv-help" class="text-center bubble bubble-cvv"><img src="{{ images.cvv_help.png }}"></div>
+
+          <div class="form-group">
+            <div class="col-xs-12">
+              <div class="checkbox">
+                <label><input type="checkbox" id="3d" name="3d"> <strong>Enable 3D Secure</strong></label> <i class="fa fa-question-circle clickable" data-toggle="#three-d-help"></i>
+              </div>
+            </div>
+          </div>
+
+          <div id="three-d-help" class="bubble bubble-three-d">
+            <p>3D Secure adds a layer of protection against fraud.</p>
+            <p>Your credit card issuer may require you to use 3D Secure as an extra precaution.</p>
+          </div>
+
+          <div class="form-group">
+            <div class="col-xs-12" style="padding-top: 12px;">
+              <button type="submit" class="btn btn-info" style="width: 100%"></i> Pay DKK 2.00</button>
+              <a style="width: 100%; margin-top: 20px;" class="btn btn-cancel"><i class="fa fa-fw fa-ban"></i> Cancel Payment</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

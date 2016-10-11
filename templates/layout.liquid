@@ -1,27 +1,84 @@
-<div class="container">
-  <div class="row" id="header">
-    <div class="col-md-10">
-      <h1>
-        {{ model.displayname }}
-      </h1>
-    </div>
-
-    {% if model.show_cancel %}
-      <div class="col-md-2" id="cancel">
-        <a href="{{ model.session_id }}/cancel-payment" data-confirm="{{ lang.cancel.dialog }}">
-          <img id="cancel-button" src="{{ images.cancel.png }}" alt="{{ lang.cancel.title }}" title="{{ lang.cancel.title }}" >
-        </a>
+<div id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center-xs">{{ model.displayname }}</h1>
       </div>
-    {% endif %}
-  </div>
+      <div class="col-xs-12">
+        <div id="order-info">
+          <div id="order-details" class=" well-sm well-xs">
+            <div>
+              <strong>{{ lang.info.order_number }}</strong> <i class="fa fa-fw fa-info-circle"  data-toggle="#hesthest"></i>: <span class="pull-right">{{ model.order_id }}</span>
+              {% if model.deadline? %}
+                <div>
+                  <strong>{{ lang.info.time_left }}</strong>: <span id="time_left" class="pull-right"></span>
+                </div>
+              {% endif %}
+            </div>
+            <div id="hesthest" style="display: none">
+              {% if model.calculate_fee %}
+                <div class="divider"></div>
+              {% endif %}
+              {% if model.transaction_type == "subscription" %}
+                <div>
+                  <strong>{{ lang.info.type }}</strong>: <span id="amountField"  class="pull-right">{{ model.transaction_type | translate: lang.info }}</span>
+                </div>
+              {% else %}
+                <div>
+                  <strong>{{ lang.info.amount }}</strong>: <span id="amountField"  class="pull-right">{{ model.currency }} {{ model.amount | currency: lang }}</span>
+                </div>
+              {% endif %}
 
-  <div class="row" id="content">
-    {% include 'content' %}
-    {% include 'info' %}
-  </div>
+              {% if model.calculate_fee %}
+                <div>
+                  <strong>{{ lang.info.fee }}</strong>: <span id="feeField" class="pull-right">{{ lang.info.enter_card }}</span>
+                </div>
+                <div>
+                  <hr>
+                  <strong>{{ lang.info.total }}</strong>: <span id="totalField" class="pull-right">{{ lang.info.enter_card }}</span>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
 
-  <div class="row" id="footer">
-    <div class="col-md-6" id="qickpay_branding"><img src="{{ images.qp_logo.gif }}" /></div>
-    <div class="col-md-6" id="security_information"><img src="{{ images.qp_text.gif }}" /></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include "content" %}
+
+<div id="footer">
+  <div id="gateway-info">
+    <div id="gateway-info-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <button class="btn btn-default" data-hide="#gateway-info"><i class="fa fa-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="row gateway-description">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <p data-hest="hest">QuickPay is your secure, reliable and dynamic payment service provider. Learn more about our services at <a href="https://www.quickpay.net">www.quickpay.net</a>.</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <p>QuickPay operates at the highest level of security and is certified by the PCI Security Standards Council.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="bottom-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <img class="clickable" src="{{ images.quickpay_logo_inverse.png }}" data-toggle="#gateway-info">
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="pull-right"><span class="clickable" data-toggle="#gateway-info"><i class="fa fa-fw fa-lock"></i> SSL encrypted</span></div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
