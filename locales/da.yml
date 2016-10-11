@@ -31,6 +31,11 @@ da:
       submit_payment: Gennemfør betaling
       submit_subscription: Gennemfør abonnement
       submit_card: Gennemfør oprettelse
+    dankort_acs:
+      help: !simple_format |
+        Når du klikker på knappen nedenfor, åbnes Dankort betalingsvinduet.
+        Når du er færdig, bliver du viderestillet tilbage til din kvittering.
+      submit: Fortsæt til betaling
     mobilepay:
       help: !simpe_format |
         Når du klikker på knappen nedenfor, åbnes MobilePay betalingsvinduet.
