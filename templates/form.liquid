@@ -1,21 +1,4 @@
-
-
-<!-- case form_type  -->
-<!-- when card -->
-{% "form/card" %}
-<!-- when klarna -->
-{% "form/klarna" %}
-<!-- when mobilepay -->
-{% "form/mobilepay" %}
-<!-- when paypal -->
-{% "form/paypal" %}
-<!-- when sofort -->
-{% "form/sofort" %}
-<!-- when swipp -->
-{% "form/swipp" %}
-<!-- when viabill -->
-{% "form/viabill" %}
-<!-- endcase form_type  -->
+{% include model.form_template %}
 
 <!-- if has_alternative_payment_methods -->
 <div id="alternative-payment-methods">
