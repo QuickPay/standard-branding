@@ -11,7 +11,7 @@
               <strong>{{ lang.info.order_number }}</strong> <i class="fa fa-fw fa-info-circle"  data-toggle="#hesthest"></i>: <span class="pull-right">{{ model.order_id }}</span>
               {% if model.deadline? %}
                 <div>
-                  <strong>{{ lang.info.time_left }}</strong>: <span id="time_left" class="pull-right"></span>
+                  <strong>{{ lang.info.time_left }}</strong>: <span id="time_left" class="pull-right">{{ model.time_left }}</span>
                 </div>
               {% endif %}
             </div>
