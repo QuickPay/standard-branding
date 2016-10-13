@@ -61,7 +61,7 @@
           <div class="form-group">
             <div class="col-xs-12" style="padding-top: 12px;">
               <button type="submit" class="btn btn-info" style="width: 100%"></i>{{ model.currency }} {{ model.amount | currency: lang }}</button>
-              <a href="{{ model.session_id }}/cancel-payment" style="width: 100%; margin-top: 20px;" class="btn btn-cancel"><i class="fa fa-fw fa-ban"></i> Cancel Payment</a>
+              <a href="/{{ model.session_id }}/cancel-payment" style="width: 100%; margin-top: 20px;" class="btn btn-cancel"><i class="fa fa-fw fa-ban"></i> Cancel Payment</a>
             </div>
           </div>
         </div>
