@@ -1,0 +1,36 @@
+<div id="order-info">
+  <div id="order-details" class=" well-sm well-xs">
+    <div>
+      <strong>{{ lang.info.order_number }}</strong> <i class="fa fa-fw fa-info-circle"  data-toggle="#hesthest"></i>: <span class="pull-right">{{ model.order_id }}</span>
+      {% if model.deadline? %}
+        <div>
+          <strong>{{ lang.info.time_left }}</strong>: <span id="time_left" class="pull-right">{{ model.time_left }}</span>
+        </div>
+      {% endif %}
+    </div>
+    <div id="hesthest" style="display: none">
+      {% if model.calculate_fee %}
+        <div class="divider"></div>
+      {% endif %}
+      {% if model.transaction_type == "subscription" %}
+        <div>
+          <strong>{{ lang.info.type }}</strong>: <span id="amountField"  class="pull-right">{{ model.transaction_type | translate: lang.info }}</span>
+        </div>
+      {% else %}
+        <div>
+          <strong>{{ lang.info.amount }}</strong>: <span id="amountField"  class="pull-right">{{ model.currency }} {{ model.amount | currency: lang }}</span>
+        </div>
+      {% endif %}
+
+      {% if model.calculate_fee %}
+        <div>
+          <strong>{{ lang.info.fee }}</strong>: <span id="feeField" class="pull-right">{{ lang.info.enter_card }}</span>
+        </div>
+        <div>
+          <hr>
+          <strong>{{ lang.info.total }}</strong>: <span id="totalField" class="pull-right">{{ lang.info.enter_card }}</span>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
