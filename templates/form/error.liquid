@@ -1,3 +1,9 @@
+{% if model.acquirer_error_message %}
+  <p class="error">
+    {{ model.acquirer_error_message }}
+  </p>
+{% endif %}
+
 {% if model.error %}
   <p class="error">
     {{ model.error | translate: lang.form.errors }}
