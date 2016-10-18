@@ -19,6 +19,7 @@ se:
     time_left: Tid kvar
     card: Card on file
   form:
+    cards: Cards
     errors:
       try_again: Det uppstod ett fel. Försök igen.
       live_payment_on_test_transaction: Du försökte genomföra en verklig betalning på en transaktion som är i testläge.

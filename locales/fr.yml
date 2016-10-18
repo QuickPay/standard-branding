@@ -19,6 +19,7 @@ fr:
     time_left: Time left
     card: Card on file
   form:
+    cards: Cards
     errors:
       try_again: Une erreur est survenue, veuillez réessayer à nouveau
     card:

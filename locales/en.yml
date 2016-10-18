@@ -19,6 +19,7 @@ en:
     time_left: Expires in
     card: Card on file
   form:
+    cards: Cards
     errors:
       try_again: An error happened, please try again.
       live_payment_on_test_transaction: You tried to make a live payment on a test transaction.

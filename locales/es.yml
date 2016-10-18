@@ -19,6 +19,7 @@ es:
     time_left: Time left
     card: Card on file
   form:
+    cards: Cards
     errors:
       try_again: Un error ocurrido, por favor intente de nuevo
     card:

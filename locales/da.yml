@@ -19,6 +19,7 @@ da:
     time_left: Tid tilbage
     card: Gemt kort
   form:
+    cards: Betalingskort
     errors:
       try_again: Der skete en fejl. Prøv venligst igen.
       live_payment_on_test_transaction: Du forsøgte at gennemføre en rigtig betaling på en transaktion der er i test-mode.
