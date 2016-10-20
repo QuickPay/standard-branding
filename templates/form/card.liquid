@@ -5,7 +5,7 @@
       <div class="row">
         <div id="payment-details" class="col-sm-push-0 col-sm-12 col-xs-12">
           {% for method in model.card_payment_methods %}
-            <img class="card-logo" src="{{ method.image_path }}" alt="{{ method.nice_name }}" title="{{ method.nice_name }}"/>
+            <img class="card-logo" src="{{ method.image_path }}" alt="{{ method.nice_name }}" title="{{ method.nice_name }}" data-card-brand-logo="{{ method.name }}" />
           {% endfor %}
         </div>
 
@@ -15,8 +15,8 @@
             <div class="col-xs-12">
               <label for="cardnumber" class="control-label">{{ lang.form.card.card_number }}</label>
               <input type="text" id="cardnumber" name="cardnumber" class="form-control" autocomplete="on" autofocus="autofocus" aria-describedby="cardnumberSuccess" pattern="[0-9]*">
-              <span class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
-              <span id="cardnumber" class="sr-only">(success)</span>
+              <span id="cardnumber-check" class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
+              <span id="cardnumber-sr" class="sr-only">(success)</span>
             </div>
           </div>
 
@@ -26,20 +26,20 @@
 
             <div class="col-sm-3 col-xs-3" style="padding-right: 2px;">
               <input type="text" id="expiration-month" name="expiration[month]" class="form-control" aria-describedby="expiration-month-sr" placeholder="MM" maxlength="2" pattern="[0-9]*" style="padding-right: 32.5px !important; margin-right: 30px !important">
-              <span class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="right: 2.5px; display:none;"></span>
+              <span id="expiration-month-check" class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="right: 2.5px; display:none;"></span>
               <span id="expiration-month-sr" class="sr-only">(success)</span>
             </div>
 
             <div class="col-sm-3 col-xs-3" style="padding-left: 2px;">
               <input type="text" id="expiration-year" name="expiration[year]" class="form-control" aria-describedby="expiration-year-sr" placeholder="YY" maxlength="2" pattern="[0-9]*" style="padding-right: 32.5px !important">
-              <span class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
+              <span id="expiration-year-check" class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
               <span id="expiration-year-sr" class="sr-only">(success)</span>
             </div>
 
             <div class="col-sm-6 col-xs-6">
               <input type="text" id="cvd" name="cvd" class="form-control" aria-describedby="cvd" maxlength="4" pattern="[0-9]*">
-              <span class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
-              <span id="cvd" class="sr-only">(success)</span>
+              <span id="cvd-check" class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
+              <span id="cvd-sr" class="sr-only">(success)</span>
             </div>
           </div>
 
