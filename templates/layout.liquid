@@ -1,10 +1,8 @@
-<div id="header">
+<div id="header" style="padding: 20px 0">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
         <h1 class="text-center-xs">{{ model.displayname }}</h1>
-      </div>
-      <div class="col-xs-12">
         {% include "order_info" %}
       </div>
     </div>
@@ -12,6 +10,14 @@
 </div>
 
 {% include "content" %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-push-3 col-xs-12" style="text-align:center">
+      <a href="/{{ model.session_id }}/cancel-payment" style="color: #999"><i class="fa fa-fw fa-ban"></i> Cancel Payment</a>
+    </div>
+  </div>
+</div>
 
 <div id="footer">
   <div id="gateway-info">
@@ -37,7 +43,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-6 col-xs-6">
-          <img class="clickable" src="{{ images.quickpay_logo_inverse.png }}" data-toggle="#gateway-info">
+          <img class="clickable" src="{{ images.quickpay_logo_inverse.png }}" data-toggle="#gateway-info" alt="About QuickPay">
         </div>
         <div class="col-md-6 col-sm-6 col-xs-6">
           <div class="pull-right"><span class="clickable" data-toggle="#gateway-info"><i class="fa fa-fw fa-lock"></i> SSL encrypted</span></div>

@@ -1,18 +1,22 @@
-{% include "form/error" %}
-{% include model.form_template %}
+<div id="active-form" class="well-xs well-greyish-xs well-sm well-greyish-sm">
+  {% include "form/error" %}
+  {% include model.form_template %}
+</div>
 
 {% if model.alternative_payment_methods %}
   <div id="alternative-payment-methods">
     <div class="container">
       <div class="row">
+        <div class="col-xs-12 text-center-xs">
+          <h3>Other Payment Methods</h3>
+        </div>
         {% if model.allow_undo_payment_method %}
           <div class="col-sm-4 col-xs-6 payment-method">
             <a href="{{ model.session_id }}/payment-method-undo/" class="btn btn-default">
-              <img src="/assets/v2/images/cards.svg" alt="{{ lang.form.cards }}" title="{{ lang.form.cards }}"/>
+              <img src="/assets/v2/images/brands/card.svg" alt="{{ lang.form.cards }}" title="{{ lang.form.cards }}"/>
             </a>
           </div>
         {% endif %}
-
         {% for method in model.alternative_payment_methods %}
           <div class="col-sm-4 col-xs-6 payment-method">
             <a href="{{ model.session_id }}/payment-method/{{ method.name }}" class="btn btn-default">
