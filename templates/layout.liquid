@@ -1,4 +1,4 @@
-<div id="header" style="padding: 20px 0">
+<div id="header">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -11,6 +11,7 @@
 
 {% include "content" %}
 
+{% if model.show_cancel? %}
 <div class="container">
   <div class="row">
     <div class="col-sm-6 col-sm-push-3 col-xs-12" style="text-align:center">
@@ -18,19 +19,20 @@
     </div>
   </div>
 </div>
+{% endif %}
 
 <div id="footer">
   <div id="gateway-info">
     <div id="gateway-info-inner">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 text-center">
+          <div class="col-xs-12" style="text-align: center">
             <button class="btn btn-default" data-hide="#gateway-info"><i class="fa fa-arrow-down"></i></button>
           </div>
         </div>
         <div class="row gateway-description">
           <div class="col-md-6 col-sm-6 col-xs-12">
-            <p data-hest="hest">QuickPay is your secure, reliable and dynamic payment service provider. Learn more about our services at <a href="https://www.quickpay.net">www.quickpay.net</a>.</p>
+            <p>QuickPay is your secure, reliable and dynamic payment service provider. Learn more about our services at <a href="https://www.quickpay.net">www.quickpay.net</a>.</p>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <p>QuickPay operates at the highest level of security and is certified by the PCI Security Standards Council.</p>
