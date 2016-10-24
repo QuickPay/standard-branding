@@ -1,61 +1,60 @@
+<div class="container">
+  {% include 'form_error' %}
+  <form class="form-horizontal" method="post" autocomplete="off" action="process_klarna">
+    <div class="row">
+      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+          <img src="/assets/v2/images/brands/klarna.svg" alt="Klarna" title="Klarna" style="width:100%">
+      </div>
 
-  <div class="container">
-    {% include 'form_error' %}
-    <form class="form-horizontal" method="post" autocomplete="off" action="process_klarna">
-      <div class="row">
-        <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
-            <img src="/assets/v2/images/brands/klarna.svg" alt="Klarna" title="Klarna" style="width:100%">
+      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        <div class="form-group">
+          <div class="col-xs-12">
+            <label for="nin_number" class="control-label">{{ lang.form.klarna.nin.number }}</label>
+            <input type="text" id="nin_number" name="nin[number]" class="form-control" autocomplete="on" autofocus="autofocus">
+          </div>
         </div>
 
-        <div class="col-sm-8 col-sm-pull-4 col-xs-12">
-          <div class="form-group">
-            <div class="col-xs-12">
-              <label for="nin_number" class="control-label">{{ lang.form.klarna.nin.number }}</label>
-              <input type="text" id="nin_number" name="nin[number]" class="form-control" autocomplete="on" autofocus="autofocus">
-            </div>
+        <div class="form-group">
+          <div class="col-xs-6">
+            <label for="nin_gender" class="control-label">{{ lang.form.klarna.nin.gender }}</label>
+            <select id="nin_gender" class="form-control" name="nin[gender]">
+              <option value="male">{{ lang.form.gender.male }}</option>
+              <option value="female">{{ lang.form.gender.female }}</option>
+            </select>
           </div>
-
-          <div class="form-group">
-            <div class="col-xs-6">
-              <label for="nin_gender" class="control-label">{{ lang.form.klarna.nin.gender }}</label>
-              <select id="nin_gender" class="form-control" name="nin[gender]">
-                <option value="male">{{ lang.form.gender.male }}</option>
-                <option value="female">{{ lang.form.gender.female }}</option>
-              </select>
-            </div>
-            <div class="col-xs-6">
-              <label for="nin_country_code" class="control-label">{{ lang.form.klarna.nin.country_code }}</label>
-              <select id="nin_country_code" class="form-control" name="nin[country_code]">
-                {% for country_code in model.country_codes %}
-                  <option value="{{ country_code }}" {% if model.country_code == country_code %}selected{% endif %}>
-                    {% case country_code %}
-                    {% when 'DNK' %}
-                      {{ lang.form.country.denmark }}
-                    {% when 'SWE' %}
-                      {{ lang.form.country.sweden }}
-                    {% when 'NOR' %}
-                      {{ lang.form.country.norway }}
-                    {% when 'FIN' %}
-                      {{ lang.form.country.finland }}
-                    {% when 'NLD' %}
-                      {{ lang.form.country.netherlands }}
-                    {% when 'GER' %}
-                      {{ lang.form.country.germany }}
-                    {% when 'AUT' %}
-                      {{ lang.form.country.austria }}
-                    {% endcase %}
-                  </option>
-                {% endfor %}
-              </select>
-            </div>
+          <div class="col-xs-6">
+            <label for="nin_country_code" class="control-label">{{ lang.form.klarna.nin.country_code }}</label>
+            <select id="nin_country_code" class="form-control" name="nin[country_code]">
+              {% for country_code in model.country_codes %}
+                <option value="{{ country_code }}" {% if model.country_code == country_code %}selected{% endif %}>
+                  {% case country_code %}
+                  {% when 'DNK' %}
+                    {{ lang.form.country.denmark }}
+                  {% when 'SWE' %}
+                    {{ lang.form.country.sweden }}
+                  {% when 'NOR' %}
+                    {{ lang.form.country.norway }}
+                  {% when 'FIN' %}
+                    {{ lang.form.country.finland }}
+                  {% when 'NLD' %}
+                    {{ lang.form.country.netherlands }}
+                  {% when 'GER' %}
+                    {{ lang.form.country.germany }}
+                  {% when 'AUT' %}
+                    {{ lang.form.country.austria }}
+                  {% endcase %}
+                </option>
+              {% endfor %}
+            </select>
           </div>
+        </div>
 
-          <div class="form-group">
-            <div class="col-xs-12">
-              <button type="submit" class="btn btn-info btn">{{ model.currency }} {{ model.amount | currency: lang }}</button>
-            </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-info btn">{{ model.currency }} {{ model.amount | currency: lang }}</button>
           </div>
         </div>
       </div>
-    </form>
-  </div>
+    </div>
+  </form>
+</div>
