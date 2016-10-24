@@ -10,7 +10,7 @@
         <div class="col-xs-12 text-center-xs">
           <h3>Other Payment Methods</h3>
         </div>
-        {% if model.allow_undo_payment_method %}
+        {% if model.undo_payment_method? %}
           <div class="col-sm-4 col-xs-6 payment-method">
             <a href="{{ model.session_id }}/payment-method-undo/" class="btn btn-default">
               <img src="/assets/v2/images/brands/card.svg" alt="{{ lang.form.cards }}" title="{{ lang.form.cards }}"/>
