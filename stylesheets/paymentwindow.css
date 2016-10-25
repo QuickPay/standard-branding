@@ -67,6 +67,7 @@ button[type="submit"] {
 }
 
 .btn-cancel {
+  width: 100%;
   color: #999;
 }
 .btn-cancel:hover {
