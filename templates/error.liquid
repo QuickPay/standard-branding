@@ -1,23 +1,20 @@
-<div id="payment_details" class="col-md-8">
-  <p class="error text-center">
-    {{ model.error | translate: lang.error.errors }}
-  </p>
 
-  {% if model.link_url %}
-    <p class="error text-center">
-      <a class="btn btn-default btn-sm" href="{{ model.link_url }}">
-        {{ model.link_key | translate: lang.error.errors }}
-      </a>
-    </p>
-  {% endif %}
-
-  {% if model.description %}
-    <p class="error text-center"> {{ model.description }}</p>
-  {% endif %}
-
-  {% if model.retry %}
-    <form class="text-center" action="{{ model.session_id }}/payment-method-undo">
-      <button type="submit">{{ lang.error.retry }}</button>
-    </form>
-  {% endif %}
+<div class="well-xs well-blueish-xs well-sm well-blueish-sm" data-session-id="{{ model.session_id }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="center-all"><i class="fa fa-fw fa-3x fa-exclamation-circle"></i> {{ model.error | translate: lang.error.errors }}</h3>
+      </div>
+      <div class="col-xs-12">
+        {% if model.description %}
+          <p>{{ model.description }}</p>
+        {% endif %}
+      </div>
+      <div class="col-xs-12">
+        {% if model.retry %}
+          <p class="text-center"><a class="btn btn-info" href="/{{ model.session_id }}/payment-method-undo">{{ lang.error.retry }}</a></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </div>

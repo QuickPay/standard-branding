@@ -1,11 +1,12 @@
-<div id="payment_details" class="col-md-8">
-  <p class="error text-center">
-    {{ lang.deadline.info }}
-  </p>
-  <p class="error text-center">
-    <a href="/{{ model.session_id }}/cancel-payment">
-      {{ lang.deadline.continue }}
-    </a>
-  </p>
+<div class="well-xs well-blueish-xs well-sm well-blueish-sm" data-session-id="{{ model.session_id }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="center-all"><i class="fa fa-fw fa-3x fa-info-circle"></i> {{ lang.deadline.header }}</h3>
+      </div>
+      <div class="col-xs-12">
+        <p>{{ lang.deadline.message }} <a href="{{ session.cancel_url }}">{{ lang.deadline.continue }}</a>.</p>
+      </div>
+    </div>
+  </div>
 </div>
-

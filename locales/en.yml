@@ -3,7 +3,8 @@ en:
     dialog: Are you about to abort the payment. Are you sure?
     title: Close the payment window
   waiting:
-    help: Please wait while we process your payment...
+    header: Please wait...
+    message: The process may take up to 5 minuttes.
     taking_long_time: The processing takes longer than normal. Please wait or contact the merchant.
     refresh: Click here if processing takes a long time
   info:
@@ -106,5 +107,6 @@ en:
     message: You will now be redirected to back to the shop.
     refresh: Click here to go back to the shop now
   deadline:
-    info: You did not finish the purchase within the time frame.
+    header: Order expired
+    message: You did not finish the purchase within the time frame.
     continue: Click here to continue

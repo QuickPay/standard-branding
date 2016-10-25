@@ -1,12 +1,11 @@
-<div id="waiting" class="well-xs well-blueish-xs well-sm well-blueish-sm" data-session-id="{{ model.session_id }}">
+<div class="well-xs well-blueish-xs well-sm well-blueish-sm" data-session-id="{{ model.session_id }}">
   <div class="container">
     <div class="row">
-      <div class="col-xs-2">
-        <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+      <div class="col-xs-12">
+        <h3 class="center-all"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i> {{ lang.waiting.header }}</h3>
       </div>
-      <div class="col-xs-10">
-        <h3 class="text-center" style="margin: 0">{{ lang.waiting.help }}</h3>
-        <p>It can take up to 5 minuttes to complete. <a href="/{{ model.session_id }}/waiting">{{ lang.waiting.refresh }}</a>.</p>
+      <div class="col-xs-12">
+        <p>{{ lang.waiting.message }} <a href="{{ session.cancel_url }}">{{ lang.waiting.refresh }}</a>.</p>
       </div>
     </div>
   </div>
