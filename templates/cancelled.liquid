@@ -6,7 +6,7 @@
       </div>
       <div class="col-xs-10">
         <h3 class="text-center" style="margin: 0">{{ lang.cancelled.header }}</h3>
-        <p>{{ lang.cancelled.message }} <a href="/{{ model.session_id }}/cancel-payment">{{ lang.cancelled.refresh }}</a>.</p>
+        <p>{{ lang.cancelled.message }} <a href="{{ session.cancel_url }}">{{ lang.cancelled.refresh }}</a>.</p>
       </div>
     </div>
   </div>
