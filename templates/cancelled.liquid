@@ -1,5 +1,13 @@
-<div id="payment_details" class="col-md-8">
-  <p class="error text-center">
-    {{ lang.cancelled }}
-  </p>
+<div id="waiting" class="well-xs well-blueish-xs well-sm well-blueish-sm" data-session-id="{{ model.session_id }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-2">
+        <i class="fa fa-fw fa-3x fa-info-circle"></i>
+      </div>
+      <div class="col-xs-10">
+        <h3 class="text-center" style="margin: 0">{{ lang.cancelled.header }}</h3>
+        <p>{{ lang.cancelled.message }} <a href="/{{ model.session_id }}/cancel-payment">{{ lang.cancelled.refresh }}</a>.</p>
+      </div>
+    </div>
+  </div>
 </div>

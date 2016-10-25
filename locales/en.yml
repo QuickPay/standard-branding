@@ -97,7 +97,10 @@ en:
       payment_link_changed: The payment details have changed since you initiated the payment.
       payment_link_changed_link: Click here to start over
     retry: Try again
-  cancelled: You have cancelled the payment
+  cancelled:
+    header: You have cancelled the payment
+    message: You will now be redirected to back to the shop.
+    refresh: Click here to go back to the shop now
   success:
     message: You have completed the payment
   deadline:
