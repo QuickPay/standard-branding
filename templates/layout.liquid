@@ -2,7 +2,12 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h1 class="text-center-xs">{{ model.displayname }}</h1>
+        {% if model.logo_url %}
+          <img src="{{ model.logo_url }}" alt="{{ model.displayname }}">
+        {% else %}
+          <h1 class="text-center-xs">{{ model.displayname }}</h1>
+        {% endif %}
+
         {% include "order_info" %}
       </div>
     </div>
