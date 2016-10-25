@@ -1,11 +1,17 @@
-{% if model.acquirer_error_message %}
-  <p class="error">
-    {{ model.acquirer_error_message }}
-  </p>
-{% endif %}
-
-{% if model.error %}
-  <p class="error">
-    {{ model.error | translate: lang.form.errors }}
-  </p>
+{% if model.acquirer_error_message or model.error %}
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="well-sm well-xs error">
+          <i class="fa fa-fw fa-exclamation-triangle"></i>
+          {% if model.acquirer_error_message %}
+              {{ model.acquirer_error_message }}
+          {% endif %}
+          {% if model.error %}
+              {{ model.error | translate: lang.form.errors }}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
 {% endif %}
