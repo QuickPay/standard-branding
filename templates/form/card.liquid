@@ -9,6 +9,15 @@
       </div>
 
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        {% if model.options.enable_card_holder_field %}
+          <div class="form-group">
+            <div class="col-xs-12">
+              <label for="card_holder" class="control-label">{{ lang.form.card.card_holder }}</label>
+              <input type="text" id="card_holder" name="card_holder" class="form-control" autocomplete="on" autofocus="autofocus">
+            </div>
+          </div>
+        {% endif %}
+
         <div class="form-group has-feedback">
           <div class="col-xs-12">
             <label for="cardnumber" class="control-label">{{ lang.form.card.card_number }}</label>
@@ -43,22 +52,23 @@
 
         <div id="cvv-help" class="text-center bubble bubble-cvv"><img src="{{ images.cvv_help.png }}"></div>
 
-        <div class="form-group" id="3d-field" style="display: none">
-          <div class="col-xs-12">
-            <div class="checkbox">
-              <label><input type="checkbox" id="3d" name="3d" value="1"> <strong>Enable 3D Secure</strong></label> <i class="fa fa-question-circle clickable" data-toggle="#three-d-help"></i>
+        {% if model.options.enable_3d_card_field or true %}
+          <div class="form-group" id="3d-field" style="display: none">
+            <div class="col-xs-12">
+              <div class="checkbox">
+                <label><input type="checkbox" id="3d" name="3d" value="1"> <strong>{{ lang.form.card.enable_3d }}</strong></label> <i class="fa fa-question-circle clickable" data-toggle="#three-d-help"></i>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div id="three-d-help" class="bubble bubble-three-d">
-          <p>3D Secure adds a layer of protection against fraud.</p>
-          <p>Your credit card issuer may require you to use 3D Secure as an extra precaution.</p>
-        </div>
+          <div id="three-d-help" class="bubble bubble-three-d">
+            {{ lang.form.card.3d_explained }}
+          </div>
+        {% endif %}
 
         <div class="form-group">
           <div class="col-xs-12">
-            <button type="submit" class="btn btn-info"></i>{{ model.currency }} {{ model.amount | currency: lang }}</button>
+            <button type="submit" class="btn btn-info"></i>{{ lang.form.card.submit_payment }} {{ model.currency }} {{ model.amount | currency: lang }}</button>
           </div>
         </div>
       </div>

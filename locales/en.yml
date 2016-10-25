@@ -25,17 +25,22 @@ en:
       live_payment_on_test_transaction: You tried to make a live payment on a test transaction.
       test_payment_on_live_transaction: You tried to make a test payment on a live transaction.
     card:
+      card_holder: Card holder Name
       card_number: Card number
       expiration: Expiration
       card_verification_data: CVV/CVD
       cvd_explained: The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card.
-      submit_payment: Complete payment
+      enable_3d: Enable 3D Secure
+      3d_explained: !simple_format |
+        3D Secure is a 2 step verification service using a text message to your phone.
+        Your credit card issuer may require you to use 3D Secure as an extra precaution.
+      submit_payment: Pay
       submit_subscription: Complete subscription
       submit_card: Complete
     dankort_acs:
       help: !simple_format |
-            When you click the button below, the Dankort payment window will open.
-            When finished, you will be redirected back to your receipt.
+        When you click the button below, the Dankort payment window will open.
+        When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
     mobilepay:
       help: !simpe_format |
