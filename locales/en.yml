@@ -102,7 +102,9 @@ en:
     message: You will now be redirected to back to the shop.
     refresh: Click here to go back to the shop now
   success:
-    message: You have completed the payment
+    header: You have completed the payment
+    message: You will now be redirected to back to the shop.
+    refresh: Click here to go back to the shop now
   deadline:
     info: You did not finish the purchase within the time frame.
     continue: Click here to continue
