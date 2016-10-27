@@ -68,7 +68,7 @@ en:
         number: Social security number
         gender: Gender
         country_code: Country
-      submit: Complete payment
+      submit: Proceed to payment
     swipp:
       help: !simpe_format |
         When you click the button below, the Swipp payment window will open.
