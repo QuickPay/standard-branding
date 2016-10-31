@@ -1,4 +1,22 @@
 <div id="payment_details" class="col-md-8">
   <p>{{ lang.form.viabill.help }}</p>
-  {% include 'authentication_form_viabill' %}
+  <form action="{{ model.viabill["redirect_url"] }}" method="POST" target="_top" class="autosubmit">
+    <input type="hidden" name="protocol"     value="{{ model.viabill["protocol"] }}">
+    <input type="hidden" name="apikey"       value="{{ model.viabill["api_key"] }}">
+    <input type="hidden" name="transaction"  value="{{ model.viabill["transaction_id"] }}">
+    <input type="hidden" name="amount"       value="{{ model.viabill["amount"] }}">
+    <input type="hidden" name="currency"     value="{{ model.viabill["currency"] }}">
+    <input type="hidden" name="success_url"  value="{{ model.viabill["success_url"] }}">
+    <input type="hidden" name="cancel_url"   value="{{ model.viabill["cancel_url"] }}">
+    <input type="hidden" name="order_number" value="{{ model.viabill["order_id"] }}">
+    <input type="hidden" name="md5check"     value="{{ model.viabill["md5check"] }}">
+    <input type="hidden" name="callback_url" value="{{ model.viabill["callback_url"] }}">
+    {% for item in model.viabill["variables"] %}
+      <input type="hidden" name="{{ item[0] }}" value="{{ item[1] }}">
+    {% endfor %}
+    {% if model.viabill["mandatory_waiting"] %}
+      <input type="hidden" name="mandatory_waiting" value="true">
+    {% endif %}
+    <input type="submit" name="send"         value="{{ lang.form.viabill.submit }}">
+  </form>
 </div>

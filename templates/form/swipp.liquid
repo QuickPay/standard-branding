@@ -1,4 +1,10 @@
 <div id="payment_details" class="col-md-8">
   <p>{{ lang.form.swipp.help }}</p>
-  {% include 'authentication_form_swipp' %}
+  <a
+    {% unless !model.error %}class="autoclick"{% endunless %}
+    href="{{ model.redirect_url }}?txId={{ model.swipp_id }}&callback={{ model.callback_url }}"
+  >
+    {{ lang.form.swipp.submit }}
+  </a>
+
 </div>

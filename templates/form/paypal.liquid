@@ -1,4 +1,8 @@
 <div id="payment_details" class="col-md-8">
   <p class="help">{{ lang.form.paypal.help }}</p>
-  {% include 'authentication_form_paypal' %}
+  <form action="{{ model.redirect_url }}" method="GET" target="_top" class="autosubmit">
+    <input type="hidden" name="cmd" value="_express-checkout">
+    <input type="hidden" name="token" value="{{ model.token }}">
+    <input type="submit" name="send" value="{{ lang.form.paypal.submit }}">
+  </form>
 </div>

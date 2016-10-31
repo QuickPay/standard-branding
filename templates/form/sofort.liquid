@@ -1,4 +1,6 @@
 <div id="payment_details" class="col-md-8">
   <p>{{ lang.form.sofort.help }}</p>
-  {% include 'authentication_form_sofort' %}
+  <form action="{{ model.payment_url }}" method="GET" target="_top" class="autosubmit">
+    <input type="submit" name="send" value="{{ lang.form.sofort.submit }}">
+  </form>
 </div>
