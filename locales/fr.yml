@@ -31,17 +31,17 @@ fr:
       submit_subscription: Complete subscription
       submit_card: Complete
     dankort_acs:
-      help: !simple_format |
+      help: |
             When you click the button below, the Dankort payment window will open.
             When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
     mobilepay:
-      help: !simpe_format |
+      help: |
         When you click the button below, the MobilePay payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
     sofort:
-      help: !simpe_format |
+      help: |
         When you click the button below, the Sofort payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
@@ -52,7 +52,7 @@ fr:
         country_code: Country
       submit: Complete payment
     swipp:
-      help: !simpe_format |
+      help: |
         When you click the button below, the Swipp payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment

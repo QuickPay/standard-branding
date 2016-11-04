@@ -33,27 +33,27 @@ da:
       submit_subscription: Gennemfør abonnement
       submit_card: Gennemfør oprettelse
     dankort_acs:
-      help: !simple_format |
+      help: |
         Når du klikker på knappen nedenfor, åbnes Dankort betalingsvinduet.
         Når du er færdig, bliver du viderestillet tilbage til din kvittering.
       submit: Fortsæt til betaling
     mobilepay:
-      help: !simpe_format |
+      help: |
         Når du klikker på knappen nedenfor, åbnes MobilePay betalingsvinduet.
         Når du er færdig, bliver du viderestillet tilbage til din kvittering.
       submit: Fortsæt til betaling
     paypal:
-      help: !simpe_format |
+      help: |
         Når du klikker på knappen nedenfor, åbnes PayPal betalingsvinduet.
         Når du er færdig, bliver du viderestillet tilbage til din kvittering.
       submit: Fortsæt til betaling
     viabill:
-      help: !simpe_format |
+      help: |
         Når du klikker på knappen nedenfor, åbnes ViaBill betalingsvinduet.
         Når du er færdig, bliver du viderestillet tilbage til din kvittering.
       submit: Fortsæt til betaling
     sofort:
-      help: !simpe_format |
+      help: |
         Når du klikker på knappen nedenfor, åbnes Sofort betalingsvinduet.
         Når du er færdig, bliver du viderestillet tilbage til din kvittering.
       submit: Fortsæt til betaling
@@ -64,7 +64,7 @@ da:
         country_code: Land
       submit: Gennemfør betaling
     swipp:
-      help: !simpe_format |
+      help: |
         Når du klikker på knappen nedenfor, åbnes Swipp betalingsvinduet.
         Når du er færdig, bliver du viderestillet tilbage til din kvittering.
       submit: Fortsæt til betaling

@@ -32,34 +32,34 @@ en:
       card_verification_data: CVV/CVD
       cvd_explained: The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card.
       enable_3d: Enable 3D Secure
-      3d_explained: !simple_format |
+      3d_explained: |
         3D Secure is a 2 step verification service using a text message to your phone.
         Your credit card issuer may require you to use 3D Secure as an extra precaution.
       submit_payment: Pay
       submit_subscription: Complete subscription
       submit_card: Complete
     dankort_acs:
-      help: !simple_format |
+      help: |
         When you click the button below, the Dankort payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
     mobilepay:
-      help: !simpe_format |
+      help: |
         When you click the button below, the MobilePay payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
     paypal:
-      help: !simpe_format |
+      help: |
         When you click the button below, the PayPal payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
     viabill:
-      help: !simpe_format |
+      help: |
         When you click the button below, the ViaBill payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
     sofort:
-      help: !simpe_format |
+      help: |
         When you click the button below, the Sofort payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
@@ -70,7 +70,7 @@ en:
         country_code: Country
       submit: Proceed to payment
     swipp:
-      help: !simpe_format |
+      help: |
         When you click the button below, the Swipp payment window will open.
         When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
