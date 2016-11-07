@@ -9,7 +9,7 @@
       </div>
 
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
-        {% if model.options.enable_card_holder_field %}
+        {% if config.enable_card_holder_field %}
           <div class="form-group">
             <div class="col-xs-12">
               <label for="card_holder" class="control-label">{{ lang.form.card.card_holder }}</label>
@@ -52,7 +52,7 @@
 
         <div id="cvv-help" class="text-center bubble bubble-cvv"><div class="text-left">{{ lang.form.card.cvd_explained | newline_to_p }}</div><img src="{{ images.cvv_help.png }}"></div>
 
-        {% if model.options.enable_3d_card_field %}
+        {% if config.enable_3d_card_field %}
           <div class="form-group" id="3d-field" style="display: none">
             <div class="col-xs-12">
               <div class="checkbox">
