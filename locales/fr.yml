@@ -23,6 +23,7 @@ fr:
     errors:
       try_again: Une erreur est survenue, veuillez réessayer à nouveau
     card:
+      issued_to: Name on card
       card_number: Numéro de la carte
       expiration: Date d´expiration (MM/AA)
       card_verification_data: CVC

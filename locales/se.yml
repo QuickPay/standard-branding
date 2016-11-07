@@ -25,6 +25,7 @@ se:
       live_payment_on_test_transaction: Du försökte genomföra en verklig betalning på en transaktion som är i testläge.
       test_payment_on_live_transaction: Du försökte utföra försöket betalning i en transaktion som inte är i testläge.
     card:
+      issued_to: Name on card
       card_number: Kortnummer
       expiration: Giltighetstid
       card_verification_data: CVD

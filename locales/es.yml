@@ -23,6 +23,7 @@ es:
     errors:
       try_again: Un error ocurrido, por favor intente de nuevo
     card:
+      issued_to: Name on card
       card_number: Número de tarjeta
       expiration: Fecha de caducidad (MM/AA)
       card_verification_data: CVC

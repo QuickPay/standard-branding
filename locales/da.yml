@@ -25,6 +25,7 @@ da:
       live_payment_on_test_transaction: Du forsøgte at gennemføre en rigtig betaling på en transaktion der er i test-mode.
       test_payment_on_live_transaction: Du forsøgte at gennemføre en testbetaling paa en transaktion der ikke er i test-mode.
     card:
+      issued_to: Navn på kort
       card_number: Kortnummer
       expiration: Udløbsdato
       card_verification_data: Kontrolcifre

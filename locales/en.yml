@@ -26,7 +26,7 @@ en:
       live_payment_on_test_transaction: You tried to make a live payment on a test transaction.
       test_payment_on_live_transaction: You tried to make a test payment on a live transaction.
     card:
-      card_holder: Card holder Name
+      issued_to: Name on card
       card_number: Card number
       expiration: Expiration
       card_verification_data: CVV/CVD

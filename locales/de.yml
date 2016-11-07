@@ -23,6 +23,7 @@ de:
     errors:
       try_again: Es ist ein Fehler aufgetreten, bitte versuche es noch einmal.
     card:
+      issued_to: Name on card
       card_number: Kartennummer
       expiration: Gültig bis
       card_verification_data: CVC
