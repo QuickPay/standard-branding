@@ -30,7 +30,9 @@ en:
       card_number: Card number
       expiration: Expiration
       card_verification_data: CVV/CVD
-      cvd_explained: The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card.
+      cvd_explained: |
+        The card verification data increases the level of security.
+        Usually the card verification data is a three digit number, placed at the backside of the card.
       enable_3d: Enable 3D Secure
       3d_explained: |
         3D Secure is a 2 step verification service using a text message to your phone.
