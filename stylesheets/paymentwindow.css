@@ -123,6 +123,11 @@ button[type="submit"] {
   padding-right: 4px;
 }
 
+#active-form #cvv-help img {
+  width: 100%;
+  padding: 20px;
+}
+
 #alternative-payment-methods {
   padding: 20px 0;
 }

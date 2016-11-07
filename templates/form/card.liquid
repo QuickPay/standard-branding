@@ -50,7 +50,7 @@
           </div>
         </div>
 
-        <div id="cvv-help" class="text-center bubble bubble-cvv"><img src="{{ images.cvv_help.svg }}"></div>
+        <div id="cvv-help" class="text-center bubble bubble-cvv"><div class="text-left">{{ lang.form.card.cvd_explained | newline_to_p }}</div><img src="{{ images.cvv_help.png }}"></div>
 
         {% if model.options.enable_3d_card_field %}
           <div class="form-group" id="3d-field" style="display: none">
