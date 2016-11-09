@@ -86,7 +86,11 @@ button[type="submit"] {
 }
 
 #order-info #order-details {
-  padding-bottom: 8px
+  padding: 8px 0;
+}
+#order-info #order-details .order-details-item:hover {
+  border-radius: 3px;
+  background: #f5f5f5;
 }
 
 #order-info #order-details .divider {

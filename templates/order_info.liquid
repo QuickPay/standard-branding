@@ -1,32 +1,32 @@
 <div id="order-info">
   <div id="order-details" class="">
-    <div>
-      <strong>{{ lang.info.order_number }}</strong> <i class="fa fa-fw fa-info-circle clickable" data-toggle="#order_full_details"></i> <span class="pull-right">{{ model.order_id }}</span>
+    <div class="order-details-item">
+      <strong>{{ lang.info.order_number }}</strong> <i class="fa fa-fw fa-info-circle clickable" data-toggle="#order-full-details"></i> <span class="pull-right">{{ model.order_id }}</span>
     </div>
     {% if model.deadline? %}
-      <div>
+      <div class="order-details-item">
         <strong>{{ lang.info.time_left }}</strong> <span id="time_left" class="pull-right">{{ model.time_left }}</span>
       </div>
     {% endif %}
-    <div id="order_full_details" style="display: none">
-      <div>
+    <div id="order-full-details" style="display: none">
+      <div class="order-details-item">
         <strong>Order {{ lang.info.type }}</strong> <span class="pull-right">{{ model.transaction_type | translate: lang.info }}</span>
       </div>
       {% if model.calculate_fee %}
         <div class="divider"></div>
       {% endif %}
       {% if model.transaction_type != "subscription" %}
-        <div>
+        <div class="order-details-item">
           <strong>{{ lang.info.amount }}</strong> <span id="amountField" class="pull-right">{{ model.currency }} {{ model.amount | currency: lang }}</span>
         </div>
       {% endif %}
 
       {% if model.calculate_fee %}
-        <div>
+        <div class="order-details-item">
           <strong>{{ lang.info.fee }}</strong>: <span id="feeField" class="pull-right">{{ lang.info.enter_card }}</span>
         </div>
         <hr>
-        <div>
+        <div class="order-details-item">
           </i> <strong>{{ lang.info.total }}</strong>: <span id="totalField" class="pull-right">{{ lang.info.enter_card }}</span>
         </div>
       {% endif %}
