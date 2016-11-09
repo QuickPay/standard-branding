@@ -3,7 +3,7 @@
   {% include model.form_template %}
 </div>
 
-{% if model.alternative_payment_methods %}
+{% unless model.alternative_payment_methods == empty and model.undo_payment_method? == false %}
   <div id="alternative-payment-methods">
     <div class="container">
       <div class="row">
@@ -27,4 +27,4 @@
       </div>
     </div>
   </div>
-{% endif %}
+{% endunless %}
