@@ -7,7 +7,10 @@
         {% else %}
           <h1 class="text-center-xs">{{ model.displayname }}</h1>
         {% endif %}
-
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
         {% include "order_info" %}
       </div>
     </div>
@@ -19,7 +22,7 @@
 {% if model.show_cancel? %}
 <div class="container">
   <div class="row">
-    <div class="col-sm-6 col-sm-push-3 col-xs-12 well-sm well-xs">
+    <div class="col-sm-12 col-xs-12">
       <a class="btn btn-default btn-cancel" href="/{{ model.session_id }}/cancel-payment" data-confirm="{{ lang.cancel.dialog }}"><i class="fa fa-fw fa-ban"></i> Cancel Payment</a>
     </div>
   </div>
@@ -49,11 +52,11 @@
   <div id="bottom-bar">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-6">
+        <div class="col-xs-6">
           <img class="clickable" src="{{ images.quickpay_logo_inverse.png }}" data-toggle="#gateway-info" alt="About QuickPay">
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-6">
-          <div class="pull-right"><span class="clickable" data-toggle="#gateway-info"><i class="fa fa-fw fa-lock"></i> SSL encrypted</span></div>
+        <div class="col-xs-6 text-right">
+          <span class="clickable" data-toggle="#gateway-info"><i class="fa fa-fw fa-lock"></i> TLS encrypted</span>
         </div>
       </div>
     </div>
