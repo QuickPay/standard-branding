@@ -1,6 +1,6 @@
-<div id="payment_details" class="col-md-8">
-  <p>{{ lang.form.viabill.help }}</p>
-  <form action="{{ model.viabill["redirect_url"] }}" method="POST" target="_top" class="autosubmit">
+<div class="container">
+  {% include 'form/error' %}
+  <form action="{{ model.viabill["redirect_url"] }}" method="POST" target="_top" class="autoubmit">
     <input type="hidden" name="protocol"     value="{{ model.viabill["protocol"] }}">
     <input type="hidden" name="apikey"       value="{{ model.viabill["api_key"] }}">
     <input type="hidden" name="transaction"  value="{{ model.viabill["transaction_id"] }}">
@@ -17,6 +17,14 @@
     {% if model.viabill["mandatory_waiting"] %}
       <input type="hidden" name="mandatory_waiting" value="true">
     {% endif %}
-    <input type="submit" name="send"         value="{{ lang.form.viabill.submit }}">
+    <div class="row">
+      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+          <img src="/assets/v2/images/brands/viabill.svg" alt="ViaBill" title="ViaBill" style="width:100%">
+      </div>
+      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        {{ lang.form.viabill.help | newline_to_p }}
+        <button type="submit" class="btn btn-info btn">{{ lang.form.paypal.submit }}</button>
+      </div>
+    </div>
   </form>
 </div>

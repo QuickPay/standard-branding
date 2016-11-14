@@ -1,8 +1,16 @@
-<div id="payment_details" class="col-md-8">
-  <p class="help">{{ lang.form.paypal.help }}</p>
-  <form action="{{ model.redirect_url }}" method="GET" target="_top" class="autosubmit">
+<div class="container">
+  {% include 'form/error' %}
+  <form action="{{ model.redirect_url }}" method="GET" target="_top" class="autoubmit">
     <input type="hidden" name="cmd" value="_express-checkout">
     <input type="hidden" name="token" value="{{ model.token }}">
-    <input type="submit" name="send" value="{{ lang.form.paypal.submit }}">
+    <div class="row">
+      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+          <img src="/assets/v2/images/brands/paypal.svg" alt="PayPal" title="PayPal" style="width:100%">
+      </div>
+      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        {{ lang.form.paypal.help | newline_to_p }}
+        <button type="submit" class="btn btn-info btn">{{ lang.form.paypal.submit }}</button>
+      </div>
+    </div>
   </form>
 </div>

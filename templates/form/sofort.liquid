@@ -1,6 +1,14 @@
-<div id="payment_details" class="col-md-8">
-  <p>{{ lang.form.sofort.help }}</p>
+<div class="container">
+  {% include 'form/error' %}
   <form action="{{ model.payment_url }}" method="GET" target="_top" class="autosubmit">
-    <input type="submit" name="send" value="{{ lang.form.sofort.submit }}">
+    <div class="row">
+      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+          <img src="/assets/v2/images/brands/sofort.svg" alt="Sofort" title="Sofort" style="width:100%">
+      </div>
+      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        {{ lang.form.sofort.help | newline_to_p }}
+        <button type="submit" class="btn btn-info btn">{{ lang.form.sofort.submit }}</button>
+      </div>
+    </div>
   </form>
 </div>
