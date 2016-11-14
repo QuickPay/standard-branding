@@ -1,6 +1,6 @@
 <div class="container">
   {% include 'form/error' %}
-  <form action="{{ model.viabill["redirect_url"] }}" method="POST" target="_top" class="autoubmit">
+  <form action="{{ model.viabill["redirect_url"] }}" method="POST" target="_top" class="autosubmit">
     <input type="hidden" name="protocol"     value="{{ model.viabill["protocol"] }}">
     <input type="hidden" name="apikey"       value="{{ model.viabill["api_key"] }}">
     <input type="hidden" name="transaction"  value="{{ model.viabill["transaction_id"] }}">
