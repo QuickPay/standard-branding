@@ -1,0 +1,15 @@
+<form id="secure_3d_form" name="AuthenticationRequest" action="{{ model.mpi_url }}" method="post" target="_top">
+  {% for field in model.form %}
+    <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />
+  {% endfor %}
+</form>
+
+<div class="well-xs well-blueish-xs well-sm well-blueish-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="center-all"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i> {{ lang.wait_3d }}</h3>
+      </div>
+    </div>
+  </div>
+</div>
