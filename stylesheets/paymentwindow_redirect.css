@@ -1,14 +1,3 @@
-#waiting {
-    text-align: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.help {
-    display: none;
-}
-
-input[type=submit] {
-    visibility: hidden;
+body * {
+  visibility: hidden;
 }
