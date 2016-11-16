@@ -9,13 +9,6 @@
 
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
         <div class="form-group">
-          <div class="col-xs-12">
-            <label for="nin_number" class="control-label">{{ lang.form.klarna.nin.number }}</label>
-            <input type="text" id="nin_number" name="nin[number]" class="form-control" autocomplete="on" autofocus="autofocus">
-          </div>
-        </div>
-
-        <div class="form-group">
           <div class="col-xs-6">
             <label for="nin_gender" class="control-label">{{ lang.form.klarna.nin.gender }}</label>
             <select id="nin_gender" class="form-control" name="nin[gender]">
@@ -47,6 +40,13 @@
                 </option>
               {% endfor %}
             </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-12">
+            <label for="nin_number" class="control-label">{{ lang.form.klarna.nin.number }}</label>
+            <input type="text" id="nin_number" name="nin[number]" class="form-control" autocomplete="on">
           </div>
         </div>
 
