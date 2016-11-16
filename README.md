@@ -12,16 +12,28 @@ The branding feature uses [Liquid](https://github.com/Shopify/liquid) as its tem
 
 #### Extra Liquid filters
 
-* translate
-* currency
-* newline_to_p
+* translate - Access to locale and translations in YML-files
+* currency - Format amount and currency according to language
+* newline_to_p - wrap text with newline in `<p></p>` tags
 
 ## Configuration
 
-The [config.json](https://github.com/QuickPay/standard-branding/tree/master/config.json) file allows you to specify some arbitrary configuration. This can be fetched in templates using `{% config.* %}`.
+The [config.json](https://github.com/QuickPay/standard-branding/tree/master/config.json) file allows you to specify some arbitrary configuration. This can be fetched in the liquid templates using `{% config.* %}`.
+
+Currently supports:
+
+* enable_card_holder_field (boolean, default: false)
+* enable_3d_card_field (boolean, default: false)
 
 ## Versioning
 
 The [VERSION](https://github.com/QuickPay/standard-branding/tree/master/VERSION) specifies the branding version. This must correspond to one of the [releases](https://github.com/QuickPay/standard-branding/releases) of this project.
 
-## Collaboration
+## Contributions
+
+To contribute:
+
+1. Write a spec that fails
+2. Fix spec by adding/changing code
+3. Submit a pull request
+4. World is now a better place! :)
