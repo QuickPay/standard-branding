@@ -5,7 +5,11 @@
         <h3 class="center-all"><i class="fa fa-fw fa-3x fa-info-circle"></i> {{ lang.deadline.header }}</h3>
       </div>
       <div class="col-xs-12">
-        <p>{{ lang.deadline.message }} <a href="{{ session.cancel_url }}">{{ lang.deadline.continue }}</a>.</p>
+        <p>{{ lang.deadline.message }}
+          {% if model.cancel_url %}
+            <a href="{{ model.cancel_url }}">{{ lang.deadline.continue }}</a>.
+          {% endif %}
+        </p>
       </div>
     </div>
   </div>
