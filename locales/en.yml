@@ -105,9 +105,7 @@ en:
     message: You will now be redirected to back to the shop.
     refresh: Click here to go back to the shop now
   success:
-    header: You have completed the payment
-    message: You will now be redirected to back to the shop.
-    refresh: Click here to go back to the shop now
+    message: You have completed the payment
   deadline:
     header: Order expired
     message: You did not finish the purchase within the time frame.
