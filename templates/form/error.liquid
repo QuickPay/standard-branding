@@ -5,10 +5,18 @@
         <div class="well-sm well-xs error">
           <i class="fa fa-fw fa-exclamation-triangle"></i>
           {% if model.acquirer_error_message %}
-              {{ model.acquirer_error_message }}
+            {{ model.acquirer_error_message }}
           {% endif %}
+
           {% if model.error %}
-              {{ model.error | translate: lang.form.errors }}
+            {% case model.error %}
+            {% when "try_again" %}
+              {% t An error happened, please try again. %}
+            {% when "live_payment_on_test_transaction" %}
+              {% t You tried to make a live payment on a test transaction. %}
+            {% when "test_payment_on_live_transaction" %}
+              {% t You tried to make a test payment on a live transaction. %}
+            {% endcase %}
           {% endif %}
         </div>
       </div>
