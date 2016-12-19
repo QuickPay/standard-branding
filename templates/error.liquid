@@ -1,4 +1,3 @@
-
 <div class="well-xs well-blueish-xs well-sm well-blueish-sm" data-session-id="{{ model.session_id }}">
   <div class="container">
     <div class="row">
@@ -12,7 +11,7 @@
       </div>
       <div class="col-xs-12">
         {% if model.retry %}
-          <p class="text-center"><a class="btn btn-info" href="/{{ model.session_id }}/payment-method-undo">{{ lang.error.retry }}</a></p>
+          <p class="text-center"><a class="btn btn-info" href="/{{ model.session_id }}/payment-method-undo">{% t Try again %}</a></p>
         {% endif %}
       </div>
     </div>

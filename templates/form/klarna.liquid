@@ -23,19 +23,19 @@
                 <option value="{{ country_code }}" {% if model.country_code == country_code %}selected{% endif %}>
                   {% case country_code %}
                   {% when 'DNK' %}
-                    {{ lang.form.country.denmark }}
+                    {% t Denmark %}
                   {% when 'SWE' %}
-                    {{ lang.form.country.sweden }}
+                    {% t Sweden %}
                   {% when 'NOR' %}
-                    {{ lang.form.country.norway }}
+                    {% t Norway %}
                   {% when 'FIN' %}
-                    {{ lang.form.country.finland }}
+                    {% t Finland %}
                   {% when 'NLD' %}
-                    {{ lang.form.country.netherlands }}
+                    {% t Netherlands %}
                   {% when 'GER' %}
-                    {{ lang.form.country.germany }}
+                    {% t Germany %}
                   {% when 'AUT' %}
-                    {{ lang.form.country.austria }}
+                    {% t Austria %}
                   {% endcase %}
                 </option>
               {% endfor %}

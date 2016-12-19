@@ -12,7 +12,7 @@
         {% if config.enable_card_holder_field %}
           <div class="form-group">
             <div class="col-xs-12">
-              <label for="issued_to" class="control-label">{{ lang.form.card.issued_to }}</label>
+              <label for="issued_to" class="control-label">{% t Name on card %}</label>
               <input type="text" id="issued_to" name="issued_to" class="form-control" autocomplete="on" autofocus="autofocus">
             </div>
           </div>
@@ -59,7 +59,7 @@
           <div class="form-group" id="3d-field" style="display: none">
             <div class="col-xs-12">
               <div class="checkbox">
-                <label><input type="checkbox" id="3d" name="3d" value="1"> <strong>{{ lang.form.card.enable_3d }}</strong></label> <i class="fa fa-question-circle clickable" data-toggle="#three-d-help"></i>
+                <label><input type="checkbox" id="3d" name="3d" value="1"> <strong>{% t Enable 3D Secure %}</strong></label> <i class="fa fa-question-circle clickable" data-toggle="#three-d-help"></i>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@
 
         <div class="form-group">
           <div class="col-xs-12">
-            <button type="submit" class="btn btn-info">{{ lang.form.card.submit_payment }} {{ model.currency }} {{ model.amount | currency: lang }}</button>
+            <button type="submit" class="btn btn-info">{% t Pay %} {{ model.currency }} {{ model.formatted_amount }}</button>
           </div>
         </div>
       </div>

@@ -2,12 +2,12 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h3 class="center-all"><i class="fa fa-fw fa-3x fa-info-circle"></i> {{ lang.deadline.header }}</h3>
+        <h3 class="center-all"><i class="fa fa-fw fa-3x fa-info-circle"></i> {% t Order expired %}}</h3>
       </div>
       <div class="col-xs-12">
-        <p>{{ lang.deadline.message }}
+        <p>{% t You did not finish the purchase within the time frame. %}
           {% if model.cancel_url %}
-            <a href="{{ model.cancel_url }}">{{ lang.deadline.continue }}</a>.
+            <a href="{{ model.cancel_url }}">{% t Click here to continue %}</a>.
           {% endif %}
         </p>
       </div>
