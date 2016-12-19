@@ -10,14 +10,14 @@
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
         <div class="form-group">
           <div class="col-xs-6">
-            <label for="nin_gender" class="control-label">{{ lang.form.klarna.nin.gender }}</label>
+            <label for="nin_gender" class="control-label">{% t Gender %}</label>
             <select id="nin_gender" class="form-control" name="nin[gender]">
-              <option value="male">{{ lang.form.gender.male }}</option>
-              <option value="female">{{ lang.form.gender.female }}</option>
+              <option value="male">{% t Male %}</option>
+              <option value="female">{% t Female %}</option>
             </select>
           </div>
           <div class="col-xs-6">
-            <label for="nin_country_code" class="control-label">{{ lang.form.klarna.nin.country_code }}</label>
+            <label for="nin_country_code" class="control-label">{% t Country %}</label>
             <select id="nin_country_code" class="form-control" name="nin[country_code]">
               {% for country_code in model.country_codes %}
                 <option value="{{ country_code }}" {% if model.country_code == country_code %}selected{% endif %}>
@@ -45,14 +45,14 @@
 
         <div class="form-group">
           <div class="col-xs-12">
-            <label for="nin_number" class="control-label">{{ lang.form.klarna.nin.number }}</label>
+            <label for="nin_number" class="control-label">{% t Social security number %}</label>
             <input type="text" id="nin_number" name="nin[number]" class="form-control" autocomplete="on">
           </div>
         </div>
 
         <div class="form-group">
           <div class="col-xs-12">
-            <button type="submit" class="btn btn-info btn">{{ lang.form.klarna.submit }}</button>
+            <button type="submit" class="btn btn-info btn">{% t Proceed %}</button>
           </div>
         </div>
       </div>
