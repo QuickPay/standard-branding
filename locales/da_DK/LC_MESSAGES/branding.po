@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-12-20 11:38+0000\n"
-"Last-Translator: Steffen <steffen@pil.dk>\n"
+"PO-Revision-Date: 2016-12-20 12:07+0000\n"
+"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
 "Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/da/>\n"
 "Language: da_DK\n"
@@ -79,7 +79,7 @@ msgstr "Prøv igen"
 
 #: templates/form/3d_secure.liquid:11
 msgid "Starting 3D Secure payment. Please wait..."
-msgstr ""
+msgstr "Starter 3D secure betaling. Vent venligst..."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
