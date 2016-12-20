@@ -43,7 +43,7 @@ msgid "Continue to the shop"
 msgstr ""
 
 #: templates/error.liquid:12
-msgid "An error happened, please try again"
+msgid "An unknown error happened. Please try again"
 msgstr ""
 
 #: templates/error.liquid:14
