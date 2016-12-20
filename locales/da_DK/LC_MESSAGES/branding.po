@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-12-20 12:07+0000\n"
+"PO-Revision-Date: 2016-12-20 12:32+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
 "Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/da/>\n"
@@ -64,10 +64,12 @@ msgstr ""
 #: templates/error.liquid:20
 msgid "3D Secure enrollment failed. Please try again or select another payment option."
 msgstr ""
+"Tilmelding til 3D Secure fejlede. Prøv venligst igen eller vælg en anden "
+"betalingsmetode."
 
 #: templates/error.liquid:22
 msgid "The payment details have changed since you initiated the payment."
-msgstr ""
+msgstr "Betalingsdetaljerne har ændret sig siden du påbegyndte betalingen."
 
 #: templates/error.liquid:24
 msgid "Click here to start over"
@@ -255,7 +257,7 @@ msgstr "Abonnement"
 
 #: templates/order_info.liquid:20
 msgid "Card on file"
-msgstr ""
+msgstr "Gemt kort"
 
 #: templates/order_info.liquid:29
 msgid "Order amount"
@@ -288,4 +290,4 @@ msgstr "Processen kan tage op til 5 minutter."
 
 #: templates/waiting.liquid:8
 msgid "Click here if processing takes a long time"
-msgstr "Klik her, hvis processen tager for lang tid"
+msgstr "Klik her hvis processen tager for lang tid"
