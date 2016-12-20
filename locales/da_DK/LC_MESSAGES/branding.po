@@ -3,36 +3,37 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-10-28 08:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-12-20 10:58+0000\n"
+"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
+"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding-v2xx/da/>\n"
+"Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.9\n"
 
 #: templates/cancelled.liquid:5
 msgid "You have cancelled the payment"
-msgstr ""
+msgstr "Du har annulleret betalingen"
 
 #: templates/deadline.liquid:5
 msgid "Order expired"
-msgstr ""
+msgstr "Ordre udløbet"
 
 #: templates/deadline.liquid:8
 msgid "You did not finish the purchase within the time frame."
-msgstr ""
+msgstr "Du fik ikke afsluttet betalingen tidsnok."
 
 #: templates/deadline.liquid:10
 msgid "Click here to continue"
-msgstr ""
+msgstr "Klik her for at fortsætte"
 
 #: templates/error.liquid:8
 msgid "The order is already paid."
