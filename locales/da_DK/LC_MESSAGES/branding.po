@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-12-20 10:58+0000\n"
-"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
+"PO-Revision-Date: 2016-12-20 11:00+0000\n"
+"Last-Translator: Kristian <kgb@quickpay.net>\n"
 "Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/da/>\n"
 "Language: da_DK\n"
@@ -37,11 +37,11 @@ msgstr "Klik her for at fortsætte"
 
 #: templates/error.liquid:8
 msgid "The order is already paid."
-msgstr ""
+msgstr "Ordren er allerede betalt."
 
 #: templates/error.liquid:10
 msgid "Continue to the shop"
-msgstr ""
+msgstr "Fortsæt til butikken"
 
 #: templates/error.liquid:12
 msgid "An error happened, please try again"
