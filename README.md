@@ -10,11 +10,9 @@ A branding is a collection of resources (templates, stylesheets, images etc.) wh
 
 The branding feature uses [Liquid](https://github.com/Shopify/liquid) as its templating system.
 
-#### Extra Liquid filters
+### Extra liquid tags
 
-* translate - Access to locale and translations in YML-files
-* currency - Format amount and currency according to language
-* newline_to_p - wrap text with newline in `<p></p>` tags
+* t - translate the given key with gettext
 
 ## Configuration
 

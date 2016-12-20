@@ -12,7 +12,7 @@
         {% if config.enable_card_holder_field %}
           <div class="form-group">
             <div class="col-xs-12">
-              <label for="issued_to" class="control-label">{{ lang.form.card.issued_to }}</label>
+              <label for="issued_to" class="control-label">{% t Name on card %}</label>
               <input type="text" id="issued_to" name="issued_to" class="form-control" autocomplete="on" autofocus="autofocus">
             </div>
           </div>
@@ -20,7 +20,7 @@
 
         <div class="form-group has-feedback">
           <div class="col-xs-12">
-            <label for="cardnumber" class="control-label">{{ lang.form.card.card_number }}</label>
+            <label for="cardnumber" class="control-label">{% t Card number %}</label>
             <input type="text" id="cardnumber" name="cardnumber" class="form-control" autocomplete="on" autofocus="autofocus" aria-describedby="cardnumberSuccess" pattern="[0-9]*">
             <span id="cardnumber-check" class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
             <span id="cardnumber-sr" class="sr-only">(success)</span>
@@ -28,8 +28,8 @@
         </div>
 
         <div class="form-group has-feedback">
-          <div class="col-xs-6"><label for="expiration-month" class="control-label">{{ lang.form.card.expiration }}</label></div>
-          <div class="col-xs-6"><label for="cvd" class="control-label">{{ lang.form.card.card_verification_data }}</label> <i class="fa fa-fw fa-question-circle clickable" data-toggle="#cvv-help"></i></div>
+          <div class="col-xs-6"><label for="expiration-month" class="control-label">{% t Expiration date %}</label></div>
+          <div class="col-xs-6"><label for="cvd" class="control-label">CVV/CVD</label> <i class="fa fa-fw fa-question-circle clickable" data-toggle="#cvv-help"></i></div>
 
           <div class="col-xs-3" style="padding-right: 2px;">
             <input type="text" id="expiration-month" name="expiration[month]" class="form-control" aria-describedby="expiration-month-sr" placeholder="MM" maxlength="2" pattern="[0-9]*" style="padding-right: 28px !important; margin-right: 30px !important">
@@ -50,25 +50,29 @@
           </div>
         </div>
 
-        <div id="cvv-help" class="text-center bubble bubble-cvv"><div class="text-left">{{ lang.form.card.cvd_explained | newline_to_p }}</div><img src="{{ images.cvv_help.png }}"></div>
+        <div id="cvv-help" class="text-center bubble bubble-cvv">
+          <div class="text-left">{% t The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card. %}</div>
+          <img src="{{ images.cvv_help.png }}">
+        </div>
 
         {% if config.enable_3d_card_field %}
           <div class="form-group" id="3d-field" style="display: none">
             <div class="col-xs-12">
               <div class="checkbox">
-                <label><input type="checkbox" id="3d" name="3d" value="1"> <strong>{{ lang.form.card.enable_3d }}</strong></label> <i class="fa fa-question-circle clickable" data-toggle="#three-d-help"></i>
+                <label><input type="checkbox" id="3d" name="3d" value="1"> <strong>{% t Enable 3D Secure %}</strong></label> <i class="fa fa-question-circle clickable" data-toggle="#three-d-help"></i>
               </div>
             </div>
           </div>
 
           <div id="three-d-help" class="bubble bubble-three-d">
-            {{ lang.form.card.3d_explained }}
+            <p>{% t 3D Secure is a 2 step verification service using a text message to your phone. ‰}</p>
+            <p>{% t Your credit card issuer may require you to use 3D Secure as an extra precaution. %}</p>
           </div>
         {% endif %}
 
         <div class="form-group">
           <div class="col-xs-12">
-            <button type="submit" class="btn btn-info">{{ lang.form.card.submit_payment }} {{ model.currency }} {{ model.amount | currency: lang }}</button>
+            <button type="submit" class="btn btn-info">{% t Pay %} {{ model.currency }} {{ model.formatted_amount }}</button>
           </div>
         </div>
       </div>

@@ -22,8 +22,9 @@
           <img src="/assets/v2/images/brands/viabill.svg" alt="ViaBill" title="ViaBill" style="width:100%">
       </div>
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
-        {{ lang.form.viabill.help | newline_to_p }}
-        <button type="submit" class="btn btn-info btn">{{ lang.form.paypal.submit }}</button>
+        <p>{% t When you click the button below, the ViaBill payment window will open. %}</p>
+        <p>{% t When finished, you will be redirected back to your receipt. %}</p>
+        <button type="submit" class="btn btn-info btn">{% t Proceed to payment %}</button>
       </div>
     </div>
   </form>
