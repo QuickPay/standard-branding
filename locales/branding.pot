@@ -272,7 +272,7 @@ msgid "Please wait..."
 msgstr ""
 
 #: templates/waiting.liquid:8
-msgid "The process may take up to 5 minuttes."
+msgid "The process may take up to 5 minutes."
 msgstr ""
 
 #: templates/waiting.liquid:8
