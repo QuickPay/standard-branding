@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-12-20 11:00+0000\n"
-"Last-Translator: Kristian <kgb@quickpay.net>\n"
+"PO-Revision-Date: 2016-12-20 11:38+0000\n"
+"Last-Translator: Steffen <steffen@pil.dk>\n"
 "Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/da/>\n"
 "Language: da_DK\n"
@@ -45,19 +45,21 @@ msgstr "Fortsæt til butikken"
 
 #: templates/error.liquid:12
 msgid "An error happened, please try again"
-msgstr ""
+msgstr "Der skete en fejl, prøv venligst igen"
 
 #: templates/error.liquid:14
 msgid "Unable to complete payment"
-msgstr ""
+msgstr "Betalingen kan ikke gennemføres"
 
 #: templates/error.liquid:16
 msgid "3D Secure authorization failed. Please try again."
-msgstr ""
+msgstr "3D Secure autorisationen fejlede, prøv venligst igen."
 
 #: templates/error.liquid:18
 msgid "3D Secure authorization failed. Please try again or select another payment method."
 msgstr ""
+"3D Secure autorisationen fejlede, prøv venligst igen eller vælg en anden "
+"betalingsmetode."
 
 #: templates/error.liquid:20
 msgid "3D Secure enrollment failed. Please try again or select another payment option."
@@ -69,11 +71,11 @@ msgstr ""
 
 #: templates/error.liquid:24
 msgid "Click here to start over"
-msgstr ""
+msgstr "Klik her for at starte forfra"
 
 #: templates/error.liquid:35
 msgid "Try again"
-msgstr ""
+msgstr "Prøv igen"
 
 #: templates/form/3d_secure.liquid:11
 msgid "Starting 3D Secure payment. Please wait..."
@@ -81,106 +83,110 @@ msgstr ""
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
-msgstr ""
+msgstr "Navn på kortet"
 
 #: templates/form/card.liquid:23
 msgid "Card number"
-msgstr ""
+msgstr "Kortnummer"
 
 #: templates/form/card.liquid:31
 msgid "Expiration date"
-msgstr ""
+msgstr "Udløbsdato"
 
 #: templates/form/card.liquid:54
 msgid "The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr ""
+"Kontrolcifrene (CVC/CVD-koden) på kortet er med til højne sikkerheden ved "
+"online-betalinger. Koden findes normalt på bagsiden af kortet og består af "
+"tre cifre."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
-msgstr ""
+msgstr "Aktiver 3D Secure"
 
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr ""
+"Som en ekstra sikkerhed, kan din kortudsteder kræve, at du bruger 3D Secure."
 
 #: templates/form/card.liquid:75
 msgid "Pay"
-msgstr ""
+msgstr "Betal"
 
 #: templates/form/error.liquid:14
 msgid "An error happened, please try again."
-msgstr ""
+msgstr "Der skete en fejl, prøv venligst igen."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr ""
+msgstr "Du har forsøgt at gennemføre en rigtig betaling på en testbetaling."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr ""
+msgstr "Du har forsøgt at gennemføre en rigtig betaling på en testbetaling."
 
 #: templates/form/klarna.liquid:13
 msgid "Gender"
-msgstr ""
+msgstr "Køn"
 
 #: templates/form/klarna.liquid:15
 msgid "Male"
-msgstr ""
+msgstr "Mand"
 
 #: templates/form/klarna.liquid:16
 msgid "Female"
-msgstr ""
+msgstr "Kvinde"
 
 #: templates/form/klarna.liquid:20
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: templates/form/klarna.liquid:26
 msgid "Denmark"
-msgstr ""
+msgstr "Danmark"
 
 #: templates/form/klarna.liquid:28
 msgid "Sweden"
-msgstr ""
+msgstr "Sverige"
 
 #: templates/form/klarna.liquid:30
 msgid "Norway"
-msgstr ""
+msgstr "Norge"
 
 #: templates/form/klarna.liquid:32
 msgid "Finland"
-msgstr ""
+msgstr "Finland"
 
 #: templates/form/klarna.liquid:34
 msgid "Netherlands"
-msgstr ""
+msgstr "Holland"
 
 #: templates/form/klarna.liquid:36
 msgid "Germany"
-msgstr ""
+msgstr "Tyskland"
 
 #: templates/form/klarna.liquid:38
 msgid "Austria"
-msgstr ""
+msgstr "Østrig"
 
 #: templates/form/klarna.liquid:48
 msgid "Social security number"
-msgstr ""
+msgstr "CPR-nummer"
 
 #: templates/form/klarna.liquid:55
 msgid "Proceed"
-msgstr ""
+msgstr "Fortsæt"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr ""
+msgstr "MobilePay betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/mobilepay.liquid:14
 #: templates/form/paypal.liquid:12
 #: templates/form/sofort.liquid:10
 #: templates/form/viabill.liquid:26
 msgid "When finished, you will be redirected back to your receipt."
-msgstr ""
+msgstr "Når betaligen er gennemført, kommer du retur til din kvittering."
 
 #: templates/form/mobilepay.liquid:15
 #: templates/form/paypal.liquid:13
@@ -188,60 +194,64 @@ msgstr ""
 #: templates/form/swipp.liquid:9
 #: templates/form/viabill.liquid:27
 msgid "Proceed to payment"
-msgstr ""
+msgstr "Fortsæt til betaling"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr ""
+msgstr "PayPal betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/sofort.liquid:9
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr ""
+msgstr "Sofort betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
+"Swipp betalingsvinduet åbner, når du klikker på knappen herunder. Når "
+"betaligen er gennemført, kommer du retur til din kvittering."
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr ""
+msgstr "ViaBill betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form.liquid:16
 #: templates/form.liquid:16
 msgid "Cards"
-msgstr ""
+msgstr "Kort"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
+"Dankort betalingsvinduet åbner, når du klikker på knappen herunder. Når "
+"betaligen er gennemført, kommer du retur til din kvittering."
 
 #: templates/layout.liquid:26
 msgid "Are you about to abort the payment. Are you sure?"
-msgstr ""
+msgstr "Er du sikker på du vil annullere din betaling?"
 
 #: templates/layout.liquid:26
 msgid "Cancel Payment"
-msgstr ""
+msgstr "Annuller betaling"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
-msgstr ""
+msgstr "Kortnummer"
 
 #: templates/order_info.liquid:8
 msgid "Expires in"
-msgstr ""
+msgstr "Udløber om"
 
 #: templates/order_info.liquid:13
 msgid "Payment type"
-msgstr ""
+msgstr "Betalingsmetode"
 
 #: templates/order_info.liquid:16
 msgid "Payment"
-msgstr ""
+msgstr "Betaling"
 
 #: templates/order_info.liquid:18
 msgid "Subscription"
-msgstr ""
+msgstr "Abonnement"
 
 #: templates/order_info.liquid:20
 msgid "Card on file"
@@ -249,11 +259,11 @@ msgstr ""
 
 #: templates/order_info.liquid:29
 msgid "Order amount"
-msgstr ""
+msgstr "Ordrebeløb"
 
 #: templates/order_info.liquid:35
 msgid "Payment fee"
-msgstr ""
+msgstr "Gebyr"
 
 #: templates/order_info.liquid:35
 #: templates/order_info.liquid:39
@@ -262,20 +272,20 @@ msgstr ""
 
 #: templates/order_info.liquid:39
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: templates/success.liquid:5
 msgid "You have completed the payment"
-msgstr ""
+msgstr "Du har gennemført betalingen"
 
 #: templates/waiting.liquid:5
 msgid "Please wait..."
-msgstr ""
+msgstr "Vent venligst..."
 
 #: templates/waiting.liquid:8
 msgid "The process may take up to 5 minuttes."
-msgstr ""
+msgstr "Processen kan tage op til 5 minutter."
 
 #: templates/waiting.liquid:8
 msgid "Click here if processing takes a long time"
-msgstr ""
+msgstr "Klik her, hvis processen tager for lang tid"
