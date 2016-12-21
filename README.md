@@ -1,6 +1,6 @@
 # Standard Branding for QuickPay Payment Window
 
-This repository contains the standard branding for the [QuickPay Payment Window](https://learn.quickpay.net/tech-talk/form/).
+This repository contains the standard branding for the [QuickPay Payment Window](https://learn.quickpay.net/tech-talk/payments/form/).
 
 A branding is a collection of resources (templates, stylesheets, images etc.) which defines the UI. You can clone/copy this, adapt it to your liking and upload it to your merchant or reseller account at https://manage.quickpay.net.
 
