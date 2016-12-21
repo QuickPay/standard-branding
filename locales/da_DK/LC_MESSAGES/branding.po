@@ -237,7 +237,7 @@ msgstr "Annuller betaling"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
-msgstr "Kortnummer"
+msgstr "Ordrenummer"
 
 #: templates/order_info.liquid:8
 msgid "Expires in"
