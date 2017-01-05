@@ -34,6 +34,11 @@ de:
             When you click the button below, the eDankort payment window will open. You will have to select your bank and identify using your regular credentials.
             When finished, you will be redirected back to your receipt.
       submit: Proceed to payment
+    dankort_acs:
+      help: !simple_format |
+            When you click the button below, the Dankort payment window will open.
+            When finished, you will be redirected back to your receipt.
+      submit: Proceed to payment
     mobilepay:
       help: !simpe_format |
         When you click the button below, the MobilePay payment window will open.

@@ -36,6 +36,11 @@ se:
         När du klickar på knappen nedan öppnar edankort betalningsfönster. Du måste välja din bank och logga in på ditt Internetbank med din vanliga Internetbank inloggning.
         När du är klar, kommer du att omdirigeras till ditt kvitto.
       submit: Fortsätt till betalning
+    dankort_acs:
+      help: !simple_format |
+        När du klickar på knappen nedan öppnar Dankort betalningsfönster.
+        När du är klar, kommer du att omdirigeras till ditt kvitto.
+      submit: Fortsätt till betalning
     mobilepay:
       help: !simpe_format |
         När du klickar på knappen nedan öppnar MobilePay betalningsfönster.

@@ -30,7 +30,7 @@
     {% endif %}
 
     {% if model.deadline? %}
-      <dt>{{ lang.info.time_left }}</dt>  <dd><span id="time_left"></span></dd>
+      <dt>{{ lang.info.time_left }}</dt>  <dd><span id="time_left">{{ model.time_left }}</span></dd>
     {% endif %}
   </dl>
 </div>
