@@ -51,6 +51,11 @@ da:
         Når du klikker på knappen nedenfor, åbnes PayPal betalingsvinduet.
         Når du er færdig, bliver du viderestillet tilbage til din kvittering.
       submit: Fortsæt til betaling
+    paysafecard:
+      help: !simple_format |
+        Når du klikker på knappen nedenfor, åbnes Paysafecard betalingsvinduet.
+        Når du er færdig, bliver du viderestillet tilbage til din kvittering.
+      submit: Fortsæt til Paysafecard
     viabill:
       help: !simpe_format |
         Når du klikker på knappen nedenfor, åbnes ViaBill betalingsvinduet.
