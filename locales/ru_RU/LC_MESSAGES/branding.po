@@ -3,24 +3,26 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-10-28 08:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2017-01-19 16:58+0000\n"
+"Last-Translator: Mark <smbsmark@gmail.com>\n"
+"Language-Team: Russian <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding-v2xx/ru/>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.9\n"
 
 #: templates/cancelled.liquid:5
 msgid "You have cancelled the payment"
-msgstr ""
+msgstr "Вы отменили оплату"
 
 #: templates/deadline.liquid:5
 msgid "Order expired"
@@ -28,15 +30,15 @@ msgstr ""
 
 #: templates/deadline.liquid:8
 msgid "You did not finish the purchase within the time frame."
-msgstr ""
+msgstr "Вы не закончили покупки в установленный срок."
 
 #: templates/deadline.liquid:10
 msgid "Click here to continue"
-msgstr ""
+msgstr "Нажмите для продолжения"
 
 #: templates/error.liquid:8
 msgid "The order is already paid."
-msgstr ""
+msgstr "Закал уже оплачен."
 
 #: templates/error.liquid:10
 msgid "Continue to the shop"
@@ -44,11 +46,11 @@ msgstr ""
 
 #: templates/error.liquid:12
 msgid "An error happened, please try again"
-msgstr ""
+msgstr "Произошла ошибка, пожалуйста попробуйте еще раз"
 
 #: templates/error.liquid:14
 msgid "Unable to complete payment"
-msgstr ""
+msgstr "Не в состоянии завершить платеж"
 
 #: templates/error.liquid:16
 msgid "3D Secure authorization failed. Please try again."
@@ -72,7 +74,7 @@ msgstr ""
 
 #: templates/error.liquid:35
 msgid "Try again"
-msgstr ""
+msgstr "Попробуйте еще раз"
 
 #: templates/form/3d_secure.liquid:11
 msgid "Starting 3D Secure payment. Please wait..."
@@ -80,15 +82,15 @@ msgstr ""
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
-msgstr ""
+msgstr "Имя на карте"
 
 #: templates/form/card.liquid:23
 msgid "Card number"
-msgstr ""
+msgstr "Номер карты"
 
 #: templates/form/card.liquid:31
 msgid "Expiration date"
-msgstr ""
+msgstr "Срок годности"
 
 #: templates/form/card.liquid:54
 msgid "The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
