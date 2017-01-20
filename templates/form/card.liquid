@@ -29,7 +29,7 @@
 
         <div class="form-group has-feedback">
           <div class="col-xs-6"><label for="expiration-month" class="control-label">{% t Expiration date %}</label></div>
-          <div class="col-xs-6"><label for="cvd" class="control-label">CVV/CVD</label> <i class="fa fa-fw fa-question-circle clickable" data-toggle="#cvv-help"></i></div>
+          <div class="col-xs-6"><label for="cvd" id="cvd-label" class="control-label">CVV/CVD</label> <i id="cvd-help-toggle" class="fa fa-fw fa-question-circle clickable" data-toggle="#cvd-help"></i></div>
 
           <div class="col-xs-3" style="padding-right: 2px;">
             <input type="text" id="expiration-month" name="expiration[month]" class="form-control" aria-describedby="expiration-month-sr" placeholder="MM" maxlength="2" pattern="[0-9]*" style="padding-right: 28px !important; margin-right: 30px !important">
@@ -50,9 +50,9 @@
           </div>
         </div>
 
-        <div id="cvv-help" class="text-center bubble bubble-cvv">
+        <div id="cvd-help" class="text-center bubble bubble-cvd">
           <div class="text-left">{% t The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card. %}</div>
-          <img src="{{ images.cvv_help.png }}">
+          <img src="{{ images.cvd_help.png }}">
         </div>
 
         {% if config.enable_3d_card_field %}

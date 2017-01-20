@@ -129,7 +129,7 @@ button[type="submit"] {
   padding-right: 4px;
 }
 
-#active-form #cvv-help img {
+#active-form #cvd-help img {
   width: 100%;
   padding: 20px;
 }
@@ -236,8 +236,8 @@ i.clickable {
     border-bottom-color: #acbdc7;
 }
 
-.bubble.bubble-cvv:before,
-.bubble.bubble-cvv:after {
+.bubble.bubble-cvd:before,
+.bubble.bubble-cvd:after {
   right: 20%;
 }
 
