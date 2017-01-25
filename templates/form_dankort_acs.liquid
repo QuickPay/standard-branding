@@ -3,5 +3,34 @@
   <p class="help">
     {% t When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt. %}
   </p>
-  {% include 'authentication_form_dankort_acs' %}
+
+  <form
+    action="{{ model.url }}"
+    method="post"
+    target="_top"
+    class="autosubmit"
+    >
+
+    <input type="hidden" name="MerchantContinueURL" value="{{ model.params['MerchantContinueURL'] }}" />
+    <input type="hidden" name="MerchantDeclineURL" value="{{ model.params['MerchantDeclineURL'] }}" />
+    <input type="hidden" name="MerchantTitle" value="{{ model.params['MerchantTitle'] }}" />
+    <input type="hidden" name="OrderNo" value="{{ model.params['OrderNo'] }}" />
+    <input type="hidden" name="MerchantAccount" value="{{ model.params['MerchantAccount'] }}" />
+    <input type="hidden" name="AmountTrn" value="{{ model.params['AmountTrn'] }}" />
+    <input type="hidden" name="CurrencyTrn" value="{{ model.params['CurrencyTrn'] }}" />
+    <input type="hidden" name="MerchantCountry" value="{{ model.params['MerchantCountry'] }}" />
+    <input type="hidden" name="MerchantGmtoffset" value="{{ model.params['MerchantGmtoffset'] }}" />
+    <input type="hidden" name="MerchantUrl" value="{{ model.params['MerchantUrl'] }}" />
+    <input type="hidden" name="PAN" value="{{ model.params['PAN'] }}" />
+    <input type="hidden" name="BIN" value="{{ model.params['BIN'] }}" />
+    <input type="hidden" name="Last4" value="{{ model.params['Last4'] }}" />
+    <input type="hidden" name="PurchaseDate" value="{{ model.params['PurchaseDate'] }}" />
+    <input type="hidden" name="PurchaseAmount" value="{{ model.params['PurchaseAmount'] }}" />
+    <input type="hidden" name="PurchaseExponent" value="{{ model.params['PurchaseExponent'] }}" />
+    <input type="hidden" name="PurchaseDescription" value="{{ model.params['PurchaseDescription'] }}" />
+    <input type="hidden" name="ExtID" value="{{ model.params['ExtID'] }}" />
+    <input type="hidden" name="ForcedAuth" value="{{ model.params['ForcedAuth'] }}" />
+
+    <button type="submit" class="btn btn-info">{% t Proceed %}</button>
+  </form>
 </div>
