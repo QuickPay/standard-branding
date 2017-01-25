@@ -91,3 +91,8 @@ POT
     potfile << "msgstr \"\"\n"
   end
 end
+
+Dir.glob("locales/**/*.po").each do |file|
+  print file
+  `msgmerge --update --no-wrap #{file} locales/branding.pot`
+end
