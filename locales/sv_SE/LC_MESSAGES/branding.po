@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-01-20 13:11+0000\n"
 "Last-Translator: Karl-Oskar <info@xeronic.se>\n"
-"Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding-v2xx/sv/>\n"
+"Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/sv/>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +43,8 @@ msgid "Continue to the shop"
 msgstr "Fortsätt till butiken"
 
 #: templates/error.liquid:12
-msgid "An error happened, please try again"
+#, fuzzy
+msgid "An unknown error happened. Please try again"
 msgstr "Ett fel har inträffat, var god försök igen"
 
 #: templates/error.liquid:14
@@ -57,15 +57,11 @@ msgstr "Autentiseringen av 3D Secure misslyckades. Var god görsök igen."
 
 #: templates/error.liquid:18
 msgid "3D Secure authorization failed. Please try again or select another payment method."
-msgstr ""
-"Autentiseringen för 3D Secure misslyckades. Var god försök igen eller välj "
-"en annan betalningsmetod."
+msgstr "Autentiseringen för 3D Secure misslyckades. Var god försök igen eller välj en annan betalningsmetod."
 
 #: templates/error.liquid:20
 msgid "3D Secure enrollment failed. Please try again or select another payment option."
-msgstr ""
-"Inskrivningn av 3D Secure misslyckades. Var god försök igen eller välj ett "
-"annat betalningsalternativ."
+msgstr "Inskrivningn av 3D Secure misslyckades. Var god försök igen eller välj ett annat betalningsalternativ."
 
 #: templates/error.liquid:22
 msgid "The payment details have changed since you initiated the payment."
@@ -96,20 +92,21 @@ msgid "Expiration date"
 msgstr "Utgångsdatum"
 
 #: templates/form/card.liquid:54
-msgid "The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
-"Verifikationsnumret ökar säkerheten för dig som kund. Vanligtvis är detta "
-"ett nummer som består av tre siffror, vilka återfinns på kortets baksida."
+#, fuzzy
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgstr "Verifikationsnumret ökar säkerheten för dig som kund. Vanligtvis är detta ett nummer som består av tre siffror, vilka återfinns på kortets baksida."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
 msgstr "Aktivera 3D Secure"
 
+#: templates/form/card.liquid:68
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr ""
+
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr ""
-"Din kortutgivare kan ha som krav att du använder 3D Secure som en extra "
-"säkerhetsåtgärd."
+msgstr "Din kortutgivare kan ha som krav att du använder 3D Secure som en extra säkerhetsåtgärd."
 
 #: templates/form/card.liquid:75
 msgid "Pay"
@@ -175,74 +172,52 @@ msgstr "Österrike"
 msgid "Social security number"
 msgstr "Personnummer"
 
-#: templates/form/klarna.liquid:55
+#: templates/form/klarna.liquid:55 templates/form_dankort_acs.liquid:34
 msgid "Proceed"
 msgstr "Fortsätt"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"När du klickar på knappen nedan, kommer fönstret för mobila betalningar att "
-"öppnas."
+msgstr "När du klickar på knappen nedan, kommer fönstret för mobila betalningar att öppnas."
 
-#: templates/form/mobilepay.liquid:14
-#: templates/form/paypal.liquid:12
-#: templates/form/sofort.liquid:10
-#: templates/form/viabill.liquid:26
+#: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
+#: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
 msgid "When finished, you will be redirected back to your receipt."
-msgstr ""
-"När du genomfört detta steg, kommer du att dirigeras tillbaka till ditt "
-"kvitto."
+msgstr "När du genomfört detta steg, kommer du att dirigeras tillbaka till ditt kvitto."
 
-#: templates/form/mobilepay.liquid:15
-#: templates/form/paypal.liquid:13
-#: templates/form/sofort.liquid:11
-#: templates/form/swipp.liquid:9
+#: templates/form/mobilepay.liquid:15 templates/form/paypal.liquid:13
+#: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/viabill.liquid:27
 msgid "Proceed to payment"
 msgstr "Fortsätt till betalning"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr ""
-"När du klickar på knappen nedan, kommer betalningsfönstret för PayPal att "
-"öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för PayPal att öppnas."
 
 #: templates/form/sofort.liquid:9
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr ""
-"När du klickar på knappen nedan, kommer betalningsfönstret för Sofort att "
-"öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Sofort att öppnas."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"När du klickar på knappen nedan, kommer betalningsfönstret för Swipp att "
-"öppnas. När du genomfört betalningen kommer du att dirigeras tillbaka till "
-"ditt kvitto."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Swipp att öppnas. När du genomfört betalningen kommer du att dirigeras tillbaka till ditt kvitto."
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr ""
-"När du klickar på knappen nedan, kommer betalningsfönstret för ViaBill att "
-"öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för ViaBill att öppnas."
 
-#: templates/form.liquid:16
 #: templates/form.liquid:16
 msgid "Cards"
 msgstr "Kort"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"När du klickar på knappen nedan, kommer betalningsfönstret för Dankort att "
-"öppnas. När du genomfört betalningen kommer du att dirigeras tillbaka till "
-"ditt kvitto."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Dankort att öppnas. När du genomfört betalningen kommer du att dirigeras tillbaka till ditt kvitto."
 
 #: templates/layout.liquid:26
 msgid "Are you about to abort the payment. Are you sure?"
-msgstr ""
-"Du är på väg att avbryta ditt köp. Är du säker på att du vill fortsätta?"
+msgstr "Du är på väg att avbryta ditt köp. Är du säker på att du vill fortsätta?"
 
 #: templates/layout.liquid:26
 msgid "Cancel Payment"
@@ -280,8 +255,7 @@ msgstr "Ordersumma"
 msgid "Payment fee"
 msgstr "Betalningsavgift"
 
-#: templates/order_info.liquid:35
-#: templates/order_info.liquid:39
+#: templates/order_info.liquid:35 templates/order_info.liquid:39
 msgid "Fill in form"
 msgstr "Fyll i formulär"
 
@@ -298,7 +272,8 @@ msgid "Please wait..."
 msgstr "Var god vänta..."
 
 #: templates/waiting.liquid:8
-msgid "The process may take up to 5 minuttes."
+#, fuzzy
+msgid "The process may take up to 5 minutes."
 msgstr "Processen kan dröja upp till 5 minuter."
 
 #: templates/waiting.liquid:8

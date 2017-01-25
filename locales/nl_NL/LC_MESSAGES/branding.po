@@ -43,7 +43,7 @@ msgid "Continue to the shop"
 msgstr ""
 
 #: templates/error.liquid:12
-msgid "An error happened, please try again"
+msgid "An unknown error happened. Please try again"
 msgstr ""
 
 #: templates/error.liquid:14
@@ -91,11 +91,15 @@ msgid "Expiration date"
 msgstr ""
 
 #: templates/form/card.liquid:54
-msgid "The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr ""
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
+msgstr ""
+
+#: templates/form/card.liquid:68
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr ""
 
 #: templates/form/card.liquid:69
@@ -166,7 +170,7 @@ msgstr ""
 msgid "Social security number"
 msgstr ""
 
-#: templates/form/klarna.liquid:55
+#: templates/form/klarna.liquid:55 templates/form_dankort_acs.liquid:34
 msgid "Proceed"
 msgstr ""
 
@@ -174,17 +178,13 @@ msgstr ""
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr ""
 
-#: templates/form/mobilepay.liquid:14
-#: templates/form/paypal.liquid:12
-#: templates/form/sofort.liquid:10
-#: templates/form/viabill.liquid:26
+#: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
+#: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
 msgid "When finished, you will be redirected back to your receipt."
 msgstr ""
 
-#: templates/form/mobilepay.liquid:15
-#: templates/form/paypal.liquid:13
-#: templates/form/sofort.liquid:11
-#: templates/form/swipp.liquid:9
+#: templates/form/mobilepay.liquid:15 templates/form/paypal.liquid:13
+#: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/viabill.liquid:27
 msgid "Proceed to payment"
 msgstr ""
@@ -205,7 +205,6 @@ msgstr ""
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr ""
 
-#: templates/form.liquid:16
 #: templates/form.liquid:16
 msgid "Cards"
 msgstr ""
@@ -254,8 +253,7 @@ msgstr ""
 msgid "Payment fee"
 msgstr ""
 
-#: templates/order_info.liquid:35
-#: templates/order_info.liquid:39
+#: templates/order_info.liquid:35 templates/order_info.liquid:39
 msgid "Fill in form"
 msgstr ""
 
@@ -272,7 +270,7 @@ msgid "Please wait..."
 msgstr ""
 
 #: templates/waiting.liquid:8
-msgid "The process may take up to 5 minuttes."
+msgid "The process may take up to 5 minutes."
 msgstr ""
 
 #: templates/waiting.liquid:8

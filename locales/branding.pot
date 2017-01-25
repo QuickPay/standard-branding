@@ -98,6 +98,10 @@ msgstr ""
 msgid "Enable 3D Secure"
 msgstr ""
 
+#: templates/form/card.liquid:68
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr ""
+
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr ""
@@ -167,6 +171,7 @@ msgid "Social security number"
 msgstr ""
 
 #: templates/form/klarna.liquid:55
+#: templates/form_dankort_acs.liquid:34
 msgid "Proceed"
 msgstr ""
 

@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-01-20 08:54+0000\n"
 "Last-Translator: Thomas <tholst@hopto.de>\n"
-"Language-Team: German <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding-v2xx/de/>\n"
+"Language-Team: German <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +43,8 @@ msgid "Continue to the shop"
 msgstr "Weiter zum Shop"
 
 #: templates/error.liquid:12
-msgid "An error happened, please try again"
+#, fuzzy
+msgid "An unknown error happened. Please try again"
 msgstr "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut"
 
 #: templates/error.liquid:14
@@ -57,15 +57,11 @@ msgstr "3D Secure-Berechtigung fehlgeschlagen. Bitte versuche es erneut."
 
 #: templates/error.liquid:18
 msgid "3D Secure authorization failed. Please try again or select another payment method."
-msgstr ""
-"3D Secure-Berechtigung fehlgeschlagen. Bitte versuchen Sie es erneut oder "
-"wählen Sie eine andere Zahlungsmethode."
+msgstr "3D Secure-Berechtigung fehlgeschlagen. Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsmethode."
 
 #: templates/error.liquid:20
 msgid "3D Secure enrollment failed. Please try again or select another payment option."
-msgstr ""
-"3D Secure-Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut oder "
-"wählen Sie eine andere Zahlungsoption."
+msgstr "3D Secure-Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsoption."
 
 #: templates/error.liquid:22
 msgid "The payment details have changed since you initiated the payment."
@@ -96,21 +92,21 @@ msgid "Expiration date"
 msgstr "Ablaufdatum"
 
 #: templates/form/card.liquid:54
-msgid "The card verification data increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
-"Die Kartenprüfdaten erhöhen das Sicherheitsniveau. Normalerweise sind die "
-"Kartenprüfdaten eine dreistellige Zahl, die auf der Rückseite der Karte "
-"platziert ist."
+#, fuzzy
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgstr "Die Kartenprüfdaten erhöhen das Sicherheitsniveau. Normalerweise sind die Kartenprüfdaten eine dreistellige Zahl, die auf der Rückseite der Karte platziert ist."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
 msgstr "3D-Secure aktivieren"
 
+#: templates/form/card.liquid:68
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr ""
+
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr ""
-"Ihre Kreditkartenunternehmen kann verlangen, dass Sie 3D Secure als "
-"zusätzliche Vorsichtsmaßnahme verwenden."
+msgstr "Ihre Kreditkartenunternehmen kann verlangen, dass Sie 3D Secure als zusätzliche Vorsichtsmaßnahme verwenden."
 
 #: templates/form/card.liquid:75
 msgid "Pay"
@@ -122,15 +118,11 @@ msgstr "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr ""
-"Sie haben versucht, eine reale Zahlung auf einer Testtransaktion "
-"durchzuführen."
+msgstr "Sie haben versucht, eine reale Zahlung auf einer Testtransaktion durchzuführen."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr ""
-"Sie haben versucht, eine Testzahlung auf einer realen Transaktion "
-"durchzuführen."
+msgstr "Sie haben versucht, eine Testzahlung auf einer realen Transaktion durchzuführen."
 
 #: templates/form/klarna.liquid:13
 msgid "Gender"
@@ -180,66 +172,48 @@ msgstr "Österreich"
 msgid "Social security number"
 msgstr "Sozialversicherungsnummer"
 
-#: templates/form/klarna.liquid:55
+#: templates/form/klarna.liquid:55 templates/form_dankort_acs.liquid:34
 msgid "Proceed"
 msgstr "fortfahren"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"Wenn Sie auf die Schaltfläche unten klicken, wird das MobilePay-"
-"Zahlungsfenster geöffnet."
+msgstr "Wenn Sie auf die Schaltfläche unten klicken, wird das MobilePay-Zahlungsfenster geöffnet."
 
-#: templates/form/mobilepay.liquid:14
-#: templates/form/paypal.liquid:12
-#: templates/form/sofort.liquid:10
-#: templates/form/viabill.liquid:26
+#: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
+#: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
 
-#: templates/form/mobilepay.liquid:15
-#: templates/form/paypal.liquid:13
-#: templates/form/sofort.liquid:11
-#: templates/form/swipp.liquid:9
+#: templates/form/mobilepay.liquid:15 templates/form/paypal.liquid:13
+#: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/viabill.liquid:27
 msgid "Proceed to payment"
 msgstr "Weiter zur Zahlung"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr ""
-"Wenn Sie unten auf die Schaltfläche klicken, wird das PayPal-Zahlungsfenster "
-"geöffnet."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das PayPal-Zahlungsfenster geöffnet."
 
 #: templates/form/sofort.liquid:9
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr ""
-"Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Sofort-"
-"Zahlungsfenster."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Sofort-Zahlungsfenster."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Wenn Sie unten auf die Schaltfläche klicken, wird das Swipp-Zahlungsfenster "
-"geöffnet. Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Swipp-Zahlungsfenster geöffnet. Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr ""
-"Wenn Sie unten auf die Schaltfläche klicken, wird das Zahlungsfenster von "
-"ViaBill geöffnet."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Zahlungsfenster von ViaBill geöffnet."
 
-#: templates/form.liquid:16
 #: templates/form.liquid:16
 msgid "Cards"
 msgstr "Karten"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Wenn Sie unten auf die Schaltfläche klicken, wird das Dankort-"
-"Zahlungsfenster geöffnet. Wenn Sie fertig sind, werden Sie zurück zu Ihrem "
-"Beleg umgeleitet."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Dankort-Zahlungsfenster geöffnet. Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
 
 #: templates/layout.liquid:26
 msgid "Are you about to abort the payment. Are you sure?"
@@ -281,8 +255,7 @@ msgstr "Bestellbetrag"
 msgid "Payment fee"
 msgstr "Zahlungsgebühren"
 
-#: templates/order_info.liquid:35
-#: templates/order_info.liquid:39
+#: templates/order_info.liquid:35 templates/order_info.liquid:39
 msgid "Fill in form"
 msgstr "Füllen Sie bitte das Formular aus"
 
@@ -299,7 +272,8 @@ msgid "Please wait..."
 msgstr "Bitte warten..."
 
 #: templates/waiting.liquid:8
-msgid "The process may take up to 5 minuttes."
+#, fuzzy
+msgid "The process may take up to 5 minutes."
 msgstr "Der Vorgang kann bis zu 5 Minuten dauern."
 
 #: templates/waiting.liquid:8
