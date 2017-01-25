@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-12-21 11:34+0000\n"
+"PO-Revision-Date: 2017-01-25 12:11+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/da/>\n"
+"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding-v2xx/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,9 +44,8 @@ msgid "Continue to the shop"
 msgstr "Fortsæt til butikken"
 
 #: templates/error.liquid:12
-#, fuzzy
 msgid "An unknown error happened. Please try again"
-msgstr "Der skete en fejl, prøv venligst igen"
+msgstr "Der skete en fejl. Prøv venligst igen"
 
 #: templates/error.liquid:14
 msgid "Unable to complete payment"
@@ -92,9 +92,10 @@ msgid "Expiration date"
 msgstr "Udløbsdato"
 
 #: templates/form/card.liquid:54
-#, fuzzy
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr "Kontrolcifrene (CVC/CVD-koden) på kortet er med til højne sikkerheden ved online-betalinger. Koden findes normalt på bagsiden af kortet og består af tre cifre."
+msgstr ""
+"CVV/CVD (kontrolcifre) på kortet er med til højne sikkerheden ved. Koden "
+"findes normalt på bagsiden af kortet og består af tre cifre."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
@@ -103,6 +104,8 @@ msgstr "Aktiver 3D Secure"
 #: templates/form/card.liquid:68
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr ""
+"3D Secure er en to-trins godkendelse ved hjælp af en tekstbesked til din "
+"telefon."
 
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
@@ -272,7 +275,6 @@ msgid "Please wait..."
 msgstr "Vent venligst..."
 
 #: templates/waiting.liquid:8
-#, fuzzy
 msgid "The process may take up to 5 minutes."
 msgstr "Processen kan tage op til 5 minutter."
 
