@@ -1,5 +1,5 @@
 <div class="container">
-  <form class="form-horizontal" autocomplete="off" action="{{ model.form_action }}" method="post">
+  <form class="form-horizontal" autocomplete="on" action="{{ model.form_action }}" method="post">
     <input type="hidden" name="session_id" value="{{ model.session_id }}" />
     <div class="row">
       <div class="form-card-brands col-sm-4 col-sm-push-8 col-xs-12 text-center-xs">
@@ -12,8 +12,8 @@
         {% if config.enable_card_holder_field %}
           <div class="form-group">
             <div class="col-xs-12">
-              <label for="issued_to" class="control-label">{% t Name on card %}</label>
-              <input type="text" id="issued_to" name="issued_to" class="form-control" autocomplete="on" autofocus="autofocus">
+              <label for="cardholder" class="control-label">{% t Name on card %}</label>
+              <input type="text" id="cardholder" name="cardholder" class="form-control" autocomplete="cc-name" autofocus="autofocus">
             </div>
           </div>
         {% endif %}
@@ -21,7 +21,7 @@
         <div class="form-group has-feedback">
           <div class="col-xs-12">
             <label for="cardnumber" class="control-label">{% t Card number %}</label>
-            <input type="tel" id="cardnumber" name="cardnumber" class="form-control" autocomplete="on" autofocus="autofocus" aria-describedby="cardnumberSuccess" pattern="[0-9]*" data-mask="#" inputmode="numeric">
+            <input type="text" id="cardnumber" name="cardnumber" class="form-control" autocomplete="cc-number" autofocus="autofocus" aria-describedby="cardnumberSuccess" pattern="[0-9]*" data-mask="#" inputmode="numeric">
             <span id="cardnumber-check" class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
             <span id="cardnumber-sr" class="sr-only">(success)</span>
           </div>
@@ -32,19 +32,19 @@
           <div class="col-xs-6"><label for="cvd" id="cvd-label" class="control-label">CVV/CVD</label> <i id="cvd-help-toggle" class="fa fa-fw fa-question-circle clickable" data-toggle="#cvd-help"></i></div>
 
           <div class="col-xs-3" style="padding-right: 2px;">
-            <input type="tel" id="expiration-month" name="expiration[month]" class="form-control" aria-describedby="expiration-month-sr" placeholder="MM" maxlength="2" pattern="[0-9]*" data-mask="99" inputmode="numeric" style="padding-right: 28px !important; margin-right: 30px !important">
+            <input type="text" id="expiration-month" name="expiration[month]" class="form-control" autocomplete="cc-exp-month" aria-describedby="expiration-month-sr" placeholder="MM" maxlength="2" pattern="[0-9]*" data-mask="99" inputmode="numeric" style="padding-right: 28px !important; margin-right: 30px !important">
             <span id="expiration-month-check" class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="right: 2.5px; display:none;"></span>
             <span id="expiration-month-sr" class="sr-only">(success)</span>
           </div>
 
           <div class="col-xs-3" style="padding-left: 2px;">
-            <input type="tel" id="expiration-year" name="expiration[year]" class="form-control" aria-describedby="expiration-year-sr" placeholder="YY" maxlength="2" pattern="[0-9]*" data-mask="99" inputmode="numeric" style="padding-right: 28px !important">
+            <input type="text" id="expiration-year" name="expiration[year]" class="form-control" autocomplete="cc-exp-year" aria-describedby="expiration-year-sr" placeholder="YY" maxlength="2" pattern="[0-9]*" data-mask="99" inputmode="numeric" style="padding-right: 28px !important">
             <span id="expiration-year-check" class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
             <span id="expiration-year-sr" class="sr-only">(success)</span>
           </div>
 
           <div class="col-xs-6">
-            <input type="tel" id="cvd" name="cvd" class="form-control" aria-describedby="cvd" maxlength="4" pattern="[0-9]*" data-mask="9999" inputmode="numeric">
+            <input type="text" id="cvd" name="cvd" class="form-control" autocomplete="cc-csc" aria-describedby="cvd" maxlength="4" pattern="[0-9]*" data-mask="9999" inputmode="numeric">
             <span id="cvd-check" class="fa fa-fw fa-check form-control-feedback" aria-hidden="true" style="display: none"></span>
             <span id="cvd-sr" class="sr-only">(success)</span>
           </div>
