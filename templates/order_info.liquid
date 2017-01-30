@@ -1,44 +1,12 @@
 <div id="order-info">
-  <div id="order-details" class="">
+  <div id="order-details">
     <div class="order-details-item">
-      <strong>{% t Order number %}</strong> <i class="fa fa-fw fa-info-circle clickable" data-toggle="#order-full-details"></i> <span class="pull-right">{{ model.order_id }}</span>
+      <strong>{% t Order number %}</strong><span class="pull-right">{{ model.order_id }}</span>
     </div>
     {% if model.deadline? %}
       <div class="order-details-item">
-        <strong>{% t Expires in %}</strong> <span id="time_left" class="pull-right">{{ model.time_left }}</span>
+        <strong>{% t Expires in %}</strong><span id="time_left" class="pull-right">{{ model.time_left }}</span>
       </div>
     {% endif %}
-    <div id="order-full-details" style="display: none">
-      <div class="order-details-item">
-        <strong>{% t Payment type %}</strong>
-        <span class="pull-right">
-          {% if model.transaction_type == "payment" %}
-            {% t Payment %}
-          {% elsif model.transaction_type == "subscription" %}
-            {% t Subscription %}
-          {% elsif model.transaction_type == "card" %}
-            {% t Card on file %}
-          {% endif %}
-        </span>
-      </div>
-      {% if model.calculate_fee %}
-        <div class="divider"></div>
-      {% endif %}
-      {% if model.transaction_type != "subscription" %}
-        <div class="order-details-item">
-          <strong>{% t Order amount %}</strong> <span id="amountField" class="pull-right">{{ model.currency }} {{ model.formatted_amount }}</span>
-        </div>
-      {% endif %}
-
-      {% if model.calculate_fee %}
-        <div class="order-details-item">
-          <strong>{% t Payment fee %}</strong>: <span id="feeField" class="pull-right">{% t Fill in form %}</span>
-        </div>
-        <hr>
-        <div class="order-details-item">
-          </i> <strong>{% t Total %}</strong>: <span id="totalField" class="pull-right">{% t Fill in form %}</span>
-        </div>
-      {% endif %}
-    </div>
   </div>
 </div>

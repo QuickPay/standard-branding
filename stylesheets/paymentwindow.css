@@ -62,7 +62,11 @@ button[type="submit"] {
   padding: 20px 0;
 }
 
-#header h1 {
+#header h1#merchant-name {
+  padding-bottom:10px;
+}
+#header img#merchant-logo {
+  max-width: 100%;
   padding-bottom:10px;
 }
 
@@ -88,21 +92,6 @@ button[type="submit"] {
 
 #order-info #order-details {
   padding: 8px 0;
-}
-#order-info #order-details .order-details-item:hover,
-#order-info #order-details .order-details-item:focus {
-  border-radius: 3px;
-  background: #f5f5f5;
-}
-
-#order-info #order-details .divider {
-  padding: 4px 0;
-}
-
-#order-info #order-details hr {
-  margin: 2px 0;
-  padding: 0;
-  border-color: #28303A;
 }
 
 #active-form .form-card-brands {
@@ -132,6 +121,13 @@ button[type="submit"] {
 #active-form #cvd-help img {
   width: 100%;
   padding: 20px;
+}
+
+#active-form #fee {
+  margin: 10px 0 0 0;
+  padding: 0;
+  color: #888;
+  font-size: 12px;
 }
 
 #alternative-payment-methods {

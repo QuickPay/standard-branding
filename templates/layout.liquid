@@ -1,11 +1,11 @@
 <div id="header">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 text-center-xs">
         {% if model.logo_url %}
-          <img src="{{ model.logo_url }}" alt="{{ model.displayname }}">
+          <img id="merchant-logo" class="" src="{{ model.logo_url }}" alt="{{ model.displayname }}">
         {% else %}
-          <h1 class="text-center-xs">{{ model.displayname }}</h1>
+          <h1 id="merchant-name" class="text-center-xs">{{ model.displayname }}</h1>
         {% endif %}
       </div>
     </div>
