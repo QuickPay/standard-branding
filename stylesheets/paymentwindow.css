@@ -59,15 +59,16 @@ button[type="submit"] {
 
 
 #header {
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 #header h1#merchant-name {
-  padding-bottom:10px;
+  padding: 0;
+  margin: 0 0 0px 0;
 }
 #header img#merchant-logo {
   max-width: 100%;
-  padding-bottom:10px;
+  margin-bottom: 20px;
 }
 
 .btn-cancel {
@@ -86,12 +87,13 @@ button[type="submit"] {
  *
  */
 
-#order-info {
-  padding-bottom: 0px;
+#order-info .item {
+  display: inline-block;
 }
 
-#order-info #order-details {
-  padding: 8px 0;
+#order-info .item .subscript {
+  font-size: 12px;
+  color: #999;
 }
 
 #active-form .form-card-brands {
