@@ -81,7 +81,7 @@
                 {% t Save card %}
               {% endif %}
             {% endcapture %}
-            <button type="submit" class="btn btn-info">{{ button_text }}</button>
+            <button type="submit" class="btn btn-info" data-card-valid-swap="btn-success,btn-info">{{ button_text }}</button>
             {% if model.calculate_fee %}
               <p id="fee" class="text-center">
                 Payment fee: <span id="fee-field"><i>Fill in card number</i></span>
