@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-01-25 12:11+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding-v2xx/da/>\n"
+"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -93,9 +92,7 @@ msgstr "Udløbsdato"
 
 #: templates/form/card.liquid:54
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
-"CVV/CVD (kontrolcifre) på kortet er med til højne sikkerheden ved. Koden "
-"findes normalt på bagsiden af kortet og består af tre cifre."
+msgstr "CVV/CVD (kontrolcifre) på kortet er med til højne sikkerheden ved. Koden findes normalt på bagsiden af kortet og består af tre cifre."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
@@ -103,17 +100,34 @@ msgstr "Aktiver 3D Secure"
 
 #: templates/form/card.liquid:68
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
-msgstr ""
-"3D Secure er en to-trins godkendelse ved hjælp af en tekstbesked til din "
-"telefon."
+msgstr "3D Secure er en to-trins godkendelse ved hjælp af en tekstbesked til din telefon."
 
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr "Din kortudsteder kan som en ekstra sikkerhed kræve, at du bruger 3D Secure."
 
-#: templates/form/card.liquid:75
+#: templates/form/card.liquid:77
 msgid "Pay"
 msgstr "Betal"
+
+#: templates/form/card.liquid:79
+#, fuzzy
+msgid "Create subscription"
+msgstr "Abonnement"
+
+#: templates/form/card.liquid:81
+#, fuzzy
+msgid "Save card"
+msgstr "Navn på kortet"
+
+#: templates/form/card.liquid:87
+msgid "Payment fee"
+msgstr "Gebyr"
+
+#: templates/form/card.liquid:87
+#, fuzzy
+msgid "Fill in card number"
+msgstr "Kortnummer"
 
 #: templates/form/error.liquid:14
 msgid "An error happened, please try again."
@@ -218,11 +232,11 @@ msgstr "Kort"
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr "Dankort betalingsvinduet åbner, når du klikker på knappen herunder. Når betaligen er gennemført, kommer du retur til din kvittering."
 
-#: templates/layout.liquid:26
+#: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
 msgstr "Er du sikker på du vil annullere din betaling?"
 
-#: templates/layout.liquid:26
+#: templates/layout.liquid:22
 msgid "Cancel Payment"
 msgstr "Annuller betaling"
 
@@ -230,41 +244,10 @@ msgstr "Annuller betaling"
 msgid "Order number"
 msgstr "Ordrenummer"
 
-#: templates/order_info.liquid:8
-msgid "Expires in"
+#: templates/order_info.liquid:6
+#, fuzzy
+msgid "expires in"
 msgstr "Udløber om"
-
-#: templates/order_info.liquid:13
-msgid "Payment type"
-msgstr "Betalingsmetode"
-
-#: templates/order_info.liquid:16
-msgid "Payment"
-msgstr "Betaling"
-
-#: templates/order_info.liquid:18
-msgid "Subscription"
-msgstr "Abonnement"
-
-#: templates/order_info.liquid:20
-msgid "Card on file"
-msgstr "Gemt kort"
-
-#: templates/order_info.liquid:29
-msgid "Order amount"
-msgstr "Ordrebeløb"
-
-#: templates/order_info.liquid:35
-msgid "Payment fee"
-msgstr "Gebyr"
-
-#: templates/order_info.liquid:35 templates/order_info.liquid:39
-msgid "Fill in form"
-msgstr "Udfyld formularen"
-
-#: templates/order_info.liquid:39
-msgid "Total"
-msgstr "Total"
 
 #: templates/success.liquid:5
 msgid "You have completed the payment"
@@ -281,3 +264,21 @@ msgstr "Processen kan tage op til 5 minutter."
 #: templates/waiting.liquid:8
 msgid "Click here if processing takes a long time"
 msgstr "Klik her hvis processen tager for lang tid"
+
+#~ msgid "Payment type"
+#~ msgstr "Betalingsmetode"
+
+#~ msgid "Payment"
+#~ msgstr "Betaling"
+
+#~ msgid "Card on file"
+#~ msgstr "Gemt kort"
+
+#~ msgid "Order amount"
+#~ msgstr "Ordrebeløb"
+
+#~ msgid "Fill in form"
+#~ msgstr "Udfyld formularen"
+
+#~ msgid "Total"
+#~ msgstr "Total"

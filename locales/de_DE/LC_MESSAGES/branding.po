@@ -108,9 +108,28 @@ msgstr ""
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr "Ihre Kreditkartenunternehmen kann verlangen, dass Sie 3D Secure als zusätzliche Vorsichtsmaßnahme verwenden."
 
-#: templates/form/card.liquid:75
+#: templates/form/card.liquid:77
 msgid "Pay"
 msgstr "Bezahlen"
+
+#: templates/form/card.liquid:79
+#, fuzzy
+msgid "Create subscription"
+msgstr "Abonnement"
+
+#: templates/form/card.liquid:81
+#, fuzzy
+msgid "Save card"
+msgstr "Name auf der Karte"
+
+#: templates/form/card.liquid:87
+msgid "Payment fee"
+msgstr "Zahlungsgebühren"
+
+#: templates/form/card.liquid:87
+#, fuzzy
+msgid "Fill in card number"
+msgstr "Kartennummer"
 
 #: templates/form/error.liquid:14
 msgid "An error happened, please try again."
@@ -215,11 +234,11 @@ msgstr "Karten"
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Dankort-Zahlungsfenster geöffnet. Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
 
-#: templates/layout.liquid:26
+#: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
 msgstr "Sind Sie dabei, die Zahlung abzubrechen? Sind Sie sicher?"
 
-#: templates/layout.liquid:26
+#: templates/layout.liquid:22
 msgid "Cancel Payment"
 msgstr "Zahlung stornieren"
 
@@ -227,41 +246,10 @@ msgstr "Zahlung stornieren"
 msgid "Order number"
 msgstr "Bestellnummer"
 
-#: templates/order_info.liquid:8
-msgid "Expires in"
+#: templates/order_info.liquid:6
+#, fuzzy
+msgid "expires in"
 msgstr "läuft ab in"
-
-#: templates/order_info.liquid:13
-msgid "Payment type"
-msgstr "Zahlungsart"
-
-#: templates/order_info.liquid:16
-msgid "Payment"
-msgstr "Zahlung"
-
-#: templates/order_info.liquid:18
-msgid "Subscription"
-msgstr "Abonnement"
-
-#: templates/order_info.liquid:20
-msgid "Card on file"
-msgstr "bekannte Karte(n)"
-
-#: templates/order_info.liquid:29
-msgid "Order amount"
-msgstr "Bestellbetrag"
-
-#: templates/order_info.liquid:35
-msgid "Payment fee"
-msgstr "Zahlungsgebühren"
-
-#: templates/order_info.liquid:35 templates/order_info.liquid:39
-msgid "Fill in form"
-msgstr "Füllen Sie bitte das Formular aus"
-
-#: templates/order_info.liquid:39
-msgid "Total"
-msgstr "Total"
 
 #: templates/success.liquid:5
 msgid "You have completed the payment"
@@ -279,3 +267,21 @@ msgstr "Der Vorgang kann bis zu 5 Minuten dauern."
 #: templates/waiting.liquid:8
 msgid "Click here if processing takes a long time"
 msgstr "Klicken Sie hier, wenn die Verarbeitung lange dauert"
+
+#~ msgid "Payment type"
+#~ msgstr "Zahlungsart"
+
+#~ msgid "Payment"
+#~ msgstr "Zahlung"
+
+#~ msgid "Card on file"
+#~ msgstr "bekannte Karte(n)"
+
+#~ msgid "Order amount"
+#~ msgstr "Bestellbetrag"
+
+#~ msgid "Fill in form"
+#~ msgstr "Füllen Sie bitte das Formular aus"
+
+#~ msgid "Total"
+#~ msgstr "Total"

@@ -106,8 +106,24 @@ msgstr ""
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr ""
 
-#: templates/form/card.liquid:75
+#: templates/form/card.liquid:77
 msgid "Pay"
+msgstr ""
+
+#: templates/form/card.liquid:79
+msgid "Create subscription"
+msgstr ""
+
+#: templates/form/card.liquid:81
+msgid "Save card"
+msgstr ""
+
+#: templates/form/card.liquid:87
+msgid "Payment fee"
+msgstr ""
+
+#: templates/form/card.liquid:87
+msgid "Fill in card number"
 msgstr ""
 
 #: templates/form/error.liquid:14
@@ -219,11 +235,11 @@ msgstr ""
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
 
-#: templates/layout.liquid:26
+#: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
 msgstr ""
 
-#: templates/layout.liquid:26
+#: templates/layout.liquid:22
 msgid "Cancel Payment"
 msgstr ""
 
@@ -231,41 +247,8 @@ msgstr ""
 msgid "Order number"
 msgstr ""
 
-#: templates/order_info.liquid:8
-msgid "Expires in"
-msgstr ""
-
-#: templates/order_info.liquid:13
-msgid "Payment type"
-msgstr ""
-
-#: templates/order_info.liquid:16
-msgid "Payment"
-msgstr ""
-
-#: templates/order_info.liquid:18
-msgid "Subscription"
-msgstr ""
-
-#: templates/order_info.liquid:20
-msgid "Card on file"
-msgstr ""
-
-#: templates/order_info.liquid:29
-msgid "Order amount"
-msgstr ""
-
-#: templates/order_info.liquid:35
-msgid "Payment fee"
-msgstr ""
-
-#: templates/order_info.liquid:35
-#: templates/order_info.liquid:39
-msgid "Fill in form"
-msgstr ""
-
-#: templates/order_info.liquid:39
-msgid "Total"
+#: templates/order_info.liquid:6
+msgid "expires in"
 msgstr ""
 
 #: templates/success.liquid:5

@@ -108,9 +108,28 @@ msgstr ""
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr "Din kortutgivare kan ha som krav att du använder 3D Secure som en extra säkerhetsåtgärd."
 
-#: templates/form/card.liquid:75
+#: templates/form/card.liquid:77
 msgid "Pay"
 msgstr "Betala"
+
+#: templates/form/card.liquid:79
+#, fuzzy
+msgid "Create subscription"
+msgstr "Prenumeration"
+
+#: templates/form/card.liquid:81
+#, fuzzy
+msgid "Save card"
+msgstr "Kortinnehavarens namn"
+
+#: templates/form/card.liquid:87
+msgid "Payment fee"
+msgstr "Betalningsavgift"
+
+#: templates/form/card.liquid:87
+#, fuzzy
+msgid "Fill in card number"
+msgstr "Kortnummer"
 
 #: templates/form/error.liquid:14
 msgid "An error happened, please try again."
@@ -215,11 +234,11 @@ msgstr "Kort"
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Dankort att öppnas. När du genomfört betalningen kommer du att dirigeras tillbaka till ditt kvitto."
 
-#: templates/layout.liquid:26
+#: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
 msgstr "Du är på väg att avbryta ditt köp. Är du säker på att du vill fortsätta?"
 
-#: templates/layout.liquid:26
+#: templates/layout.liquid:22
 msgid "Cancel Payment"
 msgstr "Ångra betalning"
 
@@ -227,41 +246,10 @@ msgstr "Ångra betalning"
 msgid "Order number"
 msgstr "Ordernummer"
 
-#: templates/order_info.liquid:8
-msgid "Expires in"
+#: templates/order_info.liquid:6
+#, fuzzy
+msgid "expires in"
 msgstr "Utgår om"
-
-#: templates/order_info.liquid:13
-msgid "Payment type"
-msgstr "Betalningstyp"
-
-#: templates/order_info.liquid:16
-msgid "Payment"
-msgstr "Betalning"
-
-#: templates/order_info.liquid:18
-msgid "Subscription"
-msgstr "Prenumeration"
-
-#: templates/order_info.liquid:20
-msgid "Card on file"
-msgstr "Kort på fil"
-
-#: templates/order_info.liquid:29
-msgid "Order amount"
-msgstr "Ordersumma"
-
-#: templates/order_info.liquid:35
-msgid "Payment fee"
-msgstr "Betalningsavgift"
-
-#: templates/order_info.liquid:35 templates/order_info.liquid:39
-msgid "Fill in form"
-msgstr "Fyll i formulär"
-
-#: templates/order_info.liquid:39
-msgid "Total"
-msgstr "Summa"
 
 #: templates/success.liquid:5
 msgid "You have completed the payment"
@@ -279,3 +267,21 @@ msgstr "Processen kan dröja upp till 5 minuter."
 #: templates/waiting.liquid:8
 msgid "Click here if processing takes a long time"
 msgstr "Klicka här om processen tar lång tid"
+
+#~ msgid "Payment type"
+#~ msgstr "Betalningstyp"
+
+#~ msgid "Payment"
+#~ msgstr "Betalning"
+
+#~ msgid "Card on file"
+#~ msgstr "Kort på fil"
+
+#~ msgid "Order amount"
+#~ msgstr "Ordersumma"
+
+#~ msgid "Fill in form"
+#~ msgstr "Fyll i formulär"
+
+#~ msgid "Total"
+#~ msgstr "Summa"
