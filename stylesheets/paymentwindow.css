@@ -346,6 +346,12 @@ h3 img.icon {
   margin-right: 9px !important;
 }
 
+h4 img.icon {
+  height: 36px !important;
+  margin-left: 0 !important;
+  margin-right: 6px !important;
+}
+
 /*
  * Utility classes
  *
