@@ -19,7 +19,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12 col-xs-12">
-      <a class="btn btn-default btn-cancel" href="/{{ model.session_id }}/cancel-payment" data-confirm="{% t Are you about to abort the payment. Are you sure? %}"><i class="fa fa-fw fa-ban"></i>{% t Cancel Payment %}</a>
+      <a class="btn btn-default btn-cancel center-xy" href="/{{ model.session_id }}/cancel-payment" data-confirm="{% t Are you about to abort the payment. Are you sure? %}"><img class="icon icon-ban" src="{{ images.ban.svg }}" alt="Cancel">{% t Cancel Payment %}</a>
     </div>
   </div>
 </div>
@@ -31,7 +31,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12" style="text-align: center">
-            <button class="btn btn-default" data-hide="#gateway-info"><i class="fa fa-arrow-down"></i></button>
+            <button class="btn btn-default" data-hide="#gateway-info"><img class="icon" src="{{ images.arrow-down.svg }}" alt="Cancel"></button>
           </div>
         </div>
         <div class="row gateway-description">
@@ -52,7 +52,9 @@
           <img class="clickable" src="{{ images.quickpay_logo_inverse.png }}" data-toggle="#gateway-info" alt="About QuickPay">
         </div>
         <div class="col-xs-6 text-right">
-          <span class="clickable" data-toggle="#gateway-info"><i class="fa fa-fw fa-lock"></i> TLS encrypted</span>
+          <span class="center-y text-right">
+            <img class="icon clickable" src="{{ images.lock.svg }}" alt="About QuickPay" data-toggle="#gateway-info"> <span class="clickable" data-toggle="#gateway-info">Secure</span>
+          </span>
         </div>
       </div>
     </div>

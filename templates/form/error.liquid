@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <div class="well-sm well-xs error">
-          <i class="fa fa-fw fa-exclamation-triangle"></i>
+        <div class="well-sm well-xs error center-y">
+          <img style="height: 24px !important" class="icon" src="{{ images.frown-o.svg }}">
           {% if model.acquirer_error_message %}
             {{ model.acquirer_error_message }}
           {% endif %}

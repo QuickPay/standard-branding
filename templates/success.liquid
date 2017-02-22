@@ -1,8 +1,11 @@
-<div class="well-xs well-blueish-xs well-sm well-blueish-sm" data-session-id="{{ model.session_id }}">
+<div class="well-xs well-greyish-xs well-sm well-greyish-sm" data-session-id="{{ model.session_id }}">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h3 class="center-xy"><i class="fa fa-fw fa-3x fa-check-circle-o"></i> {% t You have completed the payment %}</h3>
+        <h3 class="center-y text-center-xs">
+          <img class="icon" src="{{ images.check-circle-o.svg }}">
+          {% t You have completed the payment %}
+        </h3>
       </div>
     </div>
   </div>
