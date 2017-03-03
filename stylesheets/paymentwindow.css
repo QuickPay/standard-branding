@@ -26,7 +26,7 @@ a{
 }
 
 /*mobile start*/
-.container{  
+.container{
   width: 100%;
 }
 
@@ -35,7 +35,7 @@ a{
   padding-top: 10px;
 }
 #order_details{
-  border-top: 1px solid #ccc; 
+  border-top: 1px solid #ccc;
 }
 #payment_details, #payment_methods {
   margin-bottom: 20px;
@@ -48,18 +48,18 @@ a{
 
 /*mobile end*/
 @media screen and (min-width:992px) {
-  .container{  
+  .container{
     width: 600px;
   }
   #content > div:first-of-type{
-    border-right: 1px solid #ccc; 
+    border-right: 1px solid #ccc;
   }
   #order_details{
     clear: none;
     border-top: none;
   }
   #payment_details, #payment_methods {
-    min-height: 300px; 
+    min-height: 300px;
     margin-bottom: 10px;
   }
 }
@@ -69,7 +69,7 @@ a{
   border-radius: 15px;
   -moz-border-radius: 15px;
   padding: 10px 10px 0px 10px;
-  background-color: #fff; 
+  background-color: #fff;
   box-shadow: 10px 10px 10px #888888;
   /*10px 10px 10px #888888*/
 }
@@ -94,7 +94,7 @@ a{
   margin-right: 0px;
 }
 #cancel{
-  text-align: right;  
+  text-align: right;
 }
 #cancel img{
   left: 10px;
@@ -114,7 +114,7 @@ a{
   padding: 5px 0px 5px 0px;
 }
 #security_information{
-  text-align: right;	
+  text-align: right;
 }
 #month, #year{
   width:25px;
@@ -142,9 +142,9 @@ a{
 /* cart selector*/
 #payment_methods li img{
   width: 45px;
-  height: 30px;
+  height: 22.5px;
   padding: 0px 0px 0px 0px;
-  margin: 1px 0px 1px 1px;
+  margin: 3.75px 0px 3.75px 1px;
 }
 #payment_methods li{
    float: left;
@@ -155,15 +155,15 @@ a{
 #payment_methods ul{
   padding: 0px;
 }
-#payment_methods a:hover{ 
+#payment_methods a:hover{
   background-color: #ccc;
   color: #000;
   text-decoration: none;
 }
-#payment_methods li:hover{ 
+#payment_methods li:hover{
   background-color: #ccc;
 }
-#payment_methods li:hover a{ 
+#payment_methods li:hover a{
   color: #000;
 }
 
@@ -192,7 +192,7 @@ a{
 }
 #order_details dt{
   width: 90px
-}  
+}
 #order_details dd{
   margin-left: 100px;
 }
@@ -202,7 +202,7 @@ a{
 /*waiting*/
 #waiting img {
   width:50px;
-  
+
 }
 #waiting{
   text-align:center;
