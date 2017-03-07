@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-07 20:00+0000\n"
-"Last-Translator: Jo <jo.vandekerckhove@dv-electro.be>\n"
+"PO-Revision-Date: 2017-03-10 09:24+0000\n"
+"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
 "Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/nl/>\n"
 "Language: nl_NL\n"
@@ -62,7 +62,7 @@ msgstr "3D beveiliging autorisatie is mislukt."
 
 #: templates/error.liquid:19
 msgid "Please try again or select another payment method."
-msgstr ""
+msgstr "3D Beveiliging autorisatie is mislukt."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
