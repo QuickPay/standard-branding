@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-01-20 08:54+0000\n"
+"PO-Revision-Date: 2017-03-07 18:08+0000\n"
 "Last-Translator: Thomas <tholst@hopto.de>\n"
-"Language-Team: German <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/de/>\n"
+"Language-Team: German <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding-v2xx/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,9 +44,8 @@ msgid "Continue to the shop"
 msgstr "Weiter zum Shop"
 
 #: templates/error.liquid:13
-#, fuzzy
 msgid "An unknown error happened. Please try again"
-msgstr "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut"
+msgstr "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es erneut"
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
@@ -92,9 +92,11 @@ msgid "Expiration date"
 msgstr "Ablaufdatum"
 
 #: templates/form/card.liquid:54
-#, fuzzy
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr "Die Kartenprüfdaten erhöhen das Sicherheitsniveau. Normalerweise sind die Kartenprüfdaten eine dreistellige Zahl, die auf der Rückseite der Karte platziert ist."
+msgstr ""
+"Die Kartenprüfdaten (CVV/CVD) erhöhen das Sicherheitsniveau. Normalerweise "
+"sind die Kartenprüfdaten eine dreistellige Zahl, die auf der Rückseite der "
+"Karte platziert ist."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
@@ -103,6 +105,8 @@ msgstr "3D-Secure aktivieren"
 #: templates/form/card.liquid:68
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr ""
+"3D Secure ist ein 2-stufiger Verifizierungsservice mit einer SMS-Nachricht "
+"an Ihr Telefon."
 
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
@@ -113,23 +117,20 @@ msgid "Pay"
 msgstr "Bezahlen"
 
 #: templates/form/card.liquid:79
-#, fuzzy
 msgid "Create subscription"
-msgstr "Abonnement"
+msgstr "Abonnement erstellen"
 
 #: templates/form/card.liquid:81
-#, fuzzy
 msgid "Save card"
-msgstr "Name auf der Karte"
+msgstr "Karte speichern"
 
 #: templates/form/card.liquid:87
 msgid "Payment fee"
 msgstr "Zahlungsgebühren"
 
 #: templates/form/card.liquid:87
-#, fuzzy
 msgid "Fill in card number"
-msgstr "Kartennummer"
+msgstr "Kartennummer eingeben"
 
 #: templates/form/error.liquid:14
 msgid "An error happened, please try again."
@@ -228,7 +229,7 @@ msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Zahlungsfenster v
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr ""
+msgstr "Andere Zahlungsmethoden"
 
 #: templates/form.liquid:16
 msgid "Cards"
@@ -251,7 +252,6 @@ msgid "Order number"
 msgstr "Bestellnummer"
 
 #: templates/order_info.liquid:6
-#, fuzzy
 msgid "expires in"
 msgstr "läuft ab in"
 
@@ -264,7 +264,6 @@ msgid "Please wait..."
 msgstr "Bitte warten..."
 
 #: templates/waiting.liquid:11
-#, fuzzy
 msgid "The process may take up to 5 minutes."
 msgstr "Der Vorgang kann bis zu 5 Minuten dauern."
 
