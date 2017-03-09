@@ -4,9 +4,7 @@ This repository contains the standard branding for the [QuickPay Payment Window]
 
 A branding is a collection of resources (templates, stylesheets, images etc.) which defines the UI. You can clone/copy this, adapt it to your liking and upload it to your merchant or reseller account at https://manage.quickpay.net.
 
-#### Template system
-
-The branding feature uses [Liquid](https://github.com/Shopify/liquid) as its templating system.
+**Note**: We use the [Liquid](https://github.com/Shopify/liquid) template engine.
 
 #### Limitations
 
@@ -29,7 +27,7 @@ The configuration can be access using a Liquid Drop `config` - example: `{% if c
 
 Translation is handled using the well known and battle tested [Gettext](https://www.gnu.org/software/gettext/) library which means that new languages and translations can easily be added.
 
-If you want to contribute the translation of this projects, please ask our [support team](mailto:support@quickpay.net) for an account with our [online translation tool](https://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/). The [translation files](https://github.com/QuickPay/standard-branding/tree/2.x.x/locales) can also be edited in any text-editor or using special editors like [Poedit](https://poedit.net).
+If you want to contribute to the translation of this project, please ask our [support team](mailto:support@quickpay.net) for an account with our [online translation tool](https://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/). The [translation files](https://github.com/QuickPay/standard-branding/tree/2.x.x/locales) can also be edited in any text-editor or using special editors like [Poedit](https://poedit.net).
 
 Translatable string are defined using the Liquid Tag `t` - example: `{% t To be translated %}`
 
