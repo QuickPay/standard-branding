@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 12:04+0000\n"
-"Last-Translator: Sølvi <solvi@runavik.fo>\n"
+"PO-Revision-Date: 2017-03-10 12:55+0000\n"
+"Last-Translator: Valbjørn <valbjorn@ole-jacobsen.com>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
 "Language: fo_FO\n"
@@ -74,15 +74,15 @@ msgstr ""
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
-msgstr "Trýst her fyri at byrja aftur."
+msgstr "Trýst her fyri at byrja umaftur."
 
 #: templates/error.liquid:36
 msgid "Try again"
-msgstr "Royn aftur"
+msgstr "Royn aftur."
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
-msgstr ""
+msgstr "3D Secure gjalding byrjar. Vinarliga bíða..."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
