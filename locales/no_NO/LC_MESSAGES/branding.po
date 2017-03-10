@@ -42,7 +42,7 @@ msgstr "Ordren er allerede betalt."
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
-msgstr "Fortsett til nettbutikken"
+msgstr "Gå videre til butikken"
 
 #: templates/error.liquid:13
 msgid "An unknown error happened."
