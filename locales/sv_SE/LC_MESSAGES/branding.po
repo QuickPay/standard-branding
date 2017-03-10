@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-01-20 13:11+0000\n"
-"Last-Translator: Karl-Oskar <info@xeronic.se>\n"
-"Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/sv/>\n"
+"PO-Revision-Date: 2017-03-10 09:20+0000\n"
+"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
+"Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding-v2xx/sv/>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,38 +44,33 @@ msgid "Continue to the shop"
 msgstr "Fortsätt till butiken"
 
 #: templates/error.liquid:13
-#, fuzzy
 msgid "An unknown error happened."
-msgstr "Ett fel har inträffat, var god försök igen"
+msgstr "Ett fel har inträffat."
 
 #: templates/error.liquid:13 templates/error.liquid:17
 #: templates/form/error.liquid:14
-#, fuzzy
 msgid "Please try again."
-msgstr "Var god vänta..."
+msgstr "Var god försök igen."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
 msgstr "Oförmögen att fullfölja betalningen"
 
 #: templates/error.liquid:17 templates/error.liquid:19
-#, fuzzy
 msgid "3D Secure authorization failed."
-msgstr "Autentiseringen av 3D Secure misslyckades. Var god görsök igen."
+msgstr "Autentiseringen av 3D Secure misslyckades."
 
 #: templates/error.liquid:19
-#, fuzzy
 msgid "Please try again or select another payment method."
-msgstr "Autentiseringen för 3D Secure misslyckades. Var god försök igen eller välj en annan betalningsmetod."
+msgstr "Var god försök igen eller välj en annan betalningsmetod."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr ""
+msgstr "Inskrivningn av 3D Secure misslyckades."
 
 #: templates/error.liquid:21
-#, fuzzy
 msgid "Please try again or select another payment option."
-msgstr "Inskrivningn av 3D Secure misslyckades. Var god försök igen eller välj ett annat betalningsalternativ."
+msgstr "Var god försök igen eller välj ett annat betalningsalternativ."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
@@ -105,9 +101,10 @@ msgid "Expiration date"
 msgstr "Utgångsdatum"
 
 #: templates/form/card.liquid:54
-#, fuzzy
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr "Verifikationsnumret ökar säkerheten för dig som kund. Vanligtvis är detta ett nummer som består av tre siffror, vilka återfinns på kortets baksida."
+msgstr ""
+"CVV/CVD ökar säkerheten för dig som kund. Vanligtvis är detta ett nummer som "
+"består av tre siffror, vilka återfinns på kortets baksida."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
@@ -116,6 +113,8 @@ msgstr "Aktivera 3D Secure"
 #: templates/form/card.liquid:68
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr ""
+"3D Secure är en 2-stegs verifikationstjänst som skickar ett text meddelande "
+"till din mobil."
 
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
@@ -126,28 +125,24 @@ msgid "Pay"
 msgstr "Betala"
 
 #: templates/form/card.liquid:79
-#, fuzzy
 msgid "Create subscription"
-msgstr "Prenumeration"
+msgstr "Skapa prenumeration"
 
 #: templates/form/card.liquid:81
-#, fuzzy
 msgid "Save card"
-msgstr "Kortinnehavarens namn"
+msgstr "Spara kort"
 
 #: templates/form/card.liquid:87
 msgid "Payment fee"
 msgstr "Betalningsavgift"
 
 #: templates/form/card.liquid:87
-#, fuzzy
 msgid "Fill in card number"
-msgstr "Kortnummer"
+msgstr "Fyll i kortnummer"
 
 #: templates/form/error.liquid:14
-#, fuzzy
 msgid "An error happened."
-msgstr "Ett fel inträffade, var god försök igen."
+msgstr "Ett fel inträffade."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
@@ -242,7 +237,7 @@ msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för ViaBi
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr ""
+msgstr "Andra Betalmetoder"
 
 #: templates/form.liquid:16
 msgid "Cards"
@@ -265,9 +260,8 @@ msgid "Order number"
 msgstr "Ordernummer"
 
 #: templates/order_info.liquid:6
-#, fuzzy
 msgid "expires in"
-msgstr "Utgår om"
+msgstr "utgår om"
 
 #: templates/success.liquid:7
 msgid "You have completed the payment"
@@ -278,9 +272,8 @@ msgid "Please wait..."
 msgstr "Var god vänta..."
 
 #: templates/waiting.liquid:11
-#, fuzzy
 msgid "The process may take up to 5 minutes."
-msgstr "Processen kan dröja upp till 5 minuter."
+msgstr "Processen kan ta upp till 5 minuter."
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
