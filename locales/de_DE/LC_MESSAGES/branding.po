@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 08:58+0000\n"
+"PO-Revision-Date: 2017-03-10 09:21+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
 "Language-Team: German <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/de/>\n"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr ""
+msgstr "3D Secure-Berechtigung fehlgeschlagen."
 
 #: templates/error.liquid:21
 msgid "Please try again or select another payment option."
