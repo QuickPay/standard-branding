@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 08:51+0000\n"
+"PO-Revision-Date: 2017-03-10 08:53+0000\n"
 "Last-Translator: Tonje <tonje@iconic-norway.com>\n"
 "Language-Team: Norwegian (old code) "
 "<http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/no/>"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr "Du har kansellert betalingen"
+msgstr "Du har nå kansellert betalingen"
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
