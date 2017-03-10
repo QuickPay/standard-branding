@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-03-10 13:02+0000\n"
-"Last-Translator: Valbjørn <valbjorn@ole-jacobsen.com>\n"
+"Last-Translator: Guðri <info.fo@om.org>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
 "Language: fo_FO\n"
@@ -140,7 +140,7 @@ msgstr "Áset kortnummar"
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
-msgstr "Ein feilur hendi"
+msgstr "Ein feilur kom í."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
