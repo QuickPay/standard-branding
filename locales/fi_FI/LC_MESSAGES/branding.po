@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-08 16:39+0000\n"
-"Last-Translator: Lauri <las@plusservice.dk>\n"
+"PO-Revision-Date: 2017-03-10 08:55+0000\n"
+"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
 "Language-Team: Finnish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fi/>\n"
 "Language: fi_FI\n"
@@ -62,19 +62,15 @@ msgstr "3D Secure valtuutus epäonnistui."
 
 #: templates/error.liquid:19
 msgid "Please try again or select another payment method."
-msgstr ""
+msgstr "Ole hyvä ja yritä uudelleen tai valitse toinen maksutapa."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr ""
-"3D Secure valtuutus epäonnistui. Ole hyvä ja yritä uudelleen tai valitse "
-"toinen maksutapa."
+msgstr "3D Secure valtuutus epäonnistui."
 
 #: templates/error.liquid:21
 msgid "Please try again or select another payment option."
-msgstr ""
-"3D Secure ilmoittautuminen epäonnistui. Ole hyvä ja yritä uudelleen tai "
-"valitse toinen maksuvaihtoehto."
+msgstr "Ole hyvä ja yritä uudelleen tai valitse toinen maksuvaihtoehto."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
