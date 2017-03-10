@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-03-10 13:03+0000\n"
-"Last-Translator: Valbjørn <valbjorn@ole-jacobsen.com>\n"
+"Last-Translator: Guðri <info.fo@om.org>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
 "Language: fo_FO\n"
@@ -210,7 +210,7 @@ msgstr ""
 #: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
 msgid "When finished, you will be redirected back to your receipt."
-msgstr ""
+msgstr "Tá tú ert liðugur, verður tú leiddur til kvittan tína. "
 
 #: templates/form/mobilepay.liquid:15 templates/form/paypal.liquid:13
 #: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
