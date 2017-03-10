@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-07 18:08+0000\n"
-"Last-Translator: Thomas <tholst@hopto.de>\n"
+"PO-Revision-Date: 2017-03-10 08:58+0000\n"
+"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
 "Language-Team: German <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/de/>\n"
 "Language: de_DE\n"
@@ -44,38 +44,35 @@ msgid "Continue to the shop"
 msgstr "Weiter zum Shop"
 
 #: templates/error.liquid:13
-#, fuzzy
 msgid "An unknown error happened."
-msgstr "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut"
+msgstr "Ein Fehler ist aufgetreten."
 
 #: templates/error.liquid:13 templates/error.liquid:17
 #: templates/form/error.liquid:14
-#, fuzzy
 msgid "Please try again."
-msgstr "Bitte warten..."
+msgstr "Bitte versuchen Sie es erneut."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
 msgstr "Die Zahlung kann nicht abgeschlossen werden"
 
 #: templates/error.liquid:17 templates/error.liquid:19
-#, fuzzy
 msgid "3D Secure authorization failed."
-msgstr "3D Secure-Berechtigung fehlgeschlagen. Bitte versuche es erneut."
+msgstr "3D Secure-Berechtigung fehlgeschlagen."
 
 #: templates/error.liquid:19
-#, fuzzy
 msgid "Please try again or select another payment method."
-msgstr "3D Secure-Berechtigung fehlgeschlagen. Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsmethode."
+msgstr ""
+"Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsmethode."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
 msgstr ""
 
 #: templates/error.liquid:21
-#, fuzzy
 msgid "Please try again or select another payment option."
-msgstr "3D Secure-Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsoption."
+msgstr ""
+"Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsoption."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
@@ -147,9 +144,8 @@ msgid "Fill in card number"
 msgstr "Kartennummer eingeben"
 
 #: templates/form/error.liquid:14
-#, fuzzy
 msgid "An error happened."
-msgstr "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+msgstr "Ein Fehler ist aufgetreten."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
