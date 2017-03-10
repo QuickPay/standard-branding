@@ -44,23 +44,36 @@ msgstr "Fortsätt till butiken"
 
 #: templates/error.liquid:13
 #, fuzzy
-msgid "An unknown error happened. Please try again"
+msgid "An unknown error happened."
 msgstr "Ett fel har inträffat, var god försök igen"
+
+#: templates/error.liquid:13 templates/error.liquid:17
+#: templates/form/error.liquid:14
+#, fuzzy
+msgid "Please try again."
+msgstr "Var god vänta..."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
 msgstr "Oförmögen att fullfölja betalningen"
 
-#: templates/error.liquid:17
-msgid "3D Secure authorization failed. Please try again."
+#: templates/error.liquid:17 templates/error.liquid:19
+#, fuzzy
+msgid "3D Secure authorization failed."
 msgstr "Autentiseringen av 3D Secure misslyckades. Var god görsök igen."
 
 #: templates/error.liquid:19
-msgid "3D Secure authorization failed. Please try again or select another payment method."
+#, fuzzy
+msgid "Please try again or select another payment method."
 msgstr "Autentiseringen för 3D Secure misslyckades. Var god försök igen eller välj en annan betalningsmetod."
 
 #: templates/error.liquid:21
-msgid "3D Secure enrollment failed. Please try again or select another payment option."
+msgid "3D Secure enrollment failed."
+msgstr ""
+
+#: templates/error.liquid:21
+#, fuzzy
+msgid "Please try again or select another payment option."
 msgstr "Inskrivningn av 3D Secure misslyckades. Var god försök igen eller välj ett annat betalningsalternativ."
 
 #: templates/error.liquid:23
@@ -132,7 +145,8 @@ msgid "Fill in card number"
 msgstr "Kortnummer"
 
 #: templates/form/error.liquid:14
-msgid "An error happened, please try again."
+#, fuzzy
+msgid "An error happened."
 msgstr "Ett fel inträffade, var god försök igen."
 
 #: templates/form/error.liquid:16

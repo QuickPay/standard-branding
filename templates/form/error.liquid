@@ -11,7 +11,7 @@
           {% if model.error %}
             {% case model.error %}
             {% when "try_again" %}
-              {% t An error happened, please try again. %}
+              {% t An error happened. %} {% t Please try again. %}
             {% when "live_payment_on_test_transaction" %}
               {% t You tried to make a live payment on a test transaction. %}
             {% when "test_payment_on_live_transaction" %}
