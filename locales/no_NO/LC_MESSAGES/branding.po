@@ -10,9 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-03-10 08:53+0000\n"
 "Last-Translator: Tonje <tonje@iconic-norway.com>\n"
-"Language-Team: Norwegian (old code) "
-"<http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/no/>"
-"\n"
+"Language-Team: Norwegian (old code) <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/no/>\n"
 "Language: no_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,21 +59,13 @@ msgstr "Kunne ikke fullføre betalingen"
 msgid "3D Secure authorization failed."
 msgstr "3D Secure autorisering feilet."
 
-#: templates/error.liquid:19
+#: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
 msgstr "Vennligst forsøk igjen eller prøv en annen betalingsmåte."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr ""
-"3D Secure autorisering feilet. Vennligst prøv igjen eller velg en annen "
-"betalingsmåte."
-
-#: templates/error.liquid:21
-msgid "Please try again or select another payment option."
-msgstr ""
-"3D Secure autorisering feilet. Vennligst prøv igjen eller velg en annen "
-"betalingsmåte."
+msgstr "3D Secure autorisering feilet. Vennligst prøv igjen eller velg en annen betalingsmåte."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
@@ -107,9 +97,7 @@ msgstr "Utløpsdato"
 
 #: templates/form/card.liquid:54
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
-"CVV/CVD kode øker sikkerhetsnivået. Vanligvis er dette et 3-sifret nummer "
-"som du finner på baksiden av kredittkortet."
+msgstr "CVV/CVD kode øker sikkerhetsnivået. Vanligvis er dette et 3-sifret nummer som du finner på baksiden av kredittkortet."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
@@ -117,15 +105,11 @@ msgstr "Bruk 3D Secure"
 
 #: templates/form/card.liquid:68
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
-msgstr ""
-"3D Secure er en 2-stegs verifikasjonstjeneste som sender en tekstmelding til "
-"telefonen din."
+msgstr "3D Secure er en 2-stegs verifikasjonstjeneste som sender en tekstmelding til telefonen din."
 
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr ""
-"Din kredittkortutsteder kan kreve at du bruker 3D Secure som en ekstra "
-"sikkerhet."
+msgstr "Din kredittkortutsteder kan kreve at du bruker 3D Secure som en ekstra sikkerhet."
 
 #: templates/form/card.liquid:77
 msgid "Pay"
@@ -213,8 +197,7 @@ msgstr "Fortsett"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"Når du klikker på knappen nedenfor vil MobilePay betalingsvinduet åpnes."
+msgstr "Når du klikker på knappen nedenfor vil MobilePay betalingsvinduet åpnes."
 
 #: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
@@ -237,9 +220,7 @@ msgstr "Når du klikker på knappen nedenfor vil Sofort betalingsvinduet åpnes.
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Når du klikker på knappen nedenfor vil Swipp betalingsvinduet åpnes. Når det "
-"er ferdigstilt vil du bli sendt tilbake til kvitteringen din."
+msgstr "Når du klikker på knappen nedenfor vil Swipp betalingsvinduet åpnes. Når det er ferdigstilt vil du bli sendt tilbake til kvitteringen din."
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
@@ -255,9 +236,7 @@ msgstr "Kort"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Når du klikker på knappen nedenfor vil Dankort betalingsvinduet åpnes. Når "
-"det er ferdigstilt vil du bli sendt tilbake til kvitteringen din."
+msgstr "Når du klikker på knappen nedenfor vil Dankort betalingsvinduet åpnes. Når det er ferdigstilt vil du bli sendt tilbake til kvitteringen din."
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
@@ -290,3 +269,6 @@ msgstr "Prosessen kan ta opp til 5 minutter."
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
 msgstr "Klikk her hvis behandlingen tar lang tid"
+
+#~ msgid "Please try again or select another payment option."
+#~ msgstr "3D Secure autorisering feilet. Vennligst prøv igjen eller velg en annen betalingsmåte."

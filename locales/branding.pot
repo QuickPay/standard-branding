@@ -62,15 +62,12 @@ msgid "3D Secure authorization failed."
 msgstr ""
 
 #: templates/error.liquid:19
+#: templates/error.liquid:21
 msgid "Please try again or select another payment method."
 msgstr ""
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr ""
-
-#: templates/error.liquid:21
-msgid "Please try again or select another payment option."
 msgstr ""
 
 #: templates/error.liquid:23

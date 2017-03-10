@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-03-10 08:57+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding-v2xx/da/>\n"
+"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,17 +59,13 @@ msgstr "Betalingen kan ikke gennemføres"
 msgid "3D Secure authorization failed."
 msgstr "3D Secure autorisationen fejlede."
 
-#: templates/error.liquid:19
+#: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
 msgstr "Prøv venligst igen eller vælg en anden betalingsmetode."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
 msgstr "3D Secure tilmelding fejlede."
-
-#: templates/error.liquid:21
-msgid "Please try again or select another payment option."
-msgstr "Prøv venligst igen eller vælg en anden betalingsmetode."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
@@ -274,6 +269,9 @@ msgstr "Processen kan tage op til 5 minutter."
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
 msgstr "Klik her hvis processen tager for lang tid"
+
+#~ msgid "Please try again or select another payment option."
+#~ msgstr "Prøv venligst igen eller vælg en anden betalingsmetode."
 
 #~ msgid "Payment type"
 #~ msgstr "Betalingsmetode"
