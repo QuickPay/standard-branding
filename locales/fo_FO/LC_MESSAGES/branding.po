@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 13:03+0000\n"
-"Last-Translator: Guðri <info.fo@om.org>\n"
+"PO-Revision-Date: 2017-03-10 13:04+0000\n"
+"Last-Translator: Valbjørn <valbjorn@ole-jacobsen.com>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
 "Language: fo_FO\n"
@@ -216,23 +216,28 @@ msgstr "Tá tú ert liðugur, verður tú leiddur til kvittan tína. "
 #: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/viabill.liquid:27
 msgid "Proceed to payment"
-msgstr "Far til gjald"
+msgstr "Halt áfram til gjalding"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr ""
+"Tá tú trýstir á knøttin niðanfyri, letur PayPal gjaldingar vindeyga upp. "
 
 #: templates/form/sofort.liquid:9
 msgid "When you click the button below, the Sofort payment window will open."
 msgstr ""
+"Tá tú trýstir á knøttin niðanfyri, letur Sofort gjaldingar vindeyga upp."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
+"Tá tú trýstir á knøttin niðanfyri, letur Swipp gjaldingar vindeyga upp. Tá "
+"hetta er liðugt, verður tú leiddur víðari til kvittan tína. "
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr ""
+"Tá tú trýstur á knøttin niðanfyri, letur ViaBill gjaldingar vindeyga upp."
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
