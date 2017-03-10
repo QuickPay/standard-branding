@@ -44,25 +44,34 @@ msgid "Continue to the shop"
 msgstr "Jatka kauppaan"
 
 #: templates/error.liquid:13
-msgid "An unknown error happened. Please try again"
-msgstr "Tapahtui tuntematon virhe. Ole hyvä ja yritä uudelleen"
+msgid "An unknown error happened."
+msgstr "Tapahtui tuntematon virhe."
+
+#: templates/error.liquid:13 templates/error.liquid:17
+#: templates/form/error.liquid:14
+msgid "Please try again."
+msgstr "Ole hyvä ja yritä uudelleen."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
 msgstr "Kykenemätön suorittamaan maksua"
 
-#: templates/error.liquid:17
-msgid "3D Secure authorization failed. Please try again."
-msgstr "3D Secure valtuutus epäonnistui. Ole hyvä ja yritä uudelleen."
+#: templates/error.liquid:17 templates/error.liquid:19
+msgid "3D Secure authorization failed."
+msgstr "3D Secure valtuutus epäonnistui."
 
 #: templates/error.liquid:19
-msgid "3D Secure authorization failed. Please try again or select another payment method."
+msgid "Please try again or select another payment method."
+msgstr ""
+
+#: templates/error.liquid:21
+msgid "3D Secure enrollment failed."
 msgstr ""
 "3D Secure valtuutus epäonnistui. Ole hyvä ja yritä uudelleen tai valitse "
 "toinen maksutapa."
 
 #: templates/error.liquid:21
-msgid "3D Secure enrollment failed. Please try again or select another payment option."
+msgid "Please try again or select another payment option."
 msgstr ""
 "3D Secure ilmoittautuminen epäonnistui. Ole hyvä ja yritä uudelleen tai "
 "valitse toinen maksuvaihtoehto."
@@ -138,8 +147,8 @@ msgid "Fill in card number"
 msgstr "Täytä kortin numero"
 
 #: templates/form/error.liquid:14
-msgid "An error happened, please try again."
-msgstr "Tapahtui virhe, ole hyvä ja yritä uudelleen."
+msgid "An error happened."
+msgstr "Tapahtui virhe."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."

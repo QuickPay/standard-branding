@@ -45,25 +45,34 @@ msgid "Continue to the shop"
 msgstr "Fortsett til nettbutikken"
 
 #: templates/error.liquid:13
-msgid "An unknown error happened. Please try again"
-msgstr "En ukjent feil oppstod. Vennligst prøv igjen"
+msgid "An unknown error happened."
+msgstr "En ukjent feil oppstod."
+
+#: templates/error.liquid:13 templates/error.liquid:17
+#: templates/form/error.liquid:14
+msgid "Please try again."
+msgstr "Vennligst prøv igjen."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
 msgstr "Kunne ikke fullføre betalingen"
 
-#: templates/error.liquid:17
-msgid "3D Secure authorization failed. Please try again."
-msgstr "3D Secure autorisering feilet. Vennligst prøv igjen."
+#: templates/error.liquid:17 templates/error.liquid:19
+msgid "3D Secure authorization failed."
+msgstr "3D Secure autorisering feilet."
 
 #: templates/error.liquid:19
-msgid "3D Secure authorization failed. Please try again or select another payment method."
+msgid "Please try again or select another payment method."
+msgstr ""
+
+#: templates/error.liquid:21
+msgid "3D Secure enrollment failed."
 msgstr ""
 "3D Secure autorisering feilet. Vennligst prøv igjen eller velg en annen "
 "betalingsmåte."
 
 #: templates/error.liquid:21
-msgid "3D Secure enrollment failed. Please try again or select another payment option."
+msgid "Please try again or select another payment option."
 msgstr ""
 "3D Secure autorisering feilet. Vennligst prøv igjen eller velg en annen "
 "betalingsmåte."
@@ -139,8 +148,8 @@ msgid "Fill in card number"
 msgstr "Fyll inn kortnummer"
 
 #: templates/form/error.liquid:14
-msgid "An error happened, please try again."
-msgstr "En feil oppstod, vennligst prøv igjen."
+msgid "An error happened."
+msgstr "En feil oppstod."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."

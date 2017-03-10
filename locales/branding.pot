@@ -43,7 +43,13 @@ msgid "Continue to the shop"
 msgstr ""
 
 #: templates/error.liquid:13
-msgid "An unknown error happened. Please try again"
+msgid "An unknown error happened."
+msgstr ""
+
+#: templates/error.liquid:13
+#: templates/error.liquid:17
+#: templates/form/error.liquid:14
+msgid "Please try again."
 msgstr ""
 
 #: templates/error.liquid:15
@@ -51,15 +57,20 @@ msgid "Unable to complete payment"
 msgstr ""
 
 #: templates/error.liquid:17
-msgid "3D Secure authorization failed. Please try again."
+#: templates/error.liquid:19
+msgid "3D Secure authorization failed."
 msgstr ""
 
 #: templates/error.liquid:19
-msgid "3D Secure authorization failed. Please try again or select another payment method."
+msgid "Please try again or select another payment method."
 msgstr ""
 
 #: templates/error.liquid:21
-msgid "3D Secure enrollment failed. Please try again or select another payment option."
+msgid "3D Secure enrollment failed."
+msgstr ""
+
+#: templates/error.liquid:21
+msgid "Please try again or select another payment option."
 msgstr ""
 
 #: templates/error.liquid:23
@@ -127,7 +138,7 @@ msgid "Fill in card number"
 msgstr ""
 
 #: templates/form/error.liquid:14
-msgid "An error happened, please try again."
+msgid "An error happened."
 msgstr ""
 
 #: templates/form/error.liquid:16

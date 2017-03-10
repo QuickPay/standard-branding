@@ -44,25 +44,34 @@ msgid "Continue to the shop"
 msgstr "Ga verder naar de winkel"
 
 #: templates/error.liquid:13
-msgid "An unknown error happened. Please try again"
-msgstr "Er is een onbekende fout opgetreden. Probeer het alstublieft opnieuw"
+msgid "An unknown error happened."
+msgstr "Er is een onbekende fout opgetreden."
+
+#: templates/error.liquid:13 templates/error.liquid:17
+#: templates/form/error.liquid:14
+msgid "Please try again."
+msgstr "Probeer het alstublieft opnieuw."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
 msgstr "Het afronden van de betaling is niet mogelijk"
 
-#: templates/error.liquid:17
-msgid "3D Secure authorization failed. Please try again."
-msgstr "3D beveiliging autorisatie is mislukt. Probeer het alstublieft opnieuw."
+#: templates/error.liquid:17 templates/error.liquid:19
+msgid "3D Secure authorization failed."
+msgstr "3D beveiliging autorisatie is mislukt."
 
 #: templates/error.liquid:19
-msgid "3D Secure authorization failed. Please try again or select another payment method."
+msgid "Please try again or select another payment method."
+msgstr ""
+
+#: templates/error.liquid:21
+msgid "3D Secure enrollment failed."
 msgstr ""
 "3D Beveiliging autorisatie is mislukt. Probeer het alstublieft opnieuw of "
 "selecteer een andere betalingsmogelijkheden."
 
 #: templates/error.liquid:21
-msgid "3D Secure enrollment failed. Please try again or select another payment option."
+msgid "Please try again or select another payment option."
 msgstr ""
 "3D Beveiliging is mislukt. Probeer het alstublieft opnieuw of selecteer een "
 "andere betalingsmethode."
@@ -140,8 +149,8 @@ msgid "Fill in card number"
 msgstr "Vul het kaartnummer in"
 
 #: templates/form/error.liquid:14
-msgid "An error happened, please try again."
-msgstr "Er is een fout opgetreden, probeer het opnieuw."
+msgid "An error happened."
+msgstr "Er is een fout opgetreden."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
