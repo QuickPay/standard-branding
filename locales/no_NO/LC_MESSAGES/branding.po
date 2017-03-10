@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 08:48+0000\n"
+"PO-Revision-Date: 2017-03-10 08:51+0000\n"
 "Last-Translator: Tonje <tonje@iconic-norway.com>\n"
 "Language-Team: Norwegian (old code) "
 "<http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/no/>"
@@ -63,7 +63,7 @@ msgstr "3D Secure autorisering feilet."
 
 #: templates/error.liquid:19
 msgid "Please try again or select another payment method."
-msgstr ""
+msgstr "Vennligst forsøk igjen eller prøv en annen betalingsmåte."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
@@ -153,11 +153,11 @@ msgstr "En feil oppstod."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr ""
+msgstr "Du har forsøkt en reel betaling av en test transaksjon."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr ""
+msgstr "Du har forsøkt en reell betaling av en test transaksjon."
 
 #: templates/form/klarna.liquid:13
 msgid "Gender"
