@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 13:15+0000\n"
+"PO-Revision-Date: 2017-03-10 13:17+0000\n"
 "Last-Translator: Sølvi <solvi@runavik.fo>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
@@ -109,8 +109,8 @@ msgstr "Virkja 3D Secure"
 #: templates/form/card.liquid:68
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr ""
-"3D Secure er ein váttanartænasta í 2 stigum, har boð verða send á telefon "
-"tína. "
+"3D Secure er ein váttanartænasta í 2 stigum, har SMS-boð verða send á "
+"telefon tína."
 
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
@@ -205,12 +205,12 @@ msgstr "Halt fram"
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr ""
-"Tá tú trýstur á knøttin niðanfyri, letur MobilePay gjaldingar vindeyga upp. "
+"Tá tú trýstur á knøttin niðanfyri, letur MobilePay gjaldingarvindeygað upp."
 
 #: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
 msgid "When finished, you will be redirected back to your receipt."
-msgstr "Tá tú ert liðugur, verður tú leiddur til kvittan tína. "
+msgstr "Tá tú ert liðugur, verður tú leiddur til kvittan tína."
 
 #: templates/form/mobilepay.liquid:15 templates/form/paypal.liquid:13
 #: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
@@ -221,7 +221,7 @@ msgstr "Halt áfram til gjalding"
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr ""
-"Tá tú trýstir á knøttin niðanfyri, letur PayPal gjaldingar vindeyga upp. "
+"Tá tú trýstir á knøttin niðanfyri, letur PayPal gjaldingarvindeygað upp."
 
 #: templates/form/sofort.liquid:9
 msgid "When you click the button below, the Sofort payment window will open."
@@ -231,8 +231,8 @@ msgstr ""
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
-"Tá tú trýstir á knøttin niðanfyri, letur Swipp gjaldingar vindeyga upp. Tá "
-"hetta er liðugt, verður tú leiddur víðari til kvittan tína. "
+"Tá tú trýstir á knøttin niðanfyri, letur Swipp gjaldingarvindeygað upp. Tá "
+"hetta er liðugt, verður tú leiddur víðari til kvittan tína."
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
@@ -250,8 +250,8 @@ msgstr "Gjaldskort"
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
-"Tá tú trýstir á knøttin niðanfyri, letur Dankort gjaldingar vindeyga upp. Tá "
-"tú ert liðugur, verður tú leiddur víðari til kvittan tína. "
+"Tá tú trýstir á knøttin niðanfyri, letur Dankort gjaldingarvindeygað upp. Tá "
+"tú ert liðugur, verður tú leiddur víðari til kvittan tína."
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
@@ -279,7 +279,7 @@ msgstr "Vinarliga bíða..."
 
 #: templates/waiting.liquid:11
 msgid "The process may take up to 5 minutes."
-msgstr "Viðgerðin kann taka upp til 5 minuttir. "
+msgstr "Viðgerðin kann taka upp til 5 minuttir."
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
