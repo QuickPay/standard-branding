@@ -3,61 +3,62 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-10-28 08:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2017-03-08 16:39+0000\n"
+"Last-Translator: Lauri <las@plusservice.dk>\n"
+"Language-Team: Finnish <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding-v2xx/fi/>\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.9\n"
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr ""
+msgstr "Olet peruuttanut maksun"
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
-msgstr ""
+msgstr "Tilaus vanhentunut"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
-msgstr ""
+msgstr "Et suorittanut ostoa loppuun aikarajan sisällä."
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
-msgstr ""
+msgstr "Napsauta tätä jatkaaksesi"
 
 #: templates/error.liquid:9
 msgid "The order is already paid."
-msgstr ""
+msgstr "Tilaus on jo maksettu."
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
-msgstr ""
+msgstr "Jatka kauppaan"
 
 #: templates/error.liquid:13
 msgid "An unknown error happened."
-msgstr ""
+msgstr "Tapahtui tuntematon virhe."
 
 #: templates/error.liquid:13 templates/error.liquid:17
 #: templates/form/error.liquid:14
 msgid "Please try again."
-msgstr ""
+msgstr "Ole hyvä ja yritä uudelleen."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
-msgstr ""
+msgstr "Kykenemätön suorittamaan maksua"
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
-msgstr ""
+msgstr "3D Secure valtuutus epäonnistui."
 
 #: templates/error.liquid:19
 msgid "Please try again or select another payment method."
@@ -66,210 +67,224 @@ msgstr ""
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
 msgstr ""
+"3D Secure valtuutus epäonnistui. Ole hyvä ja yritä uudelleen tai valitse "
+"toinen maksutapa."
 
 #: templates/error.liquid:21
 msgid "Please try again or select another payment option."
 msgstr ""
+"3D Secure ilmoittautuminen epäonnistui. Ole hyvä ja yritä uudelleen tai "
+"valitse toinen maksuvaihtoehto."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
-msgstr ""
+msgstr "Maksutiedot ovat muuttuneet maksun aloittamisen jälkeen."
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
-msgstr ""
+msgstr "Napsauta tätä aloittaaksesi uudelleen"
 
 #: templates/error.liquid:36
 msgid "Try again"
-msgstr ""
+msgstr "Yritä uudelleen"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
-msgstr ""
+msgstr "Aloitetaan 3D Secure maksua. Ole hyvä ja odota..."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
-msgstr ""
+msgstr "Nimi kortissa"
 
 #: templates/form/card.liquid:23
 msgid "Card number"
-msgstr ""
+msgstr "Kortin numero"
 
 #: templates/form/card.liquid:31
 msgid "Expiration date"
-msgstr ""
+msgstr "Erääntymispäivä"
 
 #: templates/form/card.liquid:54
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr ""
+"CVV/CVD korottaa turvatasoa. Yleensä kortin todentamistietona on kortin "
+"takana oleva kolminumeroinen luku."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
-msgstr ""
+msgstr "Ota käyttöön 3D Secure"
 
 #: templates/form/card.liquid:68
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr ""
+"3D Secure on puhelimen tekstiviestiä käyttävä 2-vaiheinen "
+"varmentautumispalvelu."
 
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr ""
+"Luottokorttiyhtiösi saattaa vaatia sinua käyttämään 3D Securea ylimääräisenä "
+"varotoimena."
 
 #: templates/form/card.liquid:77
 msgid "Pay"
-msgstr ""
+msgstr "Maksa"
 
 #: templates/form/card.liquid:79
 msgid "Create subscription"
-msgstr ""
+msgstr "Luo tilaus"
 
 #: templates/form/card.liquid:81
 msgid "Save card"
-msgstr ""
+msgstr "Tallenna kortti"
 
 #: templates/form/card.liquid:87
 msgid "Payment fee"
-msgstr ""
+msgstr "Maksu kustannus"
 
 #: templates/form/card.liquid:87
 msgid "Fill in card number"
-msgstr ""
+msgstr "Täytä kortin numero"
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
-msgstr ""
+msgstr "Tapahtui virhe."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr ""
+msgstr "Yritit suorittaa oikean maksun testitapahtumaan."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr ""
+msgstr "Yritit suorittaa testimaksun oikeaan tapahtumaan."
 
 #: templates/form/klarna.liquid:13
 msgid "Gender"
-msgstr ""
+msgstr "Sukupuoli"
 
 #: templates/form/klarna.liquid:15
 msgid "Male"
-msgstr ""
+msgstr "Mies"
 
 #: templates/form/klarna.liquid:16
 msgid "Female"
-msgstr ""
+msgstr "Nainen"
 
 #: templates/form/klarna.liquid:20
 msgid "Country"
-msgstr ""
+msgstr "Maa"
 
 #: templates/form/klarna.liquid:26
 msgid "Denmark"
-msgstr ""
+msgstr "Tanska"
 
 #: templates/form/klarna.liquid:28
 msgid "Sweden"
-msgstr ""
+msgstr "Ruotsi"
 
 #: templates/form/klarna.liquid:30
 msgid "Norway"
-msgstr ""
+msgstr "Norja"
 
 #: templates/form/klarna.liquid:32
 msgid "Finland"
-msgstr ""
+msgstr "Suomi"
 
 #: templates/form/klarna.liquid:34
 msgid "Netherlands"
-msgstr ""
+msgstr "Alankomaat"
 
 #: templates/form/klarna.liquid:36
 msgid "Germany"
-msgstr ""
+msgstr "Saksa"
 
 #: templates/form/klarna.liquid:38
 msgid "Austria"
-msgstr ""
+msgstr "Itävalta"
 
 #: templates/form/klarna.liquid:48
 msgid "Social security number"
-msgstr ""
+msgstr "Sosiaaliturvatunnus"
 
 #: templates/form/klarna.liquid:55 templates/form_dankort_acs.liquid:34
 msgid "Proceed"
-msgstr ""
+msgstr "Jatka eteenpäin"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr ""
+msgstr "Napsauttaessasi alla olevaa nappia MobilePay-maksuikkuna avautuu."
 
 #: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
 msgid "When finished, you will be redirected back to your receipt."
-msgstr ""
+msgstr "Lopuksi sinut ohjataan takaisin kuitillesi."
 
 #: templates/form/mobilepay.liquid:15 templates/form/paypal.liquid:13
 #: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/viabill.liquid:27
 msgid "Proceed to payment"
-msgstr ""
+msgstr "Jatka maksuun"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr ""
+msgstr "Napsauttaessasi alla olevaa nappia PayPal-maksuikkuna avautuu."
 
 #: templates/form/sofort.liquid:9
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr ""
+msgstr "Napsauttaessasi alla olevaa nappia Sofort-maksuikkuna avautuu."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
+"Napsauttaessasi alla olevaa nappia Swipp-maksuikkuna avautuu. Lopuksi sinut "
+"ohjataan takaisin kuitillesi."
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr ""
+msgstr "Napsauttaessasi alla olevaa nappia ViaBill-maksuikkuna avautuu."
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr ""
+msgstr "Muita maksutapoja"
 
 #: templates/form.liquid:16
 msgid "Cards"
-msgstr ""
+msgstr "Kortit"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
+"Napsauttaessasi alla olevaa nappia Dankort-maksuikkuna avautuu. Lopuksi "
+"sinut ohjataan takaisin kuitillesi."
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
-msgstr ""
+msgstr "Oletko aikeissa keskeyttää maksun? Oletko varma?"
 
 #: templates/layout.liquid:22
 msgid "Cancel Payment"
-msgstr ""
+msgstr "Peruuta maksu"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
-msgstr ""
+msgstr "Tilausnumero"
 
 #: templates/order_info.liquid:6
 msgid "expires in"
-msgstr ""
+msgstr "erääntyy"
 
 #: templates/success.liquid:7
 msgid "You have completed the payment"
-msgstr ""
+msgstr "Olet suorittanut maksun"
 
 #: templates/waiting.liquid:7
 msgid "Please wait..."
-msgstr ""
+msgstr "Ole hyvä ja odota..."
 
 #: templates/waiting.liquid:11
 msgid "The process may take up to 5 minutes."
-msgstr ""
+msgstr "Prosessi saattaa kestää jopa 5 minuuttia."
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
-msgstr ""
+msgstr "Napsauta tätä, jos prosessi kestää liian kauan"

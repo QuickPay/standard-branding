@@ -3,61 +3,62 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-10-28 08:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2017-03-07 20:00+0000\n"
+"Last-Translator: Jo <jo.vandekerckhove@dv-electro.be>\n"
+"Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding-v2xx/nl/>\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.9\n"
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr ""
+msgstr "U heeft de betaling geannuleerd"
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
-msgstr ""
+msgstr "Order verlopen"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
-msgstr ""
+msgstr "Het tijdskader voor het afronden van deze order is verstreken."
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
-msgstr ""
+msgstr "Klik hier om verder te gaan"
 
 #: templates/error.liquid:9
 msgid "The order is already paid."
-msgstr ""
+msgstr "De order is reeds voldaan."
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
-msgstr ""
+msgstr "Ga verder naar de winkel"
 
 #: templates/error.liquid:13
 msgid "An unknown error happened."
-msgstr ""
+msgstr "Er is een onbekende fout opgetreden."
 
 #: templates/error.liquid:13 templates/error.liquid:17
 #: templates/form/error.liquid:14
 msgid "Please try again."
-msgstr ""
+msgstr "Probeer het alstublieft opnieuw."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
-msgstr ""
+msgstr "Het afronden van de betaling is niet mogelijk"
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
-msgstr ""
+msgstr "3D beveiliging autorisatie is mislukt."
 
 #: templates/error.liquid:19
 msgid "Please try again or select another payment method."
@@ -66,210 +67,237 @@ msgstr ""
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
 msgstr ""
+"3D Beveiliging autorisatie is mislukt. Probeer het alstublieft opnieuw of "
+"selecteer een andere betalingsmogelijkheden."
 
 #: templates/error.liquid:21
 msgid "Please try again or select another payment option."
 msgstr ""
+"3D Beveiliging is mislukt. Probeer het alstublieft opnieuw of selecteer een "
+"andere betalingsmethode."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
 msgstr ""
+"The gegevens van de betaling zijn gewijzigd sinds het moment waarop u deze "
+"heeft gestart."
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
-msgstr ""
+msgstr "Klik hier om opnieuw te beginnen"
 
 #: templates/error.liquid:36
 msgid "Try again"
-msgstr ""
+msgstr "Probeer opnieuw"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
-msgstr ""
+msgstr "Starten van de 3D beveiligde betaling. Gelieve te wachten..."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
-msgstr ""
+msgstr "Naam op kaart"
 
 #: templates/form/card.liquid:23
 msgid "Card number"
-msgstr ""
+msgstr "Kaartnummer"
 
 #: templates/form/card.liquid:31
 msgid "Expiration date"
-msgstr ""
+msgstr "Vervaldatum"
 
 #: templates/form/card.liquid:54
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr ""
+"De CVV/CVD verhoogt het beveiligingsniveau. Dit is gewoonlijk een nummer van "
+"3 getallen, die u op de achterkant van de kaart kan terugvinden."
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
-msgstr ""
+msgstr "Activeer 3D Beveiliging"
 
 #: templates/form/card.liquid:68
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr ""
+"3D beveiliging is een 2-staps verificatie dienst welke gebruikmaakt van een "
+"tekstbericht naar uw telefoon."
 
 #: templates/form/card.liquid:69
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr ""
+"Uw creditcard aanbieder vereist wellicht dat u gebruikmaakt van 3D "
+"beveiliging als extra vorm van zekerheid."
 
 #: templates/form/card.liquid:77
 msgid "Pay"
-msgstr ""
+msgstr "Betaal"
 
 #: templates/form/card.liquid:79
 msgid "Create subscription"
-msgstr ""
+msgstr "Abonneer"
 
 #: templates/form/card.liquid:81
 msgid "Save card"
-msgstr ""
+msgstr "Kaart bewaren"
 
 #: templates/form/card.liquid:87
 msgid "Payment fee"
-msgstr ""
+msgstr "Betalingskosten"
 
 #: templates/form/card.liquid:87
 msgid "Fill in card number"
-msgstr ""
+msgstr "Vul het kaartnummer in"
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
-msgstr ""
+msgstr "Er is een fout opgetreden."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr ""
+msgstr "U heeft geprobeerd een echte betaling te doen bij een test transactie."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr ""
+msgstr "U heeft geprobeerd een test betaling bij een echte transactie te doen."
 
 #: templates/form/klarna.liquid:13
 msgid "Gender"
-msgstr ""
+msgstr "Geslacht"
 
 #: templates/form/klarna.liquid:15
 msgid "Male"
-msgstr ""
+msgstr "Man"
 
 #: templates/form/klarna.liquid:16
 msgid "Female"
-msgstr ""
+msgstr "Vrouw"
 
 #: templates/form/klarna.liquid:20
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: templates/form/klarna.liquid:26
 msgid "Denmark"
-msgstr ""
+msgstr "Denemarken"
 
 #: templates/form/klarna.liquid:28
 msgid "Sweden"
-msgstr ""
+msgstr "Zweden"
 
 #: templates/form/klarna.liquid:30
 msgid "Norway"
-msgstr ""
+msgstr "Noorwegen"
 
 #: templates/form/klarna.liquid:32
 msgid "Finland"
-msgstr ""
+msgstr "Finland"
 
 #: templates/form/klarna.liquid:34
 msgid "Netherlands"
-msgstr ""
+msgstr "Nederland"
 
 #: templates/form/klarna.liquid:36
 msgid "Germany"
-msgstr ""
+msgstr "Duitsland"
 
 #: templates/form/klarna.liquid:38
 msgid "Austria"
-msgstr ""
+msgstr "Oostenrijk"
 
 #: templates/form/klarna.liquid:48
 msgid "Social security number"
-msgstr ""
+msgstr "BSN nummer"
 
 #: templates/form/klarna.liquid:55 templates/form_dankort_acs.liquid:34
 msgid "Proceed"
-msgstr ""
+msgstr "Ga verder"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr ""
+"Wanneer u op de onderstaand knop klikt start het MobilePay betalingsscherm."
 
 #: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
 msgid "When finished, you will be redirected back to your receipt."
 msgstr ""
+"Wanneer uw deze stappen heeft afgerond, wordt u teruggeleid naar naar uw "
+"betalingsbewijs."
 
 #: templates/form/mobilepay.liquid:15 templates/form/paypal.liquid:13
 #: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/viabill.liquid:27
 msgid "Proceed to payment"
-msgstr ""
+msgstr "Ga verder naar de betaling"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr ""
+"Wanneer u op de onderstaande knop klikt word het PayPal betalingsvenster "
+"geopend."
 
 #: templates/form/sofort.liquid:9
 msgid "When you click the button below, the Sofort payment window will open."
 msgstr ""
+"Wanneer u op de onderstaande knop klikt word het Sofort betalingsvenster "
+"geopend."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
+"Wanneer u op de onderstaande knop klikt word het Swipp betalingsvenster "
+"geopend. Zodra u de betaling heeft afgerond wordt uw teruggeleid naar uw "
+"betalingsbewijs."
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr ""
+"Wanneer u op de onderstaande knop klikt word het ViaBill betalingsvenster "
+"geopend."
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr ""
+msgstr "Andere betalingsmogelijkheden"
 
 #: templates/form.liquid:16
 msgid "Cards"
-msgstr ""
+msgstr "Kaarten"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
+"Wanneer u op de onderstaande knop klikt word het Dankort betalingsvenster "
+"geopend. Zodra u de betaling heeft afgerond wordt u teruggeleid naar uw "
+"betalingsbewijs."
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
-msgstr ""
+msgstr "U staat op het punt de betaling te annuleren. Weet u dit zeker?"
 
 #: templates/layout.liquid:22
 msgid "Cancel Payment"
-msgstr ""
+msgstr "Annuleer betaling"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
-msgstr ""
+msgstr "Order nummer"
 
 #: templates/order_info.liquid:6
 msgid "expires in"
-msgstr ""
+msgstr "verloopt in"
 
 #: templates/success.liquid:7
 msgid "You have completed the payment"
-msgstr ""
+msgstr "U heeft de betaling afgerond"
 
 #: templates/waiting.liquid:7
 msgid "Please wait..."
-msgstr ""
+msgstr "Een moment geduld..."
 
 #: templates/waiting.liquid:11
 msgid "The process may take up to 5 minutes."
-msgstr ""
+msgstr "Dit proces kan tot 5 minuten duren."
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
-msgstr ""
+msgstr "Klik hier indien de verwerking veel tijd kost"
