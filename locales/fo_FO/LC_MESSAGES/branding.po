@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 13:04+0000\n"
-"Last-Translator: Valbjørn <valbjorn@ole-jacobsen.com>\n"
+"PO-Revision-Date: 2017-03-10 13:06+0000\n"
+"Last-Translator: Guðri <info.fo@om.org>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
 "Language: fo_FO\n"
@@ -245,15 +245,17 @@ msgstr "Aðrir gjaldshættir"
 
 #: templates/form.liquid:16
 msgid "Cards"
-msgstr "Kort"
+msgstr "Gjaldskort"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
+"Tá tú trýstir á knøttin niðanfyri, letur Dankort gjaldingar vindeyga upp. Tá "
+"tú ert liðugur, verður tú leiddur víðari til kvittan tína. "
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
-msgstr ""
+msgstr "Tú ert um at strika gjaldingina. Ert tú vísur í hesum?"
 
 #: templates/layout.liquid:22
 msgid "Cancel Payment"
