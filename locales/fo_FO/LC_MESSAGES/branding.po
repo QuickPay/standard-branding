@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 13:09+0000\n"
-"Last-Translator: Guðri <info.fo@om.org>\n"
+"PO-Revision-Date: 2017-03-10 13:10+0000\n"
+"Last-Translator: Valbjørn <valbjorn@ole-jacobsen.com>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
 "Language: fo_FO\n"
@@ -62,7 +62,7 @@ msgstr "3D Secure heimildin miseydnaðist"
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
-msgstr ""
+msgstr "Vinarliga royn aftur ella vel annan gjaldshátt."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
