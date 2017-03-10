@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-03-10 13:07+0000\n"
-"Last-Translator: Valbjørn <valbjorn@ole-jacobsen.com>\n"
+"Last-Translator: Guðri <info.fo@om.org>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
 "Language: fo_FO\n"
@@ -271,11 +271,11 @@ msgstr "gongur út um"
 
 #: templates/success.liquid:7
 msgid "You have completed the payment"
-msgstr ""
+msgstr "Tú hevur fullført gjaldingina"
 
 #: templates/waiting.liquid:7
 msgid "Please wait..."
-msgstr "Bíða vinarliga..."
+msgstr "Vinarliga bíða..."
 
 #: templates/waiting.liquid:11
 msgid "The process may take up to 5 minutes."
