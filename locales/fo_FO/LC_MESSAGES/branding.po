@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 13:02+0000\n"
-"Last-Translator: Guðri <info.fo@om.org>\n"
+"PO-Revision-Date: 2017-03-10 13:03+0000\n"
+"Last-Translator: Valbjørn <valbjorn@ole-jacobsen.com>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
 "Language: fo_FO\n"
@@ -144,11 +144,11 @@ msgstr "Ein feilur kom í."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr ""
+msgstr "Tú royndi at gera eina veruliga gjalding á einum test-keypi."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr ""
+msgstr "Tú royndi at gera eina test-gjalding á einum veruligum keypi."
 
 #: templates/form/klarna.liquid:13
 msgid "Gender"
@@ -156,11 +156,11 @@ msgstr "Kyn"
 
 #: templates/form/klarna.liquid:15
 msgid "Male"
-msgstr "Maður"
+msgstr "Mannfólk"
 
 #: templates/form/klarna.liquid:16
 msgid "Female"
-msgstr "Kvinna"
+msgstr "Konufólk"
 
 #: templates/form/klarna.liquid:20
 msgid "Country"
@@ -205,6 +205,7 @@ msgstr "Halt fram"
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr ""
+"Tá tú trýstur á knøttin niðanfyri, letur MobilePay gjaldingar vindeyga upp. "
 
 #: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
