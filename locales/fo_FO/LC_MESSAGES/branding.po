@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 12:55+0000\n"
-"Last-Translator: Valbjørn <valbjorn@ole-jacobsen.com>\n"
+"PO-Revision-Date: 2017-03-10 12:58+0000\n"
+"Last-Translator: Guðri <info.fo@om.org>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/fo/>\n"
 "Language: fo_FO\n"
@@ -94,11 +94,13 @@ msgstr "Kort nummar"
 
 #: templates/form/card.liquid:31
 msgid "Expiration date"
-msgstr "Dagf. tá kortið fer úr gildi"
+msgstr "Útgongudagur"
 
 #: templates/form/card.liquid:54
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr ""
+"CVD kodan økir um trygdina. Trygdarkodan er vanliga tey trý aftastu tølini, "
+"aftanfyri á kortinum. "
 
 #: templates/form/card.liquid:62
 msgid "Enable 3D Secure"
