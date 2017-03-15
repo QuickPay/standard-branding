@@ -50,9 +50,8 @@ h1, h2, h3, h4, h5 {
 input[type="text"], input[type="tel"], input[type="number"] {
   padding-left: 8px !important;
   height: 40px !important;
-  font-family: Monaco, Verdana, Menlo, "Lucida Console", monospace;
+  font-family: Monaco, Menlo, Consolas, monospace;
   font-size: 16px !important;
-  line-height: 16px !important;
   letter-spacing: 1.2px;
 }
 
@@ -192,8 +191,7 @@ button[type="submit"] {
 }
 
 #active-form .form-control-feedback {
-  line-height: 40px !important;
-  padding-right: 4px;
+  width: 28px !important;
 }
 
 #active-form .form-control-feedback img.check-icon {
