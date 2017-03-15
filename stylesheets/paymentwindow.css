@@ -287,6 +287,7 @@ button[type="submit"] {
 
   #active-form .form-card-brands {
     padding-top: 19px;
+    padding-bottom: 0;
   }
 }
 
