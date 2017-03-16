@@ -28,22 +28,24 @@
         </div>
 
         <div class="form-group has-feedback">
-          <div class="col-xs-6"><label for="expiration-month" class="control-label">{% t Expiration date %}</label></div>
-          <div class="col-xs-6 center-y"><label for="cvd" id="cvd-label" class="control-label">CVV/CVD</label> <img class="icon clickable" style="margin-bottom: 3px" src="{{ images.question-circle.svg }}" alt="CVV/CVD" data-toggle="#cvd-help"></div>
+          <div class="col-xs-6">
 
-          <div class="col-xs-3" style="padding-right: 2px;">
-            <input type="tel" id="expiration-month" name="expiration[month]" class="form-control" autocomplete="cc-exp-month" aria-describedby="expiration-month-sr" placeholder="MM" maxlength="2" pattern="[0-9]*" data-mask="99" inputmode="numeric" style="padding-right: 28px !important; margin-right: 30px !important">
-            <span id="expiration-month-check" class="form-control-feedback" aria-hidden="true" style="right: 2.5px; display:none;"><img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark"></span>
-            <span id="expiration-month-sr" class="sr-only">(success)</span>
-          </div>
+            <label for="expiration-month" class="control-label">{% t Expiration date %}</label>
+            <div class="col-xs-6" style="padding-right: 2px; padding-left: 0">
+              <input type="tel" id="expiration-month" name="expiration[month]" class="form-control" autocomplete="cc-exp-month" aria-describedby="expiration-month-sr" placeholder="MM" maxlength="2" pattern="[0-9]*" data-mask="99" inputmode="numeric" style="padding-right: 28px !important">
+              <span id="expiration-month-check" class="form-control-feedback" aria-hidden="true" style="top: 2px; right: 2.5px; display: none"><img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark"></span>
+              <span id="expiration-month-sr" class="sr-only">(success)</span>
+            </div>
 
-          <div class="col-xs-3" style="padding-left: 2px;">
-            <input type="tel" id="expiration-year" name="expiration[year]" class="form-control" autocomplete="cc-exp-year" aria-describedby="expiration-year-sr" placeholder="YY" maxlength="2" pattern="[0-9]*" data-mask="99" inputmode="numeric" style="padding-right: 28px !important">
-            <span id="expiration-year-check" class="form-control-feedback" aria-hidden="true" style="display: none"><img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark"></span>
-            <span id="expiration-year-sr" class="sr-only">(success)</span>
+            <div class="col-xs-6" style="padding-right: 0; padding-left: 2px">
+              <input type="tel" id="expiration-year" name="expiration[year]" class="form-control" autocomplete="cc-exp-year" aria-describedby="expiration-year-sr" placeholder="YY" maxlength="2" pattern="[0-9]*" data-mask="99" inputmode="numeric" style="padding-right: 28px !important">
+              <span id="expiration-year-check" class="form-control-feedback" aria-hidden="true" style="top: 2px; right: 0; display: none"><img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark"></span>
+              <span id="expiration-year-sr" class="sr-only">(success)</span>
+            </div>
           </div>
 
           <div class="col-xs-6">
+            <label for="cvd" id="cvd-label" class="control-label">CVV/CVD</label> <img class="icon clickable" style="margin-bottom: 3px" src="{{ images.question-circle.svg }}" alt="CVV/CVD" data-toggle="#cvd-help">
             <input type="tel" id="cvd" name="cvd" class="form-control" autocomplete="cc-csc" aria-describedby="cvd" maxlength="4" pattern="[0-9]*" data-mask="9999" inputmode="numeric">
             <span id="cvd-check" class="form-control-feedback" aria-hidden="true" style="display: none"><img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark"></span>
             <span id="cvd-sr" class="sr-only">(success)</span>
