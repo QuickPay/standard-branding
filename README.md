@@ -17,6 +17,7 @@ The [config.json](https://github.com/QuickPay/standard-branding/tree/master/conf
 
 Currently it supports:
 
+* `title` (string, default: null), when set, uses the value as HTML title in the payment window. Otherwise the merchant shop name is used.
 * `enable_card_holder_field` (boolean, default: false), adds "Card holder name" input field to the credit/debit card form.
 * `enable_3d_card_field` (boolean, default: false), adds a checkbox for letting card holder force 3D Secure on payment.
 
