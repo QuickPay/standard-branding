@@ -25,6 +25,21 @@
 </div>
 {% endif %}
 
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12" style="text-align: center">
+      <form action="{{ model.session_id }}/update_language" method="post">
+        <select name="language">
+          {% for language in model.available_languages %}
+            <option value="{{ language }}" {% if language == model.language %}selected{% endif %}>{{ language }}</option>
+          {% endfor %}
+        </select>
+        <input type="submit" value=">>" />
+      </form>
+    </div>
+  </div>
+</div>
+
 <div id="footer">
   <div id="gateway-info">
     <div id="gateway-info-inner">
