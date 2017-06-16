@@ -1,6 +1,6 @@
 <div class="container">
   {% include 'form/error' %}
-  <form class="form-horizontal" method="post" autocomplete="off" action="process_swish">
+  <form class="form-horizontal" method="post" autocomplete="on" action="process_swish">
     <input type="hidden" name="session_id" value="{{ model.session_id }}" />
     <div class="row">
       <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
@@ -10,8 +10,8 @@
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
         <div class="form-group">
           <div class="col-xs-12">
-            <label for="mobile_number" class="control-label">{% t Mobile number %}</label>
-            <input type="tel" id="mobile_number" name="mobile_number" class="form-control" autocomplete="on">
+            <label for="mobile" class="control-label">{% t Mobile number %}</label>
+            <input type="tel" id="mobile" name="mobile" class="form-control" autocomplete="tel" pattern="[0-9\s]*" inputmode="numeric">
           </div>
         </div>
 
