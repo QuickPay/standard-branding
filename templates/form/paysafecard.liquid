@@ -1,0 +1,21 @@
+<div class="container">
+  {% include 'form/error' %}
+  <form action="{{ model.redirect_url }}" method="POST" target="_top" class="autosubmit">
+    <input type="hidden" name="mid" value="{{ model.mid }}" />
+    <input type="hidden" name="mtid" value="{{ model.mtid }}" />
+    <input type="hidden" name="amount" value="{{ model.paysafecard_amount }}" />
+    <input type="hidden" name="currency" value="{{ model.currency }}" />
+
+    <div class="row">
+      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+          <img src="/assets/v2/images/brands/paysafecard.svg" alt="Paysafecard" title="Paysafecard" style="width:100%">
+      </div>
+
+      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        <p>{% t When you click the button below, the Paysafecard payment window will open. %}</p>
+        <p>{% t When finished, you will be redirected back to your receipt. %}</p>
+        <button type="submit" class="btn btn-info btn">{% t Proceed to payment %}</button>
+      </div>
+    </div>
+  </form>
+</div>
