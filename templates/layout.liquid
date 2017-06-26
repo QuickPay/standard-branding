@@ -31,20 +31,66 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12" style="text-align: center">
-            <button class="btn btn-default" data-hide="#gateway-info"><img class="icon" src="{{ images.arrow-down.svg }}" alt="Cancel"></button>
+            <button class="btn btn-default" data-hide="#gateway-info"><img class="icon" src="{{ images.arrow-down.svg }}" alt="Close"></button>
           </div>
         </div>
         <div id="gateway-description" class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="col-sm-6 col-xs-12">
             <p>QuickPay is your secure, reliable and dynamic payment service provider. Learn more about our services at <a href="https://www.quickpay.net">www.quickpay.net</a>.</p>
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="col-sm-6 col-xs-12">
             <p>QuickPay operates at the highest level of security and is certified by the PCI Security Standards Council.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <div id="language-selector">
+    <div id="language-selector-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12" style="text-align: center">
+            <button class="btn btn-default" data-hide="#language-selector"><img class="icon" src="{{ images.arrow-down.svg }}" alt="Close"></button>
+          </div>
+        </div>
+        <div id="language-list" class="row">
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=bg">{% t Bulgarian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=zh">{% t Chinese %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=hr">{% t Croatian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=da">{% t Danish %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=nl">{% t Dutch %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=en">{% t English %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=et">{% t Estonian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=fo">{% t Faroese %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=fi">{% t Finnish %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=fr">{% t French %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=de">{% t German %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=el">{% t Greek %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=kl">{% t Greenlandic %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=hu">{% t Hungarian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=is">{% t Icelandic %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=it">{% t Italian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=ja">{% t Japanese %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=ko">{% t Korean %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=lt">{% t Lithuanian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=no">{% t Norwegian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=pl">{% t Polish %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=pt">{% t Portuguese %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=ro">{% t Romanian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=ru">{% t Russian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=sk">{% t Slovak %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=sl">{% t Slovenian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=sr">{% t Serbian %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=es">{% t Spanish %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=sv">{% t Swedish %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=tr">{% t Turkish %}</a></div>
+          <div class="col-sm-3 col-xs-4"><a href="/{{ model.session_id }}/update-language?language=uk">{% t Ukrainian %}</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div id="bottom-bar">
     <div class="container">
       <div class="row">
@@ -53,7 +99,9 @@
         </div>
         <div class="col-xs-6 text-right">
           <span class="center-y text-right">
-            <img class="icon clickable" src="{{ images.lock.svg }}" alt="About QuickPay" data-toggle="#gateway-info"> <span class="clickable" data-toggle="#gateway-info">Secure</span>
+            <img class="icon clickable" src="{{ images.lock.svg }}" alt="About QuickPay" data-toggle="#gateway-info" data-hide="#language-selector"> <span class="clickable" data-toggle="#gateway-info" data-hide="#language-selector">Secure</span>
+            &nbsp;&nbsp;
+            <img class="icon clickable" src="{{ images.globe.svg }}" alt="About QuickPay" data-toggle="#language-selector" data-hide="#gateway-info"> <span class="clickable" data-toggle="#language-selector" data-hide="#gateway-info">{{ model.language | upcase }}</span>
           </span>
         </div>
       </div>
