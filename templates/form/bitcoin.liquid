@@ -1,0 +1,33 @@
+<div class="container">
+  {% include 'form/error' %}
+  <div class="row">
+
+    <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+        <img src="/assets/v2/images/brands/bitcoin.svg" alt="Bitcoin" title="Bitcoin" style="width:100%">
+    </div>
+
+    <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+      <p class="text-center">
+        <img src="{{ model.bitcoin_qr_code }}" style="width:70%; border: 1px solid #dedede; border-radius: 5px;">
+      </p>
+      <p class="text-center">
+        <strong>{{ model.bitcoin_amount }} BTC</strong>
+        <span>~ {{ model.formatted_amount }} {{ model.currency }}</span>
+      </p>
+      <form class="form-inline" style="padding-top: 12px">
+        <label for="exampleInputEmail1">Bitcoin address</label>
+        <div class="input-group" style="width:100%">
+          <input type="text" id="bitcoin-address" class="form-control" value="{{ model.bitcoin_address }}">
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-primary" data-copy-field="#bitcoin-address" data-copy-success="{% t The Bitcoin address was copied to your clipboard. %}" data-copy-failure="{% t Could not copy the Bitcoin address to your clipboard %}: {{ model.bitcoin_address }}"><img src="{{ images.clone.svg }}" alt="Copy Bitcoin address" style="width:15px; height: 15px"></button>
+          </span>
+        </div>
+      </form>
+      <p>
+        <a class="btn btn-info" href="{{ model.bitcoin_uri }}">{% t Open in wallet %}</a>
+      </p>
+      <p id="redirect-msg" class="text-center-xs">{% t When finished, you will be redirected back to your receipt. %}</p>
+    </div>
+
+  </div>
+</div>
