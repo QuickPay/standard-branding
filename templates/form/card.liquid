@@ -81,6 +81,8 @@
                 {% t Create subscription %}
               {% elsif model.transaction_type == "card" %}
                 {% t Save card %}
+              {% elsif model.transaction_type == "payout" %}
+                {% t Receive %} <span id="total-field">{{ model.formatted_amount }} {{ model.currency }}</span>
               {% endif %}
             {% endcapture %}
             <button type="submit" class="btn btn-info" data-card-valid-swap="btn-success,btn-info">{{ button_text }}</button>
