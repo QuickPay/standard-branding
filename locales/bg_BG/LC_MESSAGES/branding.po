@@ -46,8 +46,7 @@ msgstr ""
 msgid "An unknown error happened."
 msgstr ""
 
-#: templates/error.liquid:13
-#: templates/error.liquid:17
+#: templates/error.liquid:13 templates/error.liquid:17
 #: templates/form/error.liquid:14
 msgid "Please try again."
 msgstr ""
@@ -56,13 +55,11 @@ msgstr ""
 msgid "Unable to complete payment"
 msgstr ""
 
-#: templates/error.liquid:17
-#: templates/error.liquid:19
+#: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
 msgstr ""
 
-#: templates/error.liquid:19
-#: templates/error.liquid:21
+#: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
 msgstr ""
 
@@ -86,6 +83,24 @@ msgstr ""
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr ""
 
+#: templates/form/bitcoin.liquid:22
+msgid "The Bitcoin address was copied to your clipboard."
+msgstr ""
+
+#: templates/form/bitcoin.liquid:22
+msgid "Could not copy the Bitcoin address to your clipboard"
+msgstr ""
+
+#: templates/form/bitcoin.liquid:27
+msgid "Open in wallet"
+msgstr ""
+
+#: templates/form/bitcoin.liquid:29 templates/form/mobilepay.liquid:23
+#: templates/form/paypal.liquid:12 templates/form/sofort.liquid:10
+#: templates/form/trustly.liquid:10 templates/form/viabill.liquid:26
+msgid "When finished, you will be redirected back to your receipt."
+msgstr ""
+
 #: templates/form/card.liquid:15
 msgid "Name on card"
 msgstr ""
@@ -94,43 +109,47 @@ msgstr ""
 msgid "Card number"
 msgstr ""
 
-#: templates/form/card.liquid:31
+#: templates/form/card.liquid:33
 msgid "Expiration date"
 msgstr ""
 
-#: templates/form/card.liquid:54
+#: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr ""
 
-#: templates/form/card.liquid:62
+#: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
 msgstr ""
 
-#: templates/form/card.liquid:68
+#: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr ""
 
-#: templates/form/card.liquid:69
+#: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr ""
 
-#: templates/form/card.liquid:77
+#: templates/form/card.liquid:79
 msgid "Pay"
 msgstr ""
 
-#: templates/form/card.liquid:79
+#: templates/form/card.liquid:81
 msgid "Create subscription"
 msgstr ""
 
-#: templates/form/card.liquid:81
+#: templates/form/card.liquid:83
 msgid "Save card"
 msgstr ""
 
-#: templates/form/card.liquid:87
+#: templates/form/card.liquid:85
+msgid "Receive"
+msgstr ""
+
+#: templates/form/card.liquid:91
 msgid "Payment fee"
 msgstr ""
 
-#: templates/form/card.liquid:87
+#: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr ""
 
@@ -194,27 +213,18 @@ msgstr ""
 msgid "Social security number"
 msgstr ""
 
-#: templates/form/klarna.liquid:55
-#: templates/form_dankort_acs.liquid:34
+#: templates/form/klarna.liquid:55 templates/form/swish.liquid:20
+#: templates/form/trustly.liquid:47 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr ""
 
-#: templates/form/mobilepay.liquid:13
+#: templates/form/mobilepay.liquid:22
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr ""
 
-#: templates/form/mobilepay.liquid:14
-#: templates/form/paypal.liquid:12
-#: templates/form/sofort.liquid:10
-#: templates/form/viabill.liquid:26
-msgid "When finished, you will be redirected back to your receipt."
-msgstr ""
-
-#: templates/form/mobilepay.liquid:15
-#: templates/form/paypal.liquid:13
-#: templates/form/sofort.liquid:11
-#: templates/form/swipp.liquid:9
-#: templates/form/viabill.liquid:27
+#: templates/form/mobilepay.liquid:24 templates/form/paypal.liquid:13
+#: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
+#: templates/form/trustly.liquid:11 templates/form/viabill.liquid:27
 msgid "Proceed to payment"
 msgstr ""
 
@@ -230,6 +240,26 @@ msgstr ""
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
 
+#: templates/form/swish.liquid:13
+msgid "Mobile number"
+msgstr ""
+
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr ""
+
+#: templates/form/trustly.liquid:26
+msgid "First name"
+msgstr ""
+
+#: templates/form/trustly.liquid:33
+msgid "Last name"
+msgstr ""
+
+#: templates/form/trustly.liquid:40
+msgid "Email"
+msgstr ""
+
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr ""
@@ -238,7 +268,6 @@ msgstr ""
 msgid "Other Payment Methods"
 msgstr ""
 
-#: templates/form.liquid:16
 #: templates/form.liquid:16
 msgid "Cards"
 msgstr ""
@@ -255,6 +284,130 @@ msgstr ""
 msgid "Cancel Payment"
 msgstr ""
 
+#: templates/layout.liquid:58
+msgid "Bulgarian"
+msgstr ""
+
+#: templates/layout.liquid:59
+msgid "Chinese"
+msgstr ""
+
+#: templates/layout.liquid:60
+msgid "Croatian"
+msgstr ""
+
+#: templates/layout.liquid:61
+msgid "Danish"
+msgstr ""
+
+#: templates/layout.liquid:62
+msgid "Dutch"
+msgstr ""
+
+#: templates/layout.liquid:63
+msgid "English"
+msgstr ""
+
+#: templates/layout.liquid:64
+msgid "Estonian"
+msgstr ""
+
+#: templates/layout.liquid:65
+msgid "Faroese"
+msgstr ""
+
+#: templates/layout.liquid:66
+msgid "Finnish"
+msgstr ""
+
+#: templates/layout.liquid:67
+msgid "French"
+msgstr ""
+
+#: templates/layout.liquid:68
+msgid "German"
+msgstr ""
+
+#: templates/layout.liquid:69
+msgid "Greek"
+msgstr ""
+
+#: templates/layout.liquid:70
+msgid "Greenlandic"
+msgstr ""
+
+#: templates/layout.liquid:71
+msgid "Hungarian"
+msgstr ""
+
+#: templates/layout.liquid:72
+msgid "Icelandic"
+msgstr ""
+
+#: templates/layout.liquid:73
+msgid "Italian"
+msgstr ""
+
+#: templates/layout.liquid:74
+msgid "Japanese"
+msgstr ""
+
+#: templates/layout.liquid:75
+msgid "Korean"
+msgstr ""
+
+#: templates/layout.liquid:76
+msgid "Lithuanian"
+msgstr ""
+
+#: templates/layout.liquid:77
+msgid "Norwegian"
+msgstr ""
+
+#: templates/layout.liquid:78
+msgid "Polish"
+msgstr ""
+
+#: templates/layout.liquid:79
+msgid "Portuguese"
+msgstr ""
+
+#: templates/layout.liquid:80
+msgid "Romanian"
+msgstr ""
+
+#: templates/layout.liquid:81
+msgid "Russian"
+msgstr ""
+
+#: templates/layout.liquid:82
+msgid "Slovak"
+msgstr ""
+
+#: templates/layout.liquid:83
+msgid "Slovenian"
+msgstr ""
+
+#: templates/layout.liquid:84
+msgid "Serbian"
+msgstr ""
+
+#: templates/layout.liquid:85
+msgid "Spanish"
+msgstr ""
+
+#: templates/layout.liquid:86
+msgid "Swedish"
+msgstr ""
+
+#: templates/layout.liquid:87
+msgid "Turkish"
+msgstr ""
+
+#: templates/layout.liquid:88
+msgid "Ukrainian"
+msgstr ""
+
 #: templates/order_info.liquid:4
 msgid "Order number"
 msgstr ""
@@ -263,7 +416,11 @@ msgstr ""
 msgid "expires in"
 msgstr ""
 
-#: templates/success.liquid:7
+#: templates/success.liquid:8
+msgid "You have completed the payout"
+msgstr ""
+
+#: templates/success.liquid:10
 msgid "You have completed the payment"
 msgstr ""
 

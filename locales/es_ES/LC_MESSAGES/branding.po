@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-03-15 11:05+0000\n"
 "Last-Translator: - <info@earmaster.com>\n"
-"Language-Team: Spanish <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding-v2xx/es/>\n"
+"Language-Team: Spanish <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,6 +83,24 @@ msgstr "Inténtalo de nuevo"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Inicio del pago 3D Secure. Por favor espera..."
 
+#: templates/form/bitcoin.liquid:22
+msgid "The Bitcoin address was copied to your clipboard."
+msgstr ""
+
+#: templates/form/bitcoin.liquid:22
+msgid "Could not copy the Bitcoin address to your clipboard"
+msgstr ""
+
+#: templates/form/bitcoin.liquid:27
+msgid "Open in wallet"
+msgstr ""
+
+#: templates/form/bitcoin.liquid:29 templates/form/mobilepay.liquid:23
+#: templates/form/paypal.liquid:12 templates/form/sofort.liquid:10
+#: templates/form/trustly.liquid:10 templates/form/viabill.liquid:26
+msgid "When finished, you will be redirected back to your receipt."
+msgstr "Cuando termine, será redirigido de nuevo a su recibo."
+
 #: templates/form/card.liquid:15
 msgid "Name on card"
 msgstr "Nombre en la tarjeta"
@@ -92,50 +109,47 @@ msgstr "Nombre en la tarjeta"
 msgid "Card number"
 msgstr "Número de tarjeta"
 
-#: templates/form/card.liquid:31
+#: templates/form/card.liquid:33
 msgid "Expiration date"
 msgstr "Fecha de caducidad"
 
-#: templates/form/card.liquid:54
+#: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
-"El CSC/CVV aumenta el nivel de seguridad. Normalmente el código de seguridad "
-"de la tarjeta es un número de tres dígitos, colocado en la parte posterior "
-"de la tarjeta."
+msgstr "El CSC/CVV aumenta el nivel de seguridad. Normalmente el código de seguridad de la tarjeta es un número de tres dígitos, colocado en la parte posterior de la tarjeta."
 
-#: templates/form/card.liquid:62
+#: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
 msgstr "Habilitar 3D Secure"
 
-#: templates/form/card.liquid:68
+#: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
-msgstr ""
-"3D Secure es un servicio de verificación en dos pasos que utiliza un mensaje "
-"de texto en su teléfono."
+msgstr "3D Secure es un servicio de verificación en dos pasos que utiliza un mensaje de texto en su teléfono."
 
-#: templates/form/card.liquid:69
+#: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr ""
-"El emisor de su tarjeta de crédito puede requerir que use 3D Secure como una "
-"precaución adicional."
+msgstr "El emisor de su tarjeta de crédito puede requerir que use 3D Secure como una precaución adicional."
 
-#: templates/form/card.liquid:77
+#: templates/form/card.liquid:79
 msgid "Pay"
 msgstr "Paga"
 
-#: templates/form/card.liquid:79
+#: templates/form/card.liquid:81
 msgid "Create subscription"
 msgstr "Crear suscripción"
 
-#: templates/form/card.liquid:81
+#: templates/form/card.liquid:83
 msgid "Save card"
 msgstr "Guardar la tarjeta"
 
-#: templates/form/card.liquid:87
+#: templates/form/card.liquid:85
+msgid "Receive"
+msgstr ""
+
+#: templates/form/card.liquid:91
 msgid "Payment fee"
 msgstr "Cuota de pago"
 
-#: templates/form/card.liquid:87
+#: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr "Rellene el número de tarjeta"
 
@@ -199,47 +213,58 @@ msgstr "Austria"
 msgid "Social security number"
 msgstr "Numero de DNI"
 
-#: templates/form/klarna.liquid:55 templates/form_dankort_acs.liquid:34
+#: templates/form/klarna.liquid:55 templates/form/swish.liquid:20
+#: templates/form/trustly.liquid:47 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Seguir"
 
-#: templates/form/mobilepay.liquid:13
+#: templates/form/mobilepay.liquid:22
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"Al hacer clic en el botón de abajo, se abrirá la ventana de pago de "
-"MobilePay."
+msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago de MobilePay."
 
-#: templates/form/mobilepay.liquid:14 templates/form/paypal.liquid:12
-#: templates/form/sofort.liquid:10 templates/form/viabill.liquid:26
-msgid "When finished, you will be redirected back to your receipt."
-msgstr "Cuando termine, será redirigido de nuevo a su recibo."
-
-#: templates/form/mobilepay.liquid:15 templates/form/paypal.liquid:13
+#: templates/form/mobilepay.liquid:24 templates/form/paypal.liquid:13
 #: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/viabill.liquid:27
+#: templates/form/trustly.liquid:11 templates/form/viabill.liquid:27
 msgid "Proceed to payment"
 msgstr "Proceder al pago"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr ""
-"Al hacer clic en el botón de abajo, se abrirá la ventana de pago de PayPal."
+msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago de PayPal."
 
 #: templates/form/sofort.liquid:9
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr ""
-"Al hacer clic en el botón de abajo, se abrirá la ventana de pago Sofort."
+msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago Sofort."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago de Swipp. Cuando termine, será redirigido de nuevo a su recibo."
+
+#: templates/form/swish.liquid:13
+#, fuzzy
+msgid "Mobile number"
+msgstr "Número de orden"
+
+#: templates/form/trustly.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago Sofort."
+
+#: templates/form/trustly.liquid:26
+msgid "First name"
 msgstr ""
-"Al hacer clic en el botón de abajo, se abrirá la ventana de pago de Swipp. "
-"Cuando termine, será redirigido de nuevo a su recibo."
+
+#: templates/form/trustly.liquid:33
+msgid "Last name"
+msgstr ""
+
+#: templates/form/trustly.liquid:40
+msgid "Email"
+msgstr ""
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr ""
-"Al hacer clic en el botón de abajo, se abrirá la ventana de pago de ViaBill."
+msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago de ViaBill."
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -251,9 +276,7 @@ msgstr "Tarjetas"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Al hacer clic en el botón de abajo, se abrirá la ventana de pago de Dankort. "
-"Cuando termine, será redirigido de nuevo a su recibo."
+msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago de Dankort. Cuando termine, será redirigido de nuevo a su recibo."
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
@@ -263,6 +286,133 @@ msgstr "Está a punto de abortar el pago. ¿Seguro?"
 msgid "Cancel Payment"
 msgstr "Cancelar Pago"
 
+#: templates/layout.liquid:58
+msgid "Bulgarian"
+msgstr ""
+
+#: templates/layout.liquid:59
+msgid "Chinese"
+msgstr ""
+
+#: templates/layout.liquid:60
+msgid "Croatian"
+msgstr ""
+
+#: templates/layout.liquid:61
+msgid "Danish"
+msgstr ""
+
+#: templates/layout.liquid:62
+msgid "Dutch"
+msgstr ""
+
+#: templates/layout.liquid:63
+msgid "English"
+msgstr ""
+
+#: templates/layout.liquid:64
+msgid "Estonian"
+msgstr ""
+
+#: templates/layout.liquid:65
+msgid "Faroese"
+msgstr ""
+
+#: templates/layout.liquid:66
+msgid "Finnish"
+msgstr ""
+
+#: templates/layout.liquid:67
+msgid "French"
+msgstr ""
+
+#: templates/layout.liquid:68
+#, fuzzy
+msgid "German"
+msgstr "Alemania"
+
+#: templates/layout.liquid:69
+msgid "Greek"
+msgstr ""
+
+#: templates/layout.liquid:70
+msgid "Greenlandic"
+msgstr ""
+
+#: templates/layout.liquid:71
+msgid "Hungarian"
+msgstr ""
+
+#: templates/layout.liquid:72
+msgid "Icelandic"
+msgstr ""
+
+#: templates/layout.liquid:73
+msgid "Italian"
+msgstr ""
+
+#: templates/layout.liquid:74
+msgid "Japanese"
+msgstr ""
+
+#: templates/layout.liquid:75
+msgid "Korean"
+msgstr ""
+
+#: templates/layout.liquid:76
+msgid "Lithuanian"
+msgstr ""
+
+#: templates/layout.liquid:77
+#, fuzzy
+msgid "Norwegian"
+msgstr "Noruega"
+
+#: templates/layout.liquid:78
+msgid "Polish"
+msgstr ""
+
+#: templates/layout.liquid:79
+msgid "Portuguese"
+msgstr ""
+
+#: templates/layout.liquid:80
+msgid "Romanian"
+msgstr ""
+
+#: templates/layout.liquid:81
+msgid "Russian"
+msgstr ""
+
+#: templates/layout.liquid:82
+msgid "Slovak"
+msgstr ""
+
+#: templates/layout.liquid:83
+msgid "Slovenian"
+msgstr ""
+
+#: templates/layout.liquid:84
+msgid "Serbian"
+msgstr ""
+
+#: templates/layout.liquid:85
+msgid "Spanish"
+msgstr ""
+
+#: templates/layout.liquid:86
+#, fuzzy
+msgid "Swedish"
+msgstr "Suecia"
+
+#: templates/layout.liquid:87
+msgid "Turkish"
+msgstr ""
+
+#: templates/layout.liquid:88
+msgid "Ukrainian"
+msgstr ""
+
 #: templates/order_info.liquid:4
 msgid "Order number"
 msgstr "Número de orden"
@@ -271,7 +421,12 @@ msgstr "Número de orden"
 msgid "expires in"
 msgstr "expira en"
 
-#: templates/success.liquid:7
+#: templates/success.liquid:8
+#, fuzzy
+msgid "You have completed the payout"
+msgstr "Ha completado el pago"
+
+#: templates/success.liquid:10
 msgid "You have completed the payment"
 msgstr "Ha completado el pago"
 
