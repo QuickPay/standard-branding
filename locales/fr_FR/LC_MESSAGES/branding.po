@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-15 10:56+0000\n"
+"PO-Revision-Date: 2017-06-27 09:56+0000\n"
 "Last-Translator: - <info@earmaster.com>\n"
-"Language-Team: French <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/fr/>\n"
+"Language-Team: French <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding-v2xx/fr/>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,15 +86,15 @@ msgstr "Initialisation de la transaction 3D Secure. Veuillez patienter..."
 
 #: templates/form/bitcoin.liquid:22
 msgid "The Bitcoin address was copied to your clipboard."
-msgstr ""
+msgstr "L'adresse Bitcoin a été copiée dans le presse-papiers."
 
 #: templates/form/bitcoin.liquid:22
 msgid "Could not copy the Bitcoin address to your clipboard"
-msgstr ""
+msgstr "L'adresse Bitcoin n'a pas pu être copiée vers le presse-papiers"
 
 #: templates/form/bitcoin.liquid:27
 msgid "Open in wallet"
-msgstr ""
+msgstr "Ouvrir dans le portefeuille"
 
 #: templates/form/bitcoin.liquid:29 templates/form/mobilepay.liquid:23
 #: templates/form/paypal.liquid:12 templates/form/sofort.liquid:10
@@ -143,7 +144,7 @@ msgstr "Enregistrer la carte"
 
 #: templates/form/card.liquid:85
 msgid "Receive"
-msgstr ""
+msgstr "Recevoir"
 
 #: templates/form/card.liquid:91
 msgid "Payment fee"
@@ -241,26 +242,26 @@ msgid "When you click the button below, the Swipp payment window will open. When
 msgstr "La page de paiement Swipp s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous. Une fois que vous aurez terminé, vous serez redirigé vers votre reçu."
 
 #: templates/form/swish.liquid:13
-#, fuzzy
 msgid "Mobile number"
-msgstr "Numéro de commande"
+msgstr "Téléphone portable"
 
 #: templates/form/trustly.liquid:9
-#, fuzzy
 msgid "When you click the button below, the Trustly payment window will open."
-msgstr "La page de paiement Sofort s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous."
+msgstr ""
+"La page de paiement Trustly s'ouvrira lorsque vous aurez appuyé sur le "
+"bouton ci-dessous."
 
 #: templates/form/trustly.liquid:26
 msgid "First name"
-msgstr ""
+msgstr "Prénom"
 
 #: templates/form/trustly.liquid:33
 msgid "Last name"
-msgstr ""
+msgstr "Nom"
 
 #: templates/form/trustly.liquid:40
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
@@ -295,7 +296,6 @@ msgid "expires in"
 msgstr "Expire le"
 
 #: templates/success.liquid:8
-#, fuzzy
 msgid "You have completed the payout"
 msgstr "Vous avez complété le paiement avec succès"
 
