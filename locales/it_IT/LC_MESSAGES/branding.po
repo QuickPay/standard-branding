@@ -3,24 +3,25 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-10-28 08:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2017-06-27 12:10+0000\n"
+"Last-Translator: Jens <jc@jenschristensen.dk>\n"
+"Language-Team: Italian <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding-v2xx/it/>\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.9\n"
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr ""
+msgstr "Hai cancellato il pagamento"
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
@@ -32,15 +33,15 @@ msgstr ""
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
-msgstr ""
+msgstr "Clicchi qui per continuare"
 
 #: templates/error.liquid:9
 msgid "The order is already paid."
-msgstr ""
+msgstr "L'ordine è già stato pagato."
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
-msgstr ""
+msgstr "Continua allo shop"
 
 #: templates/error.liquid:13
 msgid "An unknown error happened."
@@ -77,7 +78,7 @@ msgstr ""
 
 #: templates/error.liquid:36
 msgid "Try again"
-msgstr ""
+msgstr "Provi di nuovo"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
@@ -103,7 +104,7 @@ msgstr ""
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
-msgstr ""
+msgstr "Nome sulla carta"
 
 #: templates/form/card.liquid:23
 msgid "Card number"
@@ -111,7 +112,7 @@ msgstr ""
 
 #: templates/form/card.liquid:33
 msgid "Expiration date"
-msgstr ""
+msgstr "Data di scadenza"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
@@ -131,7 +132,7 @@ msgstr ""
 
 #: templates/form/card.liquid:79
 msgid "Pay"
-msgstr ""
+msgstr "Paga"
 
 #: templates/form/card.liquid:81
 msgid "Create subscription"
@@ -139,7 +140,7 @@ msgstr ""
 
 #: templates/form/card.liquid:83
 msgid "Save card"
-msgstr ""
+msgstr "Salva carta"
 
 #: templates/form/card.liquid:85
 msgid "Receive"
@@ -167,7 +168,7 @@ msgstr ""
 
 #: templates/form/klarna.liquid:13
 msgid "Gender"
-msgstr ""
+msgstr "Sesso"
 
 #: templates/form/klarna.liquid:15
 msgid "Male"
@@ -179,35 +180,35 @@ msgstr ""
 
 #: templates/form/klarna.liquid:20
 msgid "Country"
-msgstr ""
+msgstr "Nazione"
 
 #: templates/form/klarna.liquid:26
 msgid "Denmark"
-msgstr ""
+msgstr "Danimarca"
 
 #: templates/form/klarna.liquid:28
 msgid "Sweden"
-msgstr ""
+msgstr "Svezia"
 
 #: templates/form/klarna.liquid:30
 msgid "Norway"
-msgstr ""
+msgstr "Norvegia"
 
 #: templates/form/klarna.liquid:32
 msgid "Finland"
-msgstr ""
+msgstr "Finlandia"
 
 #: templates/form/klarna.liquid:34
 msgid "Netherlands"
-msgstr ""
+msgstr "Olanda"
 
 #: templates/form/klarna.liquid:36
 msgid "Germany"
-msgstr ""
+msgstr "Germania"
 
 #: templates/form/klarna.liquid:38
 msgid "Austria"
-msgstr ""
+msgstr "Austria"
 
 #: templates/form/klarna.liquid:48
 msgid "Social security number"
