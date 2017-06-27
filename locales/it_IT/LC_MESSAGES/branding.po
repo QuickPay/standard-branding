@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-06-27 12:10+0000\n"
+"PO-Revision-Date: 2017-06-27 12:13+0000\n"
 "Last-Translator: Jens <jc@jenschristensen.dk>\n"
 "Language-Team: Italian <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding-v2xx/it/>\n"
@@ -212,7 +212,7 @@ msgstr "Austria"
 
 #: templates/form/klarna.liquid:48
 msgid "Social security number"
-msgstr ""
+msgstr "Codice fiscale"
 
 #: templates/form/klarna.liquid:55 templates/form/swish.liquid:20
 #: templates/form/trustly.liquid:47 templates/form_dankort_acs.liquid:35
@@ -243,7 +243,7 @@ msgstr ""
 
 #: templates/form/swish.liquid:13
 msgid "Mobile number"
-msgstr ""
+msgstr "Cellulare"
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
@@ -251,15 +251,15 @@ msgstr ""
 
 #: templates/form/trustly.liquid:26
 msgid "First name"
-msgstr ""
+msgstr "Nome"
 
 #: templates/form/trustly.liquid:33
 msgid "Last name"
-msgstr ""
+msgstr "Cognome"
 
 #: templates/form/trustly.liquid:40
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: templates/form/viabill.liquid:25
 msgid "When you click the button below, the ViaBill payment window will open."
@@ -267,11 +267,11 @@ msgstr ""
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr ""
+msgstr "Altri metodi di pagamento"
 
 #: templates/form.liquid:16
 msgid "Cards"
-msgstr ""
+msgstr "Carte"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
@@ -287,7 +287,7 @@ msgstr ""
 
 #: templates/order_info.liquid:4
 msgid "Order number"
-msgstr ""
+msgstr "Numero d'ordine"
 
 #: templates/order_info.liquid:6
 msgid "expires in"
