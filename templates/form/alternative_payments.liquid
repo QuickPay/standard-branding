@@ -1,0 +1,152 @@
+<div class="container">
+  {% if model.redirect_url %}
+    <div class="row">
+      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+          <img src="/assets/v2/images/brands/{{ model.current_payment_method }}.svg"
+               alt="{{ model.current_payment_method }}"
+               title="{{ model.current_payment_method }}"
+               style="width:100%">
+      </div>
+
+      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        <p>{% t When you click the button below, the %} {{ model.current_payment_method | capitalize }} {% t payment window will open. %}</p>
+        <p>{% t When finished, you will be redirected back to your receipt. %}</p>
+        <a href="{{ model.redirect_url }}" class="btn btn-info btn autoclick">{% t Proceed to payment %}</a>
+      </div>
+    </div>
+  {% else %}
+    {% include 'form/error' %}
+    <form class="form-horizontal" method="post" autocomplete="off" action="process_alternative_payments">
+      <input type="hidden" name="session_id" value="{{ model.session_id }}" />
+      <input type="hidden" name="person[brand]" value="{{ model.current_payment_method }}" />
+
+      <div class="row">
+        <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+            <img src="/assets/v2/images/brands/{{ model.current_payment_method }}.svg"
+                 alt="{{ model.current_payment_method }}"
+                 title="{{ model.current_payment_method }}"
+                 style="width:100%">
+        </div>
+
+        <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+          <div class="form-group">
+            <div class="col-xs-12">
+              <label for="first_name" class="control-label">{% t First name %}</label>
+              <input id="first_name"
+                     class="form-control"
+                     name="person[first_name]"
+                     value="{{ model.first_name }}"
+                     autocomplete="on"
+                     required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-xs-12">
+              <label for="last_name" class="control-label">{% t Last name %}</label>
+              <input id="last_name"
+                     class="form-control"
+                     name="person[last_name]"
+                     value="{{ model.last_name }}"
+                     autocomplete="on"
+                     required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-xs-12">
+              <label for="email" class="control-label">{% t Email %}</label>
+              <input type="text"
+                     id="email"
+                     name="person[email]"
+                     value="{{ model.email }}"
+                     class="form-control"
+                     autocomplete="on"
+                     required>
+            </div>
+          </div>
+
+          {% if model.country_codes %}
+            <div class="form-group">
+              <div class="col-xs-12">
+                <label for="country_code" class="control-label">{% t Country %}</label>
+                {% if model.country_codes.size == 1 %}
+                  <input type="text"
+                         name="person[country_code]"
+                         value="{{ model.country_codes.first }}"
+                         class="form-control"
+                         readonly>
+                {% else %}
+                  <select id="nin_country_code" class="form-control" name="person[country_code]">
+                    {% for country_code in model.country_codes %}
+                      <option value="{{ country_code }}" {% if model.country_code == country_code %}selected{% endif %}>
+                        {% case country_code %}
+                        {% when 'AUS' %}
+                          {% t Australia %}
+                        {% when 'NZL' %}
+                          {% t New Zeeland %}
+                        {% when 'DEU' %}
+                          {% t Germany %}
+                        {% else %}
+                          {{ country_code }}
+                        {% endcase %}
+                      </option>
+                    {% endfor %}
+                  </select>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+
+          {% if model.current_payment_method == "eps" or model.current_payment_method == "giropay" %}
+            <div class="form-group">
+              <div class="col-xs-12">
+                <label for="bank_identification_code" class="control-label">{% t BIC %}</label>
+                <input type="text"
+                       id="bank_identification_code"
+                       name="person[bank_identification_code]"
+                       class="form-control"
+                       autocomplete="on"
+                       required>
+              </div>
+            </div>
+          {% endif %}
+
+          {% if model.current_payment_method == "mcoinz" %}
+            <div class="form-group">
+              <div class="col-xs-12">
+                <label for="pin_code" class="control-label">{% t Voucher PIN code %}</label>
+                <input type="text"
+                       id="pin_code"
+                       name="person[pin_code]"
+                       class="form-control"
+                       autocomplete="on"
+                       required>
+              </div>
+            </div>
+          {% endif %}
+
+          {% if model.current_payment_method == "qiwi" %}
+            <div class="form-group">
+              <div class="col-xs-12">
+                <label for="phone_number" class="control-label">{% t Phone number %}</label>
+                <input type="text"
+                       id="phone_number"
+                       name="person[phone_number]"
+                       class="form-control"
+                       autocomplete="on"
+                       required>
+              </div>
+            </div>
+          {% endif %}
+
+          <div class="form-group">
+            <div class="col-xs-12">
+              <button type="submit" class="btn btn-info btn">{% t Proceed %}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  {% endif %}
+</div>
