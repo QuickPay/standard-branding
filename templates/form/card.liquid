@@ -21,7 +21,7 @@
         <div class="form-group has-feedback">
           <div class="col-xs-12">
             <label for="cardnumber" class="control-label">{% t Card number %}</label>
-            <input type="tel" id="cardnumber" name="cardnumber" class="form-control" autocomplete="cc-number" autofocus="autofocus" aria-describedby="cardnumberSuccess" pattern="[0-9\s]*" data-mask="#" inputmode="numeric">
+            <input type="tel" id="cardnumber" name="cardnumber" class="form-control" autocomplete="cc-number" {% unless config.enable_card_holder_field %} autofocus="autofocus" {% endunless %} aria-describedby="cardnumberSuccess" pattern="[0-9\s]*" data-mask="#" inputmode="numeric">
             <span id="cardnumber-check" class="form-control-feedback" aria-hidden="true" style="display: none"><img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark"></span>
             <span id="cardnumber-sr" class="sr-only">(success)</span>
           </div>
