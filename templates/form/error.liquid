@@ -16,6 +16,8 @@
               {% t You tried to make a live payment on a test transaction. %}
             {% when "test_payment_on_live_transaction" %}
               {% t You tried to make a test payment on a live transaction. %}
+            {% when "validation_error" %}
+              {{ model.error_description }}
             {% endcase %}
           {% endif %}
         </h4>
