@@ -24,6 +24,18 @@ Currently it supports:
 
 The configuration can be access using a Liquid Drop `config` - example: `{% if config.enable_3d_card_field %}`
 
+Example config file:
+
+```json
+{
+  "title": "My Webshop Inc.",
+  "enable_card_holder_field": false,
+  "enable_3d_card_field": false,
+  "autojump": true,
+  "my_own_custom_key": "Access this value in a template with {% config.my_own_custom_key %}"
+}
+```
+
 
 ## Language and Translation <a style="float: right" href="https://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/"><img src="http://translate.quickpay.net/widgets/quickpay/-/shields-badge.svg" alt="Translation status" /></a>
 
