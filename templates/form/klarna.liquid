@@ -6,47 +6,95 @@
       <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
           <img src="/assets/v2/images/brands/klarna.svg" alt="Klarna" title="Klarna" style="width:100%">
       </div>
-
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
         <div class="form-group">
-          <div class="col-xs-6">
-            <label for="nin_gender" class="control-label">{% t Gender %}</label>
-            <select id="nin_gender" class="form-control" name="nin[gender]">
-              <option value="male">{% t Male %}</option>
-              <option value="female">{% t Female %}</option>
-            </select>
-          </div>
-          <div class="col-xs-6">
-            <label for="nin_country_code" class="control-label">{% t Country %}</label>
-            <select id="nin_country_code" class="form-control" name="nin[country_code]">
-              {% for country_code in model.country_codes %}
-                <option value="{{ country_code }}" {% if model.country_code == country_code %}selected{% endif %}>
-                  {% case country_code %}
-                  {% when 'DNK' %}
-                    {% t Denmark %}
-                  {% when 'SWE' %}
-                    {% t Sweden %}
-                  {% when 'NOR' %}
-                    {% t Norway %}
-                  {% when 'FIN' %}
-                    {% t Finland %}
-                  {% when 'NLD' %}
-                    {% t Netherlands %}
-                  {% when 'GER' %}
-                    {% t Germany %}
-                  {% when 'AUT' %}
-                    {% t Austria %}
-                  {% endcase %}
-                </option>
-              {% endfor %}
-            </select>
+
+          <div class="col-xs-12">
+            <label class="radio-inline">
+              <input type="radio" name="nin[type]" value="private" data-show="#klarna_private" data-hide="#klarna_business" checked="checked"> <strong>Private</strong>
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="nin[type]" value="business" data-hide="#klarna_private" data-show="#klarna_business"> <strong>Business</strong>
+            </label>
           </div>
         </div>
 
-        <div class="form-group">
-          <div class="col-xs-12">
-            <label for="nin_number" class="control-label">{% t Social security number %} / {% t Business number %}</label>
-            <input type="text" id="nin_number" name="nin[number]" class="form-control" autocomplete="on">
+        <div id="klarna_private">
+          <div class="form-group">
+            <div class="col-xs-6">
+              <label for="nin_gender" class="control-label">{% t Gender %}</label>
+              <select id="nin_gender" class="form-control" name="nin[gender]" disabled="disabled">
+                <option value="male">{% t Male %}</option>
+                <option value="female">{% t Female %}</option>
+              </select>
+            </div>
+            <div class="col-xs-6">
+              <label for="nin_country_code" class="control-label">{% t Country %}</label>
+              <select id="nin_country_code" class="form-control" name="nin[country_code]">
+                {% for country_code in model.country_codes %}
+                  <option value="{{ country_code }}" {% if model.country_code == country_code %}selected{% endif %}>
+                    {% case country_code %}
+                    {% when 'DNK' %}
+                      {% t Denmark %}
+                    {% when 'SWE' %}
+                      {% t Sweden %}
+                    {% when 'NOR' %}
+                      {% t Norway %}
+                    {% when 'FIN' %}
+                      {% t Finland %}
+                    {% when 'NLD' %}
+                      {% t Netherlands %}
+                    {% when 'GER' %}
+                      {% t Germany %}
+                    {% when 'AUT' %}
+                      {% t Austria %}
+                    {% endcase %}
+                  </option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-12">
+              <label for="nin_number" class="control-label">{% t Social security number %}</label>
+              <input type="text" id="nin_number" name="nin[number]" class="form-control" autocomplete="on">
+            </div>
+          </div>
+        </div>
+
+        <div id="klarna_business" style="display: none">
+          <div class="form-group">
+            <div class="col-xs-12">
+              <label for="nin_country_code" class="control-label">{% t Country %}</label>
+              <select id="nin_country_code" class="form-control" name="nin[country_code]">
+                {% for country_code in model.country_codes %}
+                  <option value="{{ country_code }}" {% if model.country_code == country_code %}selected{% endif %}>
+                    {% case country_code %}
+                    {% when 'DNK' %}
+                      {% t Denmark %}
+                    {% when 'SWE' %}
+                      {% t Sweden %}
+                    {% when 'NOR' %}
+                      {% t Norway %}
+                    {% when 'FIN' %}
+                      {% t Finland %}
+                    {% when 'NLD' %}
+                      {% t Netherlands %}
+                    {% when 'GER' %}
+                      {% t Germany %}
+                    {% when 'AUT' %}
+                      {% t Austria %}
+                    {% endcase %}
+                  </option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-12">
+              <label for="nin_number" class="control-label">{% t Company Registration Number %}</label>
+              <input type="text" id="nin_business_number" name="nin[business_number]" class="form-control" autocomplete="on">
+            </div>
           </div>
         </div>
 
