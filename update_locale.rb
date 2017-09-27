@@ -96,3 +96,9 @@ Dir.glob("locales/**/*.po").each do |file|
   print file
   `msgmerge --update --no-wrap #{file} locales/branding.pot`
 end
+
+Dir.glob("./locales/*/*/") do |locale_dir|
+  po_file = "#{locale_dir}branding.po"
+  mo_file = "#{locale_dir}branding.mo"
+  `msgfmt #{po_file} -o #{mo_file}`
+end
