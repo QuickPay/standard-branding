@@ -165,55 +165,59 @@ msgstr "U heeft geprobeerd een echte betaling te doen bij een test transactie."
 msgid "You tried to make a test payment on a live transaction."
 msgstr "U heeft geprobeerd een test betaling bij een echte transactie te doen."
 
-#: templates/form/klarna.liquid:13
+#: templates/form/klarna.liquid:25
 msgid "Gender"
 msgstr "Geslacht"
 
-#: templates/form/klarna.liquid:15
+#: templates/form/klarna.liquid:27
 msgid "Male"
 msgstr "Man"
 
-#: templates/form/klarna.liquid:16
+#: templates/form/klarna.liquid:28
 msgid "Female"
 msgstr "Vrouw"
 
-#: templates/form/klarna.liquid:20
+#: templates/form/klarna.liquid:32 templates/form/klarna.liquid:68
 msgid "Country"
 msgstr "Land"
 
-#: templates/form/klarna.liquid:26
+#: templates/form/klarna.liquid:38 templates/form/klarna.liquid:74
 msgid "Denmark"
 msgstr "Denemarken"
 
-#: templates/form/klarna.liquid:28
+#: templates/form/klarna.liquid:40 templates/form/klarna.liquid:76
 msgid "Sweden"
 msgstr "Zweden"
 
-#: templates/form/klarna.liquid:30
+#: templates/form/klarna.liquid:42 templates/form/klarna.liquid:78
 msgid "Norway"
 msgstr "Noorwegen"
 
-#: templates/form/klarna.liquid:32
+#: templates/form/klarna.liquid:44 templates/form/klarna.liquid:80
 msgid "Finland"
 msgstr "Finland"
 
-#: templates/form/klarna.liquid:34
+#: templates/form/klarna.liquid:46 templates/form/klarna.liquid:82
 msgid "Netherlands"
 msgstr "Nederland"
 
-#: templates/form/klarna.liquid:36
+#: templates/form/klarna.liquid:48 templates/form/klarna.liquid:84
 msgid "Germany"
 msgstr "Duitsland"
 
-#: templates/form/klarna.liquid:38
+#: templates/form/klarna.liquid:50 templates/form/klarna.liquid:86
 msgid "Austria"
 msgstr "Oostenrijk"
 
-#: templates/form/klarna.liquid:48
+#: templates/form/klarna.liquid:59
 msgid "Social security number"
 msgstr "BSN nummer"
 
-#: templates/form/klarna.liquid:55 templates/form/swish.liquid:20
+#: templates/form/klarna.liquid:95
+msgid "Company Registration Number"
+msgstr ""
+
+#: templates/form/klarna.liquid:103 templates/form/swish.liquid:20
 #: templates/form/trustly.liquid:47 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Ga verder"

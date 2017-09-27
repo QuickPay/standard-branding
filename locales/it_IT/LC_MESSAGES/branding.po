@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-06-27 12:13+0000\n"
 "Last-Translator: Jens <jc@jenschristensen.dk>\n"
-"Language-Team: Italian <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding-v2xx/it/>\n"
+"Language-Team: Italian <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/it/>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,55 +165,59 @@ msgstr ""
 msgid "You tried to make a test payment on a live transaction."
 msgstr ""
 
-#: templates/form/klarna.liquid:13
+#: templates/form/klarna.liquid:25
 msgid "Gender"
 msgstr "Sesso"
 
-#: templates/form/klarna.liquid:15
+#: templates/form/klarna.liquid:27
 msgid "Male"
 msgstr ""
 
-#: templates/form/klarna.liquid:16
+#: templates/form/klarna.liquid:28
 msgid "Female"
 msgstr ""
 
-#: templates/form/klarna.liquid:20
+#: templates/form/klarna.liquid:32 templates/form/klarna.liquid:68
 msgid "Country"
 msgstr "Nazione"
 
-#: templates/form/klarna.liquid:26
+#: templates/form/klarna.liquid:38 templates/form/klarna.liquid:74
 msgid "Denmark"
 msgstr "Danimarca"
 
-#: templates/form/klarna.liquid:28
+#: templates/form/klarna.liquid:40 templates/form/klarna.liquid:76
 msgid "Sweden"
 msgstr "Svezia"
 
-#: templates/form/klarna.liquid:30
+#: templates/form/klarna.liquid:42 templates/form/klarna.liquid:78
 msgid "Norway"
 msgstr "Norvegia"
 
-#: templates/form/klarna.liquid:32
+#: templates/form/klarna.liquid:44 templates/form/klarna.liquid:80
 msgid "Finland"
 msgstr "Finlandia"
 
-#: templates/form/klarna.liquid:34
+#: templates/form/klarna.liquid:46 templates/form/klarna.liquid:82
 msgid "Netherlands"
 msgstr "Olanda"
 
-#: templates/form/klarna.liquid:36
+#: templates/form/klarna.liquid:48 templates/form/klarna.liquid:84
 msgid "Germany"
 msgstr "Germania"
 
-#: templates/form/klarna.liquid:38
+#: templates/form/klarna.liquid:50 templates/form/klarna.liquid:86
 msgid "Austria"
 msgstr "Austria"
 
-#: templates/form/klarna.liquid:48
+#: templates/form/klarna.liquid:59
 msgid "Social security number"
 msgstr "Codice fiscale"
 
-#: templates/form/klarna.liquid:55 templates/form/swish.liquid:20
+#: templates/form/klarna.liquid:95
+msgid "Company Registration Number"
+msgstr ""
+
+#: templates/form/klarna.liquid:103 templates/form/swish.liquid:20
 #: templates/form/trustly.liquid:47 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr ""

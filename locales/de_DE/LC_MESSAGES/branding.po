@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-09-04 08:17+0000\n"
 "Last-Translator: Thomas <tholst@hopto.de>\n"
-"Language-Team: German <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding-v2xx/de/>\n"
+"Language-Team: German <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,55 +165,59 @@ msgstr "Sie haben versucht, eine reale Zahlung auf einer Testtransaktion durchzu
 msgid "You tried to make a test payment on a live transaction."
 msgstr "Sie haben versucht, eine Testzahlung auf einer realen Transaktion durchzuführen."
 
-#: templates/form/klarna.liquid:13
+#: templates/form/klarna.liquid:25
 msgid "Gender"
 msgstr "Geschlecht"
 
-#: templates/form/klarna.liquid:15
+#: templates/form/klarna.liquid:27
 msgid "Male"
 msgstr "Männlich"
 
-#: templates/form/klarna.liquid:16
+#: templates/form/klarna.liquid:28
 msgid "Female"
 msgstr "Weiblich"
 
-#: templates/form/klarna.liquid:20
+#: templates/form/klarna.liquid:32 templates/form/klarna.liquid:68
 msgid "Country"
 msgstr "Land"
 
-#: templates/form/klarna.liquid:26
+#: templates/form/klarna.liquid:38 templates/form/klarna.liquid:74
 msgid "Denmark"
 msgstr "Dänemark"
 
-#: templates/form/klarna.liquid:28
+#: templates/form/klarna.liquid:40 templates/form/klarna.liquid:76
 msgid "Sweden"
 msgstr "Schweden"
 
-#: templates/form/klarna.liquid:30
+#: templates/form/klarna.liquid:42 templates/form/klarna.liquid:78
 msgid "Norway"
 msgstr "Norwegen"
 
-#: templates/form/klarna.liquid:32
+#: templates/form/klarna.liquid:44 templates/form/klarna.liquid:80
 msgid "Finland"
 msgstr "Finnland"
 
-#: templates/form/klarna.liquid:34
+#: templates/form/klarna.liquid:46 templates/form/klarna.liquid:82
 msgid "Netherlands"
 msgstr "Niederlande"
 
-#: templates/form/klarna.liquid:36
+#: templates/form/klarna.liquid:48 templates/form/klarna.liquid:84
 msgid "Germany"
 msgstr "Deutschland"
 
-#: templates/form/klarna.liquid:38
+#: templates/form/klarna.liquid:50 templates/form/klarna.liquid:86
 msgid "Austria"
 msgstr "Österreich"
 
-#: templates/form/klarna.liquid:48
+#: templates/form/klarna.liquid:59
 msgid "Social security number"
 msgstr "Sozialversicherungsnummer"
 
-#: templates/form/klarna.liquid:55 templates/form/swish.liquid:20
+#: templates/form/klarna.liquid:95
+msgid "Company Registration Number"
+msgstr ""
+
+#: templates/form/klarna.liquid:103 templates/form/swish.liquid:20
 #: templates/form/trustly.liquid:47 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "fortfahren"
@@ -247,9 +250,7 @@ msgstr "Handynummer"
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
-msgstr ""
-"Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Sofort-"
-"Zahlungsfenster."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Sofort-Zahlungsfenster."
 
 #: templates/form/trustly.liquid:26
 msgid "First name"
