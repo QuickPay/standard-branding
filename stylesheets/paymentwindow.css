@@ -446,3 +446,30 @@ h4 img.icon {
 .text-justify {
   text-align: justify !important;
 }
+
+/*
+ * ApplePay
+ *
+ */
+
+.payment-method-apple-pay {
+  display: none;
+}
+
+.payment-method-apple-pay > a {
+  overflow: hidden;
+}
+
+.apple-pay-btn {
+  display: block;
+  background-image: -webkit-named-image(apple-pay-logo-black);
+  background-color: white;
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 12px 0;
+  width: 100%;
+  min-height: 42px;
+}
