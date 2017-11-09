@@ -1,0 +1,25 @@
+<div class="container">
+  <form class="form-horizontal" method="post" autocomplete="on" action="process_vipps">
+    <input type="hidden" name="session_id" value="{{ model.session_id }}" />
+    <div class="row">
+      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+          <img src="/assets/v2/images/brands/vipps.svg" alt="Vipps" title="Vipps" style="width:100%">
+      </div>
+
+      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        <div class="form-group">
+          <div class="col-xs-12">
+            <label for="mobile" class="control-label">{% t Mobile number %}</label>
+            <input type="tel" id="mobile" name="mobile" value="{{ model.mobile_number }}" class="form-control" autocomplete="tel" pattern="[0-9\s]*" inputmode="numeric">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-info btn">{% t Proceed %}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
