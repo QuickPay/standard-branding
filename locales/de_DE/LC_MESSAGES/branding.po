@@ -18,88 +18,164 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.9\n"
 
-#: templates/cancelled.liquid:7
-msgid "You have cancelled the payment"
-msgstr "Sie haben die Zahlung storniert"
+#: templates/form.liquid:11
+msgid "Other Payment Methods"
+msgstr "Andere Zahlungsmethoden"
 
-#: templates/deadline.liquid:7
-msgid "Order expired"
-msgstr "Bestellung abgelaufen"
+#: templates/form.liquid:16
+msgid "Cards"
+msgstr "Karten"
 
-#: templates/deadline.liquid:11
-msgid "You did not finish the purchase within the time frame."
-msgstr "Sie haben den Kauf nicht innerhalb des Zeitrahmens abgeschlossen."
+#: templates/waiting.liquid:7
+msgid "Please wait..."
+msgstr "Bitte warten..."
 
-#: templates/deadline.liquid:13
-msgid "Click here to continue"
-msgstr "Klicken Sie hier um fortzufahren"
+#: templates/waiting.liquid:11
+msgid "The process may take up to 5 minutes."
+msgstr "Der Vorgang kann bis zu 5 Minuten dauern."
 
-#: templates/error.liquid:9
-msgid "The order is already paid."
-msgstr "Die Bestellung ist bereits bezahlt."
-
-#: templates/error.liquid:11
-msgid "Continue to the shop"
-msgstr "Weiter zum Shop"
-
-#: templates/error.liquid:13
-msgid "An unknown error happened."
-msgstr "Ein Fehler ist aufgetreten."
-
-#: templates/error.liquid:13 templates/error.liquid:17
-#: templates/form/error.liquid:14
-msgid "Please try again."
-msgstr "Bitte versuchen Sie es erneut."
-
-#: templates/error.liquid:15
-msgid "Unable to complete payment"
-msgstr "Die Zahlung kann nicht abgeschlossen werden"
-
-#: templates/error.liquid:17 templates/error.liquid:19
-msgid "3D Secure authorization failed."
-msgstr "3D Secure-Berechtigung fehlgeschlagen."
-
-#: templates/error.liquid:19 templates/error.liquid:21
-msgid "Please try again or select another payment method."
-msgstr "Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsmethode."
-
-#: templates/error.liquid:21
-msgid "3D Secure enrollment failed."
-msgstr "3D Secure-Berechtigung fehlgeschlagen."
-
-#: templates/error.liquid:23
-msgid "The payment details have changed since you initiated the payment."
-msgstr "Seit dem Aufruf der Zahlung haben sich die Zahlungsdetails geändert."
-
-#: templates/error.liquid:25
-msgid "Click here to start over"
-msgstr "Klicken Sie hier um erneut anzufangen"
-
-#: templates/error.liquid:36
-msgid "Try again"
-msgstr "Versuchen Sie es noch einmal"
+#: templates/waiting.liquid:11
+msgid "Click here if processing takes a long time"
+msgstr "Klicken Sie hier, wenn die Verarbeitung lange dauert"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Starten der 3D sicheren Zahlung. Bitte warten..."
 
-#: templates/form/bitcoin.liquid:22
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Sofort-Zahlungsfenster."
+
+#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:11
+#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:22
+msgid "When finished, you will be redirected back to your receipt."
+msgstr "Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
+
+#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
+#: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:23
+msgid "Proceed to payment"
+msgstr "Weiter zur Zahlung"
+
+#: templates/form/trustly.liquid:26
+msgid "First name"
+msgstr "Vorname"
+
+#: templates/form/trustly.liquid:33
+msgid "Last name"
+msgstr "Nachname"
+
+#: templates/form/trustly.liquid:40
+msgid "Email"
+msgstr "eMail"
+
+#: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
+#: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
+#: templates/form_dankort_acs.liquid:35
+msgid "Proceed"
+msgstr "fortfahren"
+
+#: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
+msgid "Mobile number"
+msgstr "Handynummer"
+
+#: templates/form/swipp.liquid:3
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Swipp-Zahlungsfenster geöffnet. Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
+
+#: templates/form/klarna.liquid:24
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: templates/form/klarna.liquid:26
+msgid "Male"
+msgstr "Männlich"
+
+#: templates/form/klarna.liquid:27
+msgid "Female"
+msgstr "Weiblich"
+
+#: templates/form/klarna.liquid:31 templates/form/klarna.liquid:67
+msgid "Country"
+msgstr "Land"
+
+#: templates/form/klarna.liquid:37 templates/form/klarna.liquid:73
+msgid "Denmark"
+msgstr "Dänemark"
+
+#: templates/form/klarna.liquid:39 templates/form/klarna.liquid:75
+msgid "Sweden"
+msgstr "Schweden"
+
+#: templates/form/klarna.liquid:41 templates/form/klarna.liquid:77
+msgid "Norway"
+msgstr "Norwegen"
+
+#: templates/form/klarna.liquid:43 templates/form/klarna.liquid:79
+msgid "Finland"
+msgstr "Finnland"
+
+#: templates/form/klarna.liquid:45 templates/form/klarna.liquid:81
+msgid "Netherlands"
+msgstr "Niederlande"
+
+#: templates/form/klarna.liquid:47 templates/form/klarna.liquid:83
+msgid "Germany"
+msgstr "Deutschland"
+
+#: templates/form/klarna.liquid:49 templates/form/klarna.liquid:85
+msgid "Austria"
+msgstr "Österreich"
+
+#: templates/form/klarna.liquid:58
+msgid "Social security number"
+msgstr "Sozialversicherungsnummer"
+
+#: templates/form/klarna.liquid:94
+msgid "Company Registration Number"
+msgstr ""
+
+#: templates/form/paypal.liquid:10
+msgid "When you click the button below, the PayPal payment window will open."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das PayPal-Zahlungsfenster geöffnet."
+
+#: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
 msgstr "Die Bitcoin-Adresse wurde in Ihre Zwischenablage kopiert."
 
-#: templates/form/bitcoin.liquid:22
+#: templates/form/bitcoin.liquid:21
 msgid "Could not copy the Bitcoin address to your clipboard"
 msgstr "Die Bitcoin-Adresse konnte nicht in Ihre Zwischenablage kopiert werden"
 
-#: templates/form/bitcoin.liquid:27
+#: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
 msgstr "In der Brieftasche öffnen"
 
-#: templates/form/bitcoin.liquid:29 templates/form/mobilepay.liquid:23
-#: templates/form/paypal.liquid:12 templates/form/sofort.liquid:10
-#: templates/form/trustly.liquid:10 templates/form/viabill.liquid:26
-msgid "When finished, you will be redirected back to your receipt."
-msgstr "Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
+#: templates/form/viabill.liquid:24
+msgid "When you click the button below, the ViaBill payment window will open."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Zahlungsfenster von ViaBill geöffnet."
+
+#: templates/form/sofort.liquid:8
+msgid "When you click the button below, the Sofort payment window will open."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Sofort-Zahlungsfenster."
+
+#: templates/form/error.liquid:14
+msgid "An error happened."
+msgstr "Ein Fehler ist aufgetreten."
+
+#: templates/form/error.liquid:14 templates/error.liquid:13
+#: templates/error.liquid:17
+msgid "Please try again."
+msgstr "Bitte versuchen Sie es erneut."
+
+#: templates/form/error.liquid:16
+msgid "You tried to make a live payment on a test transaction."
+msgstr "Sie haben versucht, eine reale Zahlung auf einer Testtransaktion durchzuführen."
+
+#: templates/form/error.liquid:18
+msgid "You tried to make a test payment on a live transaction."
+msgstr "Sie haben versucht, eine Testzahlung auf einer realen Transaktion durchzuführen."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
@@ -153,140 +229,13 @@ msgstr "Zahlungsgebühren"
 msgid "Fill in card number"
 msgstr "Kartennummer eingeben"
 
-#: templates/form/error.liquid:14
-msgid "An error happened."
-msgstr "Ein Fehler ist aufgetreten."
-
-#: templates/form/error.liquid:16
-msgid "You tried to make a live payment on a test transaction."
-msgstr "Sie haben versucht, eine reale Zahlung auf einer Testtransaktion durchzuführen."
-
-#: templates/form/error.liquid:18
-msgid "You tried to make a test payment on a live transaction."
-msgstr "Sie haben versucht, eine Testzahlung auf einer realen Transaktion durchzuführen."
-
-#: templates/form/klarna.liquid:25
-msgid "Gender"
-msgstr "Geschlecht"
-
-#: templates/form/klarna.liquid:27
-msgid "Male"
-msgstr "Männlich"
-
-#: templates/form/klarna.liquid:28
-msgid "Female"
-msgstr "Weiblich"
-
-#: templates/form/klarna.liquid:32 templates/form/klarna.liquid:68
-msgid "Country"
-msgstr "Land"
-
-#: templates/form/klarna.liquid:38 templates/form/klarna.liquid:74
-msgid "Denmark"
-msgstr "Dänemark"
-
-#: templates/form/klarna.liquid:40 templates/form/klarna.liquid:76
-msgid "Sweden"
-msgstr "Schweden"
-
-#: templates/form/klarna.liquid:42 templates/form/klarna.liquid:78
-msgid "Norway"
-msgstr "Norwegen"
-
-#: templates/form/klarna.liquid:44 templates/form/klarna.liquid:80
-msgid "Finland"
-msgstr "Finnland"
-
-#: templates/form/klarna.liquid:46 templates/form/klarna.liquid:82
-msgid "Netherlands"
-msgstr "Niederlande"
-
-#: templates/form/klarna.liquid:48 templates/form/klarna.liquid:84
-msgid "Germany"
-msgstr "Deutschland"
-
-#: templates/form/klarna.liquid:50 templates/form/klarna.liquid:86
-msgid "Austria"
-msgstr "Österreich"
-
-#: templates/form/klarna.liquid:59
-msgid "Social security number"
-msgstr "Sozialversicherungsnummer"
-
-#: templates/form/klarna.liquid:95
-msgid "Company Registration Number"
-msgstr ""
-
-#: templates/form/klarna.liquid:103 templates/form/swish.liquid:20
-#: templates/form/trustly.liquid:47 templates/form_dankort_acs.liquid:35
-msgid "Proceed"
-msgstr "fortfahren"
-
-#: templates/form/mobilepay.liquid:22
+#: templates/form/mobilepay.liquid:21
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "Wenn Sie auf die Schaltfläche unten klicken, wird das MobilePay-Zahlungsfenster geöffnet."
 
-#: templates/form/mobilepay.liquid:24 templates/form/paypal.liquid:13
-#: templates/form/sofort.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/trustly.liquid:11 templates/form/viabill.liquid:27
-msgid "Proceed to payment"
-msgstr "Weiter zur Zahlung"
-
-#: templates/form/paypal.liquid:11
-msgid "When you click the button below, the PayPal payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das PayPal-Zahlungsfenster geöffnet."
-
-#: templates/form/sofort.liquid:9
-msgid "When you click the button below, the Sofort payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Sofort-Zahlungsfenster."
-
-#: templates/form/swipp.liquid:3
-msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Swipp-Zahlungsfenster geöffnet. Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
-
-#: templates/form/swish.liquid:13
-msgid "Mobile number"
-msgstr "Handynummer"
-
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Sofort-Zahlungsfenster."
-
-#: templates/form/trustly.liquid:26
-msgid "First name"
-msgstr "Vorname"
-
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr "Nachname"
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr "eMail"
-
-#: templates/form/viabill.liquid:25
-msgid "When you click the button below, the ViaBill payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Zahlungsfenster von ViaBill geöffnet."
-
-#: templates/form.liquid:11
-msgid "Other Payment Methods"
-msgstr "Andere Zahlungsmethoden"
-
-#: templates/form.liquid:16
-msgid "Cards"
-msgstr "Karten"
-
-#: templates/form_dankort_acs.liquid:4
-msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Dankort-Zahlungsfenster geöffnet. Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
-
-#: templates/layout.liquid:22
-msgid "Are you about to abort the payment. Are you sure?"
-msgstr "Sind Sie dabei, die Zahlung abzubrechen? Sind Sie sicher?"
-
-#: templates/layout.liquid:22
-msgid "Cancel Payment"
-msgstr "Zahlung stornieren"
+#: templates/cancelled.liquid:7
+msgid "You have cancelled the payment"
+msgstr "Sie haben die Zahlung storniert"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
@@ -304,17 +253,69 @@ msgstr "Sie haben die Zahlung abgeschlossen"
 msgid "You have completed the payment"
 msgstr "Sie haben die Zahlung abgeschlossen"
 
-#: templates/waiting.liquid:7
-msgid "Please wait..."
-msgstr "Bitte warten..."
+#: templates/layout.liquid:22
+msgid "Are you about to abort the payment. Are you sure?"
+msgstr "Sind Sie dabei, die Zahlung abzubrechen? Sind Sie sicher?"
 
-#: templates/waiting.liquid:11
-msgid "The process may take up to 5 minutes."
-msgstr "Der Vorgang kann bis zu 5 Minuten dauern."
+#: templates/layout.liquid:22
+msgid "Cancel Payment"
+msgstr "Zahlung stornieren"
 
-#: templates/waiting.liquid:11
-msgid "Click here if processing takes a long time"
-msgstr "Klicken Sie hier, wenn die Verarbeitung lange dauert"
+#: templates/deadline.liquid:7
+msgid "Order expired"
+msgstr "Bestellung abgelaufen"
+
+#: templates/deadline.liquid:11
+msgid "You did not finish the purchase within the time frame."
+msgstr "Sie haben den Kauf nicht innerhalb des Zeitrahmens abgeschlossen."
+
+#: templates/deadline.liquid:13
+msgid "Click here to continue"
+msgstr "Klicken Sie hier um fortzufahren"
+
+#: templates/error.liquid:9
+msgid "The order is already paid."
+msgstr "Die Bestellung ist bereits bezahlt."
+
+#: templates/error.liquid:11
+msgid "Continue to the shop"
+msgstr "Weiter zum Shop"
+
+#: templates/error.liquid:13
+msgid "An unknown error happened."
+msgstr "Ein Fehler ist aufgetreten."
+
+#: templates/error.liquid:15
+msgid "Unable to complete payment"
+msgstr "Die Zahlung kann nicht abgeschlossen werden"
+
+#: templates/error.liquid:17 templates/error.liquid:19
+msgid "3D Secure authorization failed."
+msgstr "3D Secure-Berechtigung fehlgeschlagen."
+
+#: templates/error.liquid:19 templates/error.liquid:21
+msgid "Please try again or select another payment method."
+msgstr "Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsmethode."
+
+#: templates/error.liquid:21
+msgid "3D Secure enrollment failed."
+msgstr "3D Secure-Berechtigung fehlgeschlagen."
+
+#: templates/error.liquid:23
+msgid "The payment details have changed since you initiated the payment."
+msgstr "Seit dem Aufruf der Zahlung haben sich die Zahlungsdetails geändert."
+
+#: templates/error.liquid:25
+msgid "Click here to start over"
+msgstr "Klicken Sie hier um erneut anzufangen"
+
+#: templates/error.liquid:36
+msgid "Try again"
+msgstr "Versuchen Sie es noch einmal"
+
+#: templates/form_dankort_acs.liquid:4
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Wenn Sie unten auf die Schaltfläche klicken, wird das Dankort-Zahlungsfenster geöffnet. Wenn Sie fertig sind, werden Sie zurück zu Ihrem Beleg umgeleitet."
 
 #, fuzzy
 #~ msgid "German"
