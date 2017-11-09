@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-11-09 14:31+0000\n"
+"PO-Revision-Date: 2017-11-09 14:37+0000\n"
 "Last-Translator: Thomas <tj@pil.dk>\n"
 "Language-Team: Norwegian (old code) "
 "<http://translate.quickpay.net/projects/quickpay/standard-branding/no/>\n"
@@ -143,7 +143,7 @@ msgstr "Når du klikker på knappen nedenfor vil PayPal betalingsvinduet åpnes.
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
-msgstr "Bitcoin-adressen ble kopiert til utklippstavlen"
+msgstr "Bitcoin-adressen ble kopiert til din utklippstavle."
 
 #: templates/form/bitcoin.liquid:21
 msgid "Could not copy the Bitcoin address to your clipboard"
@@ -288,7 +288,7 @@ msgstr "En ukjent feil oppstod."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
-msgstr "Kunne ikke fullføre betalingen"
+msgstr "Klarte ikke å gjennomføre betalingen"
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
