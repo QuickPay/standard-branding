@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 08:53+0000\n"
-"Last-Translator: Tonje <tonje@iconic-norway.com>\n"
-"Language-Team: Norwegian (old code) <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/no/>\n"
+"PO-Revision-Date: 2017-11-09 14:31+0000\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
+"Language-Team: Norwegian (old code) "
+"<http://translate.quickpay.net/projects/quickpay/standard-branding/no/>\n"
 "Language: no_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,16 +37,15 @@ msgstr "Prosessen kan ta opp til 5 minutter."
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
-msgstr "Klikk her hvis behandlingen tar lang tid"
+msgstr "Klikk her om det tar for lang tid"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Starter 3D Secure betaling. Vennligst vent..."
 
 #: templates/form/trustly.liquid:9
-#, fuzzy
 msgid "When you click the button below, the Trustly payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil Sofort betalingsvinduet åpnes."
+msgstr "Når du klikker på knappen nedenfor vil Trustly betalingsvinduet åpnes."
 
 #: templates/form/trustly.liquid:10 templates/form/paypal.liquid:11
 #: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
@@ -61,15 +61,15 @@ msgstr "Fortsett til betaling"
 
 #: templates/form/trustly.liquid:26
 msgid "First name"
-msgstr ""
+msgstr "Fornavn"
 
 #: templates/form/trustly.liquid:33
 msgid "Last name"
-msgstr ""
+msgstr "Etternavn"
 
 #: templates/form/trustly.liquid:40
 msgid "Email"
-msgstr ""
+msgstr "E-post"
 
 #: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
 #: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
@@ -78,9 +78,8 @@ msgid "Proceed"
 msgstr "Fortsett"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
-#, fuzzy
 msgid "Mobile number"
-msgstr "Ordrenummer"
+msgstr "Mobilnummer"
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
@@ -136,7 +135,7 @@ msgstr "Personnummer"
 
 #: templates/form/klarna.liquid:94
 msgid "Company Registration Number"
-msgstr ""
+msgstr "Organisasjonsnummer"
 
 #: templates/form/paypal.liquid:10
 msgid "When you click the button below, the PayPal payment window will open."
@@ -144,15 +143,15 @@ msgstr "Når du klikker på knappen nedenfor vil PayPal betalingsvinduet åpnes.
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
-msgstr ""
+msgstr "Bitcoin-adressen ble kopiert til utklippstavlen"
 
 #: templates/form/bitcoin.liquid:21
 msgid "Could not copy the Bitcoin address to your clipboard"
-msgstr ""
+msgstr "Kunne ikke kopiere Bitcoin-adressen til utklippstavlen"
 
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
-msgstr ""
+msgstr "Åpne i lommebok"
 
 #: templates/form/viabill.liquid:24
 msgid "When you click the button below, the ViaBill payment window will open."
@@ -177,7 +176,7 @@ msgstr "Du har forsøkt en reel betaling av en test transaksjon."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr "Du har forsøkt en reell betaling av en test transaksjon."
+msgstr "Du har forsøkt en test betaling av en reel transaksjon."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
@@ -221,7 +220,7 @@ msgstr "Lagre kort"
 
 #: templates/form/card.liquid:85
 msgid "Receive"
-msgstr ""
+msgstr "Motta"
 
 #: templates/form/card.liquid:91
 msgid "Payment fee"
@@ -248,7 +247,6 @@ msgid "expires in"
 msgstr "utløper om"
 
 #: templates/success.liquid:8
-#, fuzzy
 msgid "You have completed the payout"
 msgstr "Du har ferdigstilt betalingen"
 
@@ -302,7 +300,7 @@ msgstr "Vennligst forsøk igjen eller prøv en annen betalingsmåte."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr "3D Secure autorisering feilet. Vennligst prøv igjen eller velg en annen betalingsmåte."
+msgstr "3D Secure registrering mislyktes."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
