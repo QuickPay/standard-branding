@@ -452,12 +452,22 @@ h4 img.icon {
  *
  */
 
-.payment-method-apple-pay {
-  display: none;
+#alternative-payment-methods .payment-method-apple-pay > .btn {
+  overflow: hidden;
 }
 
-.payment-method-apple-pay > a {
-  overflow: hidden;
+#alternative-payment-methods .payment-method-apple-pay.disabled > .btn {
+  cursor: not-allowed;
+  background: #dfdfdf;
+}
+
+#alternative-payment-methods .payment-method-apple-pay.disabled .apple-pay-btn {
+  background-color: #dfdfdf;
+}
+
+#alternative-payment-methods .payment-method-apple-pay.disabled > .btn:hover {
+  border-color: #dedede;
+  box-shadow: none;
 }
 
 .apple-pay-btn {
