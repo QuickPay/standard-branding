@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-05 11:37+0000\n"
-"Last-Translator: Thomas <tj@pil.dk>\n"
+"Last-Translator: Felix Kleinschmidt <ukk@quickpay.net>\n"
 "Language-Team: Greenlandic <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/kl/>\n"
 "Language: kl_GL\n"
@@ -280,7 +280,7 @@ msgstr ""
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
-msgstr ""
+msgstr "Pisiniarfimmut ingerlaqqigit"
 
 #: templates/error.liquid:13
 msgid "An unknown error happened."
