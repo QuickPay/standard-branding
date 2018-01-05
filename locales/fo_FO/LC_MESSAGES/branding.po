@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-05 12:06+0000\n"
-"Last-Translator: Guðri <info.fo@om.org>\n"
+"PO-Revision-Date: 2018-01-05 12:08+0000\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/fo/>\n"
 "Language: fo_FO\n"
@@ -218,7 +218,7 @@ msgstr "Gjald"
 
 #: templates/form/card.liquid:81
 msgid "Create subscription"
-msgstr "Tekna hald"
+msgstr "Stovna hald"
 
 #: templates/form/card.liquid:83
 msgid "Save card"
@@ -299,7 +299,7 @@ msgstr "Gjaldingin var ikki fullførd."
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
-msgstr "Feilur var í 3D Secure góðkenningini."
+msgstr "3D Secure heimildin miseydnaðist"
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
@@ -307,11 +307,11 @@ msgstr "Vinarliga royn aftur, ella nýt annan gjaldshátt."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr "Feilur var í 3D Secure tilmeldingini."
+msgstr "3D Secure innriting miseydnaðist"
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
-msgstr "Gjaldsupplýsingarnir eru broyttir, síðan tú byrjaði gjaldingina."
+msgstr "Staklutir í gjaldingini eru broyttir, síðani tú byrjaði gjaldingina. "
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
