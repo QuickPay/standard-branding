@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-05 11:41+0000\n"
-"Last-Translator: Thomas <tj@pil.dk>\n"
+"Last-Translator: Guðri <info.fo@om.org>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/fo/>\n"
 "Language: fo_FO\n"
@@ -58,7 +58,7 @@ msgstr "Tá hetta er liðugt, verður tú leiddur víðari til kvittan tína. "
 #: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
 #: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:23
 msgid "Proceed to payment"
-msgstr "Halt áfram til gjalding"
+msgstr "Halt á fram til gjalding"
 
 #: templates/form/trustly.liquid:26
 msgid "First name"
