@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-05 12:06+0000\n"
-"Last-Translator: Sølvi <solvi@runavik.fo>\n"
+"Last-Translator: Guðri <info.fo@om.org>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/fo/>\n"
 "Language: fo_FO\n"
@@ -303,7 +303,7 @@ msgstr "Feilur var í 3D Secure góðkenningini."
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
-msgstr "Vinarliga royn aftur ella vel annan gjaldshátt."
+msgstr "Vinarliga royn aftur, ella nýt annan gjaldshátt."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
