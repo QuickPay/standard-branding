@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-11-10 07:29+0000\n"
-"Last-Translator: Thomas <tj@pil.dk>\n"
+"PO-Revision-Date: 2018-01-05 11:43+0000\n"
+"Last-Translator: Karl-Oskar <info@xeronic.se>\n"
 "Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/sv/>\n"
 "Language: sv_SE\n"
@@ -53,7 +53,9 @@ msgstr ""
 #: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:22
 msgid "When finished, you will be redirected back to your receipt."
-msgstr "När du genomfört detta steg, kommer du att dirigeras tillbaka till ditt kvitto."
+msgstr ""
+"När du avslutat detta steg, kommer du att dirigeras tillbaka till ditt "
+"kvitto."
 
 #: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
@@ -178,7 +180,7 @@ msgstr "Du försökte genomföra en riktig betalning på en testtransaktion."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr "Du försökte genomföra en testbetalning vid en riktig transaktion."
+msgstr "Du försökte göra en testbetalning vid en riktig transaktion."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
