@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-05 12:04+0000\n"
-"Last-Translator: Thomas <tj@pil.dk>\n"
+"Last-Translator: Guðri <info.fo@om.org>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/fo/>\n"
 "Language: fo_FO\n"
@@ -218,7 +218,7 @@ msgstr "Gjald"
 
 #: templates/form/card.liquid:81
 msgid "Create subscription"
-msgstr "Stovna hald"
+msgstr "Tekna hald"
 
 #: templates/form/card.liquid:83
 msgid "Save card"
