@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-05 11:41+0000\n"
-"Last-Translator: Guðri <info.fo@om.org>\n"
+"PO-Revision-Date: 2018-01-05 12:04+0000\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/fo/>\n"
 "Language: fo_FO\n"
@@ -52,7 +52,7 @@ msgstr "Tá tú trýstir á knøttin niðanfyri, letur Sofort gjaldingar vindeyg
 #: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:22
 msgid "When finished, you will be redirected back to your receipt."
-msgstr "Tá hetta er liðugt, verður tú leiddur víðari til kvittan tína. "
+msgstr "Tá hetta er liðugt, verður tú leiddur víðari til kvittan tína."
 
 #: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
@@ -182,11 +182,11 @@ msgstr "Tú royndi at gera eina test-gjalding á einum veruligum keypi."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
-msgstr "Navn á korti"
+msgstr "Navn á kortið"
 
 #: templates/form/card.liquid:23
 msgid "Card number"
-msgstr "Kort nummar"
+msgstr "Kortnummar"
 
 #: templates/form/card.liquid:33
 msgid "Expiration date"
@@ -194,11 +194,13 @@ msgstr "Útgongudagur"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr "CVV/CVD kodan økir um trygdina. Trygdarkodan er vanliga tey trý aftastu tølini, aftanfyri á kortinum."
+msgstr ""
+"CW/CVD kodan økir um trygdina. Vanliga er CVD (Card Verification Data) kodan "
+"trý tey seinastu tølini, aftanfyri á kortinum. "
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
-msgstr "Virkja 3D Secure"
+msgstr "Gilda 3D Secure"
 
 #: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
@@ -206,7 +208,9 @@ msgstr "3D Secure er ein váttanartænasta í 2 stigum, har SMS-boð verða send
 
 #: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr "Útgevarin av korti tínum krevur møguliga at tú nýtir 3D Secure sum eitt eyka trygdartiltak."
+msgstr ""
+"Útgevarin av korti tínum krevur møguliga at tú nýtir 3D Secure sum eitt eyka "
+"fyrivarni."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -319,7 +323,9 @@ msgstr "Royn aftur"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Tá tú trýstir á knøttin niðanfyri, letur Dankort gjaldingarvindeygað upp. Tá tú ert liðugur, verður tú leiddur víðari til kvittan tína."
+msgstr ""
+"Tá tú trýstir á knøttin niðanfyri, letur Dankort gjaldingar vindeyga upp. Tá "
+"tú ert liðugur, verður tú leiddur til kvittan tína. "
 
 #, fuzzy
 #~ msgid "German"
