@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-05 12:05+0000\n"
-"Last-Translator: Thomas <tj@pil.dk>\n"
+"PO-Revision-Date: 2018-01-05 12:06+0000\n"
+"Last-Translator: Sølvi <solvi@runavik.fo>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/fo/>\n"
 "Language: fo_FO\n"
@@ -299,7 +299,7 @@ msgstr "Gjaldingin var ikki fullførd."
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
-msgstr "3D Secure góðkenningin miseydnaðist."
+msgstr "Feilur var í 3D Secure góðkenningini."
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
