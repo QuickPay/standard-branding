@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-05 11:37+0000\n"
+"PO-Revision-Date: 2018-01-05 13:02+0000\n"
 "Last-Translator: Felix Kleinschmidt <ukk@quickpay.net>\n"
 "Language-Team: Greenlandic <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/kl/>\n"
@@ -21,27 +21,27 @@ msgstr ""
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr ""
+msgstr "Akiliutit Allaanerit"
 
 #: templates/form.liquid:16
 msgid "Cards"
-msgstr ""
+msgstr "Koortit"
 
 #: templates/waiting.liquid:7
 msgid "Please wait..."
-msgstr ""
+msgstr "Utaqqilaarit..."
 
 #: templates/waiting.liquid:11
 msgid "The process may take up to 5 minutes."
-msgstr ""
+msgstr "Suliaq 5 minutsit tungaanut sivisusseqarsinnaavoq."
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
-msgstr ""
+msgstr "Suliarineqarnera sivisuallaarpat una tooruk"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
-msgstr ""
+msgstr "3D-mik akiliineq aallartilerpoq. Utaqqilaarit..."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
