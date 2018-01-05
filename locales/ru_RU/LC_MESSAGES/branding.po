@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-01-19 16:58+0000\n"
+"PO-Revision-Date: 2018-01-05 11:39+0000\n"
 "Last-Translator: Mark <smbsmark@gmail.com>\n"
-"Language-Team: Russian <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/ru/>\n"
+"Language-Team: Russian <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.9\n"
 
 #: templates/form.liquid:11
@@ -267,7 +269,7 @@ msgstr ""
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
-msgstr ""
+msgstr "Заказ истек"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
@@ -283,7 +285,7 @@ msgstr "Закал уже оплачен."
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
-msgstr ""
+msgstr "Продолжать попупки"
 
 #: templates/error.liquid:13
 #, fuzzy
