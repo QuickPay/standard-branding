@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-05 11:43+0000\n"
-"Last-Translator: Karl-Oskar <info@xeronic.se>\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
 "Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/sv/>\n"
 "Language: sv_SE\n"
@@ -196,7 +196,9 @@ msgstr "Utgångsdatum"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr "CVV/CVD ökar säkerheten för dig som kund. Vanligtvis är detta ett nummer som består av tre siffror, vilka återfinns på kortets baksida."
+msgstr ""
+"Verifikationsnumret ökar säkerheten för dig som kund. Vanligtvis är detta "
+"ett nummer som består av tre siffror, vilka återfinns på kortets baksida."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
