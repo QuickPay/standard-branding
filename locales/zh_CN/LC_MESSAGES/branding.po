@@ -3,20 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-10-28 08:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-01-05 12:07+0000\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
+"Language-Team: Chinese (Simplified) "
+"<http://translate.quickpay.net/projects/quickpay/standard-branding/zh_Hans/>"
+"\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.9\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -235,7 +237,7 @@ msgstr ""
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr ""
+msgstr "您已经取消了付款"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
@@ -263,15 +265,15 @@ msgstr ""
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
-msgstr ""
+msgstr "订单已过期"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
-msgstr ""
+msgstr "您没有在规定时间内完成付款."
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
-msgstr ""
+msgstr "下一步"
 
 #: templates/error.liquid:9
 msgid "The order is already paid."
