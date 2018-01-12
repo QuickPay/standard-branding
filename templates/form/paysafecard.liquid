@@ -1,10 +1,9 @@
 <div class="container">
   {% include 'form/error' %}
   <form action="{{ model.redirect_url }}" method="POST" target="_top" class="autosubmit">
-    <input type="hidden" name="mid" value="{{ model.mid }}" />
-    <input type="hidden" name="mtid" value="{{ model.mtid }}" />
-    <input type="hidden" name="amount" value="{{ model.paysafecard_amount }}" />
-    <input type="hidden" name="currency" value="{{ model.currency }}" />
+    {% for field in model.params %}
+      <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />
+    {% endfor %}
 
     <div class="row">
       <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
