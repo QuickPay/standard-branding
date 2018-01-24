@@ -3,78 +3,83 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2016-10-28 08:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-01-24 16:08+0000\n"
+"Last-Translator: ro_minune <minune.online@gmail.com>\n"
+"Language-Team: Romanian <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding/ro/>\n"
+"Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 2.9\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr ""
+msgstr "Alte metode de plată"
 
 #: templates/form.liquid:16
 msgid "Cards"
-msgstr ""
+msgstr "Carduri"
 
 #: templates/waiting.liquid:7
 msgid "Please wait..."
-msgstr ""
+msgstr "Vă rog, așteptați..."
 
 #: templates/waiting.liquid:11
 msgid "The process may take up to 5 minutes."
-msgstr ""
+msgstr "Procesul poate dura mai mult de 5 minute"
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
-msgstr ""
+msgstr "Click aici dacă procesarea durează mai mult."
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
-msgstr ""
+msgstr "Se pornește plata 3D Secure. Vă rog, așteptați!"
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
 msgstr ""
+"Când faceți clic pe butonul de mai jos, fereastra de plată Trustly se va "
+"deschide."
 
 #: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
-msgstr ""
+msgstr "Când ați terminat, veți fi redirecționat înapoi la chitanță."
 
 #: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
 #: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
-msgstr ""
+msgstr "Finalizați plata"
 
 #: templates/form/trustly.liquid:26
 msgid "First name"
-msgstr ""
+msgstr "Prenumele"
 
 #: templates/form/trustly.liquid:33
 msgid "Last name"
-msgstr ""
+msgstr "Numele"
 
 #: templates/form/trustly.liquid:40
+#, fuzzy
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
 #: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
-msgstr ""
+msgstr "Continuă"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
