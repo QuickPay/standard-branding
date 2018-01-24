@@ -18,7 +18,7 @@
           </div>
         {% endif %}
         {% for method in model.alternative_payment_methods %}
-          {% include "_payment_method" method=method %}
+          {% include "payment_methods_list" method=method %}
         {% endfor %}
       </div>
     </div>

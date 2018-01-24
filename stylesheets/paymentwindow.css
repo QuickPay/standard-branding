@@ -474,12 +474,12 @@ h4 img.icon {
   display: block;
   background-image: -webkit-named-image(apple-pay-logo-black);
   background-color: white;
-  background-size: 100% 60%;
+  background-size: 100% 75%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   box-sizing: border-box;
   padding: 0px;
   margin: 12px 0;
   width: 100%;
-  min-height: 42px;
+  height: 42px;
 }

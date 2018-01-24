@@ -6,7 +6,7 @@
       </div>
       <div class="text-center">
         {% for method in model.payment_methods %}
-          {% include "_payment_method" method=method %}
+          {% include "payment_methods_list" method=method %}
         {% endfor %}
       </div>
     </div>
