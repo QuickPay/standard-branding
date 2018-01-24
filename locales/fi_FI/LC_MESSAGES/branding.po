@@ -47,15 +47,15 @@ msgstr "Aloitetaan 3D Secure maksua. Ole hyvä ja odota..."
 msgid "When you click the button below, the Trustly payment window will open."
 msgstr "Napsauttaessasi alla olevaa nappia Sofort-maksuikkuna avautuu."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:11
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:22
+#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
+#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Lopuksi sinut ohjataan takaisin kuitillesi."
 
 #: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:23
+#: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Jatka maksuun"
 
@@ -138,7 +138,7 @@ msgstr "Sosiaaliturvatunnus"
 msgid "Company Registration Number"
 msgstr ""
 
-#: templates/form/paypal.liquid:10
+#: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr "Napsauttaessasi alla olevaa nappia PayPal-maksuikkuna avautuu."
 
@@ -154,7 +154,7 @@ msgstr ""
 msgid "Open in wallet"
 msgstr ""
 
-#: templates/form/viabill.liquid:24
+#: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr "Napsauttaessasi alla olevaa nappia ViaBill-maksuikkuna avautuu."
 
@@ -231,7 +231,7 @@ msgstr "Maksu kustannus"
 msgid "Fill in card number"
 msgstr "Täytä kortin numero"
 
-#: templates/form/mobilepay.liquid:21
+#: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "Napsauttaessasi alla olevaa nappia MobilePay-maksuikkuna avautuu."
 

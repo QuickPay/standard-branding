@@ -46,15 +46,15 @@ msgstr "Initialisation de la transaction 3D Secure. Veuillez patienter..."
 msgid "When you click the button below, the Trustly payment window will open."
 msgstr "La page de paiement Trustly s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:11
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:22
+#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
+#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Une fois que vous aurez terminé, vous serez redirigé vers votre reçu."
 
 #: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:23
+#: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Procéder au paiement"
 
@@ -136,7 +136,7 @@ msgstr "Numéro de sécurité sociale"
 msgid "Company Registration Number"
 msgstr ""
 
-#: templates/form/paypal.liquid:10
+#: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr "La page de paiement PayPal s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous."
 
@@ -152,7 +152,7 @@ msgstr "L'adresse Bitcoin n'a pas pu être copiée vers le presse-papiers"
 msgid "Open in wallet"
 msgstr "Ouvrir dans le portefeuille"
 
-#: templates/form/viabill.liquid:24
+#: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr "La page de paiement ViaBill s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous."
 
@@ -229,7 +229,7 @@ msgstr "Frais de paiement"
 msgid "Fill in card number"
 msgstr "Entrez le numéro de la carte"
 
-#: templates/form/mobilepay.liquid:21
+#: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "La page de paiement MobilePay s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous."
 

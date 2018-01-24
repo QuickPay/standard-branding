@@ -47,15 +47,15 @@ msgstr "3D Secure makse alustamine. Palun oodake..."
 msgid "When you click the button below, the Trustly payment window will open."
 msgstr "Kui klõpsad alloleval nupul avaneb Trustly makse aken."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:11
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:22
+#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
+#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Tehing lõpetatud, suunatakse Teid maksekorralduse lehele."
 
 #: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:23
+#: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Maksma"
 
@@ -83,9 +83,7 @@ msgstr "Mobiiltelefon"
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Kui vajutad allolevale nupule avaneb Swipp makse aken. Tehing lõpetatud, "
-"suunatakse Teid tagasi maksekorralduse lehele."
+msgstr "Kui vajutad allolevale nupule avaneb Swipp makse aken. Tehing lõpetatud, suunatakse Teid tagasi maksekorralduse lehele."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -139,7 +137,7 @@ msgstr "Isikukood"
 msgid "Company Registration Number"
 msgstr "Registrikood"
 
-#: templates/form/paypal.liquid:10
+#: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr "Kui vajutad allolevale nupule avaneb PayPal makse aken."
 
@@ -155,7 +153,7 @@ msgstr "Bitcoini aadressi ei õnnestunud kopeerida"
 msgid "Open in wallet"
 msgstr "Ava rahakotis"
 
-#: templates/form/viabill.liquid:24
+#: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr "Kui vajutad allolevale nupule avaneb ViaBill makse aken."
 
@@ -194,9 +192,7 @@ msgstr "Kaart aegub"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
-"Turvakood teeb tehingu turvalisemaks. Tavaliselt on see kolmekohaline number "
-"kaardi tagumisel küljel."
+msgstr "Turvakood teeb tehingu turvalisemaks. Tavaliselt on see kolmekohaline number kaardi tagumisel küljel."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
@@ -204,15 +200,11 @@ msgstr "Luba 3D Secure makse"
 
 #: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
-msgstr ""
-"3D Secure on kaheetapiline turvakontrolliteenus, mis saadab mobiiltelefonile "
-"tekstsõnumi."
+msgstr "3D Secure on kaheetapiline turvakontrolliteenus, mis saadab mobiiltelefonile tekstsõnumi."
 
 #: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr ""
-"Teie krediitkaardi väljastaja võib turvameetmena paluda Teil kasutada 3D "
-"Secure makset."
+msgstr "Teie krediitkaardi väljastaja võib turvameetmena paluda Teil kasutada 3D Secure makset."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -238,7 +230,7 @@ msgstr "Makse töötlemise tasu"
 msgid "Fill in card number"
 msgstr "Lisa kaardi number"
 
-#: templates/form/mobilepay.liquid:21
+#: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "Kui klõpseta alloleval nupul avaneb MobilePay makse aken."
 
@@ -324,6 +316,4 @@ msgstr "Proovige uuesti"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Kui vajutate allolevale nupule avaneb Dankort makse aken. Tehing lõpetatud "
-"saadetakse Teid tagasi maksekorralduse lehele."
+msgstr "Kui vajutate allolevale nupule avaneb Dankort makse aken. Tehing lõpetatud saadetakse Teid tagasi maksekorralduse lehele."
