@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-24 08:43+0000\n"
+"PO-Revision-Date: 2018-01-29 10:27+0000\n"
 "Last-Translator: Yaqueson <yaquesonbuefixe@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) "
 "<http://translate.quickpay.net/projects/quickpay/standard-branding/pt_PT/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.9\n"
+"X-Generator: Weblate 2.18\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -100,7 +100,6 @@ msgid "Female"
 msgstr "Feminino"
 
 #: templates/form/klarna.liquid:31 templates/form/klarna.liquid:67
-#, fuzzy
 msgid "Country"
 msgstr "País"
 
