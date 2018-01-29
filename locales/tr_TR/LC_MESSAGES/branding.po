@@ -7,15 +7,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-29 15:22+0300\n"
-"Last-Translator: Özge <ozgegokmen_33@hotmail.com>\n"
-"Language-Team: bjk\n"
-"Language: tr\n"
+"PO-Revision-Date: 2018-01-29 14:33+0000\n"
+"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
+"Language-Team: Turkish <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding/tr/>\n"
+"Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Virtaal 0.7.1\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -141,7 +142,7 @@ msgstr "Şirket Sicil Numarası"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açılacaktır. "
+msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açılacaktır."
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
@@ -157,11 +158,11 @@ msgstr "Cüzdanda aç"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır. "
+msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır."
 
 #: templates/form/sofort.liquid:8
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda Sofort ödeme penceresi açılacaktır. "
+msgstr "Aşağıdaki düğmeye tıkladığınızda Sofort ödeme penceresi açılacaktır."
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
@@ -247,8 +248,7 @@ msgstr "Kart numarasını girin"
 #: templates/form/mobilepay.liquid:13
 msgid ""
 "When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"Aşağıdaki düğmeye tıkladığınızda MobilePay ödeme penceresi açılacaktır. "
+msgstr "Aşağıdaki düğmeye tıkladığınızda MobilePay ödeme penceresi açılacaktır."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -260,7 +260,7 @@ msgstr "Sipariş numarası"
 
 #: templates/order_info.liquid:6
 msgid "expires in"
-msgstr "son geçerlilik tarihi:"
+msgstr "son geçerlilik tarihi"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"
