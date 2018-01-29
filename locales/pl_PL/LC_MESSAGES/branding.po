@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-29 12:20+0000\n"
+"PO-Revision-Date: 2018-01-29 20:31+0000\n"
 "Last-Translator: Weronika <wera.ziemianska@gmail.com>\n"
 "Language-Team: Polish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/pl/>\n"
@@ -38,7 +38,7 @@ msgstr "Cały proces może trwać do 5 minut."
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
-msgstr "Kliknij tutaj, jeśli przetwarzanie się nie powiodło."
+msgstr "Kliknij tutaj, jeśli przetwarzanie się nie powiodło"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
