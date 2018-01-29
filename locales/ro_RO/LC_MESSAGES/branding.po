@@ -5,24 +5,23 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-24 16:08+0000\n"
-"Last-Translator: ro_minune <minune.online@gmail.com>\n"
-"Language-Team: Romanian <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/ro/>\n"
-"Language: ro_RO\n"
+"PO-Revision-Date: 2018-01-29 15:13+0200\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
-"X-Generator: Weblate 2.9\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!"
+"=0)))?2:1));\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Language: ro\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr "Alte metode de plată"
+msgstr "Alte modalități de plată"
 
 #: templates/form.liquid:16
 msgid "Cards"
@@ -30,37 +29,36 @@ msgstr "Carduri"
 
 #: templates/waiting.liquid:7
 msgid "Please wait..."
-msgstr "Vă rog, așteptați..."
+msgstr "Vă rugăm așteptați..."
 
 #: templates/waiting.liquid:11
 msgid "The process may take up to 5 minutes."
-msgstr "Procesul poate dura mai mult de 5 minute"
+msgstr "Procesul poate dura mai mult de zece minute."
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
-msgstr "Click aici dacă procesarea durează mai mult."
+msgstr "Apăsați aici dacă procesarea durează mult"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
-msgstr "Se pornește plata 3D Secure. Vă rog, așteptați!"
+msgstr "Se demarează plata 3D Secure. Vă rugăm, așteptați..."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
 msgstr ""
-"Când faceți clic pe butonul de mai jos, fereastra de plată Trustly se va "
-"deschide."
+"Când apăsați butonul de mai jos, se va deschide fereastra de plată Trustly."
 
 #: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
-msgstr "Când ați terminat, veți fi redirecționat înapoi la chitanță."
+msgstr "După ce terminați, Veți fi redirecționat înapoi la chitanța dvs."
 
 #: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
 #: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
-msgstr "Finalizați plata"
+msgstr "Continuați la plată"
 
 #: templates/form/trustly.liquid:26
 msgid "First name"
@@ -71,253 +69,279 @@ msgid "Last name"
 msgstr "Numele"
 
 #: templates/form/trustly.liquid:40
-#, fuzzy
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
 #: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
-msgstr "Continuă"
+msgstr "Continuați"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
-msgstr ""
+msgstr "Număr mobil"
 
 #: templates/form/swipp.liquid:3
-msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgid ""
+"When you click the button below, the Swipp payment window will open. When "
+"finished, you will be redirected back to your receipt."
 msgstr ""
+"Când apăsați butonul de mai jos, se va deschide fereastra de plată Swipp. "
+"După ce terminați, Veți fi redirecționat înapoi la chitanța Dvs."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
-msgstr ""
+msgstr "Sex"
 
 #: templates/form/klarna.liquid:26
 msgid "Male"
-msgstr ""
+msgstr "Masculin"
 
 #: templates/form/klarna.liquid:27
 msgid "Female"
-msgstr ""
+msgstr "Feminin"
 
 #: templates/form/klarna.liquid:31 templates/form/klarna.liquid:67
 msgid "Country"
-msgstr ""
+msgstr "Țara"
 
 #: templates/form/klarna.liquid:37 templates/form/klarna.liquid:73
 msgid "Denmark"
-msgstr ""
+msgstr "Danemarca"
 
 #: templates/form/klarna.liquid:39 templates/form/klarna.liquid:75
 msgid "Sweden"
-msgstr ""
+msgstr "Suedia"
 
 #: templates/form/klarna.liquid:41 templates/form/klarna.liquid:77
 msgid "Norway"
-msgstr ""
+msgstr "Norvegia"
 
 #: templates/form/klarna.liquid:43 templates/form/klarna.liquid:79
 msgid "Finland"
-msgstr ""
+msgstr "Finlanda"
 
 #: templates/form/klarna.liquid:45 templates/form/klarna.liquid:81
 msgid "Netherlands"
-msgstr ""
+msgstr "Olanda"
 
 #: templates/form/klarna.liquid:47 templates/form/klarna.liquid:83
 msgid "Germany"
-msgstr ""
+msgstr "Germania"
 
 #: templates/form/klarna.liquid:49 templates/form/klarna.liquid:85
 msgid "Austria"
-msgstr ""
+msgstr "Austria"
 
 #: templates/form/klarna.liquid:58
 msgid "Social security number"
-msgstr ""
+msgstr "Numărul de asigurare socială"
 
 #: templates/form/klarna.liquid:94
 msgid "Company Registration Number"
-msgstr ""
+msgstr "Numărul de înregistrare a societății"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr ""
+"Când apăsați butonul de mai jos, se va deschide fereastra de plată PayPal"
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
-msgstr ""
+msgstr "Adresa Bitcoin a fost copiată pe clipboard."
 
 #: templates/form/bitcoin.liquid:21
 msgid "Could not copy the Bitcoin address to your clipboard"
-msgstr ""
+msgstr "Copierea adresei Bitcoin pe clipboard nereușită"
 
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
-msgstr ""
+msgstr "Deschideți în portofel"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr ""
+"Când apăsați butonul de mai jos, se va deschide fereastra de plată ViaBill."
 
 #: templates/form/sofort.liquid:8
 msgid "When you click the button below, the Sofort payment window will open."
 msgstr ""
+"Când apăsați butonul de mai jos, se va deschide fereastra de plată Sofort."
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
-msgstr ""
+msgstr "A intervenit o eroare."
 
 #: templates/form/error.liquid:14 templates/error.liquid:13
 #: templates/error.liquid:17
 msgid "Please try again."
-msgstr ""
+msgstr "Vă rugăm să încercați din nou."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr ""
+msgstr "Ați încercat să faceți o plată reală pe o tranzacție de testare."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr ""
+msgstr "Ați încercat să faceți o plată de testare pe o tranzacție reală."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
-msgstr ""
+msgstr "Numele pe card"
 
 #: templates/form/card.liquid:23
 msgid "Card number"
-msgstr ""
+msgstr "Număr de card"
 
 #: templates/form/card.liquid:33
 msgid "Expiration date"
-msgstr ""
+msgstr "Data expirării"
 
 #: templates/form/card.liquid:56
-msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgid ""
+"The CVV/CVD increases the level of security. Usually the card verification "
+"data is a three digit number, placed at the backside of the card."
 msgstr ""
+"Datele CVV/CVD cresc nivelul de securitate. De obicei, datele de verificare "
+"card constau dintr-un număr din trei cifre, plasate pe spatele cardului."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
-msgstr ""
+msgstr "Permiteți folosirea 3D Secure"
 
 #: templates/form/card.liquid:70
-msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgid ""
+"3D Secure is a 2 step verification service using a text message to your "
+"phone."
 msgstr ""
+"3D Secure este un serviciu de verificare în 2 pași, care folosește un mesaj "
+"text pe telefonul Dvs."
 
 #: templates/form/card.liquid:71
-msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
+msgid ""
+"Your credit card issuer may require you to use 3D Secure as an extra "
+"precaution."
 msgstr ""
+"Instituția care v-a eliberat cardul poate solicita folosirea 3D Secure ca o "
+"măsură adițională de precauție."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
-msgstr ""
+msgstr "Plătiți"
 
 #: templates/form/card.liquid:81
 msgid "Create subscription"
-msgstr ""
+msgstr "Creați înregistrare"
 
 #: templates/form/card.liquid:83
 msgid "Save card"
-msgstr ""
+msgstr "Salvați cardul"
 
 #: templates/form/card.liquid:85
 msgid "Receive"
-msgstr ""
+msgstr "Primiți"
 
 #: templates/form/card.liquid:91
 msgid "Payment fee"
-msgstr ""
+msgstr "Taxă percepută pentru plată"
 
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
-msgstr ""
+msgstr "Completați numărul de card"
 
 #: templates/form/mobilepay.liquid:13
-msgid "When you click the button below, the MobilePay payment window will open."
+msgid ""
+"When you click the button below, the MobilePay payment window will open."
 msgstr ""
+"Când apăsați butonul de mai jos, se va deschide fereastra de plată "
+"MobilePay."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr ""
+msgstr "Ați anulat plata"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
-msgstr ""
+msgstr "Numărul comenzii"
 
 #: templates/order_info.liquid:6
 msgid "expires in"
-msgstr ""
+msgstr "expiră la"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"
-msgstr ""
+msgstr "Ați finalizat rambursarea"
 
 #: templates/success.liquid:10
 msgid "You have completed the payment"
-msgstr ""
+msgstr "Ați finalizat plata"
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
-msgstr ""
+msgstr "Doriți să întrerupeți plata. Sunteți sigur?"
 
 #: templates/layout.liquid:22
 msgid "Cancel Payment"
-msgstr ""
+msgstr "Anulați plata"
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
-msgstr ""
+msgstr "Comandă expirată"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
-msgstr ""
+msgstr "Nu ați finalizat cumpărătura în cadrul timpului alocat."
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
-msgstr ""
+msgstr "Apăsați aici pentru a continua"
 
 #: templates/error.liquid:9
 msgid "The order is already paid."
-msgstr ""
+msgstr "Comanda este deja plătită."
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
-msgstr ""
+msgstr "Continuați la magazin"
 
 #: templates/error.liquid:13
 msgid "An unknown error happened."
-msgstr ""
+msgstr "A intervenit o eroare necunoscută."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
-msgstr ""
+msgstr "Plata nu poate fi finalizată"
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
-msgstr ""
+msgstr "Autorizarea 3D Secure a eșuat."
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
 msgstr ""
+"Vă rugăm să încercați din nou sau să selectați o altă metodă de plată."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr ""
+msgstr "Înregistrarea 3D Secure a eșuat."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
-msgstr ""
+msgstr "Detaliile plății s-au schimbat de când ați inițiat plata."
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
-msgstr ""
+msgstr "Apăsați aici pentru a începe de la capăt"
 
 #: templates/error.liquid:36
 msgid "Try again"
-msgstr ""
+msgstr "Încercați din nou"
 
 #: templates/form_dankort_acs.liquid:4
-msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgid ""
+"When you click the button below, the Dankort payment window will open. When "
+"finished, you will be redirected back to your receipt."
 msgstr ""
+"Când apăsați butonul de mai jos, se va deschide fereastra de plată Dankort. "
+"După ce terminați, Veți fi redirecționat înapoi la chitanța Dvs."
