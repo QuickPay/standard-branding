@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-29 13:55+0100\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-01-30 22:51+0000\n"
+"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
+"Language-Team: Croatian <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding/hr/>\n"
+"Language: hr_HR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -71,7 +72,7 @@ msgstr "Prezime"
 
 #: templates/form/trustly.liquid:40
 msgid "Email"
-msgstr "Email adresa"
+msgstr "Email"
 
 #: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
 #: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
@@ -178,7 +179,7 @@ msgstr "Nastala je greška."
 #: templates/form/error.liquid:14 templates/error.liquid:13
 #: templates/error.liquid:17
 msgid "Please try again."
-msgstr "Molimo pokušajte ponovno. "
+msgstr "Molimo pokušajte ponovno."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
@@ -226,7 +227,7 @@ msgid ""
 "precaution."
 msgstr ""
 "Izdavatelj vaše kartice može tražiti od vas da koristite 3D Secure kao "
-"dodatnu predostrožnost. "
+"dodatnu predostrožnost."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -261,7 +262,7 @@ msgstr ""
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr "Otkazali ste plaćanje."
+msgstr "Otkazali ste plaćanje"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
@@ -293,7 +294,7 @@ msgstr "Narudžba istekla"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
-msgstr "Niste završili kupovinu unutar određenog vremenskog okvira"
+msgstr "Niste završili kupovinu unutar određenog vremenskog okvira."
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
@@ -321,7 +322,7 @@ msgstr "3D Secure autorizacija nije uspjela."
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
-msgstr "Molimo pokušajte ponovno ili izaberite drugu metodu plaćanja. "
+msgstr "Molimo pokušajte ponovno ili izaberite drugu metodu plaćanja."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
