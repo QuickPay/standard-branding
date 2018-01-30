@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-29 22:52+0900\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-01-30 22:51+0000\n"
+"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
+"Language-Team: Korean <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding/ko/>\n"
 "Language: ko_KR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Weblate 2.18\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -50,7 +51,7 @@ msgstr "아래의 버튼을 클릭하면 안전 결제창이 열립니다."
 #: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
-msgstr "결제가 완료되면 자동으로 영수증 페이지로 이동합니다"
+msgstr "결제가 완료되면 자동으로 영수증 페이지로 이동합니다."
 
 #: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
