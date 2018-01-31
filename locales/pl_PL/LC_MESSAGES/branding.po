@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-29 20:31+0000\n"
+"PO-Revision-Date: 2018-01-31 18:42+0000\n"
 "Last-Translator: Weronika <wera.ziemianska@gmail.com>\n"
 "Language-Team: Polish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/pl/>\n"
@@ -229,7 +229,7 @@ msgstr "Zapisz kartę"
 
 #: templates/form/card.liquid:85
 msgid "Receive"
-msgstr ""
+msgstr "Pobierz"
 
 #: templates/form/card.liquid:91
 msgid "Payment fee"
@@ -258,7 +258,7 @@ msgstr "wygasa w"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"
-msgstr "Wypłata została zakończona"
+msgstr "Środki zostały wypłacone"
 
 #: templates/success.liquid:10
 msgid "You have completed the payment"
