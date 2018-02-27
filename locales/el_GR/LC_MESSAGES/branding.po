@@ -5,233 +5,233 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-05 11:06+0000\n"
-"Last-Translator: Thomas <tj@pil.dk>\n"
-"Language-Team: Greek <http://translate.quickpay.net/projects/quickpay/standard-branding/el/>\n"
-"Language: el_GR\n"
+"PO-Revision-Date: 2018-02-27 13:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.9\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr ""
+msgstr "Άλλοι τρόποι πληρωμής"
 
 #: templates/form.liquid:16
 msgid "Cards"
-msgstr ""
+msgstr "Κάρτες"
 
 #: templates/waiting.liquid:7
 msgid "Please wait..."
-msgstr ""
+msgstr "Παρακαλούμε περιμένετε..."
 
 #: templates/waiting.liquid:11
 msgid "The process may take up to 5 minutes."
-msgstr ""
+msgstr "Η διαδικασία μπορεί να πάρει μέχρι 5 λεπτά."
 
 #: templates/waiting.liquid:11
 msgid "Click here if processing takes a long time"
-msgstr ""
+msgstr "Κάντε κλικ εδώ αν η επεξεργασία διαρκεί πολύ"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
-msgstr ""
+msgstr "Έναρξη πληρωμής 3D Secure. Παρακαλούμε περιμένετε..."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
-msgstr ""
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής Trustly."
 
 #: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
-msgstr ""
+msgstr "Όταν τελειώσετε, θα μεταφερθείτε ξανά στην απόδειξή σας."
 
 #: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
 #: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
-msgstr ""
+msgstr "Προχωρήστε στην πληρωμή"
 
 #: templates/form/trustly.liquid:26
 msgid "First name"
-msgstr ""
+msgstr "Όνομα"
 
 #: templates/form/trustly.liquid:33
 msgid "Last name"
-msgstr ""
+msgstr "Επώνυμο"
 
 #: templates/form/trustly.liquid:40
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
 #: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
-msgstr ""
+msgstr "Προχωρήστε"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
-msgstr ""
+msgstr "Αριθμός κινητού"
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής Swipp. Όταν τελειώσετε, θα μεταφερθείτε ξανά στην απόδειξή σας."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
-msgstr ""
+msgstr "Φύλο"
 
 #: templates/form/klarna.liquid:26
 msgid "Male"
-msgstr ""
+msgstr "Άνδρας"
 
 #: templates/form/klarna.liquid:27
 msgid "Female"
-msgstr ""
+msgstr "Γυναίκα"
 
 #: templates/form/klarna.liquid:31 templates/form/klarna.liquid:67
 msgid "Country"
-msgstr ""
+msgstr "Χώρα"
 
 #: templates/form/klarna.liquid:37 templates/form/klarna.liquid:73
 msgid "Denmark"
-msgstr ""
+msgstr "Δανία"
 
 #: templates/form/klarna.liquid:39 templates/form/klarna.liquid:75
 msgid "Sweden"
-msgstr ""
+msgstr "Σουηδία"
 
 #: templates/form/klarna.liquid:41 templates/form/klarna.liquid:77
 msgid "Norway"
-msgstr ""
+msgstr "Νορβηγία"
 
 #: templates/form/klarna.liquid:43 templates/form/klarna.liquid:79
 msgid "Finland"
-msgstr ""
+msgstr "Φινλανδία"
 
 #: templates/form/klarna.liquid:45 templates/form/klarna.liquid:81
 msgid "Netherlands"
-msgstr ""
+msgstr "Ολλανδία"
 
 #: templates/form/klarna.liquid:47 templates/form/klarna.liquid:83
 msgid "Germany"
-msgstr ""
+msgstr "Γερμανία"
 
 #: templates/form/klarna.liquid:49 templates/form/klarna.liquid:85
 msgid "Austria"
-msgstr ""
+msgstr "Αυστρία"
 
 #: templates/form/klarna.liquid:58
 msgid "Social security number"
-msgstr ""
+msgstr "Αριθμός κοινωνικής ασφάλισης"
 
 #: templates/form/klarna.liquid:94
 msgid "Company Registration Number"
-msgstr ""
+msgstr "Αριθμός Μητρώου Εταιρίας"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr ""
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής PayPal."
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
-msgstr ""
+msgstr "Η διεύθυνση Bitcoin αντιγράφηκε στο πρόχειρό σας."
 
 #: templates/form/bitcoin.liquid:21
 msgid "Could not copy the Bitcoin address to your clipboard"
-msgstr ""
+msgstr "Δεν ήταν δυνατή η αντιγραφή της διεύθυνσης Bitcoin στο πρόχειρο σας"
 
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
-msgstr ""
+msgstr "Άνοιγμα σε πορτοφόλι"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr ""
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής ViaBill."
 
 #: templates/form/sofort.liquid:8
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr ""
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής Sofort."
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
-msgstr ""
+msgstr "Παρουσιάστηκε σφάλμα."
 
 #: templates/form/error.liquid:14 templates/error.liquid:13
 #: templates/error.liquid:17
 msgid "Please try again."
-msgstr ""
+msgstr "Παρακαλούμε δοκιμάστε ξανά."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr ""
+msgstr "Προσπαθήσατε να πραγματοποιήσετε μια ζωντανή πληρωμή σε μια δοκιμαστική συναλλαγή."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr ""
+msgstr "Προσπαθήσατε να πραγματοποιήσετε μια δοκιμαστική πληρωμή σε μια ζωντανή συναλλαγή."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
-msgstr ""
+msgstr "Όνομα στην κάρτα"
 
 #: templates/form/card.liquid:23
 msgid "Card number"
-msgstr ""
+msgstr "Αριθμός κάρτας"
 
 #: templates/form/card.liquid:33
 msgid "Expiration date"
-msgstr ""
+msgstr "Ημερομηνία λήξης"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
+msgstr "Το CVV/CVD αυξάνει το επίπεδο ασφάλειας. Συνήθως τα δεδομένα επαλήθευσης της κάρτας είναι ένας τριψήφιος αριθμός, τοποθετημένος στο πίσω μέρος της κάρτας."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
-msgstr ""
+msgstr "Ενεργοποίηση 3D Secure"
 
 #: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
-msgstr ""
+msgstr "Το 3D Secure είναι είναι μια υπηρεσία επαλήθευσης 2 βημάτων που χρησιμοποιεί ένα μήνυμα κειμένου στο τηλέφωνό σας."
 
 #: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr ""
+msgstr "Ο εκδότης της πιστωτικής σας κάρτας ενδέχεται να σας ζητήσει να χρησιμοποιήσετε το 3D Secure ως πρόσθετη προφύλαξη."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
-msgstr ""
+msgstr "Πληρωμή"
 
 #: templates/form/card.liquid:81
 msgid "Create subscription"
-msgstr ""
+msgstr "Δημιουργία συνδρομής"
 
 #: templates/form/card.liquid:83
 msgid "Save card"
-msgstr ""
+msgstr "Αποθήκευση κάρτας"
 
 #: templates/form/card.liquid:85
 msgid "Receive"
-msgstr ""
+msgstr "Λήψη"
 
 #: templates/form/card.liquid:91
 msgid "Payment fee"
-msgstr ""
+msgstr "Τέλος πληρωμής"
 
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
-msgstr ""
+msgstr "Συμπληρώστε τον αριθμό κάρτας"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr ""
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής MobilePay."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -239,31 +239,31 @@ msgstr "Έχετε ακυρώσει την πληρωμή"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
-msgstr ""
+msgstr "Αριθμός παραγγελίας"
 
 #: templates/order_info.liquid:6
 msgid "expires in"
-msgstr ""
+msgstr "λήγει"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"
-msgstr ""
+msgstr "Έχετε ολοκληρώσει την πληρωμή"
 
 #: templates/success.liquid:10
 msgid "You have completed the payment"
-msgstr ""
+msgstr "Έχετε ολοκληρώσει την πληρωμή"
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
-msgstr ""
+msgstr "Πρόκειται να ακυρώσετε την πληρωμή. Είσαι σίγουροι;"
 
 #: templates/layout.liquid:22
 msgid "Cancel Payment"
-msgstr ""
+msgstr "Ακύρωση πληρωμής"
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
-msgstr "Η παραγγελία σας έχει λήξει"
+msgstr "Η παραγγελία έληξε"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
@@ -271,7 +271,7 @@ msgstr "Δεν ολοκληρώσατε την αγορά εντός του χρ
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
-msgstr "Πάτα εδώ για να συνεχίσεις"
+msgstr "Κάντε κλικ εδώ για να συνεχίσετε"
 
 #: templates/error.liquid:9
 msgid "The order is already paid."
@@ -279,40 +279,40 @@ msgstr "Η παραγγελία έχει ήδη πληρωθεί."
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
-msgstr "Συνέχεια στο κατάστημα"
+msgstr "Συνεχίστε στο κατάστημα"
 
 #: templates/error.liquid:13
 msgid "An unknown error happened."
-msgstr ""
+msgstr "Παρουσιάστηκε άγνωστο σφάλμα."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
-msgstr "Δεν ήταν δυνατό να ολοκληρωθεί η πληρωμή"
+msgstr "Δεν είναι δυνατή η ολοκλήρωση της πληρωμής"
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
-msgstr ""
+msgstr "Η εξουσιοδότηση 3D Secure  απέτυχε."
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
-msgstr ""
+msgstr "Παρακαλούμε δοκιμάστε ξανά ή επιλέξτε έναν άλλο τρόπο πληρωμής."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr ""
+msgstr "Η εγγραφή 3D Secure απέτυχε."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
-msgstr ""
+msgstr "Τα στοιχεία πληρωμής έχουν αλλάξει από τότε που ξεκινήσατε την πληρωμή."
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
-msgstr ""
+msgstr "Κάντε κλικ εδώ για να αρχίσετε ξανά"
 
 #: templates/error.liquid:36
 msgid "Try again"
-msgstr ""
+msgstr "Δοκιμάστε ξανά"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής Dankort. Όταν τελειώσετε, θα μεταφερθείτε ξανά στην απόδειξή σας."
