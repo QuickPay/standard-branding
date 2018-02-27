@@ -131,7 +131,7 @@ msgid "Social security number"
 msgstr "Kennitala"
 
 #: templates/form/klarna.liquid:94
-msgid "Company Registration Number""
+msgid "Company Registration Number"
 msgstr "Skráningarnúmer fyrirtækis"
 
 #: templates/form/paypal.liquid:11
