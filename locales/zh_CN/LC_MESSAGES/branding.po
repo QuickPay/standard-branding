@@ -8,14 +8,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-02-04 20:46+0800\n"
+"Last-Translator: Tang Ruixun <tangruixun@gmail.com>\n"
 "Language-Team: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.6\n"
-"Last-Translator: Tang Ruixun <tangruixun@gmail.com>\n"
-"Language: zh_CN\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -80,12 +80,8 @@ msgid "Mobile number"
 msgstr "手机号码"
 
 #: templates/form/swipp.liquid:3
-msgid ""
-"When you click the button below, the Swipp payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"当您点击下方按钮时，将开启 Swipp 支付窗口。完成后，您将会被重定向回您的收据"
-"处。"
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "当您点击下方按钮时，将开启 Swipp 支付窗口。完成后，您将会被重定向回您的收据处。"
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -193,9 +189,7 @@ msgid "Expiration date"
 msgstr "失效日期"
 
 #: templates/form/card.liquid:56
-msgid ""
-"The CVV/CVD increases the level of security. Usually the card verification "
-"data is a three digit number, placed at the backside of the card."
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr "CVV/CVD 可提高安全性。卡片验证号码通常是卡背面的三位数字。"
 
 #: templates/form/card.liquid:64
@@ -203,15 +197,11 @@ msgid "Enable 3D Secure"
 msgstr "启用 3D 安全"
 
 #: templates/form/card.liquid:70
-msgid ""
-"3D Secure is a 2 step verification service using a text message to your "
-"phone."
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr "3D 安全是一种发短信到您手机的两步验证服务。"
 
 #: templates/form/card.liquid:71
-msgid ""
-"Your credit card issuer may require you to use 3D Secure as an extra "
-"precaution."
+msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr "您的信用卡发卡机构可能会要求您使用 3D 安全作为额外的预防措施。"
 
 #: templates/form/card.liquid:79
@@ -239,8 +229,7 @@ msgid "Fill in card number"
 msgstr "填写卡号"
 
 #: templates/form/mobilepay.liquid:13
-msgid ""
-"When you click the button below, the MobilePay payment window will open."
+msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "当您点击下方按钮时，将开启 MobilePay 支付窗口。"
 
 #: templates/cancelled.liquid:7
@@ -324,9 +313,5 @@ msgid "Try again"
 msgstr "请重试"
 
 #: templates/form_dankort_acs.liquid:4
-msgid ""
-"When you click the button below, the Dankort payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"当您点击下方按钮时，将开启 Dankort 支付窗口。完成后，您将会被重定向回您的收"
-"据处。"
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "当您点击下方按钮时，将开启 Dankort 支付窗口。完成后，您将会被重定向回您的收据处。"

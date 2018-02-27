@@ -9,15 +9,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-31 10:56+0100\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: sl_SI\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -82,12 +81,8 @@ msgid "Mobile number"
 msgstr "Telefonska številka"
 
 #: templates/form/swipp.liquid:3
-msgid ""
-"When you click the button below, the Swipp payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Ko kliknete spodnji gumb, se bo odprlo Swipp okno za plačilo. Ko končate, "
-"boste preusmerjeni nazaj na svoj račun."
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Ko kliknete spodnji gumb, se bo odprlo Swipp okno za plačilo. Ko končate, boste preusmerjeni nazaj na svoj račun."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -195,32 +190,20 @@ msgid "Expiration date"
 msgstr "Datum izteka"
 
 #: templates/form/card.liquid:56
-msgid ""
-"The CVV/CVD increases the level of security. Usually the card verification "
-"data is a three digit number, placed at the backside of the card."
-msgstr ""
-"CVV/CVD številka poveča stopnjo varnosti. Številka za potrditev kartice je "
-"običajno sestavljena iz treh števk, navedena pa je na zadnji strani kartice."
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgstr "CVV/CVD številka poveča stopnjo varnosti. Številka za potrditev kartice je običajno sestavljena iz treh števk, navedena pa je na zadnji strani kartice."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
 msgstr "Omogoči 3D Secure"
 
 #: templates/form/card.liquid:70
-msgid ""
-"3D Secure is a 2 step verification service using a text message to your "
-"phone."
-msgstr ""
-"3D Secure je storitev za dvostopenjsko preverjanje pristnosti prek "
-"sporočila, ki ga prejmete na svoj telefon."
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr "3D Secure je storitev za dvostopenjsko preverjanje pristnosti prek sporočila, ki ga prejmete na svoj telefon."
 
 #: templates/form/card.liquid:71
-msgid ""
-"Your credit card issuer may require you to use 3D Secure as an extra "
-"precaution."
-msgstr ""
-"Vaš izdajatelj kreditne kartice lahko zahteva, da uporabljate 3D Secure kot "
-"dodatni varnostni ukrep."
+msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
+msgstr "Vaš izdajatelj kreditne kartice lahko zahteva, da uporabljate 3D Secure kot dodatni varnostni ukrep."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -247,8 +230,7 @@ msgid "Fill in card number"
 msgstr "Vnesite številko kartice"
 
 #: templates/form/mobilepay.liquid:13
-msgid ""
-"When you click the button below, the MobilePay payment window will open."
+msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "Ko kliknete spodnji gumb, se bo odprlo MobilePay okno za plačilo."
 
 #: templates/cancelled.liquid:7
@@ -332,9 +314,5 @@ msgid "Try again"
 msgstr "Poskusi ponovno"
 
 #: templates/form_dankort_acs.liquid:4
-msgid ""
-"When you click the button below, the Dankort payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Ko kliknete spodnji gumb, se bo odprlo Dankort okno za plačilo. Ko končate, "
-"boste preusmerjeni nazaj na svoj račun."
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Ko kliknete spodnji gumb, se bo odprlo Dankort okno za plačilo. Ko končate, boste preusmerjeni nazaj na svoj račun."

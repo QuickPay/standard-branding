@@ -9,14 +9,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-30 00:01+0100\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: sk\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -44,8 +44,7 @@ msgstr "Inicializuje sa 3D Secure platba. Prosím, počkajte..."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
-msgstr ""
-"Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Trustly."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Trustly."
 
 #: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
@@ -82,12 +81,8 @@ msgid "Mobile number"
 msgstr "Mobilné číslo"
 
 #: templates/form/swipp.liquid:3
-msgid ""
-"When you click the button below, the Swipp payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Swipp. Na "
-"konci vás presmerujeme späť na stránku s potvrdenkou."
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Swipp. Na konci vás presmerujeme späť na stránku s potvrdenkou."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -143,8 +138,7 @@ msgstr "Registračné číslo spoločnosti"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr ""
-"Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
@@ -160,13 +154,11 @@ msgstr "Otvoriť v peňaženke"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr ""
-"Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
 
 #: templates/form/sofort.liquid:8
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr ""
-"Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Sofort."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Sofort."
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
@@ -198,32 +190,20 @@ msgid "Expiration date"
 msgstr "Dátum exspirácie"
 
 #: templates/form/card.liquid:56
-msgid ""
-"The CVV/CVD increases the level of security. Usually the card verification "
-"data is a three digit number, placed at the backside of the card."
-msgstr ""
-"CVV/CVD slúžia na zlepšenie zabezpečenia. Verifikačný kód karty má podobu "
-"trojciferného čísla a nachádza sa na jej zadnej strane."
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgstr "CVV/CVD slúžia na zlepšenie zabezpečenia. Verifikačný kód karty má podobu trojciferného čísla a nachádza sa na jej zadnej strane."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
 msgstr "Povoliť 3D Secure"
 
 #: templates/form/card.liquid:70
-msgid ""
-"3D Secure is a 2 step verification service using a text message to your "
-"phone."
-msgstr ""
-"3D Secure predstavuje 2-stupňovú overovaciu službu prostredníctvom "
-"odosielania SMS správ na váš mobil."
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr "3D Secure predstavuje 2-stupňovú overovaciu službu prostredníctvom odosielania SMS správ na váš mobil."
 
 #: templates/form/card.liquid:71
-msgid ""
-"Your credit card issuer may require you to use 3D Secure as an extra "
-"precaution."
-msgstr ""
-"Vydavateľ vašej kreditnej karty vás môže požiadať, aby ste použili 3D "
-"Secure za účelom lepšieho zabezpečenia."
+msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
+msgstr "Vydavateľ vašej kreditnej karty vás môže požiadať, aby ste použili 3D Secure za účelom lepšieho zabezpečenia."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -250,10 +230,8 @@ msgid "Fill in card number"
 msgstr "Zadajte číslo karty"
 
 #: templates/form/mobilepay.liquid:13
-msgid ""
-"When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami MobilePay."
+msgid "When you click the button below, the MobilePay payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami MobilePay."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -336,9 +314,5 @@ msgid "Try again"
 msgstr "Skúste to znovu"
 
 #: templates/form_dankort_acs.liquid:4
-msgid ""
-"When you click the button below, the Dankort payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Dankort. "
-"Na konci vás presmerujeme na stránku s potvrdenkou."
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Dankort. Na konci vás presmerujeme na stránku s potvrdenkou."

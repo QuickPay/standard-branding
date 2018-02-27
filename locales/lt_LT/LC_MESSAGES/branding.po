@@ -9,15 +9,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-30 12:26+0200\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: lt\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -82,11 +81,8 @@ msgid "Mobile number"
 msgstr "Mobiliojo tel. numeris"
 
 #: templates/form/swipp.liquid:3
-msgid ""
-"When you click the button below, the Swipp payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Kai spaudžiate toliau esantį mygtuką, atidaromas „Swipp” mokėjimo langas. Kai baigsite, būsite peradresuotas atgal į savo kvitą."
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Kai spaudžiate toliau esantį mygtuką, atidaromas „Swipp” mokėjimo langas. Kai baigsite, būsite peradresuotas atgal į savo kvitą."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -194,29 +190,20 @@ msgid "Expiration date"
 msgstr "Galiojimo data"
 
 #: templates/form/card.liquid:56
-msgid ""
-"The CVV/CVD increases the level of security. Usually the card verification "
-"data is a three digit number, placed at the backside of the card."
-msgstr ""
-"CVV / CVD padidina apsaugos lygį. Dažniausiai kortelės patvirtinimo numerį sudaro trys skaitmenys, nurodyti kortelės nugarėlėje."
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgstr "CVV / CVD padidina apsaugos lygį. Dažniausiai kortelės patvirtinimo numerį sudaro trys skaitmenys, nurodyti kortelės nugarėlėje."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
 msgstr "Įjungti „3D Secure“"
 
 #: templates/form/card.liquid:70
-msgid ""
-"3D Secure is a 2 step verification service using a text message to your "
-"phone."
-msgstr ""
-"„3D Secure” yra 2 žingsnių patvirtinimo paslauga, į jūsų telefoną atsiunčiant tekstinį pranešimą."
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr "„3D Secure” yra 2 žingsnių patvirtinimo paslauga, į jūsų telefoną atsiunčiant tekstinį pranešimą."
 
 #: templates/form/card.liquid:71
-msgid ""
-"Your credit card issuer may require you to use 3D Secure as an extra "
-"precaution."
-msgstr ""
-"Jūsų kreditinės kortelės išdavėjas gali reikalauti naudoti „3D Secure” kaip papildomą apsaugą."
+msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
+msgstr "Jūsų kreditinės kortelės išdavėjas gali reikalauti naudoti „3D Secure” kaip papildomą apsaugą."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -243,10 +230,8 @@ msgid "Fill in card number"
 msgstr "Įrašyti kortelės numerį"
 
 #: templates/form/mobilepay.liquid:13
-msgid ""
-"When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"Kai spaudžiate toliau esantį mygtuką, atidaromas „MobilePay” mokėjimo langas."
+msgid "When you click the button below, the MobilePay payment window will open."
+msgstr "Kai spaudžiate toliau esantį mygtuką, atidaromas „MobilePay” mokėjimo langas."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -329,8 +314,5 @@ msgid "Try again"
 msgstr "Bandyti dar kartą"
 
 #: templates/form_dankort_acs.liquid:4
-msgid ""
-"When you click the button below, the Dankort payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Kai spaudžiate toliau esantį mygtuką, atidaromas „Dankort” mokėjimo langas. Kai baigsite, būsite peradresuotas atgal į savo kvitą."
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Kai spaudžiate toliau esantį mygtuką, atidaromas „Dankort” mokėjimo langas. Kai baigsite, būsite peradresuotas atgal į savo kvitą."

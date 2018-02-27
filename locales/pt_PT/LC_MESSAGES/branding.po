@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-29 11:17+0000\n"
+"POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-29 13:41+0000\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: pt\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -44,8 +44,7 @@ msgstr "A iniciar o pagamento 3D Secure. Por favor, aguarde..."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
-msgstr ""
-"Ao clicar no botão abaixo, a janela de pagamento do Trustly irá abrir-se."
+msgstr "Ao clicar no botão abaixo, a janela de pagamento do Trustly irá abrir-se."
 
 #: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
@@ -82,12 +81,8 @@ msgid "Mobile number"
 msgstr "Número de telemóvel"
 
 #: templates/form/swipp.liquid:3
-msgid ""
-"When you click the button below, the Swipp payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Ao clicar no botão abaixo, a janela de pagamento do Swipp irá abrir-se. "
-"Quando terminar, será redirecionado de novo para o seu recibo."
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Ao clicar no botão abaixo, a janela de pagamento do Swipp irá abrir-se. Quando terminar, será redirecionado de novo para o seu recibo."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -143,8 +138,7 @@ msgstr "Número de Registo da Empresa"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr ""
-"Ao clicar no botão abaixo, a janela de pagamento do PayPal irá abrir-se."
+msgstr "Ao clicar no botão abaixo, a janela de pagamento do PayPal irá abrir-se."
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
@@ -152,9 +146,7 @@ msgstr "O endereço de Bitcoin foi copiado para a área de transferência."
 
 #: templates/form/bitcoin.liquid:21
 msgid "Could not copy the Bitcoin address to your clipboard"
-msgstr ""
-"Não foi possível copiar o endereço de Bitcoin para a sua área de "
-"transferência"
+msgstr "Não foi possível copiar o endereço de Bitcoin para a sua área de transferência"
 
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
@@ -162,13 +154,11 @@ msgstr "Abrir na carteira"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr ""
-"Ao clicar no botão abaixo, a janela de pagamento do ViaBill irá abrir-se."
+msgstr "Ao clicar no botão abaixo, a janela de pagamento do ViaBill irá abrir-se."
 
 #: templates/form/sofort.liquid:8
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr ""
-"Ao clicar no botão abaixo, a janela de pagamento do Sofort irá abrir-se."
+msgstr "Ao clicar no botão abaixo, a janela de pagamento do Sofort irá abrir-se."
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
@@ -200,33 +190,20 @@ msgid "Expiration date"
 msgstr "Data de validade"
 
 #: templates/form/card.liquid:56
-msgid ""
-"The CVV/CVD increases the level of security. Usually the card verification "
-"data is a three digit number, placed at the backside of the card."
-msgstr ""
-"O CVV/CVD aumenta o nível de segurança. Normalmente, os dados de "
-"verificação do cartão são um número de três dígitos, colocado no verso do "
-"cartão."
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgstr "O CVV/CVD aumenta o nível de segurança. Normalmente, os dados de verificação do cartão são um número de três dígitos, colocado no verso do cartão."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
 msgstr "Ativar o 3D Secure"
 
 #: templates/form/card.liquid:70
-msgid ""
-"3D Secure is a 2 step verification service using a text message to your "
-"phone."
-msgstr ""
-"O 3D Secure é um serviço de verificação em 2 passos através de uma mensagem "
-"de texto para o seu telefone."
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr "O 3D Secure é um serviço de verificação em 2 passos através de uma mensagem de texto para o seu telefone."
 
 #: templates/form/card.liquid:71
-msgid ""
-"Your credit card issuer may require you to use 3D Secure as an extra "
-"precaution."
-msgstr ""
-"A entidade emissora do seu cartão de crédito pode exigir que utilize o 3D "
-"Secure como precaução suplementar."
+msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
+msgstr "A entidade emissora do seu cartão de crédito pode exigir que utilize o 3D Secure como precaução suplementar."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -253,10 +230,8 @@ msgid "Fill in card number"
 msgstr "Preencher o número do cartão"
 
 #: templates/form/mobilepay.liquid:13
-msgid ""
-"When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"Ao clicar no botão abaixo, a janela de pagamento do MobilePay irá abrir-se."
+msgid "When you click the button below, the MobilePay payment window will open."
+msgstr "Ao clicar no botão abaixo, a janela de pagamento do MobilePay irá abrir-se."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -339,9 +314,5 @@ msgid "Try again"
 msgstr "Voltar a tentar"
 
 #: templates/form_dankort_acs.liquid:4
-msgid ""
-"When you click the button below, the Dankort payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Ao clicar no botão abaixo, a janela de pagamento do Dankort irá abrir-se. "
-"Quando terminar, será redirecionado de novo para o seu recibo."
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Ao clicar no botão abaixo, a janela de pagamento do Dankort irá abrir-se. Quando terminar, será redirecionado de novo para o seu recibo."
