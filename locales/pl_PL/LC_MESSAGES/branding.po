@@ -10,14 +10,12 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-31 18:42+0000\n"
 "Last-Translator: Weronika <wera.ziemianska@gmail.com>\n"
-"Language-Team: Polish <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/pl/>\n"
+"Language-Team: Polish <http://translate.quickpay.net/projects/quickpay/standard-branding/pl/>\n"
 "Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.18\n"
 
 #: templates/form.liquid:11
@@ -44,39 +42,51 @@ msgstr "Kliknij tutaj, jeśli przetwarzanie się nie powiodło"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Włączanie usługi 3D Secure. Proszę czekać..."
 
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności Trustly."
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności ViaBill."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Po zakończeniu, zostaniesz skierowany z powrotem do potwierdzenia."
 
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Przejdź do płatności"
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
-msgstr "Imię"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
+msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr "Nazwisko"
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr "Email"
-
-#: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Kontynuuj"
+
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności Trustly."
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr "Imię"
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr "Nazwisko"
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr "Email"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -84,9 +94,7 @@ msgstr "Numer telefonu"
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Po kliknięciu poniższego przycisku, otworzy się okno płatności Swipp. Po "
-"zakończeniu, zostaniesz skierowany z powrotem do potwierdzenia."
+msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności Swipp. Po zakończeniu, zostaniesz skierowany z powrotem do potwierdzenia."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -195,9 +203,7 @@ msgstr "Data ważności"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
-"Kod CVV/CVD jest dodatkowym zabezpieczeniem. Najczęściej trzy cyfry "
-"weryfikujące środek płatniczy, znajdują się na tylnej stronie karty."
+msgstr "Kod CVV/CVD jest dodatkowym zabezpieczeniem. Najczęściej trzy cyfry weryfikujące środek płatniczy, znajdują się na tylnej stronie karty."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
@@ -205,15 +211,11 @@ msgstr "Włącz usługę 3D Secure"
 
 #: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
-msgstr ""
-"3D Secure to opcja weryfikacji dwuetapowej z wykorzystaniem kodu wysyłanego "
-"w wiadomości SMS."
+msgstr "3D Secure to opcja weryfikacji dwuetapowej z wykorzystaniem kodu wysyłanego w wiadomości SMS."
 
 #: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr ""
-"Instytucja wydająca kartę płatniczą, może wymagać zastosowania 3D Secure "
-"jako dodatkowego zabezpieczenia."
+msgstr "Instytucja wydająca kartę płatniczą, może wymagać zastosowania 3D Secure jako dodatkowego zabezpieczenia."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -241,8 +243,7 @@ msgstr "Wprowadź numer karty"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"Po kliknięciu poniższego przycisku, otworzy się okno płatności MobilePay."
+msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności MobilePay."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -326,6 +327,4 @@ msgstr "Spróbuj ponownie"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Po kliknięciu poniższego przycisku, otworzy się okno płatności Dankort. Po "
-"zakończeniu, zostaniesz skierowany z powrotem do potwierdzenia."
+msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności Dankort. Po zakończeniu, zostaniesz skierowany z powrotem do potwierdzenia."

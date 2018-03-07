@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-24 08:41+0000\n"
 "Last-Translator: Thomas <tj@pil.dk>\n"
-"Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/nl/>\n"
+"Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay/standard-branding/nl/>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,41 +42,51 @@ msgstr "Klik hier indien de verwerking veel tijd kost"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Starten van de 3D beveiligde betaling. Gelieve te wachten..."
 
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr ""
-"Wanneer u op de onderstaande knop klikt word het Sofort betalingsvenster "
-"geopend."
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "Wanneer u op de onderstaande knop klikt word het ViaBill betalingsvenster geopend."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Wanneer uw deze stappen heeft afgerond, wordt u teruggeleid naar naar uw betalingsbewijs."
 
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Ga verder naar de betaling"
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
 msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr ""
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr ""
-
-#: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Ga verder"
+
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "Wanneer u op de onderstaande knop klikt word het Sofort betalingsvenster geopend."
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr ""
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr ""
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr ""
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"

@@ -6,11 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-29 12:24+0100\n"
+"POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-30 22:51+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Italian <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/it/>\n"
+"Language-Team: Italian <http://translate.quickpay.net/projects/quickpay/standard-branding/it/>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,54 +41,59 @@ msgstr "Clicca qui se il processo richiede molto tempo"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Avvio del pagamento 3D Secure. Attendi..."
 
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr ""
-"Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di "
-"pagamento Trustly."
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento Viabill."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Al termine dell'operazione, verrai reindirizzato alla tua fattura."
 
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Procedi con il pagamento"
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
-msgstr "Nome"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
+msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr "Cognome"
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr "Email"
-
-#: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Procedi"
+
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento Trustly."
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr "Nome"
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr "Cognome"
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr "Email"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
 msgstr "Numero di cellulare"
 
 #: templates/form/swipp.liquid:3
-msgid ""
-"When you click the button below, the Swipp payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di "
-"pagamento Swipp. Al termine dell'operazione, verrai reindirizzato alla tua "
-"fattura."
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento Swipp. Al termine dell'operazione, verrai reindirizzato alla tua fattura."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -145,9 +149,7 @@ msgstr "Numero di registrazione dell'impresa"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr ""
-"Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di "
-"pagamento Paypal."
+msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento Paypal."
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
@@ -163,15 +165,11 @@ msgstr "Apri nel wallet"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr ""
-"Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di "
-"pagamento Viabill."
+msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento Viabill."
 
 #: templates/form/sofort.liquid:8
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr ""
-"Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di "
-"pagamento Sofort."
+msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento Sofort."
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
@@ -184,13 +182,11 @@ msgstr "Riprova."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr ""
-"Hai provato ad effettuare un pagamento reale in una transazione di prova."
+msgstr "Hai provato ad effettuare un pagamento reale in una transazione di prova."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr ""
-"Hai provato ad effettuare un pagamento di prova in una transazione reale."
+msgstr "Hai provato ad effettuare un pagamento di prova in una transazione reale."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
@@ -205,33 +201,20 @@ msgid "Expiration date"
 msgstr "Data di scadenza"
 
 #: templates/form/card.liquid:56
-msgid ""
-"The CVV/CVD increases the level of security. Usually the card verification "
-"data is a three digit number, placed at the backside of the card."
-msgstr ""
-"Il CVV/CVD aumenta il livello di sicurezza. Solitamente, il codice di "
-"verifica della carta è un numero a tre cifre, indicato sul retro della "
-"carta."
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgstr "Il CVV/CVD aumenta il livello di sicurezza. Solitamente, il codice di verifica della carta è un numero a tre cifre, indicato sul retro della carta."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
 msgstr "Attiva 3D Secure"
 
 #: templates/form/card.liquid:70
-msgid ""
-"3D Secure is a 2 step verification service using a text message to your "
-"phone."
-msgstr ""
-"3D Secure è un servizio di verifica in due fasi che funziona tramite sms "
-"inviati al tuo telefono."
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr "3D Secure è un servizio di verifica in due fasi che funziona tramite sms inviati al tuo telefono."
 
 #: templates/form/card.liquid:71
-msgid ""
-"Your credit card issuer may require you to use 3D Secure as an extra "
-"precaution."
-msgstr ""
-"Il fornitore della carta di credito potrebbe richiederti di usare 3D Secure "
-"come precauzione aggiuntiva."
+msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
+msgstr "Il fornitore della carta di credito potrebbe richiederti di usare 3D Secure come precauzione aggiuntiva."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -258,11 +241,8 @@ msgid "Fill in card number"
 msgstr "Inserisci il numero della carta"
 
 #: templates/form/mobilepay.liquid:13
-msgid ""
-"When you click the button below, the MobilePay payment window will open."
-msgstr ""
-"Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di "
-"pagamento MobilePay."
+msgid "When you click the button below, the MobilePay payment window will open."
+msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento MobilePay."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -334,8 +314,7 @@ msgstr "Registrazione a 3D Secure non riuscita."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
-msgstr ""
-"I dettagli di pagamento sono cambiati da quando hai avviato il pagamento."
+msgstr "I dettagli di pagamento sono cambiati da quando hai avviato il pagamento."
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
@@ -346,10 +325,5 @@ msgid "Try again"
 msgstr "Riprova"
 
 #: templates/form_dankort_acs.liquid:4
-msgid ""
-"When you click the button below, the Dankort payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di "
-"pagamento Dankort. Al termine dell'operazione, verrai reindirizzato alla tua "
-"fattura."
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento Dankort. Al termine dell'operazione, verrai reindirizzato alla tua fattura."

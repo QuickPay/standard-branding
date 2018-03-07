@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-30 22:51+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Korean <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/ko/>\n"
+"Language-Team: Korean <http://translate.quickpay.net/projects/quickpay/standard-branding/ko/>\n"
 "Language: ko_KR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,51 +42,59 @@ msgstr "처리가 지연되면 클릭하십시오"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "3D Secure 결제를 시작합니다. 잠시만 기다려주세요..."
 
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "아래의 버튼을 클릭하면 안전 결제창이 열립니다."
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "아래의 버튼을 클릭하면 ViaBill 결제창이 열립니다."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "결제가 완료되면 자동으로 영수증 페이지로 이동합니다."
 
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "결제하기"
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
-msgstr "이름"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
+msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr "성"
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr "이메일"
-
-#: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "계속하기"
+
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "아래의 버튼을 클릭하면 안전 결제창이 열립니다."
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr "이름"
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr "성"
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr "이메일"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
 msgstr "휴대폰 번호"
 
 #: templates/form/swipp.liquid:3
-msgid ""
-"When you click the button below, the Swipp payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"아래의 버튼을 클릭하면 Swipp 결제창이 열립니다. 결제가 완료되면 자동으로 "
-"영수증 페이지로 이동합니다."
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "아래의 버튼을 클릭하면 Swipp 결제창이 열립니다. 결제가 완료되면 자동으로 영수증 페이지로 이동합니다."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -195,30 +202,20 @@ msgid "Expiration date"
 msgstr "유효 기한"
 
 #: templates/form/card.liquid:56
-msgid ""
-"The CVV/CVD increases the level of security. Usually the card verification "
-"data is a three digit number, placed at the backside of the card."
-msgstr ""
-"CVV/CVD는 보안 수준을 올려주는 번호입니다. 이러한 카드 확인 데이터는 "
-"보통 세 글자로 이루어져 있으며 카드 뒷면에 적혀있습니다."
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgstr "CVV/CVD는 보안 수준을 올려주는 번호입니다. 이러한 카드 확인 데이터는 보통 세 글자로 이루어져 있으며 카드 뒷면에 적혀있습니다."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
 msgstr "3D Secure 활성화"
 
 #: templates/form/card.liquid:70
-msgid ""
-"3D Secure is a 2 step verification service using a text message to your "
-"phone."
-msgstr ""
-"3D Secure는 휴대폰으로 전송되는 문자로 인증하는 이중 인증 서비스입니다."
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr "3D Secure는 휴대폰으로 전송되는 문자로 인증하는 이중 인증 서비스입니다."
 
 #: templates/form/card.liquid:71
-msgid ""
-"Your credit card issuer may require you to use 3D Secure as an extra "
-"precaution."
-msgstr ""
-"신용카드 발행사가 도용 예방을 위해 3D Secure 인증을 요구할 수 있습니다."
+msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
+msgstr "신용카드 발행사가 도용 예방을 위해 3D Secure 인증을 요구할 수 있습니다."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -245,8 +242,7 @@ msgid "Fill in card number"
 msgstr "카드 번호를 입력하세요"
 
 #: templates/form/mobilepay.liquid:13
-msgid ""
-"When you click the button below, the MobilePay payment window will open."
+msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "아래의 버튼을 클릭하면 MobilePay 결제창이 열립니다."
 
 #: templates/cancelled.liquid:7
@@ -330,9 +326,5 @@ msgid "Try again"
 msgstr "다시 시도"
 
 #: templates/form_dankort_acs.liquid:4
-msgid ""
-"When you click the button below, the Dankort payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"아래의 버튼을 클릭하면 Dankort 결제창이 열립니다. 결제가 완료되면 자동으로 "
-"영수증 페이지로 이동합니다."
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "아래의 버튼을 클릭하면 Dankort 결제창이 열립니다. 결제가 완료되면 자동으로 영수증 페이지로 이동합니다."

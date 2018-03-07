@@ -23,7 +23,6 @@ msgid "Other Payment Methods"
 msgstr ""
 
 #: templates/form.liquid:16
-#: templates/form.liquid:16
 msgid "Cards"
 msgstr ""
 
@@ -43,50 +42,52 @@ msgstr ""
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr ""
 
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+msgid "When you click the button below, the iDeal payment window will open."
 msgstr ""
 
-#: templates/form/trustly.liquid:10
-#: templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28
-#: templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr ""
 
-#: templates/form/trustly.liquid:11
-#: templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13
-#: templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr ""
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
 msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr ""
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr ""
-
-#: templates/form/trustly.liquid:47
-#: templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102
-#: templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr ""
 
-#: templates/form/vipps.liquid:12
-#: templates/form/swish.liquid:12
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr ""
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr ""
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr ""
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr ""
+
+#: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
 msgstr ""
 
@@ -106,43 +107,35 @@ msgstr ""
 msgid "Female"
 msgstr ""
 
-#: templates/form/klarna.liquid:31
-#: templates/form/klarna.liquid:67
+#: templates/form/klarna.liquid:31 templates/form/klarna.liquid:67
 msgid "Country"
 msgstr ""
 
-#: templates/form/klarna.liquid:37
-#: templates/form/klarna.liquid:73
+#: templates/form/klarna.liquid:37 templates/form/klarna.liquid:73
 msgid "Denmark"
 msgstr ""
 
-#: templates/form/klarna.liquid:39
-#: templates/form/klarna.liquid:75
+#: templates/form/klarna.liquid:39 templates/form/klarna.liquid:75
 msgid "Sweden"
 msgstr ""
 
-#: templates/form/klarna.liquid:41
-#: templates/form/klarna.liquid:77
+#: templates/form/klarna.liquid:41 templates/form/klarna.liquid:77
 msgid "Norway"
 msgstr ""
 
-#: templates/form/klarna.liquid:43
-#: templates/form/klarna.liquid:79
+#: templates/form/klarna.liquid:43 templates/form/klarna.liquid:79
 msgid "Finland"
 msgstr ""
 
-#: templates/form/klarna.liquid:45
-#: templates/form/klarna.liquid:81
+#: templates/form/klarna.liquid:45 templates/form/klarna.liquid:81
 msgid "Netherlands"
 msgstr ""
 
-#: templates/form/klarna.liquid:47
-#: templates/form/klarna.liquid:83
+#: templates/form/klarna.liquid:47 templates/form/klarna.liquid:83
 msgid "Germany"
 msgstr ""
 
-#: templates/form/klarna.liquid:49
-#: templates/form/klarna.liquid:85
+#: templates/form/klarna.liquid:49 templates/form/klarna.liquid:85
 msgid "Austria"
 msgstr ""
 
@@ -182,8 +175,7 @@ msgstr ""
 msgid "An error happened."
 msgstr ""
 
-#: templates/form/error.liquid:14
-#: templates/error.liquid:13
+#: templates/form/error.liquid:14 templates/error.liquid:13
 #: templates/error.liquid:17
 msgid "Please try again."
 msgstr ""
@@ -308,13 +300,11 @@ msgstr ""
 msgid "Unable to complete payment"
 msgstr ""
 
-#: templates/error.liquid:17
-#: templates/error.liquid:19
+#: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
 msgstr ""
 
-#: templates/error.liquid:19
-#: templates/error.liquid:21
+#: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
 msgstr ""
 

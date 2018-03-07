@@ -23,7 +23,6 @@ msgid "Other Payment Methods"
 msgstr "Drugi načini plaćanja"
 
 #: templates/form.liquid:16
-#: templates/form.liquid:16
 msgid "Cards"
 msgstr "Kartice"
 
@@ -43,50 +42,53 @@ msgstr "Kliknite ovde ako obrada potraje dugo"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Započinje se 3D Secure plaćanje. Molimo vas da sačekate..."
 
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se Trustly prozor za plaćanje."
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "Kada kliknete na dugme ispod, otvoriće se ViaBill prozor za plaćanje."
 
-#: templates/form/trustly.liquid:10
-#: templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28
-#: templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Kada završite, bićete preusmereni nazad na svoj račun."
 
-#: templates/form/trustly.liquid:11
-#: templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13
-#: templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Nastavite na plaćanje"
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
-msgstr "Ime"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
+msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr "Prezime"
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr "E-pošta"
-
-#: templates/form/trustly.liquid:47
-#: templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102
-#: templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Nastavi"
 
-#: templates/form/vipps.liquid:12
-#: templates/form/swish.liquid:12
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "Kada kliknete na dugme ispod, otvoriće se Trustly prozor za plaćanje."
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr "Ime"
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr "Prezime"
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr "E-pošta"
+
+#: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
 msgstr "Broj mobilnog telefona"
 
@@ -106,43 +108,35 @@ msgstr "Muško"
 msgid "Female"
 msgstr "Žensko"
 
-#: templates/form/klarna.liquid:31
-#: templates/form/klarna.liquid:67
+#: templates/form/klarna.liquid:31 templates/form/klarna.liquid:67
 msgid "Country"
 msgstr "Država"
 
-#: templates/form/klarna.liquid:37
-#: templates/form/klarna.liquid:73
+#: templates/form/klarna.liquid:37 templates/form/klarna.liquid:73
 msgid "Denmark"
 msgstr "Danska"
 
-#: templates/form/klarna.liquid:39
-#: templates/form/klarna.liquid:75
+#: templates/form/klarna.liquid:39 templates/form/klarna.liquid:75
 msgid "Sweden"
 msgstr "Švedska"
 
-#: templates/form/klarna.liquid:41
-#: templates/form/klarna.liquid:77
+#: templates/form/klarna.liquid:41 templates/form/klarna.liquid:77
 msgid "Norway"
 msgstr "Norveška"
 
-#: templates/form/klarna.liquid:43
-#: templates/form/klarna.liquid:79
+#: templates/form/klarna.liquid:43 templates/form/klarna.liquid:79
 msgid "Finland"
 msgstr "Finska"
 
-#: templates/form/klarna.liquid:45
-#: templates/form/klarna.liquid:81
+#: templates/form/klarna.liquid:45 templates/form/klarna.liquid:81
 msgid "Netherlands"
 msgstr "Holandija"
 
-#: templates/form/klarna.liquid:47
-#: templates/form/klarna.liquid:83
+#: templates/form/klarna.liquid:47 templates/form/klarna.liquid:83
 msgid "Germany"
 msgstr "Nemačka"
 
-#: templates/form/klarna.liquid:49
-#: templates/form/klarna.liquid:85
+#: templates/form/klarna.liquid:49 templates/form/klarna.liquid:85
 msgid "Austria"
 msgstr "Austrija"
 
@@ -182,8 +176,7 @@ msgstr "Kada kliknete na dugme ispod, otvoriće se Sofort prozor za plaćanje."
 msgid "An error happened."
 msgstr "Došlo je do greške."
 
-#: templates/form/error.liquid:14
-#: templates/error.liquid:13
+#: templates/form/error.liquid:14 templates/error.liquid:13
 #: templates/error.liquid:17
 msgid "Please try again."
 msgstr "Molimo vas da pokušate ponovo."
@@ -308,13 +301,11 @@ msgstr "Došlo je do nepoznate greške."
 msgid "Unable to complete payment"
 msgstr "Plaćanje nije moglo da se izvrši"
 
-#: templates/error.liquid:17
-#: templates/error.liquid:19
+#: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
 msgstr "3D Secure autorizacija nije uspela."
 
-#: templates/error.liquid:19
-#: templates/error.liquid:21
+#: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
 msgstr "Molimo vas da pokušate ponovo ili da probate drugi način plaćanja."
 

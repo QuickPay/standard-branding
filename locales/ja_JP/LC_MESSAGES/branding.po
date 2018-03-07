@@ -23,7 +23,6 @@ msgid "Other Payment Methods"
 msgstr "その他の支払い方法"
 
 #: templates/form.liquid:16
-#: templates/form.liquid:16
 msgid "Cards"
 msgstr "クレジットカード"
 
@@ -43,50 +42,53 @@ msgstr "処理時間が長い場合はこちらをクリックして下さい。
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "3Dセキュア決済を開始しています。お待ち下さい...。"
 
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "下のボタンをクリックすると、Trustlyの支払いウィンドウが開きます。"
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "以下のボタンをクリックすると、ViaBillの支払い画面が開きます。"
 
-#: templates/form/trustly.liquid:10
-#: templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28
-#: templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "完了後はレシート画面に転送されます。"
 
-#: templates/form/trustly.liquid:11
-#: templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13
-#: templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "支払いに進む"
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
-msgstr "名"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
+msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr "姓"
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr "メール"
-
-#: templates/form/trustly.liquid:47
-#: templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102
-#: templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "進む"
 
-#: templates/form/vipps.liquid:12
-#: templates/form/swish.liquid:12
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "下のボタンをクリックすると、Trustlyの支払いウィンドウが開きます。"
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr "名"
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr "姓"
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr "メール"
+
+#: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
 msgstr "携帯電話番号"
 
@@ -106,43 +108,35 @@ msgstr "男"
 msgid "Female"
 msgstr "女"
 
-#: templates/form/klarna.liquid:31
-#: templates/form/klarna.liquid:67
+#: templates/form/klarna.liquid:31 templates/form/klarna.liquid:67
 msgid "Country"
 msgstr "国"
 
-#: templates/form/klarna.liquid:37
-#: templates/form/klarna.liquid:73
+#: templates/form/klarna.liquid:37 templates/form/klarna.liquid:73
 msgid "Denmark"
 msgstr "デンマーク"
 
-#: templates/form/klarna.liquid:39
-#: templates/form/klarna.liquid:75
+#: templates/form/klarna.liquid:39 templates/form/klarna.liquid:75
 msgid "Sweden"
 msgstr "スウェーデン"
 
-#: templates/form/klarna.liquid:41
-#: templates/form/klarna.liquid:77
+#: templates/form/klarna.liquid:41 templates/form/klarna.liquid:77
 msgid "Norway"
 msgstr "ノルウェー"
 
-#: templates/form/klarna.liquid:43
-#: templates/form/klarna.liquid:79
+#: templates/form/klarna.liquid:43 templates/form/klarna.liquid:79
 msgid "Finland"
 msgstr "フィンランド"
 
-#: templates/form/klarna.liquid:45
-#: templates/form/klarna.liquid:81
+#: templates/form/klarna.liquid:45 templates/form/klarna.liquid:81
 msgid "Netherlands"
 msgstr "オランダ"
 
-#: templates/form/klarna.liquid:47
-#: templates/form/klarna.liquid:83
+#: templates/form/klarna.liquid:47 templates/form/klarna.liquid:83
 msgid "Germany"
 msgstr "ドイツ"
 
-#: templates/form/klarna.liquid:49
-#: templates/form/klarna.liquid:85
+#: templates/form/klarna.liquid:49 templates/form/klarna.liquid:85
 msgid "Austria"
 msgstr "オーストリア"
 
@@ -182,8 +176,7 @@ msgstr "下のボタンをクリックすると、Sofortの支払いウィンド
 msgid "An error happened."
 msgstr "エラーが発生しました。"
 
-#: templates/form/error.liquid:14
-#: templates/error.liquid:13
+#: templates/form/error.liquid:14 templates/error.liquid:13
 #: templates/error.liquid:17
 msgid "Please try again."
 msgstr "再度お試し下さい。"
@@ -308,13 +301,11 @@ msgstr "不明なエラーが発生しました。"
 msgid "Unable to complete payment"
 msgstr "支払いを完了できませんでした"
 
-#: templates/error.liquid:17
-#: templates/error.liquid:19
+#: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
 msgstr "3Dセキュアの認証が失敗しました。"
 
-#: templates/error.liquid:19
-#: templates/error.liquid:21
+#: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
 msgstr "再度お試しになるか、他の支払い方法を選択してください。"
 

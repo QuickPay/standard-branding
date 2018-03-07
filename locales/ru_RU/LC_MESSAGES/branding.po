@@ -10,21 +10,18 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-29 14:33+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Russian <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/ru/>\n"
+"Language-Team: Russian <http://translate.quickpay.net/projects/quickpay/standard-branding/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.18\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
 msgstr "Иные способы платежа"
 
-#: templates/form.liquid:16
 #: templates/form.liquid:16
 msgid "Cards"
 msgstr "Карты"
@@ -45,50 +42,53 @@ msgstr "Нажмите сюда, если обработка занимает м
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Запуск оплаты 3D Secure. Пожалуйста, подождите..."
 
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа Trustly."
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа ViaBill."
 
-#: templates/form/trustly.liquid:10
-#: templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28
-#: templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Когда вы закончите, вас перенаправят обратно к Вашему чеку."
 
-#: templates/form/trustly.liquid:11
-#: templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13
-#: templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Перейти к оплате"
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
-msgstr "Имя"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
+msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr "Фамилия"
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr "Электронная почта"
-
-#: templates/form/trustly.liquid:47
-#: templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102
-#: templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Далее"
 
-#: templates/form/vipps.liquid:12
-#: templates/form/swish.liquid:12
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа Trustly."
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr "Имя"
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr "Фамилия"
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr "Электронная почта"
+
+#: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
 msgstr "Номер мобильного телефона"
 
@@ -108,43 +108,35 @@ msgstr "Мужчина"
 msgid "Female"
 msgstr "Женщина"
 
-#: templates/form/klarna.liquid:31
-#: templates/form/klarna.liquid:67
+#: templates/form/klarna.liquid:31 templates/form/klarna.liquid:67
 msgid "Country"
 msgstr "Страна"
 
-#: templates/form/klarna.liquid:37
-#: templates/form/klarna.liquid:73
+#: templates/form/klarna.liquid:37 templates/form/klarna.liquid:73
 msgid "Denmark"
 msgstr "Дания"
 
-#: templates/form/klarna.liquid:39
-#: templates/form/klarna.liquid:75
+#: templates/form/klarna.liquid:39 templates/form/klarna.liquid:75
 msgid "Sweden"
 msgstr "Швеция"
 
-#: templates/form/klarna.liquid:41
-#: templates/form/klarna.liquid:77
+#: templates/form/klarna.liquid:41 templates/form/klarna.liquid:77
 msgid "Norway"
 msgstr "Норвегия"
 
-#: templates/form/klarna.liquid:43
-#: templates/form/klarna.liquid:79
+#: templates/form/klarna.liquid:43 templates/form/klarna.liquid:79
 msgid "Finland"
 msgstr "Финляндия"
 
-#: templates/form/klarna.liquid:45
-#: templates/form/klarna.liquid:81
+#: templates/form/klarna.liquid:45 templates/form/klarna.liquid:81
 msgid "Netherlands"
 msgstr "Нидерланды"
 
-#: templates/form/klarna.liquid:47
-#: templates/form/klarna.liquid:83
+#: templates/form/klarna.liquid:47 templates/form/klarna.liquid:83
 msgid "Germany"
 msgstr "Германия"
 
-#: templates/form/klarna.liquid:49
-#: templates/form/klarna.liquid:85
+#: templates/form/klarna.liquid:49 templates/form/klarna.liquid:85
 msgid "Austria"
 msgstr "Австрия"
 
@@ -184,8 +176,7 @@ msgstr "При нажатии на кнопку ниже откроется ок
 msgid "An error happened."
 msgstr "Произошла ошибка."
 
-#: templates/form/error.liquid:14
-#: templates/error.liquid:13
+#: templates/form/error.liquid:14 templates/error.liquid:13
 #: templates/error.liquid:17
 msgid "Please try again."
 msgstr "Повторите попытку."
@@ -310,13 +301,11 @@ msgstr "Произошла неизвестная ошибка."
 msgid "Unable to complete payment"
 msgstr "Невозможно завершить оплату"
 
-#: templates/error.liquid:17
-#: templates/error.liquid:19
+#: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
 msgstr "Не удалось выполнить авторизацию 3D Secure."
 
-#: templates/error.liquid:19
-#: templates/error.liquid:21
+#: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
 msgstr "Повторите попытку или воспользуйтесь иным способом платежа."
 

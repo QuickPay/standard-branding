@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-01-29 14:33+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Turkish <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/tr/>\n"
+"Language-Team: Turkish <http://translate.quickpay.net/projects/quickpay/standard-branding/tr/>\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,51 +41,59 @@ msgstr "İşlemin uzun sürmesi halinde buraya tıklayın"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "3D Güvenli ödeme başlatılıyor. Lütfen bekleyin..."
 
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda Trustly ödeme penceresi açılacaktır."
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:12
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "İşleminizi bitirdiğinizde makbuzunuza yönlendirileceksiniz."
 
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/viabill.liquid:13
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Ödemeye geçin"
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
-msgstr "Adınız"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
+msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr "Soyadınız"
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr "E-posta"
-
-#: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "İlerleyin"
+
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Trustly ödeme penceresi açılacaktır."
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr "Adınız"
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr "Soyadınız"
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr "E-posta"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
 msgstr "Telefon Numarası"
 
 #: templates/form/swipp.liquid:3
-msgid ""
-"When you click the button below, the Swipp payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Aşağıdaki düğmeye tıkladığınızda Swipp ödeme penceresi açılacaktır. "
-"İşleminizi bitirdiğinizde makbuzunuza yönlendirileceksiniz."
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Swipp ödeme penceresi açılacaktır. İşleminizi bitirdiğinizde makbuzunuza yönlendirileceksiniz."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -194,32 +201,20 @@ msgid "Expiration date"
 msgstr "Son kullanma tarihi"
 
 #: templates/form/card.liquid:56
-msgid ""
-"The CVV/CVD increases the level of security. Usually the card verification "
-"data is a three digit number, placed at the backside of the card."
-msgstr ""
-"CVV/CVD güvenlik seviyesini artırır. Kart doğrulama kodu genellikle kartın "
-"arka yüzünde bulunan üç haneli bir rakamdır."
+msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
+msgstr "CVV/CVD güvenlik seviyesini artırır. Kart doğrulama kodu genellikle kartın arka yüzünde bulunan üç haneli bir rakamdır."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
 msgstr "3D Güvenlik Sistemini Etkinleştirin"
 
 #: templates/form/card.liquid:70
-msgid ""
-"3D Secure is a 2 step verification service using a text message to your "
-"phone."
-msgstr ""
-"3D Güvenlik Sistemi telefonunuza bir metin mesajı gönderen 2 adımlı bir "
-"doğrulamadır."
+msgid "3D Secure is a 2 step verification service using a text message to your phone."
+msgstr "3D Güvenlik Sistemi telefonunuza bir metin mesajı gönderen 2 adımlı bir doğrulamadır."
 
 #: templates/form/card.liquid:71
-msgid ""
-"Your credit card issuer may require you to use 3D Secure as an extra "
-"precaution."
-msgstr ""
-"Kredi kartı düzenleyiciniz ek önlem olarak 3D Güvenlik Sistemi kullanmanızı "
-"gerektirebilir."
+msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
+msgstr "Kredi kartı düzenleyiciniz ek önlem olarak 3D Güvenlik Sistemi kullanmanızı gerektirebilir."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -246,8 +241,7 @@ msgid "Fill in card number"
 msgstr "Kart numarasını girin"
 
 #: templates/form/mobilepay.liquid:13
-msgid ""
-"When you click the button below, the MobilePay payment window will open."
+msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "Aşağıdaki düğmeye tıkladığınızda MobilePay ödeme penceresi açılacaktır."
 
 #: templates/cancelled.liquid:7
@@ -331,9 +325,5 @@ msgid "Try again"
 msgstr "Yeniden deneyin"
 
 #: templates/form_dankort_acs.liquid:4
-msgid ""
-"When you click the button below, the Dankort payment window will open. When "
-"finished, you will be redirected back to your receipt."
-msgstr ""
-"Aşağıdaki düğmeye tıkladığınızda Dankort ödeme penceresi açılacaktır. "
-"İşleminizi bitirdiğinizde makbuzunuza yönlendirileceksiniz."
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Dankort ödeme penceresi açılacaktır. İşleminizi bitirdiğinizde makbuzunuza yönlendirileceksiniz."
