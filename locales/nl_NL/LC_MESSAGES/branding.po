@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-03-08 09:07+0000\n"
+"PO-Revision-Date: 2018-05-29 10:35+0000\n"
 "Last-Translator: Sune Kjærgård <sune@hungry.dk>\n"
-"Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay/standard-branding/nl/>\n"
+"Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding/nl/>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,9 +75,10 @@ msgid "Proceed"
 msgstr "Ga verder"
 
 #: templates/form/paysafecard.liquid:11
-#, fuzzy
 msgid "When you click the button below, the paysafecard payment window will open."
-msgstr "Wanneer u op de onderstaande knop klikt word het PayPal betalingsvenster geopend."
+msgstr ""
+"Wanneer u op de onderstaande knop klikt word het Paysafecard "
+"betalingsvenster geopend."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
