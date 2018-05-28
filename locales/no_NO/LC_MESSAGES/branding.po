@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2017-11-09 14:37+0000\n"
 "Last-Translator: Thomas <tj@pil.dk>\n"
-"Language-Team: Norwegian (old code) "
-"<http://translate.quickpay.net/projects/quickpay/standard-branding/no/>\n"
+"Language-Team: Norwegian (old code) <http://translate.quickpay.net/projects/quickpay/standard-branding/no/>\n"
 "Language: no_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,39 +42,51 @@ msgstr "Klikk her om det tar for lang tid"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Starter 3D Secure betaling. Vennligst vent..."
 
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "Når du klikker på knappen nedenfor vil ViaBill betalingsvinduet åpnes."
+
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
+msgid "When finished, you will be redirected back to your receipt."
+msgstr "Når det er ferdigstilt vil du sendes tilbake til kvitteringen din."
+
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
+msgid "Proceed to payment"
+msgstr "Fortsett til betaling"
+
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
+msgstr ""
+
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
+#: templates/form_dankort_acs.liquid:35
+msgid "Proceed"
+msgstr "Fortsett"
+
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
 msgstr "Når du klikker på knappen nedenfor vil Trustly betalingsvinduet åpnes."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:11
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:22
-msgid "When finished, you will be redirected back to your receipt."
-msgstr "Når det er ferdigstilt vil du sendes tilbake til kvitteringen din."
-
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:23
-msgid "Proceed to payment"
-msgstr "Fortsett til betaling"
-
-#: templates/form/trustly.liquid:26
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
 msgid "First name"
 msgstr "Fornavn"
 
-#: templates/form/trustly.liquid:33
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
 msgid "Last name"
 msgstr "Etternavn"
 
-#: templates/form/trustly.liquid:40
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
 msgid "Email"
 msgstr "E-post"
-
-#: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
-#: templates/form_dankort_acs.liquid:35
-msgid "Proceed"
-msgstr "Fortsett"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -137,7 +148,7 @@ msgstr "Personnummer"
 msgid "Company Registration Number"
 msgstr "Organisasjonsnummer"
 
-#: templates/form/paypal.liquid:10
+#: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr "Når du klikker på knappen nedenfor vil PayPal betalingsvinduet åpnes."
 
@@ -153,7 +164,7 @@ msgstr "Kunne ikke kopiere Bitcoin-adressen til utklippstavlen"
 msgid "Open in wallet"
 msgstr "Åpne i lommebok"
 
-#: templates/form/viabill.liquid:24
+#: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr "Når du klikker på knappen nedenfor vil ViaBill betalingsvinduet åpnes."
 
@@ -230,7 +241,7 @@ msgstr "Betalingsgebyr"
 msgid "Fill in card number"
 msgstr "Fyll inn kortnummer"
 
-#: templates/form/mobilepay.liquid:21
+#: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "Når du klikker på knappen nedenfor vil MobilePay betalingsvinduet åpnes."
 

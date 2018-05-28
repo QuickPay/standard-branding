@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 09:20+0000\n"
+"PO-Revision-Date: 2018-02-12 11:50+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/sv/>\n"
+"Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay/standard-branding/sv/>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.9\n"
+"X-Generator: Weblate 2.18\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -42,45 +42,55 @@ msgstr "Klicka här om processen tar lång tid"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Påbörjar betalning via 3D Secure. Var god vänta..."
 
-#: templates/form/trustly.liquid:9
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
 #, fuzzy
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Sofort att öppnas."
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för ViaBill att öppnas."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:11
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:22
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
-msgstr "När du genomfört detta steg, kommer du att dirigeras tillbaka till ditt kvitto."
+msgstr "När du avslutat detta steg, kommer du att dirigeras tillbaka till ditt kvitto."
 
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:23
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Fortsätt till betalning"
 
-#: templates/form/trustly.liquid:26
-msgid "First name"
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
 msgstr ""
 
-#: templates/form/trustly.liquid:33
-msgid "Last name"
-msgstr ""
-
-#: templates/form/trustly.liquid:40
-msgid "Email"
-msgstr ""
-
-#: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Fortsätt"
 
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Sofort att öppnas."
+
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
+msgid "First name"
+msgstr ""
+
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
+msgid "Last name"
+msgstr ""
+
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
+msgid "Email"
+msgstr ""
+
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
-#, fuzzy
 msgid "Mobile number"
-msgstr "Ordernummer"
+msgstr "Mobilenummer"
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
@@ -138,7 +148,7 @@ msgstr "Personnummer"
 msgid "Company Registration Number"
 msgstr ""
 
-#: templates/form/paypal.liquid:10
+#: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för PayPal att öppnas."
 
@@ -154,7 +164,7 @@ msgstr ""
 msgid "Open in wallet"
 msgstr ""
 
-#: templates/form/viabill.liquid:24
+#: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för ViaBill att öppnas."
 
@@ -177,7 +187,7 @@ msgstr "Du försökte genomföra en riktig betalning på en testtransaktion."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr "Du försökte genomföra en testbetalning vid en riktig transaktion."
+msgstr "Du försökte göra en testbetalning vid en riktig transaktion."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
@@ -193,7 +203,7 @@ msgstr "Utgångsdatum"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr "CVV/CVD ökar säkerheten för dig som kund. Vanligtvis är detta ett nummer som består av tre siffror, vilka återfinns på kortets baksida."
+msgstr "Verifikationsnumret ökar säkerheten för dig som kund. Vanligtvis är detta ett nummer som består av tre siffror, vilka återfinns på kortets baksida."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
@@ -231,7 +241,7 @@ msgstr "Betalningsavgift"
 msgid "Fill in card number"
 msgstr "Fyll i kortnummer"
 
-#: templates/form/mobilepay.liquid:21
+#: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "När du klickar på knappen nedan, kommer fönstret för mobila betalningar att öppnas."
 
@@ -248,7 +258,6 @@ msgid "expires in"
 msgstr "utgår om"
 
 #: templates/success.liquid:8
-#, fuzzy
 msgid "You have completed the payout"
 msgstr "Du har nu slutfört betalningen"
 

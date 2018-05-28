@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 13:17+0000\n"
-"Last-Translator: Sølvi <solvi@runavik.fo>\n"
-"Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/fo/>\n"
+"PO-Revision-Date: 2018-01-05 12:08+0000\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
+"Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay/standard-branding/fo/>\n"
 "Language: fo_FO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
-msgstr "Aðrir gjaldshættir"
+msgstr "Aðrir gjaldsháttir"
 
 #: templates/form.liquid:16
 msgid "Cards"
@@ -42,40 +42,52 @@ msgstr "Trýst her, um viðgerðing tekur langa tíð"
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "3D Secure gjalding byrjar. Vinarliga bíða..."
 
+#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "Tá tú trýstur á knøttin niðanfyri, letur ViaBill gjaldingar vindeyga upp."
+
+#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
+msgid "When finished, you will be redirected back to your receipt."
+msgstr "Tá hetta er liðugt, verður tú leiddur víðari til kvittan tína."
+
+#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
+msgid "Proceed to payment"
+msgstr "Halt á fram til gjalding"
+
+#: templates/form/sofort_ideal.liquid:32
+msgid "Bank"
+msgstr ""
+
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
+#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
+#: templates/form_dankort_acs.liquid:35
+msgid "Proceed"
+msgstr "Halt fram"
+
 #: templates/form/trustly.liquid:9
 #, fuzzy
 msgid "When you click the button below, the Trustly payment window will open."
 msgstr "Tá tú trýstir á knøttin niðanfyri, letur Sofort gjaldingar vindeyga upp."
 
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:11
-#: templates/form/bitcoin.liquid:28 templates/form/viabill.liquid:25
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:22
-msgid "When finished, you will be redirected back to your receipt."
-msgstr "Tá tú ert liðugur, verður tú leiddur til kvittan tína."
-
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:12 templates/form/viabill.liquid:26
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:23
-msgid "Proceed to payment"
-msgstr "Halt áfram til gjalding"
-
-#: templates/form/trustly.liquid:26
+#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
 msgid "First name"
 msgstr ""
 
-#: templates/form/trustly.liquid:33
+#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
 msgid "Last name"
 msgstr ""
 
-#: templates/form/trustly.liquid:40
+#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
 msgid "Email"
 msgstr ""
-
-#: templates/form/trustly.liquid:47 templates/form/vipps.liquid:19
-#: templates/form/klarna.liquid:102 templates/form/swish.liquid:19
-#: templates/form_dankort_acs.liquid:35
-msgid "Proceed"
-msgstr "Halt fram"
 
 #: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
 #, fuzzy
@@ -138,7 +150,7 @@ msgstr "P-tal"
 msgid "Company Registration Number"
 msgstr ""
 
-#: templates/form/paypal.liquid:10
+#: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr "Tá tú trýstir á knøttin niðanfyri, letur PayPal gjaldingarvindeygað upp."
 
@@ -154,7 +166,7 @@ msgstr ""
 msgid "Open in wallet"
 msgstr ""
 
-#: templates/form/viabill.liquid:24
+#: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr "Tá tú trýstur á knøttin niðanfyri, letur ViaBill gjaldingar vindeyga upp."
 
@@ -181,11 +193,11 @@ msgstr "Tú royndi at gera eina test-gjalding á einum veruligum keypi."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
-msgstr "Navn á korti"
+msgstr "Navn á kortið"
 
 #: templates/form/card.liquid:23
 msgid "Card number"
-msgstr "Kort nummar"
+msgstr "Kortnummar"
 
 #: templates/form/card.liquid:33
 msgid "Expiration date"
@@ -193,11 +205,11 @@ msgstr "Útgongudagur"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr "CVV/CVD kodan økir um trygdina. Trygdarkodan er vanliga tey trý aftastu tølini, aftanfyri á kortinum."
+msgstr "CW/CVD kodan økir um trygdina. Vanliga er CVD (Card Verification Data) kodan trý tey seinastu tølini, aftanfyri á kortinum. "
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
-msgstr "Virkja 3D Secure"
+msgstr "Gilda 3D Secure"
 
 #: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
@@ -205,7 +217,7 @@ msgstr "3D Secure er ein váttanartænasta í 2 stigum, har SMS-boð verða send
 
 #: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr "Útgevarin av korti tínum krevur møguliga at tú nýtir 3D Secure sum eitt eyka trygdartiltak."
+msgstr "Útgevarin av korti tínum krevur møguliga at tú nýtir 3D Secure sum eitt eyka fyrivarni."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -225,23 +237,23 @@ msgstr ""
 
 #: templates/form/card.liquid:91
 msgid "Payment fee"
-msgstr "Avgjald"
+msgstr "Gjaldingar avgjald"
 
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
-msgstr "Áset kortnummar"
+msgstr "Útfyll kortnummar "
 
-#: templates/form/mobilepay.liquid:21
+#: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "Tá tú trýstur á knøttin niðanfyri, letur MobilePay gjaldingarvindeygað upp."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr "Tú hevur strikað gjaldingina"
+msgstr "Tú hevur angra gjaldið"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
-msgstr "Bíleggingarnummar"
+msgstr "Bíleggingarnummar "
 
 #: templates/order_info.liquid:6
 msgid "expires in"
@@ -258,7 +270,7 @@ msgstr "Tú hevur fullført gjaldingina"
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
-msgstr "Tú ert um at strika gjaldingina. Ert tú vísur í hesum?"
+msgstr "Tú ert um at strika tína gjalding. Ert tú vísur í hesum? "
 
 #: templates/layout.liquid:22
 msgid "Cancel Payment"
@@ -270,15 +282,15 @@ msgstr "Bílegging útgingin"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
-msgstr "Tú fullførdi ikki keypi innanfyri tíðarrammuna."
+msgstr "Tú fullførdi ikki keypi innan fyri tíðarrammuna. "
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
-msgstr "Trýst her fyri at halda framm"
+msgstr "Trýst her fyri at halda framm."
 
 #: templates/error.liquid:9
 msgid "The order is already paid."
-msgstr "Bíleggingin er longu goldin."
+msgstr "Hendan bílegging er longu goldin."
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
@@ -286,27 +298,27 @@ msgstr "Halt á fram til handilin"
 
 #: templates/error.liquid:13
 msgid "An unknown error happened."
-msgstr "Ein ókendur feilur kom í."
+msgstr "Ein ókendur feilur hendi."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
-msgstr "Gjaldingin var ikki fullførd"
+msgstr "Gjaldingin var ikki fullførd."
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
-msgstr "3D Secure góðkenningin miseydnaðist."
+msgstr "3D Secure heimildin miseydnaðist"
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
-msgstr "Vinarliga royn aftur ella vel annan gjaldshátt."
+msgstr "Vinarliga royn aftur, ella nýt annan gjaldshátt."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr "Feilur var í 3D Secure tilmeldingini."
+msgstr "3D Secure innriting miseydnaðist"
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
-msgstr "Gjaldsupplýsingarnir eru broyttir, síðan tú byrjaði gjaldingina."
+msgstr "Staklutir í gjaldingini eru broyttir, síðani tú byrjaði gjaldingina. "
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
@@ -318,7 +330,7 @@ msgstr "Royn aftur"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Tá tú trýstir á knøttin niðanfyri, letur Dankort gjaldingarvindeygað upp. Tá tú ert liðugur, verður tú leiddur víðari til kvittan tína."
+msgstr "Tá tú trýstir á knøttin niðanfyri, letur Dankort gjaldingar vindeyga upp. Tá tú ert liðugur, verður tú leiddur til kvittan tína. "
 
 #, fuzzy
 #~ msgid "German"

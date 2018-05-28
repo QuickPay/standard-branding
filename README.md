@@ -36,8 +36,7 @@ Example config file:
 }
 ```
 
-
-## Language and Translation <a style="float: right" href="https://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/"><img src="http://translate.quickpay.net/widgets/quickpay/-/shields-badge.svg" alt="Translation status" /></a>
+## Language and Translation <a style="float: right" href="https://translate.quickpay.net/projects/quickpay/standard-branding/"><img src="http://translate.quickpay.net/widgets/quickpay/-/standard-branding/svg-badge.svg" alt="Translation status" /></a>
 
 Translation is handled using the well known and battle tested [Gettext](https://www.gnu.org/software/gettext/) library which means that new languages and translations can easily be added.
 
