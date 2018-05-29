@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-05-29 10:34+0000\n"
+"PO-Revision-Date: 2018-05-29 11:47+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
 "Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/da/>\n"
@@ -76,7 +76,7 @@ msgstr "Fortsæt"
 
 #: templates/form/paysafecard.liquid:11
 msgid "When you click the button below, the paysafecard payment window will open."
-msgstr "Paysafecard betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "paysafecard betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
