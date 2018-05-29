@@ -46,17 +46,19 @@ msgstr "正在开始 3D 安全支付。请等待..."
 msgid "When you click the button below, the iDeal payment window will open."
 msgstr "当您点击下方按钮时，将开启 ViaBill 支付窗口。"
 
-#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
-#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
-#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
+#: templates/form/sofort_ideal.liquid:16 templates/form/paysafecard.liquid:12
+#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
+#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
+#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
+#: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "完成后，您将会被重定向回您的收据处。"
 
-#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
-#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
-#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
+#: templates/form/sofort_ideal.liquid:17 templates/form/paysafecard.liquid:13
+#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
+#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
+#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
+#: templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "继续支付"
 
@@ -70,6 +72,11 @@ msgstr ""
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "继续"
+
+#: templates/form/paysafecard.liquid:11
+#, fuzzy
+msgid "When you click the button below, the paysafecard payment window will open."
+msgstr "当您点击下方按钮时，将开启 PayPal 支付窗口。"
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."

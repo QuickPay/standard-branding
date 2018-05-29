@@ -47,17 +47,19 @@ msgstr "Initialisation de la transaction 3D Secure. Veuillez patienter..."
 msgid "When you click the button below, the iDeal payment window will open."
 msgstr "La page de paiement ViaBill s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous."
 
-#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
-#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
-#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
+#: templates/form/sofort_ideal.liquid:16 templates/form/paysafecard.liquid:12
+#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
+#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
+#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
+#: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Une fois que vous aurez terminé, vous serez redirigé vers votre reçu."
 
-#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
-#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
-#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
+#: templates/form/sofort_ideal.liquid:17 templates/form/paysafecard.liquid:13
+#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
+#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
+#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
+#: templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Procéder au paiement"
 
@@ -71,6 +73,11 @@ msgstr ""
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Continuer"
+
+#: templates/form/paysafecard.liquid:11
+#, fuzzy
+msgid "When you click the button below, the paysafecard payment window will open."
+msgstr "La page de paiement PayPal s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."

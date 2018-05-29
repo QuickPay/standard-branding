@@ -47,17 +47,19 @@ msgstr "3D Secure 결제를 시작합니다. 잠시만 기다려주세요..."
 msgid "When you click the button below, the iDeal payment window will open."
 msgstr "아래의 버튼을 클릭하면 ViaBill 결제창이 열립니다."
 
-#: templates/form/sofort_ideal.liquid:16 templates/form/trustly.liquid:10
-#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
-#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
+#: templates/form/sofort_ideal.liquid:16 templates/form/paysafecard.liquid:12
+#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
+#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
+#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
+#: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "결제가 완료되면 자동으로 영수증 페이지로 이동합니다."
 
-#: templates/form/sofort_ideal.liquid:17 templates/form/trustly.liquid:11
-#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
-#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
+#: templates/form/sofort_ideal.liquid:17 templates/form/paysafecard.liquid:13
+#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
+#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
+#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
+#: templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "결제하기"
 
@@ -71,6 +73,11 @@ msgstr ""
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "계속하기"
+
+#: templates/form/paysafecard.liquid:11
+#, fuzzy
+msgid "When you click the button below, the paysafecard payment window will open."
+msgstr "아래의 버튼을 클릭하면, PayPal 결제창이 열립니다."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."

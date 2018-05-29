@@ -49,6 +49,7 @@ msgid "When you click the button below, the iDeal payment window will open."
 msgstr ""
 
 #: templates/form/sofort_ideal.liquid:16
+#: templates/form/paysafecard.liquid:12
 #: templates/form/trustly.liquid:10
 #: templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28
@@ -60,6 +61,7 @@ msgid "When finished, you will be redirected back to your receipt."
 msgstr ""
 
 #: templates/form/sofort_ideal.liquid:17
+#: templates/form/paysafecard.liquid:13
 #: templates/form/trustly.liquid:11
 #: templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13
@@ -82,6 +84,10 @@ msgstr ""
 #: templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
+msgstr ""
+
+#: templates/form/paysafecard.liquid:11
+msgid "When you click the button below, the paysafecard payment window will open."
 msgstr ""
 
 #: templates/form/trustly.liquid:9
