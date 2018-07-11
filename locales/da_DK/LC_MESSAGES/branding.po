@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-07-11 08:59+0000\n"
+"PO-Revision-Date: 2019-01-14 13:25+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/standard-branding/da/>\n"
+"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -105,9 +106,8 @@ msgid "Email"
 msgstr "Email"
 
 #: templates/form/vipps.liquid:13
-#, fuzzy
 msgid "When you click the button below, the Vipps payment window will open."
-msgstr "ViaBill betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "Vipps betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
