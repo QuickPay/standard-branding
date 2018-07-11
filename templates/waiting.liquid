@@ -1,15 +1,28 @@
 <div class="well-xs well-greyish-xs well-sm well-greyish-sm" data-session-id="{{ model.session_id }}">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
-        <h3 class="center-y text-center-xs">
-          <img class="icon icon-rotate" src="{{ images.cog.svg }}">
-          {% t Please wait... %}
-        </h3>
-      </div>
-      <div class="col-xs-12 text-center-xs">
-        <p>{% t The process may take up to 5 minutes. %} <a href="{{ model.autorefresh_to }}">{% t Click here if processing takes a long time %}</a>.</p>
-      </div>
+      {% if model.selected_payment_method == "swish" %}
+        <div class="col-xs-12">
+          <h3 class="center-y text-center-xs">
+            <img class="icon" src="{{ images.info-circle.svg }}">
+            {% t Open Swish App %}
+          </h3>
+        </div>
+        <div class="col-xs-12 text-center-xs">
+          <p>{% t To complete the payment, open your Swish App on your mobile device and authorize the payment %}</p>
+          <p><strong>{% t Waiting for authorization %}</strong></p>
+        </div>
+      {% else %}
+        <div class="col-xs-12">
+          <h3 class="center-y text-center-xs">
+            <img class="icon icon-rotate" src="{{ images.cog.svg }}">
+            {% t Please wait... %}
+          </h3>
+        </div>
+        <div class="col-xs-12 text-center-xs">
+          <p>{% t The process may take up to 5 minutes. %} <a href="{{ model.autorefresh_to }}">{% t Click here if processing takes a long time %}</a>.</p>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
