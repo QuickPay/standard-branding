@@ -26,15 +26,27 @@ msgstr "Autres modes de paiement"
 msgid "Cards"
 msgstr "Cartes"
 
-#: templates/waiting.liquid:7
+#: templates/waiting.liquid:8
+msgid "Open Swish App"
+msgstr ""
+
+#: templates/waiting.liquid:12
+msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
+msgstr ""
+
+#: templates/waiting.liquid:13
+msgid "Waiting for authorization"
+msgstr ""
+
+#: templates/waiting.liquid:19
 msgid "Please wait..."
 msgstr "Veuillez patienter..."
 
-#: templates/waiting.liquid:11
+#: templates/waiting.liquid:23
 msgid "The process may take up to 5 minutes."
 msgstr "L'opération peut prendre jusqu'à 5 minutes."
 
-#: templates/waiting.liquid:11
+#: templates/waiting.liquid:23
 msgid "Click here if processing takes a long time"
 msgstr "Cliquez ici si l'opération prend plus de temps que prévu"
 

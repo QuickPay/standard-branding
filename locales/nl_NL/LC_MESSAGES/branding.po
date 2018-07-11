@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-05-29 11:47+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/nl/>\n"
+"Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay/standard-branding/nl/>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,15 +26,27 @@ msgstr "Andere betalingsmogelijkheden"
 msgid "Cards"
 msgstr "Kaarten"
 
-#: templates/waiting.liquid:7
+#: templates/waiting.liquid:8
+msgid "Open Swish App"
+msgstr ""
+
+#: templates/waiting.liquid:12
+msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
+msgstr ""
+
+#: templates/waiting.liquid:13
+msgid "Waiting for authorization"
+msgstr ""
+
+#: templates/waiting.liquid:19
 msgid "Please wait..."
 msgstr "Een moment geduld..."
 
-#: templates/waiting.liquid:11
+#: templates/waiting.liquid:23
 msgid "The process may take up to 5 minutes."
 msgstr "Dit proces kan tot 5 minuten duren."
 
-#: templates/waiting.liquid:11
+#: templates/waiting.liquid:23
 msgid "Click here if processing takes a long time"
 msgstr "Klik hier indien de verwerking veel tijd kost"
 
@@ -76,9 +87,7 @@ msgstr "Ga verder"
 
 #: templates/form/paysafecard.liquid:11
 msgid "When you click the button below, the paysafecard payment window will open."
-msgstr ""
-"Wanneer u op de onderstaande knop klikt word het paysafecard "
-"betalingsvenster geopend."
+msgstr "Wanneer u op de onderstaande knop klikt word het paysafecard betalingsvenster geopend."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."

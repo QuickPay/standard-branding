@@ -26,15 +26,27 @@ msgstr "다른 결제 수단"
 msgid "Cards"
 msgstr "카드"
 
-#: templates/waiting.liquid:7
+#: templates/waiting.liquid:8
+msgid "Open Swish App"
+msgstr ""
+
+#: templates/waiting.liquid:12
+msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
+msgstr ""
+
+#: templates/waiting.liquid:13
+msgid "Waiting for authorization"
+msgstr ""
+
+#: templates/waiting.liquid:19
 msgid "Please wait..."
 msgstr "잠시만 기다려주세요..."
 
-#: templates/waiting.liquid:11
+#: templates/waiting.liquid:23
 msgid "The process may take up to 5 minutes."
 msgstr "최대 5분이 소요될 수 있습니다."
 
-#: templates/waiting.liquid:11
+#: templates/waiting.liquid:23
 msgid "Click here if processing takes a long time"
 msgstr "처리가 지연되면 클릭하십시오"
 
