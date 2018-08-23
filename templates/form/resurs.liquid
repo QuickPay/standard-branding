@@ -1,0 +1,23 @@
+<div class="container">
+  <form action="{{ model.redirect_url }}" method="POST" target="_top">
+    <input type="hidden" name="session_id" value="{{ model.session_id }}" />
+    {% for field in model.params %}
+      <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />
+    {% endfor %}
+    <div class="row">
+        {% for method in model.resurs_methods %}
+	<div class="col">
+	    <input type="radio" name="resurs_method" id="resurs_method_{{ method['id'] }}" value="{{ method['id'] }}" /> <label for="resurs_method_{{ method['id'] }}">{{ method['description'] }}</label>
+	</div>
+	{% endfor %}
+      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+          <img src="/assets/v2/images/brands/resurs.svg" alt="Resurs" title="Resurs" style="width:100%">
+      </div>
+      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        <p>{% t When you click the button below, the Resurs payment window will open. %}</p>
+        <p>{% t When finished, you will be redirected back to your receipt. %}</p>
+        <button type="submit" class="btn btn-info btn">{% t Proceed to payment %}</button>
+      </div>
+    </div>
+  </form>
+</div>
