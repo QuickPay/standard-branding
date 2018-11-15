@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-09-04 08:17+0000\n"
-"Last-Translator: Thomas <tholst@hopto.de>\n"
-"Language-Team: German <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/de/>\n"
+"PO-Revision-Date: 2018-11-15 13:39+0000\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
+"Language-Team: German <http://translate.quickpay.net/projects/quickpay"
+"/standard-branding/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.9\n"
+"X-Generator: Weblate 2.18\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -165,7 +166,7 @@ msgstr "Sozialversicherungsnummer"
 
 #: templates/form/klarna.liquid:94
 msgid "Company Registration Number"
-msgstr ""
+msgstr "Handelsregisternummer"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
