@@ -7,7 +7,7 @@
     <div class="row">
         {% for method in model.resurs_methods %}
 	<div class="col">
-	    <input type="radio" name="resurs_method" id="resurs_method_{{ method['id'] }}" value="{{ method['id'] }}" /> <label for="resurs_method_{{ method['id'] }}">{{ method['description'] }}</label>
+	    <input type="radio" name="resurs_method" id="resurs_method_{{ method['id'] }}" value="{{ method['id'] }}" /> <label for="resurs_method_{{ method['id'] }}">{{ method['description'] }} <a href="{{ method['legal_url'] }}">{{ method['legal_description'] }} &gt;&gt;</a></label>
 	</div>
 	{% endfor %}
       <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
