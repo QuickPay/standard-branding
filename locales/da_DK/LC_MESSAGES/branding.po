@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2018-07-11 08:59+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/da/>\n"
+"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/standard-branding/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,9 +32,7 @@ msgstr "Åbn Swish App"
 
 #: templates/waiting.liquid:12
 msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
-msgstr ""
-"For at færdiggøre betalingen skal du åbne din Swish App på din mobilenhed og "
-"godkende betalingen"
+msgstr "For at færdiggøre betalingen skal du åbne din Swish App på din mobilenhed og godkende betalingen"
 
 #: templates/waiting.liquid:13
 msgid "Waiting for authorization"
@@ -62,18 +59,18 @@ msgid "When you click the button below, the iDeal payment window will open."
 msgstr "iDeal betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/sofort_ideal.liquid:16 templates/form/paysafecard.liquid:12
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
-#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/trustly.liquid:10 templates/form/vipps.liquid:14
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Når betaligen er gennemført, kommer du retur til din kvittering."
 
 #: templates/form/sofort_ideal.liquid:17 templates/form/paysafecard.liquid:13
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
-#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/trustly.liquid:11 templates/form/vipps.liquid:15
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Fortsæt til betaling"
 
@@ -82,9 +79,8 @@ msgid "Bank"
 msgstr "Bank"
 
 #: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
-#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
-#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
-#: templates/form_dankort_acs.liquid:35
+#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:47
+#: templates/form/swish.liquid:19 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Fortsæt"
 
@@ -108,9 +104,10 @@ msgstr "Efternavn"
 msgid "Email"
 msgstr "Email"
 
-#: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
-msgid "Mobile number"
-msgstr "Mobilnummer"
+#: templates/form/vipps.liquid:13
+#, fuzzy
+msgid "When you click the button below, the Vipps payment window will open."
+msgstr "ViaBill betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
@@ -183,6 +180,10 @@ msgstr "Kunne ikke kopiere Bitcoin adressen til din udklipsholder"
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
 msgstr "Åben i tegnebog"
+
+#: templates/form/swish.liquid:12
+msgid "Mobile number"
+msgstr "Mobilnummer"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."

@@ -1,4 +1,5 @@
 .DS_Store
+.bundle
 .com.apple.*
 locales/*/LC_MESSAGES/branding.po~
 stylesheets/bootstrap-config.json

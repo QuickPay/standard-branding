@@ -60,18 +60,18 @@ msgid "When you click the button below, the iDeal payment window will open."
 msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
 
 #: templates/form/sofort_ideal.liquid:16 templates/form/paysafecard.liquid:12
-#: templates/form/trustly.liquid:10 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
-#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/trustly.liquid:10 templates/form/vipps.liquid:14
+#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Na konci vás presmerujeme späť na stránku s potvrdenkou."
 
 #: templates/form/sofort_ideal.liquid:17 templates/form/paysafecard.liquid:13
-#: templates/form/trustly.liquid:11 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
-#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/trustly.liquid:11 templates/form/vipps.liquid:15
+#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Prejsť na platbu"
 
@@ -80,9 +80,8 @@ msgid "Bank"
 msgstr ""
 
 #: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
-#: templates/form/vipps.liquid:19 templates/form/klarna.liquid:102
-#: templates/form/trustly_ideal.liquid:47 templates/form/swish.liquid:19
-#: templates/form_dankort_acs.liquid:35
+#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:47
+#: templates/form/swish.liquid:19 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Pokračovať"
 
@@ -107,9 +106,10 @@ msgstr "Priezvisko"
 msgid "Email"
 msgstr "E-mailová adresa"
 
-#: templates/form/vipps.liquid:12 templates/form/swish.liquid:12
-msgid "Mobile number"
-msgstr "Mobilné číslo"
+#: templates/form/vipps.liquid:13
+#, fuzzy
+msgid "When you click the button below, the Vipps payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
@@ -182,6 +182,10 @@ msgstr "Nepodarilo sa skopírovať Bitcoin adresu do vašej schránky"
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
 msgstr "Otvoriť v peňaženke"
+
+#: templates/form/swish.liquid:12
+msgid "Mobile number"
+msgstr "Mobilné číslo"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
