@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2019-01-14 13:25+0000\n"
+"PO-Revision-Date: 2019-03-08 10:24+0000\n"
 "Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
 "Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
 "/standard-branding/da/>\n"
@@ -56,9 +56,8 @@ msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Starter 3D Secure betaling. Vent venligst..."
 
 #: templates/form/resurs.liquid:26
-#, fuzzy
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Trustly betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "Resurs betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
