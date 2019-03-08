@@ -54,26 +54,33 @@ msgstr "処理時間が長い場合はこちらをクリックして下さい。
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "3Dセキュア決済を開始しています。お待ち下さい...。"
 
+#: templates/form/resurs.liquid:26
+#, fuzzy
+msgid "When you click the button below, the Resurs payment window will open."
+msgstr "下のボタンをクリックすると、Trustlyの支払いウィンドウが開きます。"
+
+#: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
+#: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
+#: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
+#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
+#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
+#: templates/form/mobilepay.liquid:14
+msgid "When finished, you will be redirected back to your receipt."
+msgstr "完了後はレシート画面に転送されます。"
+
+#: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
+#: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
+#: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
+#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
+#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
+#: templates/form/mobilepay.liquid:15
+msgid "Proceed to payment"
+msgstr "支払いに進む"
+
 #: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
 #, fuzzy
 msgid "When you click the button below, the iDeal payment window will open."
 msgstr "以下のボタンをクリックすると、ViaBillの支払い画面が開きます。"
-
-#: templates/form/sofort_ideal.liquid:16 templates/form/paysafecard.liquid:12
-#: templates/form/trustly.liquid:10 templates/form/vipps.liquid:14
-#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
-#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
-msgid "When finished, you will be redirected back to your receipt."
-msgstr "完了後はレシート画面に転送されます。"
-
-#: templates/form/sofort_ideal.liquid:17 templates/form/paysafecard.liquid:13
-#: templates/form/trustly.liquid:11 templates/form/vipps.liquid:15
-#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
-#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
-msgid "Proceed to payment"
-msgstr "支払いに進む"
 
 #: templates/form/sofort_ideal.liquid:32
 msgid "Bank"

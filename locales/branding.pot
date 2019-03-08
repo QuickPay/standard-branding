@@ -55,11 +55,11 @@ msgstr ""
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr ""
 
-#: templates/form/sofort_ideal.liquid:15
-#: templates/form/trustly_ideal.liquid:9
-msgid "When you click the button below, the iDeal payment window will open."
+#: templates/form/resurs.liquid:26
+msgid "When you click the button below, the Resurs payment window will open."
 msgstr ""
 
+#: templates/form/resurs.liquid:27
 #: templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12
 #: templates/form/trustly.liquid:10
@@ -73,6 +73,7 @@ msgstr ""
 msgid "When finished, you will be redirected back to your receipt."
 msgstr ""
 
+#: templates/form/resurs.liquid:28
 #: templates/form/sofort_ideal.liquid:17
 #: templates/form/paysafecard.liquid:13
 #: templates/form/trustly.liquid:11
@@ -84,6 +85,11 @@ msgstr ""
 #: templates/form/sofort.liquid:10
 #: templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
+msgstr ""
+
+#: templates/form/sofort_ideal.liquid:15
+#: templates/form/trustly_ideal.liquid:9
+msgid "When you click the button below, the iDeal payment window will open."
 msgstr ""
 
 #: templates/form/sofort_ideal.liquid:32
