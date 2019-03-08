@@ -54,26 +54,33 @@ msgstr "Κάντε κλικ εδώ αν η επεξεργασία διαρκεί
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Έναρξη πληρωμής 3D Secure. Παρακαλούμε περιμένετε..."
 
+#: templates/form/resurs.liquid:26
+#, fuzzy
+msgid "When you click the button below, the Resurs payment window will open."
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής Trustly."
+
+#: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
+#: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
+#: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
+#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
+#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
+#: templates/form/mobilepay.liquid:14
+msgid "When finished, you will be redirected back to your receipt."
+msgstr "Όταν τελειώσετε, θα μεταφερθείτε ξανά στην απόδειξή σας."
+
+#: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
+#: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
+#: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
+#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
+#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
+#: templates/form/mobilepay.liquid:15
+msgid "Proceed to payment"
+msgstr "Προχωρήστε στην πληρωμή"
+
 #: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
 #, fuzzy
 msgid "When you click the button below, the iDeal payment window will open."
 msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής ViaBill."
-
-#: templates/form/sofort_ideal.liquid:16 templates/form/paysafecard.liquid:12
-#: templates/form/trustly.liquid:10 templates/form/vipps.liquid:14
-#: templates/form/paypal.liquid:12 templates/form/bitcoin.liquid:28
-#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9 templates/form/mobilepay.liquid:14
-msgid "When finished, you will be redirected back to your receipt."
-msgstr "Όταν τελειώσετε, θα μεταφερθείτε ξανά στην απόδειξή σας."
-
-#: templates/form/sofort_ideal.liquid:17 templates/form/paysafecard.liquid:13
-#: templates/form/trustly.liquid:11 templates/form/vipps.liquid:15
-#: templates/form/swipp.liquid:9 templates/form/paypal.liquid:13
-#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10 templates/form/mobilepay.liquid:15
-msgid "Proceed to payment"
-msgstr "Προχωρήστε στην πληρωμή"
 
 #: templates/form/sofort_ideal.liquid:32
 msgid "Bank"
