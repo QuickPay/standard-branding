@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2019-03-29 18:21+0000\n"
+"PO-Revision-Date: 2019-03-29 18:25+0000\n"
 "Last-Translator: Louise Sverdrup <louise@norbot.dk>\n"
 "Language-Team: Norwegian (old code) "
 "<http://translate.quickpay.net/projects/quickpay/standard-branding/no/>\n"
@@ -29,15 +29,17 @@ msgstr "Kort"
 
 #: templates/waiting.liquid:8
 msgid "Open Swish App"
-msgstr ""
+msgstr "Úpne Swish-appen"
 
 #: templates/waiting.liquid:12
 msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
 msgstr ""
+"For å fullføre betalingen skal du åpne Swish-appen på mobilenheten din og "
+"godkjenne betalingen"
 
 #: templates/waiting.liquid:13
 msgid "Waiting for authorization"
-msgstr ""
+msgstr "Venter på godkjenning"
 
 #: templates/waiting.liquid:19
 msgid "Please wait..."
@@ -45,20 +47,19 @@ msgstr "Vennligst vent..."
 
 #: templates/waiting.liquid:23
 msgid "The process may take up to 5 minutes."
-msgstr "Prosessen kan ta opp til 5 minutter."
+msgstr "Prosessen kan ta opptil 5 minutter."
 
 #: templates/waiting.liquid:23
 msgid "Click here if processing takes a long time"
-msgstr "Klikk her om det tar for lang tid"
+msgstr "Klikk her hvis prosessen tar for lang tid"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Starter 3D Secure betaling. Vennligst vent..."
 
 #: templates/form/resurs.liquid:26
-#, fuzzy
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil Trustly betalingsvinduet åpnes."
+msgstr "Resurs-betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
@@ -67,7 +68,7 @@ msgstr "Når du klikker på knappen nedenfor vil Trustly betalingsvinduet åpnes
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
 #: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
-msgstr "Når det er ferdigstilt vil du sendes tilbake til kvitteringen din."
+msgstr "Når betalingen er gjennomført, kommer du tilbake til din kvittering."
 
 #: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
 #: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
@@ -80,11 +81,11 @@ msgstr "Fortsett til betaling"
 
 #: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
 msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil iDeal betalingsvinduet åpnes."
+msgstr "iDeal-betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/sofort_ideal.liquid:32
 msgid "Bank"
-msgstr ""
+msgstr "Bank"
 
 #: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
 #: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:47
@@ -94,11 +95,11 @@ msgstr "Fortsett"
 
 #: templates/form/paysafecard.liquid:11
 msgid "When you click the button below, the paysafecard payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil Paysafecard betalingsvinduet åpnes."
+msgstr "PaysafeCard-betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil Trustly betalingsvinduet åpnes."
+msgstr "Trustly-betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
 msgid "First name"
@@ -113,13 +114,14 @@ msgid "Email"
 msgstr "E-post"
 
 #: templates/form/vipps.liquid:13
-#, fuzzy
 msgid "When you click the button below, the Vipps payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil ViaBill betalingsvinduet åpnes."
+msgstr "Vipps betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Når du klikker på knappen nedenfor vil Swipp betalingsvinduet åpnes. Når det er ferdigstilt vil du bli sendt tilbake til kvitteringen din."
+msgstr ""
+"Swipp-betalingsvinduet åpner når du klikker på knappen nedenfor. Når "
+"betalingen er gjennomført, kommer du tilbake til din kvittering."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -167,7 +169,7 @@ msgstr "Østerrike"
 
 #: templates/form/klarna.liquid:58
 msgid "Social security number"
-msgstr "Personnummer"
+msgstr "Fødselsnummer"
 
 #: templates/form/klarna.liquid:94
 msgid "Company Registration Number"
@@ -175,19 +177,19 @@ msgstr "Organisasjonsnummer"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil PayPal betalingsvinduet åpnes."
+msgstr "PayPal-betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
-msgstr "Bitcoin-adressen ble kopiert til din utklippstavle."
+msgstr "Bitcoin-adressen ble kopiert til utklippstavlen."
 
 #: templates/form/bitcoin.liquid:21
 msgid "Could not copy the Bitcoin address to your clipboard"
-msgstr "Kunne ikke kopiere Bitcoin-adressen til utklippstavlen"
+msgstr "Kunne ikke kopiere Bitcoin-adressen til utklippstavlen din"
 
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
-msgstr "Åpne i lommebok"
+msgstr "Úpne i lommebok"
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -195,15 +197,15 @@ msgstr "Mobilnummer"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil ViaBill betalingsvinduet åpnes."
+msgstr "ViaBill-betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/sofort.liquid:8
 msgid "When you click the button below, the Sofort payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil Sofort betalingsvinduet åpnes."
+msgstr "Sofort-betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
-msgstr "En feil oppstod."
+msgstr "Det skjedde en feil."
 
 #: templates/form/error.liquid:14 templates/error.liquid:13
 #: templates/error.liquid:17
@@ -212,11 +214,11 @@ msgstr "Vennligst prøv igjen."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr "Du har forsøkt en reel betaling av en test transaksjon."
+msgstr "Du har forsøkt å gjennomføre en virkelig betaling på en testbetaling."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr "Du har forsøkt en test betaling av en reel transaksjon."
+msgstr "Du har forsøkt å gjennomføre en virkelig betaling på en testbetaling."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
@@ -232,19 +234,24 @@ msgstr "Utløpsdato"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr "CVV/CVD kode øker sikkerhetsnivået. Vanligvis er dette et 3-sifret nummer som du finner på baksiden av kredittkortet."
+msgstr ""
+"CVV/CVD (kontrollsifre) på kortet er med på høyne sikkerheten. Koden finnes "
+"normalt på baksiden av kortet og består av tre sifre."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
-msgstr "Bruk 3D Secure"
+msgstr "Aktiver 3D Secure"
 
 #: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
-msgstr "3D Secure er en 2-stegs verifikasjonstjeneste som sender en tekstmelding til telefonen din."
+msgstr ""
+"3D Secure er to-trinns-godkjenning ved hjelp av en tekstmelding til "
+"telefonen din."
 
 #: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr "Din kredittkortutsteder kan kreve at du bruker 3D Secure som en ekstra sikkerhet."
+msgstr ""
+"Din kortutsteder kan kreve at du bruker 3D Secure som en ekstra sikkerhet."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -264,19 +271,19 @@ msgstr "Motta"
 
 #: templates/form/card.liquid:91
 msgid "Payment fee"
-msgstr "Betalingsgebyr"
+msgstr "Gebyr"
 
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
-msgstr "Fyll inn kortnummer"
+msgstr "Fyll ut kortnummer"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr "Når du klikker på knappen nedenfor vil MobilePay betalingsvinduet åpnes."
+msgstr "MobilePay-betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr "Du har nå kansellert betalingen"
+msgstr "Du har kansellert betalingen"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
@@ -288,27 +295,27 @@ msgstr "utløper om"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"
-msgstr "Du har ferdigstilt betalingen"
+msgstr "Du har gjennomført utbetalingen"
 
 #: templates/success.liquid:10
 msgid "You have completed the payment"
-msgstr "Du har ferdigstilt betalingen"
+msgstr "Du har gjennomført betalingen"
 
 #: templates/layout.liquid:22
 msgid "Are you about to abort the payment. Are you sure?"
-msgstr "Du holder på å avbryte betalingen. Er du sikker?"
+msgstr "Er du sikker på at du vil kansellere din betaling?"
 
 #: templates/layout.liquid:22
 msgid "Cancel Payment"
-msgstr "Avbryt betaling"
+msgstr "Kanseller betaling"
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
-msgstr "Ordren er utløpt"
+msgstr "Ordre utløpt"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
-msgstr "Du ferdigstilte ikke kjøpet innenfor tidsrammen."
+msgstr "Du har ikke gjennomført betalingen innenfor tidsrammen."
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
@@ -320,35 +327,35 @@ msgstr "Ordren er allerede betalt."
 
 #: templates/error.liquid:11
 msgid "Continue to the shop"
-msgstr "Gå videre til butikken"
+msgstr "Fortsett til butikken"
 
 #: templates/error.liquid:13
 msgid "An unknown error happened."
-msgstr "En ukjent feil oppstod."
+msgstr "Det skjedde en feil."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
-msgstr "Klarte ikke å gjennomføre betalingen"
+msgstr "Betalingen kan ikke gjennomføres"
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
-msgstr "3D Secure autorisering feilet."
+msgstr "3D Secure-autorisasjonen feilet."
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
-msgstr "Vennligst forsøk igjen eller prøv en annen betalingsmåte."
+msgstr "Vennligst prøv igjen eller velg en annen betalingsmetode."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr "3D Secure registrering mislyktes."
+msgstr "3D Secure-påmelding feilet."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
-msgstr "Betalingsdetaljene er endret siden du igangsatte betalingen."
+msgstr "Betalingsdetaljene har endret seg siden du påbegynte betalingen."
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
-msgstr "Klikk her for å begynne på nytt"
+msgstr "Klikk her for å starte forfra"
 
 #: templates/error.liquid:36
 msgid "Try again"
@@ -356,7 +363,9 @@ msgstr "Prøv igjen"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Når du klikker på knappen nedenfor vil Dankort betalingsvinduet åpnes. Når det er ferdigstilt vil du bli sendt tilbake til kvitteringen din."
+msgstr ""
+"Bankkort-betalingsvinduet åpner når du klikker på knappen nedenfor. Når "
+"betalingen er gjennomført, kommer du tilbake til din kvittering."
 
 #, fuzzy
 #~ msgid "German"
