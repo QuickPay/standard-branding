@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2019-03-29 18:25+0000\n"
+"PO-Revision-Date: 2019-04-03 13:13+0000\n"
 "Last-Translator: Louise Sverdrup <louise@norbot.dk>\n"
 "Language-Team: Norwegian (old code) "
 "<http://translate.quickpay.net/projects/quickpay/standard-branding/no/>\n"
@@ -364,7 +364,7 @@ msgstr "Prøv igjen"
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr ""
-"Bankkort-betalingsvinduet åpner når du klikker på knappen nedenfor. Når "
+"Dankort-betalingsvinduet åpner når du klikker på knappen nedenfor. Når "
 "betalingen er gjennomført, kommer du tilbake til din kvittering."
 
 #, fuzzy
