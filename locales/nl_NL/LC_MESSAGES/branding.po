@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2020-03-02 13:42+0000\n"
-"Last-Translator: Thomas <tj@pil.dk>\n"
+"PO-Revision-Date: 2020-03-10 21:35+0000\n"
+"Last-Translator: Jory <js@quickpay.net>\n"
 "Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay/"
 "standard-branding/nl/>\n"
 "Language: nl_NL\n"
@@ -191,7 +191,7 @@ msgstr "Het is niet gelukt om het Bitcoin adres naar uw klembord te kopiëren"
 
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
-msgstr "Open in portomonee"
+msgstr "Open in portemonnee"
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
