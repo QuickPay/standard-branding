@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2020-03-02 13:40+0000\n"
-"Last-Translator: Jory <js@quickpay.net>\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
 "Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay/"
 "standard-branding/nl/>\n"
 "Language: nl_NL\n"
@@ -175,7 +175,7 @@ msgstr "BSN nummer"
 
 #: templates/form/klarna.liquid:94
 msgid "Company Registration Number"
-msgstr "KVK-nummer"
+msgstr "Kamer van Koophandel nummer"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
