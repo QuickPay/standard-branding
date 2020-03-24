@@ -7,15 +7,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-30 22:51+0000\n"
-"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Italian <http://translate.quickpay.net/projects/quickpay/standard-branding/it/>\n"
+"PO-Revision-Date: 2020-04-07 11:39+0000\n"
+"Last-Translator: Christina Purtscheller <christina.purtscheller@gmail.com>\n"
+"Language-Team: Italian <http://translate.quickpay.net/projects/quickpay/"
+"standard-branding/it/>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -27,36 +28,37 @@ msgstr "Carte"
 
 #: templates/waiting.liquid:8
 msgid "Open Swish App"
-msgstr ""
+msgstr "Apri l`app Swish"
 
 #: templates/waiting.liquid:12
 msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
 msgstr ""
+"Per completare il pagamento, aprire l `App Swish sul cellulare e consentire "
+"il pagamento"
 
 #: templates/waiting.liquid:13
 msgid "Waiting for authorization"
-msgstr ""
+msgstr "Attendere il permesso"
 
 #: templates/waiting.liquid:19
 msgid "Please wait..."
-msgstr "Attendi..."
+msgstr "Per favore aspetta"
 
 #: templates/waiting.liquid:23
 msgid "The process may take up to 5 minutes."
-msgstr "Il processo potrebbe richiedere fino a 5 minuti."
+msgstr "Il processo puo richiedere fino a cinque minuti"
 
 #: templates/waiting.liquid:23
 msgid "Click here if processing takes a long time"
-msgstr "Clicca qui se il processo richiede molto tempo"
+msgstr "Clicca qui se il processo impiega troppo tempo"
 
 #: templates/form/3d_secure.liquid:13
 msgid "Starting 3D Secure payment. Please wait..."
-msgstr "Avvio del pagamento 3D Secure. Attendi..."
+msgstr "Il pagamento di sicurezza in 3d si sta avviando. Attendere prego"
 
 #: templates/form/resurs.liquid:26
-#, fuzzy
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento Trustly."
+msgstr "Cliccando il pulsante in basso, si apira una finestra per il pagamento"
 
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
@@ -65,7 +67,7 @@ msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di p
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
 #: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
-msgstr "Al termine dell'operazione, verrai reindirizzato alla tua fattura."
+msgstr "Al termine della procedura si verra reindirizzati al documento"
 
 #: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
 #: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
