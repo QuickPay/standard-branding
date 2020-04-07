@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-24 12:11+0000\n"
-"Last-Translator: Thomas <tj@pil.dk>\n"
-"Language-Team: Estonian <http://translate.quickpay.net/projects/quickpay/standard-branding/et/>\n"
+"PO-Revision-Date: 2020-04-08 21:47+0000\n"
+"Last-Translator: Roman <finansist@torokhtiy.com>\n"
+"Language-Team: Estonian <http://translate.quickpay.net/projects/quickpay/"
+"standard-branding/et/>\n"
 "Language: et_EE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.9\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -28,15 +29,17 @@ msgstr "Kaardid"
 
 #: templates/waiting.liquid:8
 msgid "Open Swish App"
-msgstr ""
+msgstr "Avage rakendus Swish"
 
 #: templates/waiting.liquid:12
 msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
 msgstr ""
+"Makse lõpetamiseks avage oma mobiilseadmes oma rakendus Swish ja kinnitage "
+"makse"
 
 #: templates/waiting.liquid:13
 msgid "Waiting for authorization"
-msgstr ""
+msgstr "Ootan autoriseerimist"
 
 #: templates/waiting.liquid:19
 msgid "Please wait..."
@@ -55,9 +58,8 @@ msgid "Starting 3D Secure payment. Please wait..."
 msgstr "3D Secure makse alustamine. Palun oodake..."
 
 #: templates/form/resurs.liquid:26
-#, fuzzy
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Kui klõpsad alloleval nupul avaneb Trustly makse aken."
+msgstr "Kui klõpsad alloleval nupul avaneb  Resurs makse aken."
 
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
@@ -66,7 +68,7 @@ msgstr "Kui klõpsad alloleval nupul avaneb Trustly makse aken."
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
 #: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
-msgstr "Tehing lõpetatud, suunatakse Teid maksekorralduse lehele."
+msgstr "Kui olete lõpetanud, suunatakse teid tagasi kviitungi juurde."
 
 #: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
 #: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
@@ -75,16 +77,15 @@ msgstr "Tehing lõpetatud, suunatakse Teid maksekorralduse lehele."
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
 #: templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
-msgstr "Maksma"
+msgstr "Jätkake maksega"
 
 #: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
-#, fuzzy
 msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Kui vajutad allolevale nupule avaneb ViaBill makse aken."
+msgstr "Allpool asuvale nupule klõpsates avaneb iDeali makseaken."
 
 #: templates/form/sofort_ideal.liquid:32
 msgid "Bank"
-msgstr ""
+msgstr "Pangas"
 
 #: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
 #: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:47
@@ -93,9 +94,8 @@ msgid "Proceed"
 msgstr "Edasi"
 
 #: templates/form/paysafecard.liquid:11
-#, fuzzy
 msgid "When you click the button below, the paysafecard payment window will open."
-msgstr "Kui vajutad allolevale nupule avaneb PayPal makse aken."
+msgstr "Alloleval nupul klõpsamisel avaneb paysafecard kaudu makseaken."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
@@ -114,9 +114,8 @@ msgid "Email"
 msgstr "E-post"
 
 #: templates/form/vipps.liquid:13
-#, fuzzy
 msgid "When you click the button below, the Vipps payment window will open."
-msgstr "Kui vajutad allolevale nupule avaneb ViaBill makse aken."
+msgstr "Kui klõpsate allpool asuvat nuppu, avaneb Vipps makseaken."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
