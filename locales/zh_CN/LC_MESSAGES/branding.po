@@ -34,18 +34,23 @@ msgid "To complete the payment, open your Swish App on your mobile device and au
 msgstr ""
 
 #: templates/waiting.liquid:13
+#, fuzzy
+msgid "You have 3 minutes to complete the payment"
+msgstr "您已完成支付"
+
+#: templates/waiting.liquid:14
 msgid "Waiting for authorization"
 msgstr ""
 
-#: templates/waiting.liquid:19
+#: templates/waiting.liquid:20
 msgid "Please wait..."
 msgstr "请等待..."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "The process may take up to 5 minutes."
 msgstr "此过程可能需要 5 分钟。"
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "若处理过慢，请点击此处"
 
@@ -63,7 +68,7 @@ msgstr "当您点击下方按钮时，将开启 Trustly 支付窗口。"
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "完成后，您将会被重定向回您的收据处。"
 
@@ -72,7 +77,7 @@ msgstr "完成后，您将会被重定向回您的收据处。"
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "继续支付"
 
@@ -269,6 +274,11 @@ msgstr "支付费用"
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr "填写卡号"
+
+#: templates/form/klarnapayments.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Klarna payment window will open."
+msgstr "当您点击下方按钮时，将开启 PayPal 支付窗口。"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."

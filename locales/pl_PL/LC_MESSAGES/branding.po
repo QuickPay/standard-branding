@@ -10,14 +10,12 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2019-04-03 13:45+0000\n"
 "Last-Translator: Wojciech Sibera <ws@tomix.pl>\n"
-"Language-Team: Polish <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/pl/>\n"
+"Language-Team: Polish <http://translate.quickpay.net/projects/quickpay/standard-branding/pl/>\n"
 "Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.18\n"
 
 #: templates/form.liquid:11
@@ -34,23 +32,26 @@ msgstr "Otwórz aplikację Swish"
 
 #: templates/waiting.liquid:12
 msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
-msgstr ""
-"W celu dokończenia płatności, otwórz aplikację Swish na urządzeniu mobilnym "
-"i autoryzuj płatność"
+msgstr "W celu dokończenia płatności, otwórz aplikację Swish na urządzeniu mobilnym i autoryzuj płatność"
 
 #: templates/waiting.liquid:13
+#, fuzzy
+msgid "You have 3 minutes to complete the payment"
+msgstr "Płatność została zakończona"
+
+#: templates/waiting.liquid:14
 msgid "Waiting for authorization"
 msgstr "Oczekiwanie na autoryzację"
 
-#: templates/waiting.liquid:19
+#: templates/waiting.liquid:20
 msgid "Please wait..."
 msgstr "Proszę czekać..."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "The process may take up to 5 minutes."
 msgstr "Cały proces może trwać do 5 minut."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Kliknij tutaj, jeśli przetwarzanie się nie powiodło"
 
@@ -67,7 +68,7 @@ msgstr "Po kliknięciu poniższego przycisku otworzy się okno płatności Resur
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Po zakończeniu, zostaniesz skierowany z powrotem do potwierdzenia."
 
@@ -76,7 +77,7 @@ msgstr "Po zakończeniu, zostaniesz skierowany z powrotem do potwierdzenia."
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Przejdź do płatności"
 
@@ -96,8 +97,7 @@ msgstr "Kontynuuj"
 
 #: templates/form/paysafecard.liquid:11
 msgid "When you click the button below, the paysafecard payment window will open."
-msgstr ""
-"Po kliknięciu poniższego przycisku otworzy się okno płatności paysafecard."
+msgstr "Po kliknięciu poniższego przycisku otworzy się okno płatności paysafecard."
 
 #: templates/form/trustly.liquid:9
 msgid "When you click the button below, the Trustly payment window will open."
@@ -271,6 +271,11 @@ msgstr "Prowizja za płatność"
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr "Wprowadź numer karty"
+
+#: templates/form/klarnapayments.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Klarna payment window will open."
+msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności PayPal."
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."

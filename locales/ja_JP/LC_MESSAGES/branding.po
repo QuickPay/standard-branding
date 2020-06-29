@@ -35,18 +35,23 @@ msgid "To complete the payment, open your Swish App on your mobile device and au
 msgstr ""
 
 #: templates/waiting.liquid:13
+#, fuzzy
+msgid "You have 3 minutes to complete the payment"
+msgstr "支払いを完了しました。"
+
+#: templates/waiting.liquid:14
 msgid "Waiting for authorization"
 msgstr ""
 
-#: templates/waiting.liquid:19
+#: templates/waiting.liquid:20
 msgid "Please wait..."
 msgstr "お待ち下さい...。"
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "The process may take up to 5 minutes."
 msgstr "この処理には最大5分ほどかかる場合があります。"
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "処理時間が長い場合はこちらをクリックして下さい。"
 
@@ -64,7 +69,7 @@ msgstr "下のボタンをクリックすると、Trustlyの支払いウィン�
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "完了後はレシート画面に転送されます。"
 
@@ -73,7 +78,7 @@ msgstr "完了後はレシート画面に転送されます。"
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "支払いに進む"
 
@@ -270,6 +275,11 @@ msgstr "支払い手数料"
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr "カード番号を入力"
+
+#: templates/form/klarnapayments.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Klarna payment window will open."
+msgstr "下のボタンをクリックすると、Paypalの支払いウィンドウが開きます。"
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."

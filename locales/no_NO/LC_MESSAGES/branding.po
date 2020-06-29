@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2019-04-03 13:13+0000\n"
 "Last-Translator: Louise Sverdrup <louise@norbot.dk>\n"
-"Language-Team: Norwegian (old code) "
-"<http://translate.quickpay.net/projects/quickpay/standard-branding/no/>\n"
+"Language-Team: Norwegian (old code) <http://translate.quickpay.net/projects/quickpay/standard-branding/no/>\n"
 "Language: no_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,23 +32,26 @@ msgstr "Úpne Swish-appen"
 
 #: templates/waiting.liquid:12
 msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
-msgstr ""
-"For å fullføre betalingen skal du åpne Swish-appen på mobilenheten din og "
-"godkjenne betalingen"
+msgstr "For å fullføre betalingen skal du åpne Swish-appen på mobilenheten din og godkjenne betalingen"
 
 #: templates/waiting.liquid:13
+#, fuzzy
+msgid "You have 3 minutes to complete the payment"
+msgstr "Du har gjennomført betalingen"
+
+#: templates/waiting.liquid:14
 msgid "Waiting for authorization"
 msgstr "Venter på godkjenning"
 
-#: templates/waiting.liquid:19
+#: templates/waiting.liquid:20
 msgid "Please wait..."
 msgstr "Vennligst vent..."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "The process may take up to 5 minutes."
 msgstr "Prosessen kan ta opptil 5 minutter."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Klikk her hvis prosessen tar for lang tid"
 
@@ -66,7 +68,7 @@ msgstr "Resurs-betalingsvinduet åpner når du klikker på knappen nedenfor."
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Når betalingen er gjennomført, kommer du tilbake til din kvittering."
 
@@ -75,7 +77,7 @@ msgstr "Når betalingen er gjennomført, kommer du tilbake til din kvittering."
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Fortsett til betaling"
 
@@ -119,9 +121,7 @@ msgstr "Vipps betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Swipp-betalingsvinduet åpner når du klikker på knappen nedenfor. Når "
-"betalingen er gjennomført, kommer du tilbake til din kvittering."
+msgstr "Swipp-betalingsvinduet åpner når du klikker på knappen nedenfor. Når betalingen er gjennomført, kommer du tilbake til din kvittering."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -234,9 +234,7 @@ msgstr "Utløpsdato"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
-"CVV/CVD (kontrollsifre) på kortet er med på høyne sikkerheten. Koden finnes "
-"normalt på baksiden av kortet og består av tre sifre."
+msgstr "CVV/CVD (kontrollsifre) på kortet er med på høyne sikkerheten. Koden finnes normalt på baksiden av kortet og består av tre sifre."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
@@ -244,14 +242,11 @@ msgstr "Aktiver 3D Secure"
 
 #: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
-msgstr ""
-"3D Secure er to-trinns-godkjenning ved hjelp av en tekstmelding til "
-"telefonen din."
+msgstr "3D Secure er to-trinns-godkjenning ved hjelp av en tekstmelding til telefonen din."
 
 #: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr ""
-"Din kortutsteder kan kreve at du bruker 3D Secure som en ekstra sikkerhet."
+msgstr "Din kortutsteder kan kreve at du bruker 3D Secure som en ekstra sikkerhet."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -276,6 +271,11 @@ msgstr "Gebyr"
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr "Fyll ut kortnummer"
+
+#: templates/form/klarnapayments.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Klarna payment window will open."
+msgstr "PayPal-betalingsvinduet åpner når du klikker på knappen nedenfor."
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
@@ -363,9 +363,7 @@ msgstr "Prøv igjen"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Dankort-betalingsvinduet åpner når du klikker på knappen nedenfor. Når "
-"betalingen er gjennomført, kommer du tilbake til din kvittering."
+msgstr "Dankort-betalingsvinduet åpner når du klikker på knappen nedenfor. Når betalingen er gjennomført, kommer du tilbake til din kvittering."
 
 #, fuzzy
 #~ msgid "German"

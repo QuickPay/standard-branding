@@ -35,18 +35,23 @@ msgid "To complete the payment, open your Swish App on your mobile device and au
 msgstr ""
 
 #: templates/waiting.liquid:13
+#, fuzzy
+msgid "You have 3 minutes to complete the payment"
+msgstr "Akiliineq atorunnaartissimavat"
+
+#: templates/waiting.liquid:14
 msgid "Waiting for authorization"
 msgstr ""
 
-#: templates/waiting.liquid:19
+#: templates/waiting.liquid:20
 msgid "Please wait..."
 msgstr "Utaqqilaarit..."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "The process may take up to 5 minutes."
 msgstr "Suliaq 5 minutsit tungaanut sivisusseqarsinnaavoq."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Suliarineqarnera sivisuallaarpat una tooruk"
 
@@ -63,7 +68,7 @@ msgstr ""
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr ""
 
@@ -72,7 +77,7 @@ msgstr ""
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr ""
 
@@ -265,6 +270,10 @@ msgstr ""
 
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
+msgstr ""
+
+#: templates/form/klarnapayments.liquid:9
+msgid "When you click the button below, the Klarna payment window will open."
 msgstr ""
 
 #: templates/form/mobilepay.liquid:13

@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2020-04-30 06:46+0000\n"
 "Last-Translator: Jure Pucko <jurepucko1@gmail.com>\n"
-"Language-Team: Slovenian <http://translate.quickpay.net/projects/quickpay/"
-"standard-branding/sl/>\n"
+"Language-Team: Slovenian <http://translate.quickpay.net/projects/quickpay/standard-branding/sl/>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,23 +32,26 @@ msgstr "Odpri Swish aplikacijo"
 
 #: templates/waiting.liquid:12
 msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
-msgstr ""
-"Za zaključek plačila odprite vašo Swish aplikacijo na vašem mobilniku in "
-"avtorizirajte plačilo"
+msgstr "Za zaključek plačila odprite vašo Swish aplikacijo na vašem mobilniku in avtorizirajte plačilo"
 
 #: templates/waiting.liquid:13
+#, fuzzy
+msgid "You have 3 minutes to complete the payment"
+msgstr "Opravili ste plačilo"
+
+#: templates/waiting.liquid:14
 msgid "Waiting for authorization"
 msgstr "Čakam na avtorizacijo"
 
-#: templates/waiting.liquid:19
+#: templates/waiting.liquid:20
 msgid "Please wait..."
 msgstr "Prosimo, počakajte..."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "The process may take up to 5 minutes."
 msgstr "Ta postopek lahko traja do 5 minut."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Kliknite tukaj, če obdelava traja dlje časa."
 
@@ -66,7 +68,7 @@ msgstr "Ko kliknete spodnji gumb, se bo odprlo Resurs okno za plačilo."
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Ko končate, boste preusmerjeni nazaj na svoje naročilo."
 
@@ -75,7 +77,7 @@ msgstr "Ko končate, boste preusmerjeni nazaj na svoje naročilo."
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Nadaljuj na plačilo"
 
@@ -119,9 +121,7 @@ msgstr "Ko kliknete na spodnji gumb, se bo odprlo Vipps okno za plačilo."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Ko kliknete na spodnji gumb, se bo odprlo Swipp okno za plačilo. Ko končate, "
-"boste preusmerjeni nazaj na svoje naročilo."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo Swipp okno za plačilo. Ko končate, boste preusmerjeni nazaj na svoje naročilo."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -234,9 +234,7 @@ msgstr "Datum izteka"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr ""
-"CVV/CVD številka poveča stopnjo varnosti. Številka za potrditev kartice je "
-"običajno sestavljena iz treh števil, navedena pa je na zadnji strani kartice."
+msgstr "CVV/CVD številka poveča stopnjo varnosti. Številka za potrditev kartice je običajno sestavljena iz treh števil, navedena pa je na zadnji strani kartice."
 
 #: templates/form/card.liquid:64
 msgid "Enable 3D Secure"
@@ -244,15 +242,11 @@ msgstr "Omogoči 3-D Secure"
 
 #: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
-msgstr ""
-"3-D Secure je storitev za 2-stopenjsko preverjanje pristnosti prek "
-"sporočila, ki ga prejmete na svoj telefon."
+msgstr "3-D Secure je storitev za 2-stopenjsko preverjanje pristnosti prek sporočila, ki ga prejmete na svoj telefon."
 
 #: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr ""
-"Vaš izdajatelj kreditne kartice lahko zahteva, da uporabljate 3-D Secure kot "
-"dodatni varnostni ukrep."
+msgstr "Vaš izdajatelj kreditne kartice lahko zahteva, da uporabljate 3-D Secure kot dodatni varnostni ukrep."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -277,6 +271,11 @@ msgstr "Provizija za plačilo"
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr "Vnesite številko kartice"
+
+#: templates/form/klarnapayments.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Klarna payment window will open."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
@@ -364,6 +363,4 @@ msgstr "Poskusite ponovno"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr ""
-"Ko kliknete na spodnji gumb, se bo odprlo Dankort okno za plačilo. Ko "
-"končate, boste preusmerjeni nazaj na svoje naročilo."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo Dankort okno za plačilo. Ko končate, boste preusmerjeni nazaj na svoje naročilo."

@@ -35,18 +35,23 @@ msgid "To complete the payment, open your Swish App on your mobile device and au
 msgstr ""
 
 #: templates/waiting.liquid:13
+#, fuzzy
+msgid "You have 3 minutes to complete the payment"
+msgstr "Έχετε ολοκληρώσει την πληρωμή"
+
+#: templates/waiting.liquid:14
 msgid "Waiting for authorization"
 msgstr ""
 
-#: templates/waiting.liquid:19
+#: templates/waiting.liquid:20
 msgid "Please wait..."
 msgstr "Παρακαλούμε περιμένετε..."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "The process may take up to 5 minutes."
 msgstr "Η διαδικασία μπορεί να πάρει μέχρι 5 λεπτά."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Κάντε κλικ εδώ αν η επεξεργασία διαρκεί πολύ"
 
@@ -64,7 +69,7 @@ msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θ�
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Όταν τελειώσετε, θα μεταφερθείτε ξανά στην απόδειξή σας."
 
@@ -73,7 +78,7 @@ msgstr "Όταν τελειώσετε, θα μεταφερθείτε ξανά σ
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Προχωρήστε στην πληρωμή"
 
@@ -270,6 +275,11 @@ msgstr "Τέλος πληρωμής"
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr "Συμπληρώστε τον αριθμό κάρτας"
+
+#: templates/form/klarnapayments.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Klarna payment window will open."
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής PayPal."
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."

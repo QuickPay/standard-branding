@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2020-03-10 21:35+0000\n"
 "Last-Translator: Jory <js@quickpay.net>\n"
-"Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay/"
-"standard-branding/nl/>\n"
+"Language-Team: Dutch <http://translate.quickpay.net/projects/quickpay/standard-branding/nl/>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,23 +32,26 @@ msgstr "Open Swish App"
 
 #: templates/waiting.liquid:12
 msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
-msgstr ""
-"Om de betaling te voltooien, open de Swish App op je mobiele apparaat en "
-"geef toestemming voor de betaling"
+msgstr "Om de betaling te voltooien, open de Swish App op je mobiele apparaat en geef toestemming voor de betaling"
 
 #: templates/waiting.liquid:13
+#, fuzzy
+msgid "You have 3 minutes to complete the payment"
+msgstr "U heeft de betaling afgerond"
+
+#: templates/waiting.liquid:14
 msgid "Waiting for authorization"
 msgstr "Wachten op authorisatie"
 
-#: templates/waiting.liquid:19
+#: templates/waiting.liquid:20
 msgid "Please wait..."
 msgstr "Een moment geduld..."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "The process may take up to 5 minutes."
 msgstr "Dit proces kan tot 5 minuten duren."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Klik hier indien de verwerking veel tijd kost"
 
@@ -59,16 +61,14 @@ msgstr "Starten van de 3D beveiligde betaling. Gelieve te wachten..."
 
 #: templates/form/resurs.liquid:26
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr ""
-"Wanneer u op de onderstaande knop klikt word het Resurs betalingsvenster "
-"geopend."
+msgstr "Wanneer u op de onderstaande knop klikt word het Resurs betalingsvenster geopend."
 
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Wanneer uw deze stappen heeft afgerond, wordt u teruggeleid naar naar uw betalingsbewijs."
 
@@ -77,7 +77,7 @@ msgstr "Wanneer uw deze stappen heeft afgerond, wordt u teruggeleid naar naar uw
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Ga verder naar de betaling"
 
@@ -117,9 +117,7 @@ msgstr "E-mail"
 
 #: templates/form/vipps.liquid:13
 msgid "When you click the button below, the Vipps payment window will open."
-msgstr ""
-"Wanneer u op de onderstaande knop klikt wordt het Vipps betalingsvenster "
-"geopend."
+msgstr "Wanneer u op de onderstaande knop klikt wordt het Vipps betalingsvenster geopend."
 
 #: templates/form/swipp.liquid:3
 msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
@@ -273,6 +271,11 @@ msgstr "Betalingskosten"
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr "Vul het kaartnummer in"
+
+#: templates/form/klarnapayments.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Klarna payment window will open."
+msgstr "Wanneer u op de onderstaande knop klikt word het PayPal betalingsvenster geopend."
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."

@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2019-03-22 11:44+0000\n"
 "Last-Translator: Thomas <tj@pil.dk>\n"
-"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay"
-"/standard-branding/da/>\n"
+"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/standard-branding/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,18 +35,23 @@ msgid "To complete the payment, open your Swish App on your mobile device and au
 msgstr "For at færdiggøre betalingen skal du åbne din Swish App på din mobilenhed og godkende betalingen"
 
 #: templates/waiting.liquid:13
+#, fuzzy
+msgid "You have 3 minutes to complete the payment"
+msgstr "Du har gennemført betalingen"
+
+#: templates/waiting.liquid:14
 msgid "Waiting for authorization"
 msgstr "Venter på godkendelse"
 
-#: templates/waiting.liquid:19
+#: templates/waiting.liquid:20
 msgid "Please wait..."
 msgstr "Vent venligst..."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "The process may take up to 5 minutes."
 msgstr "Processen kan tage op til 5 minutter."
 
-#: templates/waiting.liquid:23
+#: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Klik her hvis processen tager for lang tid"
 
@@ -64,7 +68,7 @@ msgstr "Resurs betalingsvinduet åbner, når du klikker på knappen herunder."
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/mobilepay.liquid:14
+#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Når betaligen er gennemført, kommer du retur til din kvittering."
 
@@ -73,7 +77,7 @@ msgstr "Når betaligen er gennemført, kommer du retur til din kvittering."
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/mobilepay.liquid:15
+#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Fortsæt til betaling"
 
@@ -267,6 +271,11 @@ msgstr "Gebyr"
 #: templates/form/card.liquid:91
 msgid "Fill in card number"
 msgstr "Udfyld kortnummer"
+
+#: templates/form/klarnapayments.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Klarna payment window will open."
+msgstr "PayPal betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
