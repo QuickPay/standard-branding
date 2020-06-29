@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2019-03-22 11:44+0000\n"
+"PO-Revision-Date: 2020-06-29 11:55+0000\n"
 "Last-Translator: Thomas <tj@pil.dk>\n"
-"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/standard-branding/da/>\n"
+"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/"
+"standard-branding/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -35,9 +36,8 @@ msgid "To complete the payment, open your Swish App on your mobile device and au
 msgstr "For at færdiggøre betalingen skal du åbne din Swish App på din mobilenhed og godkende betalingen"
 
 #: templates/waiting.liquid:13
-#, fuzzy
 msgid "You have 3 minutes to complete the payment"
-msgstr "Du har gennemført betalingen"
+msgstr "Du har 3 minutter til at gennemføre betalingen"
 
 #: templates/waiting.liquid:14
 msgid "Waiting for authorization"
@@ -273,9 +273,8 @@ msgid "Fill in card number"
 msgstr "Udfyld kortnummer"
 
 #: templates/form/klarnapayments.liquid:9
-#, fuzzy
 msgid "When you click the button below, the Klarna payment window will open."
-msgstr "PayPal betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "Klarna betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
