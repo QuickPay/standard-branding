@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2017-03-10 08:55+0000\n"
-"Last-Translator: Tonni Tølbøll Lund <ta@quickpay.net>\n"
-"Language-Team: Finnish <http://translate.quickpay.net/projects/quickpay/standard-branding-v2xx/fi/>\n"
+"PO-Revision-Date: 2020-08-05 11:23+0000\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
+"Language-Team: Finnish <http://translate.quickpay.net/projects/quickpay/"
+"standard-branding/fi/>\n"
 "Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.9\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -197,9 +198,10 @@ msgid "Open in wallet"
 msgstr ""
 
 #: templates/form/mobilepay_subscriptions.liquid:10
-#, fuzzy
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
-msgstr "Napsauttaessasi alla olevaa nappia MobilePay-maksuikkuna avautuu."
+msgstr ""
+"Napsauttaessasi alla olevaa nappia MobilePay Subscriptions maksuikkuna "
+"avautuu."
 
 #: templates/form/swish.liquid:12
 #, fuzzy
