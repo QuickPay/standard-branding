@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2020-06-29 11:57+0000\n"
 "Last-Translator: Thomas <tj@pil.dk>\n"
-"Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay/"
-"standard-branding/sv/>\n"
+"Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay/standard-branding/sv/>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,18 +65,22 @@ msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Trust
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
-#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
+#: templates/form/bitcoin.liquid:28
+#: templates/form/mobilepay_subscriptions.liquid:11
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/klarnapayments.liquid:10
+#: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "När du avslutat detta steg, kommer du att dirigeras tillbaka till ditt kvitto."
 
 #: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
 #: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
-#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
+#: templates/form/paypal.liquid:13
+#: templates/form/mobilepay_subscriptions.liquid:12
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/klarnapayments.liquid:11
+#: templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Fortsätt till betalning"
 
@@ -89,8 +92,8 @@ msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för iDeal
 msgid "Bank"
 msgstr "Bank"
 
-#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
-#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:47
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:40
+#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:40
 #: templates/form/swish.liquid:19 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Fortsätt"
@@ -110,10 +113,6 @@ msgstr "Förnamn"
 #: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
 msgid "Last name"
 msgstr "Efternamn"
-
-#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
-msgid "Email"
-msgstr "E-post"
 
 #: templates/form/vipps.liquid:13
 msgid "When you click the button below, the Vipps payment window will open."
@@ -190,6 +189,11 @@ msgstr "Det gick inte att kopiera Bitcoin-adressen till urklipp"
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
 msgstr "Öppna i plånboken"
+
+#: templates/form/mobilepay_subscriptions.liquid:10
+#, fuzzy
+msgid "When you click the button below, the MobilePay Subscriptions window will open."
+msgstr "När du klickar på knappen nedan, kommer fönstret för mobila betalningar att öppnas."
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -274,9 +278,7 @@ msgstr "Fyll i kortnummer"
 
 #: templates/form/klarnapayments.liquid:9
 msgid "When you click the button below, the Klarna payment window will open."
-msgstr ""
-"När du klickar på knappen nedan, kommer betalningsfönstret för Klarna att "
-"öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Klarna att öppnas."
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
@@ -303,7 +305,8 @@ msgid "You have completed the payment"
 msgstr "Du har nu slutfört betalningen"
 
 #: templates/layout.liquid:22
-msgid "Are you about to abort the payment. Are you sure?"
+#, fuzzy
+msgid "You are about to abort the payment. Are you sure?"
 msgstr "Du är på väg att avbryta ditt köp. Är du säker på att du vill fortsätta?"
 
 #: templates/layout.liquid:22
@@ -365,6 +368,9 @@ msgstr "Försök igen"
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Dankort att öppnas. När du genomfört betalningen kommer du att dirigeras tillbaka till ditt kvitto."
+
+#~ msgid "Email"
+#~ msgstr "E-post"
 
 #, fuzzy
 #~ msgid "German"

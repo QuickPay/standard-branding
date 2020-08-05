@@ -65,18 +65,22 @@ msgstr "Cliccando il pulsante in basso, si apira una finestra per il pagamento"
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
-#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
+#: templates/form/bitcoin.liquid:28
+#: templates/form/mobilepay_subscriptions.liquid:11
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/klarnapayments.liquid:10
+#: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Al termine della procedura si verra reindirizzati al documento"
 
 #: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
 #: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
-#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
+#: templates/form/paypal.liquid:13
+#: templates/form/mobilepay_subscriptions.liquid:12
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/klarnapayments.liquid:11
+#: templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "Procedi con il pagamento"
 
@@ -89,8 +93,8 @@ msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di p
 msgid "Bank"
 msgstr ""
 
-#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
-#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:47
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:40
+#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:40
 #: templates/form/swish.liquid:19 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "Procedi"
@@ -111,10 +115,6 @@ msgstr "Nome"
 #: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
 msgid "Last name"
 msgstr "Cognome"
-
-#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
-msgid "Email"
-msgstr "Email"
 
 #: templates/form/vipps.liquid:13
 #, fuzzy
@@ -192,6 +192,11 @@ msgstr "Impossibile copiare l'indirizzo Bitcoin negli appunti."
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
 msgstr "Apri nel wallet"
+
+#: templates/form/mobilepay_subscriptions.liquid:10
+#, fuzzy
+msgid "When you click the button below, the MobilePay Subscriptions window will open."
+msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento MobilePay."
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -304,7 +309,8 @@ msgid "You have completed the payment"
 msgstr "Hai completato il pagamento"
 
 #: templates/layout.liquid:22
-msgid "Are you about to abort the payment. Are you sure?"
+#, fuzzy
+msgid "You are about to abort the payment. Are you sure?"
 msgstr "Stai per interrompere il pagamento. Sei sicuro?"
 
 #: templates/layout.liquid:22
@@ -366,3 +372,6 @@ msgstr "Riprova"
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr "Una volta fatto clic sul pulsante qui sotto, si aprirà la finestra di pagamento Dankort. Al termine dell'operazione, verrai reindirizzato alla tua fattura."
+
+#~ msgid "Email"
+#~ msgstr "Email"

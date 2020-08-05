@@ -70,6 +70,7 @@ msgstr ""
 #: templates/form/vipps.liquid:14
 #: templates/form/paypal.liquid:12
 #: templates/form/bitcoin.liquid:28
+#: templates/form/mobilepay_subscriptions.liquid:11
 #: templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12
 #: templates/form/sofort.liquid:9
@@ -85,6 +86,7 @@ msgstr ""
 #: templates/form/vipps.liquid:15
 #: templates/form/swipp.liquid:9
 #: templates/form/paypal.liquid:13
+#: templates/form/mobilepay_subscriptions.liquid:12
 #: templates/form/trustly_ideal.liquid:11
 #: templates/form/viabill.liquid:13
 #: templates/form/sofort.liquid:10
@@ -103,9 +105,9 @@ msgid "Bank"
 msgstr ""
 
 #: templates/form/sofort_ideal.liquid:43
-#: templates/form/trustly.liquid:47
+#: templates/form/trustly.liquid:40
 #: templates/form/klarna.liquid:102
-#: templates/form/trustly_ideal.liquid:47
+#: templates/form/trustly_ideal.liquid:40
 #: templates/form/swish.liquid:19
 #: templates/form_dankort_acs.liquid:35
 msgid "Proceed"
@@ -127,11 +129,6 @@ msgstr ""
 #: templates/form/trustly.liquid:33
 #: templates/form/trustly_ideal.liquid:33
 msgid "Last name"
-msgstr ""
-
-#: templates/form/trustly.liquid:40
-#: templates/form/trustly_ideal.liquid:40
-msgid "Email"
 msgstr ""
 
 #: templates/form/vipps.liquid:13
@@ -216,6 +213,10 @@ msgstr ""
 
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
+msgstr ""
+
+#: templates/form/mobilepay_subscriptions.liquid:10
+msgid "When you click the button below, the MobilePay Subscriptions window will open."
 msgstr ""
 
 #: templates/form/swish.liquid:12
@@ -329,7 +330,7 @@ msgid "You have completed the payment"
 msgstr ""
 
 #: templates/layout.liquid:22
-msgid "Are you about to abort the payment. Are you sure?"
+msgid "You are about to abort the payment. Are you sure?"
 msgstr ""
 
 #: templates/layout.liquid:22

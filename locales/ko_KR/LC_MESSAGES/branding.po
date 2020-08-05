@@ -67,18 +67,22 @@ msgstr "아래의 버튼을 클릭하면 안전 결제창이 열립니다."
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
-#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
+#: templates/form/bitcoin.liquid:28
+#: templates/form/mobilepay_subscriptions.liquid:11
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/klarnapayments.liquid:10
+#: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "결제가 완료되면 자동으로 영수증 페이지로 이동합니다."
 
 #: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
 #: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
-#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
+#: templates/form/paypal.liquid:13
+#: templates/form/mobilepay_subscriptions.liquid:12
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/klarnapayments.liquid:11
+#: templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "결제하기"
 
@@ -91,8 +95,8 @@ msgstr "아래의 버튼을 클릭하면 ViaBill 결제창이 열립니다."
 msgid "Bank"
 msgstr ""
 
-#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
-#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:47
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:40
+#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:40
 #: templates/form/swish.liquid:19 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "계속하기"
@@ -113,10 +117,6 @@ msgstr "이름"
 #: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
 msgid "Last name"
 msgstr "성"
-
-#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
-msgid "Email"
-msgstr "이메일"
 
 #: templates/form/vipps.liquid:13
 #, fuzzy
@@ -194,6 +194,11 @@ msgstr "비트코인 주소를 클립보드로 복사하지 못했습니다"
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
 msgstr "지갑에서 열기"
+
+#: templates/form/mobilepay_subscriptions.liquid:10
+#, fuzzy
+msgid "When you click the button below, the MobilePay Subscriptions window will open."
+msgstr "아래의 버튼을 클릭하면 MobilePay 결제창이 열립니다."
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -306,7 +311,8 @@ msgid "You have completed the payment"
 msgstr "결제를 완료하였습니다"
 
 #: templates/layout.liquid:22
-msgid "Are you about to abort the payment. Are you sure?"
+#, fuzzy
+msgid "You are about to abort the payment. Are you sure?"
 msgstr "결제가 취소됩니다. 계속하시겠습니까?"
 
 #: templates/layout.liquid:22
@@ -368,3 +374,6 @@ msgstr "다시 시도"
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr "아래의 버튼을 클릭하면 Dankort 결제창이 열립니다. 결제가 완료되면 자동으로 영수증 페이지로 이동합니다."
+
+#~ msgid "Email"
+#~ msgstr "이메일"

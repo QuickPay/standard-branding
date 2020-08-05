@@ -67,18 +67,22 @@ msgstr "下のボタンをクリックすると、Trustlyの支払いウィン�
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
 #: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28 templates/form/trustly_ideal.liquid:10
-#: templates/form/viabill.liquid:12 templates/form/sofort.liquid:9
-#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
+#: templates/form/bitcoin.liquid:28
+#: templates/form/mobilepay_subscriptions.liquid:11
+#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/klarnapayments.liquid:10
+#: templates/form/mobilepay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "完了後はレシート画面に転送されます。"
 
 #: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
 #: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
 #: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13 templates/form/trustly_ideal.liquid:11
-#: templates/form/viabill.liquid:13 templates/form/sofort.liquid:10
-#: templates/form/klarnapayments.liquid:11 templates/form/mobilepay.liquid:15
+#: templates/form/paypal.liquid:13
+#: templates/form/mobilepay_subscriptions.liquid:12
+#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
+#: templates/form/sofort.liquid:10 templates/form/klarnapayments.liquid:11
+#: templates/form/mobilepay.liquid:15
 msgid "Proceed to payment"
 msgstr "支払いに進む"
 
@@ -91,8 +95,8 @@ msgstr "以下のボタンをクリックすると、ViaBillの支払い画面�
 msgid "Bank"
 msgstr ""
 
-#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:47
-#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:47
+#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:40
+#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:40
 #: templates/form/swish.liquid:19 templates/form_dankort_acs.liquid:35
 msgid "Proceed"
 msgstr "進む"
@@ -113,10 +117,6 @@ msgstr "名"
 #: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
 msgid "Last name"
 msgstr "姓"
-
-#: templates/form/trustly.liquid:40 templates/form/trustly_ideal.liquid:40
-msgid "Email"
-msgstr "メール"
 
 #: templates/form/vipps.liquid:13
 #, fuzzy
@@ -194,6 +194,11 @@ msgstr "ビットコインアドレスをクリップボードにコピーでき
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
 msgstr "ウォレットで開く"
+
+#: templates/form/mobilepay_subscriptions.liquid:10
+#, fuzzy
+msgid "When you click the button below, the MobilePay Subscriptions window will open."
+msgstr "以下のボタンをクリックすると、MobilePayの支払いウィンドウが開きます。"
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -306,7 +311,8 @@ msgid "You have completed the payment"
 msgstr "支払いを完了しました。"
 
 #: templates/layout.liquid:22
-msgid "Are you about to abort the payment. Are you sure?"
+#, fuzzy
+msgid "You are about to abort the payment. Are you sure?"
 msgstr "本当に支払いを中止しますか？"
 
 #: templates/layout.liquid:22
@@ -368,3 +374,6 @@ msgstr "再度お試しください"
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
 msgstr "下のボタンをクリックすると、Dankortの支払いウィンドウが開きます。完了後、レシート画面に転送されます。"
+
+#~ msgid "Email"
+#~ msgstr "メール"
