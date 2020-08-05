@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2020-06-29 11:55+0000\n"
+"PO-Revision-Date: 2020-08-05 11:20+0000\n"
 "Last-Translator: Thomas <tj@pil.dk>\n"
-"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/standard-branding/da/>\n"
+"Language-Team: Danish <http://translate.quickpay.net/projects/quickpay/"
+"standard-branding/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -191,9 +192,10 @@ msgid "Open in wallet"
 msgstr "Åben i tegnebog"
 
 #: templates/form/mobilepay_subscriptions.liquid:10
-#, fuzzy
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
-msgstr "MobilePay betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr ""
+"MobilePay Subscriptions betalingsvinduet åbner, når du klikker på knappen "
+"herunder."
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -305,7 +307,6 @@ msgid "You have completed the payment"
 msgstr "Du har gennemført betalingen"
 
 #: templates/layout.liquid:22
-#, fuzzy
 msgid "You are about to abort the payment. Are you sure?"
 msgstr "Er du sikker på, at du vil annullere din betaling?"
 
