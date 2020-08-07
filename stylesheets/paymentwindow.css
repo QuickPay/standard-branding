@@ -483,3 +483,14 @@ h4 img.icon {
   width: 100%;
   height: 42px;
 }
+
+/*
+* Trustly
+*
+*/
+
+@media only screen and (max-width: 768px) {
+  iframe {
+    width: 100% !important;
+  }
+}
