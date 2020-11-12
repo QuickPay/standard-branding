@@ -8,15 +8,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2020-04-08 21:47+0000\n"
-"Last-Translator: Johan Færch <jf@quickpay.net>\n"
-"Language-Team: Spanish <http://translate.quickpay.net/projects/quickpay/standard-branding/es/>\n"
+"PO-Revision-Date: 2020-11-12 10:15+0000\n"
+"Last-Translator: Thomas <tj@pil.dk>\n"
+"Language-Team: Spanish <https://translate.quickpay.net/projects/quickpay/"
+"standard-branding/es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3));\n"
-"X-Generator: Weblate 3.7.1\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : (("
+"n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 "
+"== 80) ? 2 : 3));\n"
+"X-Generator: Weblate 4.3.1\n"
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -241,7 +244,7 @@ msgstr "Número de tarjeta"
 
 #: templates/form/card.liquid:33
 msgid "Expiration date"
-msgstr "Fecha de caducidad"
+msgstr "Caducidad"
 
 #: templates/form/card.liquid:56
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
