@@ -1,0 +1,14 @@
+<div class="well-xs well-greyish-xs well-sm well-greyish-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="center-y text-center-xs">
+          <iframe style="border:none;" height="400px" width="390px" name="challengeIframe"></iframe>
+          <form id="3ds_challenge_form" action="{{ model.acs_url }}" method="post" target="challengeIframe">
+            <input type="hidden" name="creq" value="{{ model.creq }}"/>
+          </form>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
