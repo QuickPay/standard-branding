@@ -1,0 +1,22 @@
+<div class="well-xs well-greyish-xs well-sm well-greyish-sm">
+  <div class="container">
+    <div class="row">
+      <div id="3d_wait" class="col-xs-12">
+        <h3 class="center-y text-center-xs">
+          <img class="icon icon-rotate" src="{{ images.cog.svg }}">
+          {% t Running 3-D Secure checks. Please wait... %}
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if model.method_url %}
+<iframe class="hidden" name="threeDSMethodIframe"></iframe>
+
+<form id="3ds_method_form" action="{{ model.method_url }}" method="post" target="threeDSMethodIframe">
+  <input type="hidden" name="threeDSMethodData" value="{{ model.method_data }}"/>
+</form>
+{% endif %}
+
+<form id="3ds_auth_form" action="{{ model.auth_url }}" method="post"></form>
