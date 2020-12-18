@@ -1,5 +1,5 @@
 <div class="container">
-  <form action="{{ model.redirect_url }}" method="POST" target="_top" class="autosubmit">
+  <form action="{{ model.redirect_url }}" method="POST" class="autosubmit">
     {% for field in model.params %}
       <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />
     {% endfor %}
