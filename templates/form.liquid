@@ -18,7 +18,11 @@
           </div>
         {% endif %}
         {% for method in model.alternative_payment_methods %}
-          {% include "payment_methods_list" method=method %}
+          {% if model.form_template == "form/card" and method.name == "apple-pay" or method.name == "mobilepay-online" %}
+            {% continue %}
+          {% else %}
+            {% include "payment_methods_list" method=method %}
+          {% endif %}
         {% endfor %}
       </div>
     </div>
