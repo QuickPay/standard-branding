@@ -97,11 +97,14 @@
         <hr style="margin-bottom: 6px; border-bottom: 1px solid #dedede">
 
         <div class="form-group">
+          {% assign mobilepay_online = model.alternative_payment_methods | where: "name", "mobilepay-online" %}
+          {% if mobilepay_online.size > 0 %}
           <div class="col-xs-12">
             <a href="{{ model.session_id }}/payment-method/mobilepay-online" class="btn" style="width: 100%;border: 0px; padding: 0px; background: rgb(90,120,255)">
               <img style="width: 130px;" src="{{ images.mobilepay-button.svg }}">
             </a>
           </div>
+          {% endif %}
           <div class="col-xs-12 payment-method-apple-pay">
             <a href="#" class="apple-pay-btn" style="display: inline-block; width: 100%; padding: 20px; margin-top: 15px; border-radius: 4px; -webkit-appearance: -apple-pay-button; -apple-pay-button-type: plain; -apple-pay-button-style: black;" lang="en">
             </a>
