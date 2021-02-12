@@ -1,5 +1,5 @@
 <div class="container">
-  <form action="{{ model.redirect_url }}" method="POST" target="_top">
+  <form action="{{ model.redirect_url }}" method="POST">
     <input type="hidden" name="session_id" value="{{ model.session_id }}" />
     {% for field in model.params %}
       <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />

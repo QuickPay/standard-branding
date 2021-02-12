@@ -4,14 +4,7 @@
     {% t When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt. %}
   </p>
 
-  <form
-    action="{{ model.url }}"
-    method="post"
-    target="_top"
-    class="autosubmit"
-    accept-charset="ISO-8859-1"
-    >
-
+  <form action="{{ model.url }}" method="post" class="autosubmit" accept-charset="ISO-8859-1">
     <input type="hidden" name="MerchantContinueURL" value="{{ model.params['MerchantContinueURL'] }}" />
     <input type="hidden" name="MerchantDeclineURL" value="{{ model.params['MerchantDeclineURL'] }}" />
     <input type="hidden" name="MerchantTitle" value="{{ model.params['MerchantTitle'] }}" />

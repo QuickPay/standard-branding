@@ -1,6 +1,6 @@
 <div class="container">
   {% if model.sofort_has_bank? %}
-    <form action="{{ model.form_action }}" method="POST" target="_top" class="autosubmit">
+    <form action="{{ model.form_action }}" method="POST" class="autosubmit">
       {% for field in model.sofort_form_fields %}
         <input type="hidden" name="{{ field[0] }}" value="{{ field[1] }}">
       {% endfor %}
