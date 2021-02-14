@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2021-02-14 14:22+0000\n"
+"PO-Revision-Date: 2021-02-14 17:20+0000\n"
 "Last-Translator: quantum language <Kontakt@quantum-language.de>\n"
 "Language-Team: German <https://translate.quickpay.net/projects/quickpay/"
 "standard-branding/de/>\n"
@@ -94,7 +94,7 @@ msgstr "Weiter zur Zahlung"
 msgid "When you click the button below, the iDeal payment window will open."
 msgstr ""
 "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster "
-"von iDeal."
+"von iDEAL."
 
 #: templates/form/sofort_ideal.liquid:32
 msgid "Bank"
@@ -203,11 +203,11 @@ msgstr "Die Bitcoin-Adresse wurde in Ihre Zwischenablage kopiert."
 
 #: templates/form/bitcoin.liquid:21
 msgid "Could not copy the Bitcoin address to your clipboard"
-msgstr "Die Bitcoin-Adresse konnte nicht in Ihre Zwischenablage kopiert werden"
+msgstr "Die Bitcoin-Adresse konnte nicht in Ihre Zwischenablage kopiert werden."
 
 #: templates/form/bitcoin.liquid:26
 msgid "Open in wallet"
-msgstr "Im Wallet öffnen"
+msgstr "In Wallet öffnen"
 
 #: templates/form/mobilepay_subscriptions.liquid:10
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
@@ -242,11 +242,15 @@ msgstr "Bitte versuchen Sie es erneut."
 
 #: templates/form/error.liquid:16
 msgid "You tried to make a live payment on a test transaction."
-msgstr "Sie haben versucht, eine reale Zahlung auf einer Testtransaktion durchzuführen."
+msgstr ""
+"Sie haben versucht, an einer Testtransaktion eine reale Zahlung "
+"durchzuführen."
 
 #: templates/form/error.liquid:18
 msgid "You tried to make a test payment on a live transaction."
-msgstr "Sie haben versucht, eine Testzahlung auf einer realen Transaktion durchzuführen."
+msgstr ""
+"Sie haben versucht, an einer realen Transaktion eine Testzahlung "
+"durchzuführen."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
@@ -261,25 +265,29 @@ msgid "Expiration date"
 msgstr "Ablaufdatum"
 
 #: templates/form/card.liquid:56
+#, fuzzy
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr ""
 "Die Kartenprüfdaten (CVV/CVD) erhöhen das Sicherheitsniveau. Normalerweise "
 "sind die Kartenprüfdaten eine dreistellige Zahl, die auf der Rückseite der "
-"Karte abgebildet ist."
+"Karte aufgedruckt ist."
 
 #: templates/form/card.liquid:64
+#, fuzzy
 msgid "Enable 3D Secure"
-msgstr "3D-Secure aktivieren"
+msgstr "3D Secure aktivieren"
 
 #: templates/form/card.liquid:70
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr ""
-"3D Secure ist ein 2-stufiger Verifizierungsservice, bei der eine SMS-"
+"3D Secure ist ein 2-stufiger Verifizierungsservice, über den eine SMS-"
 "Nachricht an Ihr Telefon gesendet wird."
 
 #: templates/form/card.liquid:71
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
-msgstr "Ihre Kreditkartenunternehmen kann verlangen, dass Sie 3D Secure als zusätzliche Vorsichtsmaßnahme verwenden."
+msgstr ""
+"Ihr Kreditkartenunternehmen kann verlangen, dass Sie 3D Secure als "
+"zusätzliche Vorsichtsmaßnahme verwenden."
 
 #: templates/form/card.liquid:79
 msgid "Pay"
@@ -298,6 +306,7 @@ msgid "Receive"
 msgstr "Erhalten"
 
 #: templates/form/card.liquid:91
+#, fuzzy
 msgid "Payment fee"
 msgstr "Zahlungsgebühren"
 
@@ -319,7 +328,7 @@ msgstr ""
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
-msgstr "Sie haben die Zahlung storniert"
+msgstr "Sie haben die Zahlung storniert."
 
 #: templates/order_info.liquid:4
 msgid "Order number"
@@ -331,19 +340,21 @@ msgstr "läuft ab in"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"
-msgstr "Sie haben die Zahlung abgeschlossen"
+msgstr "Sie haben die Zahlung abgeschlossen."
 
 #: templates/success.liquid:10
+#, fuzzy
 msgid "You have completed the payment"
-msgstr "Sie haben die Zahlung abgeschlossen"
+msgstr "Sie haben den Bezahlvorgang abgeschlossen."
 
 #: templates/layout.liquid:22
 msgid "You are about to abort the payment. Are you sure?"
 msgstr "Sie sind dabei, die Zahlung abzubrechen. Sind Sie sicher?"
 
 #: templates/layout.liquid:22
+#, fuzzy
 msgid "Cancel Payment"
-msgstr "Zahlung stornieren"
+msgstr "Bezahlvorgang abbrechen"
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
@@ -351,11 +362,13 @@ msgstr "Bestellung abgelaufen"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
-msgstr "Sie haben den Kauf nicht innerhalb des Zeitrahmens abgeschlossen."
+msgstr ""
+"Sie haben den Kauf nicht innerhalb des verfügbaren Zeitfensters "
+"abgeschlossen."
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
-msgstr "Klicken Sie hier um fortzufahren"
+msgstr "Klicken Sie hier, um fortzufahren"
 
 #: templates/error.liquid:9
 msgid "The order is already paid."
@@ -371,7 +384,7 @@ msgstr "Ein Fehler ist aufgetreten."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
-msgstr "Die Zahlung kann nicht abgeschlossen werden"
+msgstr "Die Zahlung kann nicht abgeschlossen werden."
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
@@ -382,16 +395,18 @@ msgid "Please try again or select another payment method."
 msgstr "Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsmethode."
 
 #: templates/error.liquid:21
+#, fuzzy
 msgid "3D Secure enrollment failed."
 msgstr "3D Secure-Überprüfung fehlgeschlagen."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
-msgstr "Seit dem Aufruf der Zahlung haben sich die Zahlungsdetails geändert."
+msgstr ""
+"Seit dem Aufruf des Bezahlvorgangs haben sich Angaben zur Zahlung geändert."
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
-msgstr "Klicken Sie hier, um erneut anzufangen"
+msgstr "Klicken Sie hier, um neu zu beginnen"
 
 #: templates/error.liquid:36
 msgid "Try again"
