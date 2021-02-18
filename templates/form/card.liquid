@@ -13,7 +13,7 @@
           <div class="form-group">
             <div class="col-xs-12">
               <label for="cardholder" class="control-label">{% t Name on card %}</label>
-              <input type="text" id="cardholder" name="cardholder" class="form-control" autocomplete="cc-name" autofocus="autofocus">
+              <input type="text" id="cardholder" name="cardholder" class="form-control" autocomplete="cc-name" autofocus="autofocus" value="{{ model.name_on_card }}">
             </div>
           </div>
         {% endif %}
