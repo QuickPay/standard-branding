@@ -79,6 +79,9 @@
                 {% t Pay %} <span id="total-field">{{ model.formatted_amount }} {{ model.currency }}</span>
               {% elsif model.transaction_type == "subscription" %}
                 {% t Create subscription %}
+                {% if config.enable_amount_for_subscription %}
+                  <span id="total-field"> ({{ model.formatted_amount }} {{ model.currency }})</span>
+                {% endif %}
               {% elsif model.transaction_type == "card" %}
                 {% t Save card %}
               {% elsif model.transaction_type == "payout" %}
