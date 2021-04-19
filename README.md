@@ -21,6 +21,7 @@ Currently it supports:
 * `enable_card_holder_field` (boolean, default: false), adds "Card holder name" input field to the credit/debit card form.
 * `enable_3d_card_field` (boolean, default: false), adds a checkbox for letting card holder force 3D Secure on payment.
 * `enable_prefill_name` (boolean, default: false), prefills name for "Card holder name" input field to the credit/debit card form.
+* `enable_amount_for_subscription` (boolean, default: false), displays amount while creating the subscription.
 * `autojump` (boolean, default: false), makes the cursor autojump to the next field when entering card information.
 
 The configuration can be access using a Liquid Drop `config` - example: `{% if config.enable_3d_card_field %}`
@@ -33,6 +34,7 @@ Example config file:
   "enable_card_holder_field": false,
   "enable_3d_card_field": false,
   "enable_prefill_name": false,
+  "enable_amount_for_subscription": false,
   "autojump": true,
   "my_own_custom_key": "Access this value in a template with {% config.my_own_custom_key %}"
 }

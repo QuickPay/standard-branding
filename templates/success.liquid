@@ -6,6 +6,10 @@
           <img class="icon" src="{{ images.check-circle-o.svg }}">
           {% if model.transaction_type == "payout" %}
             {% t You have completed the payout %}
+          {% elsif model.transaction_type == "card" %}
+            {% t You have saved the card %}
+          {% elsif model.transaction_type == "subscription" %}
+            {% t You have completed the subscription %}
           {% else %}
             {% t You have completed the payment %}
           {% endif %}
