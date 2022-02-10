@@ -1,5 +1,5 @@
 <div class="col-sm-4 col-xs-6 payment-method payment-method-{{ method.name }}">
-  <a href="{% if method.name == "apple-pay" %}#{% else %}{{ model.session_id }}/payment-method/{{ method.name }}{% endif %}" class="btn btn-default">
+  <a href="{% if method.payment_request_api_method? %}#{% else %}{{ model.session_id }}/payment-method/{{ method.name }}{% endif %}" class="btn btn-default">
     {% if method.name == "apple-pay" %}
       <div class="apple-pay-btn" title="{{ method.nice_name }}"></div>
     {% else %}
