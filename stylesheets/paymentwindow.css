@@ -23,6 +23,52 @@
   margin-bottom: 3px;
 }
 
+.btn {
+  border-radius: 100px;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #1338FF;
+  border-color: #1338FF;
+}
+
+.btn-info:focus,
+.btn-info.focus {
+    color: #fff;
+    background-color: #0F2ED4;
+    border-color: #0F2ED4
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #0F2ED4;
+    border-color: #0F2ED4
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #00B478;
+  border-color: #00B478
+}
+
+.btn-success:focus,
+.btn-success.focus {
+    color: #fff;
+    background-color: #008F60;
+    border-color: #008F60
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #008F60;
+    border-color: #008F60
+}
+
+input:focus {
+  border: 2px solid #0F2ED4!important;
+}
+
 
 /*
  * General HTML elements
@@ -240,6 +286,7 @@ a.btn, button[type="submit"] {
   margin: 10px 0;
   border-color: #dedede;
   background: #fff;
+  border-radius: 10px;
 }
 #alternative-payment-methods .payment-method .btn:hover {
   margin: 10px 0;
