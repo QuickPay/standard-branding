@@ -1,0 +1,65 @@
+<div class="container">
+  <form class="form-horizontal" method="post" autocomplete="off" action="process_unzer_pay_later">
+    <input type="hidden" name="session_id" value="{{ model.session_id }}" />
+    <input type="hidden" name="upl_session_id" value="{{ model.upl_session_id }}" />
+    <div class="row">
+      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+          <img src="/assets/v2/images/brands/unzer-pay-later-direct_debit.svg" alt="Unzer Pay Later" title="Unzer Pay Later Direct Debit" style="width:100%">
+      </div>
+      <noscript>
+        <iframe style="width: 100px; height: 100px; border: 0; position: absolute; top: -5000px;" src="{{ model.noscript_url }}"></iframe>
+      </noscript>
+      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+        <div class="form-group">
+          <div class="col-xs-12">
+            <label for="person_email" class="control-label">{% t Email Address %}</label>
+            <input type="text" id="person_email" name="person[email]" value="{{ model.invoice_address.email}}" {% if model.invoice_address.email %}readonly="true" {% endif %} class="form-control" autocomplete="on">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <label for="first_name" class="control-label">{% t First name %}</label>
+            <input type="text" id="first_name" class="form-control" name="person[first_name]" value="{{ model.first_name }}" {% if model.first_name %}readonly="true" {% endif %} autocomplete="on" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <label for="last_name" class="control-label">{% t Last name %}</label>
+            <input type="text" id="last_name" class="form-control" name="person[last_name]" value="{{ model.last_name }}" {% if model.last_name %}readonly="true" {% endif %} autocomplete="on" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <label for="person_dob" class="control-label">{% t Date of Birth %}</label>
+            <input type="date" id="person_dob" name="person[dob]" class="form-control" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <label for="person_bank_account_holder" class="control-label">{% t Bank account holder %}</label>
+            <input type="text" id="person_bank_account_holder" name="person[bank_account_holder]" class="form-control" value="{{ model.invoice_address.name }}" autocomplete="on" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <label for="person_iban" class="control-label">{% t IBAN %}</label>
+            <input type="text" id="person_iban" name="person[iban]" class="form-control" autocomplete="on" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-2">
+            <input type="checkbox" id="user_consent" name="user_consent" required>
+          </div>
+          <div class="col-xs-10">
+            <label for="user_consent" class="control-label">{{ model.identity_consent }}</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-info btn">{% t Proceed %}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
