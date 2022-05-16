@@ -34,7 +34,7 @@
             <label for="person_dob" class="control-label">{% t Date of Birth %}</label>
             <input type="date" id="person_dob" name="person[dob]" class="form-control" required>
             {% if model.invalid_dob? %}
-              <span class="help-block">{% t Invalid Date of Birth %}
+              <span class="help-block">{% t Invalid Date of Birth. You need to 18 or older %}</span>
             {% endif %}
           </div>
         </div>

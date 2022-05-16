@@ -33,7 +33,7 @@
             <label for="person_dob" class="control-label">{% t Date of Birth %}</label>
             <input type="date" id="person_dob" name="person[dob]" class="form-control" required>
             {% if model.invalid_dob? %}
-              <span class="help-block">{% t Invalid Date of Birth %}
+              <span class="help-block">{% t Invalid Date of Birth. You need to 18 or older %}</span>
             {% endif %}
           </div>
         </div>
@@ -48,7 +48,7 @@
             <label for="person_iban" class="control-label">{% t IBAN %}</label>
             <input type="text" id="person_iban" name="person[iban]" class="form-control" autocomplete="on" required>
             {% if model.invalid_iban? %}
-              <span class="help-block">{% t Invalid iban %}
+              <span class="help-block">{% t Invalid IBAN format. Only IBANs from Austria and Germany are accepted. The IBAN must start with the letters DE followed by 20 digits or letters AT followed by 18 digits. %}
             {% endif %}
           </div>
         </div>
