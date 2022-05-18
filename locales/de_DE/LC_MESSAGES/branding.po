@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2021-02-16 14:05+0000\n"
-"Last-Translator: quantum language <Kontakt@quantum-language.de>\n"
-"Language-Team: German <https://translate.quickpay.net/projects/quickpay/standard-branding/de/>\n"
+"PO-Revision-Date: 2022-05-18 09:30+0000\n"
+"Last-Translator: Kristian <kgb@quickpay.net>\n"
+"Language-Team: German <https://translate.quickpay.net/projects/quickpay/"
+"standard-branding/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,14 +24,12 @@ msgid "You have completed the payout"
 msgstr "Sie haben die Auszahlung abgeschlossen"
 
 #: templates/success.liquid:10
-#, fuzzy
 msgid "You have saved the card"
-msgstr "Sie haben die Zahlung storniert"
+msgstr "You have saved the card"
 
 #: templates/success.liquid:12
-#, fuzzy
 msgid "You have completed the subscription"
-msgstr "Sie haben die Auszahlung abgeschlossen"
+msgstr "Sie haben das Abonnement abgeschlossen"
 
 #: templates/success.liquid:14
 msgid "You have completed the payment"
@@ -122,7 +121,6 @@ msgid "Please wait..."
 msgstr "Bitte warten..."
 
 #: templates/waiting.liquid:24
-#, fuzzy
 msgid "The process may take some time."
 msgstr "Der Vorgang kann bis zu 5 Minuten dauern."
 
@@ -178,9 +176,10 @@ msgid "Proceed"
 msgstr "Fortfahren"
 
 #: templates/form/mobilepay_online.liquid:7
-#, fuzzy
 msgid "When you click the button below, the MobilePay Online window will open"
-msgstr "Wenn Sie auf die Schaltfläche unten klicken, öffnet sich das Zahlungsfenster von MobilePay."
+msgstr ""
+"Wenn Sie auf die Schaltfläche unten klicken, öffnet sich das Zahlungsfenster "
+"von MobilePay"
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
@@ -195,9 +194,10 @@ msgid "You tried to make a test payment on a live transaction."
 msgstr "Sie haben versucht, an einer realen Transaktion eine Testzahlung durchzuführen."
 
 #: templates/form/vippspsp.liquid:7
-#, fuzzy
 msgid "When you click the button below, the Vipps PSP window will open"
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster von Vipps."
+msgstr ""
+"Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster "
+"von Vipps"
 
 #: templates/form/paysafecard.liquid:11
 msgid "When you click the button below, the paysafecard payment window will open."
@@ -268,9 +268,10 @@ msgid "Open in wallet"
 msgstr "In Wallet öffnen"
 
 #: templates/form/bancontact.liquid:13
-#, fuzzy
 msgid "When you click the button below, the Bancontact payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster von Klarna."
+msgstr ""
+"Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster "
+"von Bancontact."
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
@@ -285,9 +286,10 @@ msgid "Starting 3D Secure payment. Please wait..."
 msgstr "3D Secure-Zahlung wird initiiert. Bitte warten..."
 
 #: templates/form/przelewy24.liquid:13
-#, fuzzy
 msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster von Trustly."
+msgstr ""
+"Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster "
+"von Przelewy24."
 
 #: templates/form/trustly_ideal.liquid:26
 #: templates/form/unzer_pay_later_invoice.liquid:22
@@ -308,14 +310,16 @@ msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "Wenn Sie auf die Schaltfläche unten klicken, öffnet sich das Zahlungsfenster von MobilePay."
 
 #: templates/form/blik.liquid:13
-#, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster von Klarna."
+msgstr ""
+"Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster "
+"von BLIK."
 
 #: templates/form/wechat.liquid:13
-#, fuzzy
 msgid "When you click the button below, the WeChat payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster von iDEAL."
+msgstr ""
+"Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster "
+"von WeChat."
 
 #: templates/form/mobilepay_subscriptions.liquid:13
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
@@ -324,17 +328,17 @@ msgstr "Wenn Sie auf die Schaltfläche unten klicken, öffnet sich das Zahlungsf
 #: templates/form/unzer_pay_later_invoice.liquid:16
 #: templates/form/unzer_pay_later_direct_debit.liquid:15
 msgid "Email Address"
-msgstr ""
+msgstr "E-Mail-Adresse"
 
 #: templates/form/unzer_pay_later_invoice.liquid:34
 #: templates/form/unzer_pay_later_direct_debit.liquid:33
 msgid "Date of Birth"
-msgstr ""
+msgstr "Geburtsdatum"
 
 #: templates/form/unzer_pay_later_invoice.liquid:37
 #: templates/form/unzer_pay_later_direct_debit.liquid:36
 msgid "Invalid Date of Birth. You need to 18 or older"
-msgstr ""
+msgstr "Ungültiges Geburtsdatum. Sie müssen mindestens 18 Jahre alt sein"
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -354,15 +358,18 @@ msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsf
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:42
 msgid "Bank account holder"
-msgstr ""
+msgstr "Kontoinhaber"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:48
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:51
 msgid "Invalid IBAN format. Only IBANs from Austria and Germany are accepted. The IBAN must start with the letters DE followed by 20 digits or letters AT followed by 18 digits."
 msgstr ""
+"Ungültiges IBAN-Format. Nur österreichische und deutsche IBAN werden "
+"akzeptiert. Die IBAN muss mit den Buchstaben DE, gefolgt von 20 Ziffern, "
+"oder den Buchstaben AT, gefolgt von 18 Ziffern, beginnen."
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
@@ -429,17 +436,18 @@ msgid "When you click the button below, the Vipps payment window will open."
 msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster von Vipps."
 
 #: templates/form/anydaysplit.liquid:12
-#, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster von PayPal."
+msgstr ""
+"Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster "
+"von Anyday."
 
 #: templates/form/sofortppro.liquid:13
-#, fuzzy
 msgid "When you click the button below, the SofortPPRO payment window will open."
-msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster von Sofort."
+msgstr ""
+"Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsfenster "
+"von Sofort."
 
 #: templates/form/3ds_auth.liquid:7
-#, fuzzy
 msgid "Running 3-D Secure checks. Please wait..."
 msgstr "3D Secure-Zahlung wird initiiert. Bitte warten..."
 
