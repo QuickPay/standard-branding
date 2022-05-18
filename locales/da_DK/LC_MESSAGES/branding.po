@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2021-03-12 21:41+0000\n"
-"Last-Translator: Johan Færch <jf@quickpay.net>\n"
+"PO-Revision-Date: 2022-05-18 09:31+0000\n"
+"Last-Translator: Kristian <kgb@quickpay.net>\n"
 "Language-Team: Danish <https://translate.quickpay.net/projects/quickpay/"
 "standard-branding/da/>\n"
 "Language: da_DK\n"
@@ -24,14 +24,12 @@ msgid "You have completed the payout"
 msgstr "Du har gennemført udbetalingen"
 
 #: templates/success.liquid:10
-#, fuzzy
 msgid "You have saved the card"
-msgstr "Du har annulleret betalingen"
+msgstr "Du har gemt kortet"
 
 #: templates/success.liquid:12
-#, fuzzy
 msgid "You have completed the subscription"
-msgstr "Du har gennemført udbetalingen"
+msgstr "Du har gennemført abonnementet"
 
 #: templates/success.liquid:14
 msgid "You have completed the payment"
@@ -123,7 +121,6 @@ msgid "Please wait..."
 msgstr "Vent venligst..."
 
 #: templates/waiting.liquid:24
-#, fuzzy
 msgid "The process may take some time."
 msgstr "Processen kan tage op til 5 minutter."
 
@@ -179,9 +176,8 @@ msgid "Proceed"
 msgstr "Fortsæt"
 
 #: templates/form/mobilepay_online.liquid:7
-#, fuzzy
 msgid "When you click the button below, the MobilePay Online window will open"
-msgstr "MobilePay betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "MobilePay betalingsvinduet åbner, når du klikker på knappen herunder"
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
@@ -196,9 +192,8 @@ msgid "You tried to make a test payment on a live transaction."
 msgstr "Du har forsøgt at gennemføre en rigtig betaling på en testbetaling."
 
 #: templates/form/vippspsp.liquid:7
-#, fuzzy
 msgid "When you click the button below, the Vipps PSP window will open"
-msgstr "Vipps betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "Vipps betalingsvinduet åbner, når du klikker på knappen herunder"
 
 #: templates/form/paysafecard.liquid:11
 msgid "When you click the button below, the paysafecard payment window will open."
@@ -269,9 +264,8 @@ msgid "Open in wallet"
 msgstr "Åben i tegnebog"
 
 #: templates/form/bancontact.liquid:13
-#, fuzzy
 msgid "When you click the button below, the Bancontact payment window will open."
-msgstr "Klarna betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "Bancontact betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
@@ -286,9 +280,8 @@ msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Starter 3D Secure betaling. Vent venligst..."
 
 #: templates/form/przelewy24.liquid:13
-#, fuzzy
 msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "Trustly betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "Przelewy24 betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/trustly_ideal.liquid:26
 #: templates/form/unzer_pay_later_invoice.liquid:22
@@ -309,14 +302,12 @@ msgid "When you click the button below, the MobilePay payment window will open."
 msgstr "MobilePay betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/blik.liquid:13
-#, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
-msgstr "Klarna betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "BLIK betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/wechat.liquid:13
-#, fuzzy
 msgid "When you click the button below, the WeChat payment window will open."
-msgstr "iDeal betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "WeChat betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/mobilepay_subscriptions.liquid:13
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
@@ -325,17 +316,17 @@ msgstr "MobilePay Subscriptions betalingsvinduet åbner, når du klikker på kna
 #: templates/form/unzer_pay_later_invoice.liquid:16
 #: templates/form/unzer_pay_later_direct_debit.liquid:15
 msgid "Email Address"
-msgstr ""
+msgstr "E-mailadresse"
 
 #: templates/form/unzer_pay_later_invoice.liquid:34
 #: templates/form/unzer_pay_later_direct_debit.liquid:33
 msgid "Date of Birth"
-msgstr ""
+msgstr "Fødselsdato"
 
 #: templates/form/unzer_pay_later_invoice.liquid:37
 #: templates/form/unzer_pay_later_direct_debit.liquid:36
 msgid "Invalid Date of Birth. You need to 18 or older"
-msgstr ""
+msgstr "Ugyldig fødselsdato. Du skal være 18 år eller ældre"
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -355,15 +346,18 @@ msgstr "Sofort betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:42
 msgid "Bank account holder"
-msgstr ""
+msgstr "Bankkontoindehaver"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:48
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:51
 msgid "Invalid IBAN format. Only IBANs from Austria and Germany are accepted. The IBAN must start with the letters DE followed by 20 digits or letters AT followed by 18 digits."
 msgstr ""
+"Ugyldigt IBAN format. Kun IBANs fra Østrig eller Tyskland er accepteret. "
+"IBAN skal starte med DE og efterfulgt af 20 tal, eller starte med AT og "
+"følges af 18 tal."
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
@@ -430,19 +424,16 @@ msgid "When you click the button below, the Vipps payment window will open."
 msgstr "Vipps betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/anydaysplit.liquid:12
-#, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
-msgstr "PayPal betalingsvinduet åbner, når du klikker på knappen herunder."
+msgstr "Anyday betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/sofortppro.liquid:13
-#, fuzzy
 msgid "When you click the button below, the SofortPPRO payment window will open."
 msgstr "Sofort betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/3ds_auth.liquid:7
-#, fuzzy
 msgid "Running 3-D Secure checks. Please wait..."
-msgstr "Starter 3D Secure betaling. Vent venligst..."
+msgstr "Kører 3-D Secure. Vent venligst.."
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
