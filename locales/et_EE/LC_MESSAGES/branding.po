@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2021-01-13 16:08+0000\n"
+"PO-Revision-Date: 2021-03-27 02:40+0000\n"
 "Last-Translator: Indrek Kõnnussaar <indrek@codelight.eu>\n"
 "Language-Team: Estonian <https://translate.quickpay.net/projects/quickpay/"
 "standard-branding/et/>\n"
@@ -61,7 +61,7 @@ msgstr "3D Secure makse alustamine. Palun oodake..."
 
 #: templates/form/resurs.liquid:26
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Kui klõpsad alloleval nupul avaneb  Resurs makse aken."
+msgstr "Kui klõpsad alloleval nupul avaneb Resurs makse aken."
 
 #: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
 #: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
@@ -194,12 +194,7 @@ msgstr "Ava rahakotis"
 #: templates/form/mobilepay_subscriptions.liquid:10
 #, fuzzy
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
-msgstr ""
-"Alloleval nupul klõpsates avaneb MobilePay \n"
-"\n"
-"* tellimuste aken\n"
-"* tellitud teenuste aken (aken tellitud teenustega)?\n"
-"* (tellitud) paketid?"
+msgstr "Alloleval nupul klõpsates avaneb MobilePay Paketi aken."
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
