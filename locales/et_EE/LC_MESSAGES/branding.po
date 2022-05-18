@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2021-01-13 16:08+0000\n"
+"PO-Revision-Date: 2021-03-27 02:40+0000\n"
 "Last-Translator: Indrek Kõnnussaar <indrek@codelight.eu>\n"
 "Language-Team: Estonian <https://translate.quickpay.net/projects/quickpay/standard-branding/et/>\n"
 "Language: et_EE\n"
@@ -133,6 +133,14 @@ msgstr "Klõpsa siia, kui töötlemine võtab kaua aega"
 #: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
 msgid "When you click the button below, the iDeal payment window will open."
 msgstr "Allpool asuvale nupule klõpsates avaneb iDeali makseaken."
+
+#: templates/form/3d_secure.liquid:13
+msgid "Starting 3D Secure payment. Please wait..."
+msgstr "3D Secure makse alustamine. Palun oodake..."
+
+#: templates/form/resurs.liquid:26
+msgid "When you click the button below, the Resurs payment window will open."
+msgstr "Kui klõpsad alloleval nupul avaneb Resurs makse aken."
 
 #: templates/form/sofort_ideal.liquid:16
 #: templates/form/mobilepay_online.liquid:8 templates/form/vippspsp.liquid:8
@@ -320,12 +328,7 @@ msgstr "Allpool asuvale nupule klõpsates avaneb iDeali makseaken."
 #: templates/form/mobilepay_subscriptions.liquid:13
 #, fuzzy
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
-msgstr ""
-"Alloleval nupul klõpsates avaneb MobilePay \n"
-"\n"
-"* tellimuste aken\n"
-"* tellitud teenuste aken (aken tellitud teenustega)?\n"
-"* (tellitud) paketid?"
+msgstr "Alloleval nupul klõpsates avaneb MobilePay Paketi aken."
 
 #: templates/form/unzer_pay_later_invoice.liquid:16
 #: templates/form/unzer_pay_later_direct_debit.liquid:15
