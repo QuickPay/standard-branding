@@ -18,6 +18,69 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Poedit 2.0.6\n"
 
+#: templates/success.liquid:8
+msgid "You have completed the payout"
+msgstr "Vyplatenie prebehlo úspešne"
+
+#: templates/success.liquid:10
+#, fuzzy
+msgid "You have saved the card"
+msgstr "Zrušili ste platbu"
+
+#: templates/success.liquid:12
+#, fuzzy
+msgid "You have completed the subscription"
+msgstr "Vyplatenie prebehlo úspešne"
+
+#: templates/success.liquid:14
+msgid "You have completed the payment"
+msgstr "Platba bola úspešne vykonaná"
+
+#: templates/error.liquid:9
+msgid "The order is already paid."
+msgstr "Táto objednávka je už vyplatená."
+
+#: templates/error.liquid:11
+msgid "Continue to the shop"
+msgstr "Pokračovať v nákupe"
+
+#: templates/error.liquid:13
+msgid "An unknown error happened."
+msgstr "Vyskytla sa neznáma chyba."
+
+#: templates/error.liquid:13 templates/error.liquid:17
+#: templates/form/error.liquid:14
+msgid "Please try again."
+msgstr "Prosím, skúste to znovu."
+
+#: templates/error.liquid:15
+msgid "Unable to complete payment"
+msgstr "Nepodarilo sa vykonať platbu"
+
+#: templates/error.liquid:17 templates/error.liquid:19
+msgid "3D Secure authorization failed."
+msgstr "3D Secure autorizácia zlyhala."
+
+#: templates/error.liquid:19 templates/error.liquid:21
+msgid "Please try again or select another payment method."
+msgstr "Prosím, skúste to znovu alebo si vyberte iný spôsob platby."
+
+#: templates/error.liquid:21
+msgid "3D Secure enrollment failed."
+msgstr "Zápis 3D Secure sa nepodarilo uskutočniť."
+
+#: templates/error.liquid:23
+msgid "The payment details have changed since you initiated the payment."
+msgstr "Kým ste vykonali platbu, údaje o platbe sa zmenili."
+
+#: templates/error.liquid:25
+msgid "Click here to start over"
+msgstr "Ak chcete začať znovu, kliknite sem"
+
+#: templates/error.liquid:36
+msgid "Try again"
+msgstr "Skúste to znovu"
+
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
 msgstr "Ostatné metódy platby"
@@ -25,6 +88,19 @@ msgstr "Ostatné metódy platby"
 #: templates/form.liquid:16
 msgid "Cards"
 msgstr "Karty"
+
+#: templates/cancelled.liquid:7
+msgid "You have cancelled the payment"
+msgstr "Zrušili ste platbu"
+
+#: templates/layout.liquid:22
+#, fuzzy
+msgid "You are about to abort the payment. Are you sure?"
+msgstr "Chystáte sa zrušiť platbu. Určite chcete pokračovať?"
+
+#: templates/layout.liquid:22
+msgid "Cancel Payment"
+msgstr "Zrušiť platbu"
 
 #: templates/waiting.liquid:8
 msgid "Open Swish App"
@@ -48,84 +124,88 @@ msgid "Please wait..."
 msgstr "Prosím, počkajte..."
 
 #: templates/waiting.liquid:24
-msgid "The process may take up to 5 minutes."
+#, fuzzy
+msgid "The process may take some time."
 msgstr "Tento proces môže trvať až 5 minút."
 
 #: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Ak proces bude trvať príliš dlho, kliknite sem"
 
-#: templates/form/3d_secure.liquid:13
-msgid "Starting 3D Secure payment. Please wait..."
-msgstr "Inicializuje sa 3D Secure platba. Prosím, počkajte..."
-
-#: templates/form/resurs.liquid:26
-#, fuzzy
-msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Trustly."
-
-#: templates/form/resurs.liquid:27 templates/form/sofort_ideal.liquid:16
-#: templates/form/paysafecard.liquid:12 templates/form/trustly.liquid:10
-#: templates/form/vipps.liquid:14 templates/form/paypal.liquid:12
-#: templates/form/bitcoin.liquid:28
-#: templates/form/mobilepay_subscriptions.liquid:11
-#: templates/form/trustly_ideal.liquid:10 templates/form/viabill.liquid:12
-#: templates/form/sofort.liquid:9 templates/form/klarnapayments.liquid:10
-#: templates/form/mobilepay.liquid:14
-msgid "When finished, you will be redirected back to your receipt."
-msgstr "Na konci vás presmerujeme späť na stránku s potvrdenkou."
-
-#: templates/form/resurs.liquid:28 templates/form/sofort_ideal.liquid:17
-#: templates/form/paysafecard.liquid:13 templates/form/trustly.liquid:11
-#: templates/form/vipps.liquid:15 templates/form/swipp.liquid:9
-#: templates/form/paypal.liquid:13
-#: templates/form/mobilepay_subscriptions.liquid:12
-#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
-#: templates/form/sofort.liquid:10 templates/form/klarnapayments.liquid:11
-#: templates/form/mobilepay.liquid:15
-msgid "Proceed to payment"
-msgstr "Prejsť na platbu"
-
 #: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
 #, fuzzy
 msgid "When you click the button below, the iDeal payment window will open."
 msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
 
+#: templates/form/sofort_ideal.liquid:16
+#: templates/form/mobilepay_online.liquid:8 templates/form/vippspsp.liquid:8
+#: templates/form/paysafecard.liquid:12 templates/form/bitcoin.liquid:28
+#: templates/form/bancontact.liquid:14 templates/form/viabill.liquid:12
+#: templates/form/klarnapayments.liquid:10 templates/form/przelewy24.liquid:14
+#: templates/form/trustly_ideal.liquid:10 templates/form/mobilepay.liquid:14
+#: templates/form/blik.liquid:14 templates/form/wechat.liquid:14
+#: templates/form/mobilepay_subscriptions.liquid:14
+#: templates/form/trustly.liquid:10 templates/form/resurs.liquid:27
+#: templates/form/sofort.liquid:9 templates/form/paypal.liquid:12
+#: templates/form/vipps.liquid:14 templates/form/anydaysplit.liquid:13
+#: templates/form/sofortppro.liquid:14
+msgid "When finished, you will be redirected back to your receipt."
+msgstr "Na konci vás presmerujeme späť na stránku s potvrdenkou."
+
+#: templates/form/sofort_ideal.liquid:17
+#: templates/form/mobilepay_online.liquid:9 templates/form/vippspsp.liquid:9
+#: templates/form/paysafecard.liquid:13 templates/form/bancontact.liquid:15
+#: templates/form/viabill.liquid:13 templates/form/klarnapayments.liquid:11
+#: templates/form/przelewy24.liquid:15 templates/form/trustly_ideal.liquid:11
+#: templates/form/mobilepay.liquid:15 templates/form/blik.liquid:15
+#: templates/form/wechat.liquid:15
+#: templates/form/mobilepay_subscriptions.liquid:15
+#: templates/form/trustly.liquid:11 templates/form/resurs.liquid:28
+#: templates/form/sofort.liquid:10 templates/form/paypal.liquid:13
+#: templates/form/swipp.liquid:9 templates/form/vipps.liquid:15
+#: templates/form/anydaysplit.liquid:14 templates/form/sofortppro.liquid:15
+msgid "Proceed to payment"
+msgstr "Prejsť na platbu"
+
 #: templates/form/sofort_ideal.liquid:32
 msgid "Bank"
 msgstr ""
 
-#: templates/form/sofort_ideal.liquid:43 templates/form/trustly.liquid:40
-#: templates/form/klarna.liquid:102 templates/form/trustly_ideal.liquid:40
-#: templates/form/swish.liquid:19 templates/form_dankort_acs.liquid:35
+#: templates/form/sofort_ideal.liquid:43 templates/form/klarna.liquid:102
+#: templates/form/trustly_ideal.liquid:40
+#: templates/form/unzer_pay_later_invoice.liquid:52
+#: templates/form/swish.liquid:29 templates/form/trustly.liquid:40
+#: templates/form/unzer_pay_later_direct_debit.liquid:65
+#: templates/form_dankort_acs.liquid:28
 msgid "Proceed"
 msgstr "Pokračovať"
+
+#: templates/form/mobilepay_online.liquid:7
+#, fuzzy
+msgid "When you click the button below, the MobilePay Online window will open"
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami MobilePay."
+
+#: templates/form/error.liquid:14
+msgid "An error happened."
+msgstr "Vyskytla sa chyba."
+
+#: templates/form/error.liquid:16
+msgid "You tried to make a live payment on a test transaction."
+msgstr "Pokúsili ste sa vykonať reálnu platbu skúšobným prevodom."
+
+#: templates/form/error.liquid:18
+msgid "You tried to make a test payment on a live transaction."
+msgstr "Pokúsili ste sa vykonať skúšobnú platbu reálnym prevodom."
+
+#: templates/form/vippspsp.liquid:7
+#, fuzzy
+msgid "When you click the button below, the Vipps PSP window will open"
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
 
 #: templates/form/paysafecard.liquid:11
 #, fuzzy
 msgid "When you click the button below, the paysafecard payment window will open."
 msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
-
-#: templates/form/trustly.liquid:9
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Trustly."
-
-#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
-msgid "First name"
-msgstr "Meno"
-
-#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
-msgid "Last name"
-msgstr "Priezvisko"
-
-#: templates/form/vipps.liquid:13
-#, fuzzy
-msgid "When you click the button below, the Vipps payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
-
-#: templates/form/swipp.liquid:3
-msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Swipp. Na konci vás presmerujeme späť na stránku s potvrdenkou."
 
 #: templates/form/klarna.liquid:24
 msgid "Gender"
@@ -179,10 +259,6 @@ msgstr "Číslo sociálneho poistenia"
 msgid "Company Registration Number"
 msgstr "Registračné číslo spoločnosti"
 
-#: templates/form/paypal.liquid:11
-msgid "When you click the button below, the PayPal payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
-
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
 msgstr "Bitcoin adresa bola skopírovaná do vašej schránky."
@@ -195,39 +271,109 @@ msgstr "Nepodarilo sa skopírovať Bitcoin adresu do vašej schránky"
 msgid "Open in wallet"
 msgstr "Otvoriť v peňaženke"
 
-#: templates/form/mobilepay_subscriptions.liquid:10
+#: templates/form/bancontact.liquid:13
 #, fuzzy
-msgid "When you click the button below, the MobilePay Subscriptions window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami MobilePay."
-
-#: templates/form/swish.liquid:12
-msgid "Mobile number"
-msgstr "Mobilné číslo"
+msgid "When you click the button below, the Bancontact payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
 
+#: templates/form/klarnapayments.liquid:9
+#, fuzzy
+msgid "When you click the button below, the Klarna payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
+
+#: templates/form/3d_secure.liquid:13
+msgid "Starting 3D Secure payment. Please wait..."
+msgstr "Inicializuje sa 3D Secure platba. Prosím, počkajte..."
+
+#: templates/form/przelewy24.liquid:13
+#, fuzzy
+msgid "When you click the button below, the Przelewy24 payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Trustly."
+
+#: templates/form/trustly_ideal.liquid:26
+#: templates/form/unzer_pay_later_invoice.liquid:22
+#: templates/form/trustly.liquid:26
+#: templates/form/unzer_pay_later_direct_debit.liquid:21
+msgid "First name"
+msgstr "Meno"
+
+#: templates/form/trustly_ideal.liquid:33
+#: templates/form/unzer_pay_later_invoice.liquid:28
+#: templates/form/trustly.liquid:33
+#: templates/form/unzer_pay_later_direct_debit.liquid:27
+msgid "Last name"
+msgstr "Priezvisko"
+
+#: templates/form/mobilepay.liquid:13
+msgid "When you click the button below, the MobilePay payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami MobilePay."
+
+#: templates/form/blik.liquid:13
+#, fuzzy
+msgid "When you click the button below, the BLIK payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
+
+#: templates/form/wechat.liquid:13
+#, fuzzy
+msgid "When you click the button below, the WeChat payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
+
+#: templates/form/mobilepay_subscriptions.liquid:13
+#, fuzzy
+msgid "When you click the button below, the MobilePay Subscriptions window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami MobilePay."
+
+#: templates/form/unzer_pay_later_invoice.liquid:16
+#: templates/form/unzer_pay_later_direct_debit.liquid:15
+msgid "Email Address"
+msgstr ""
+
+#: templates/form/unzer_pay_later_invoice.liquid:34
+#: templates/form/unzer_pay_later_direct_debit.liquid:33
+msgid "Date of Birth"
+msgstr ""
+
+#: templates/form/unzer_pay_later_invoice.liquid:37
+#: templates/form/unzer_pay_later_direct_debit.liquid:36
+msgid "Invalid Date of Birth. You need to 18 or older"
+msgstr ""
+
+#: templates/form/swish.liquid:12
+msgid "Mobile number"
+msgstr "Mobilné číslo"
+
+#: templates/form/trustly.liquid:9
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Trustly."
+
+#: templates/form/resurs.liquid:26
+#, fuzzy
+msgid "When you click the button below, the Resurs payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Trustly."
+
 #: templates/form/sofort.liquid:8
 msgid "When you click the button below, the Sofort payment window will open."
 msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Sofort."
 
-#: templates/form/error.liquid:14
-msgid "An error happened."
-msgstr "Vyskytla sa chyba."
+#: templates/form/unzer_pay_later_direct_debit.liquid:42
+msgid "Bank account holder"
+msgstr ""
 
-#: templates/form/error.liquid:14 templates/error.liquid:13
-#: templates/error.liquid:17
-msgid "Please try again."
-msgstr "Prosím, skúste to znovu."
+#: templates/form/unzer_pay_later_direct_debit.liquid:48
+msgid "IBAN"
+msgstr ""
 
-#: templates/form/error.liquid:16
-msgid "You tried to make a live payment on a test transaction."
-msgstr "Pokúsili ste sa vykonať reálnu platbu skúšobným prevodom."
+#: templates/form/unzer_pay_later_direct_debit.liquid:51
+msgid "Invalid IBAN format. Only IBANs from Austria and Germany are accepted. The IBAN must start with the letters DE followed by 20 digits or letters AT followed by 18 digits."
+msgstr ""
 
-#: templates/form/error.liquid:18
-msgid "You tried to make a test payment on a live transaction."
-msgstr "Pokúsili ste sa vykonať skúšobnú platbu reálnym prevodom."
+#: templates/form/paypal.liquid:11
+msgid "When you click the button below, the PayPal payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
 
 #: templates/form/card.liquid:15
 msgid "Name on card"
@@ -265,59 +411,49 @@ msgstr "Zaplatiť"
 msgid "Create subscription"
 msgstr "Vytvoriť odber"
 
-#: templates/form/card.liquid:83
+#: templates/form/card.liquid:86
 msgid "Save card"
 msgstr "Uložiť kartu"
 
-#: templates/form/card.liquid:85
+#: templates/form/card.liquid:88
 msgid "Receive"
 msgstr "Prijať"
 
-#: templates/form/card.liquid:91
+#: templates/form/card.liquid:94
 msgid "Payment fee"
 msgstr "Poplatok za platbu"
 
-#: templates/form/card.liquid:91
+#: templates/form/card.liquid:94
 msgid "Fill in card number"
 msgstr "Zadajte číslo karty"
 
-#: templates/form/klarnapayments.liquid:9
+#: templates/form/swipp.liquid:3
+msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Swipp. Na konci vás presmerujeme späť na stránku s potvrdenkou."
+
+#: templates/form/vipps.liquid:13
 #, fuzzy
-msgid "When you click the button below, the Klarna payment window will open."
+msgid "When you click the button below, the Vipps payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
+
+#: templates/form/anydaysplit.liquid:12
+#, fuzzy
+msgid "When you click the button below, the Anyday split payment window will open."
 msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
 
-#: templates/form/mobilepay.liquid:13
-msgid "When you click the button below, the MobilePay payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami MobilePay."
-
-#: templates/cancelled.liquid:7
-msgid "You have cancelled the payment"
-msgstr "Zrušili ste platbu"
-
-#: templates/order_info.liquid:4
-msgid "Order number"
-msgstr "Číslo objednávky"
-
-#: templates/order_info.liquid:6
-msgid "expires in"
-msgstr "platnosť vyprší o"
-
-#: templates/success.liquid:8
-msgid "You have completed the payout"
-msgstr "Vyplatenie prebehlo úspešne"
-
-#: templates/success.liquid:10
-msgid "You have completed the payment"
-msgstr "Platba bola úspešne vykonaná"
-
-#: templates/layout.liquid:22
+#: templates/form/sofortppro.liquid:13
 #, fuzzy
-msgid "You are about to abort the payment. Are you sure?"
-msgstr "Chystáte sa zrušiť platbu. Určite chcete pokračovať?"
+msgid "When you click the button below, the SofortPPRO payment window will open."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Sofort."
 
-#: templates/layout.liquid:22
-msgid "Cancel Payment"
-msgstr "Zrušiť platbu"
+#: templates/form/3ds_auth.liquid:7
+#, fuzzy
+msgid "Running 3-D Secure checks. Please wait..."
+msgstr "Inicializuje sa 3D Secure platba. Prosím, počkajte..."
+
+#: templates/form_dankort_acs.liquid:4
+msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Dankort. Na konci vás presmerujeme na stránku s potvrdenkou."
 
 #: templates/deadline.liquid:7
 msgid "Order expired"
@@ -331,49 +467,13 @@ msgstr "Nedokončili ste nákup v požadovanom čase."
 msgid "Click here to continue"
 msgstr "Ak chcete pokračovať, kliknite sem"
 
-#: templates/error.liquid:9
-msgid "The order is already paid."
-msgstr "Táto objednávka je už vyplatená."
+#: templates/order_info.liquid:4
+msgid "Order number"
+msgstr "Číslo objednávky"
 
-#: templates/error.liquid:11
-msgid "Continue to the shop"
-msgstr "Pokračovať v nákupe"
-
-#: templates/error.liquid:13
-msgid "An unknown error happened."
-msgstr "Vyskytla sa neznáma chyba."
-
-#: templates/error.liquid:15
-msgid "Unable to complete payment"
-msgstr "Nepodarilo sa vykonať platbu"
-
-#: templates/error.liquid:17 templates/error.liquid:19
-msgid "3D Secure authorization failed."
-msgstr "3D Secure autorizácia zlyhala."
-
-#: templates/error.liquid:19 templates/error.liquid:21
-msgid "Please try again or select another payment method."
-msgstr "Prosím, skúste to znovu alebo si vyberte iný spôsob platby."
-
-#: templates/error.liquid:21
-msgid "3D Secure enrollment failed."
-msgstr "Zápis 3D Secure sa nepodarilo uskutočniť."
-
-#: templates/error.liquid:23
-msgid "The payment details have changed since you initiated the payment."
-msgstr "Kým ste vykonali platbu, údaje o platbe sa zmenili."
-
-#: templates/error.liquid:25
-msgid "Click here to start over"
-msgstr "Ak chcete začať znovu, kliknite sem"
-
-#: templates/error.liquid:36
-msgid "Try again"
-msgstr "Skúste to znovu"
-
-#: templates/form_dankort_acs.liquid:4
-msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Dankort. Na konci vás presmerujeme na stránku s potvrdenkou."
+#: templates/order_info.liquid:6
+msgid "expires in"
+msgstr "platnosť vyprší o"
 
 #~ msgid "Email"
 #~ msgstr "E-mailová adresa"
