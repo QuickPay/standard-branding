@@ -38,15 +38,12 @@
             {% endif %}
           </div>
         </div>
-        <div class="form-group">
-          <div class="col-xs-2">
+        <div class="checkbox">
+          <label for="user_consent">
             <input type="checkbox" id="user_consent" name="user_consent" required>
-          </div>
-          <div class="col-xs-10">
-            <label for="user_consent" class="control-label">{{ model.identity_consent }}</label>
-          </div>
+            <b>{{ model.identity_consent }}</b>
+          </label>
         </div>
-
         <div class="form-group">
           <div class="col-xs-12">
             <button type="submit" class="btn btn-info btn">{% t Proceed %}</button>
