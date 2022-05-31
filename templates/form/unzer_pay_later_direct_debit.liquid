@@ -41,9 +41,21 @@
         <div class="form-group">
           <div class="col-xs-12">
             <label for="person_bank_account_holder" class="control-label">{% t Bank account holder %}</label>
-            <input type="text" id="person_bank_account_holder" name="person[bank_account_holder]" class="form-control" value="{{ model.invoice_address.name }}" autocomplete="on" required pattern="^(?:\D+)\s(?:\D+\s?)+">
-            <span class="help-block{% if model.invalid_bah? != true %} hidden{% endif %}">
-              {% t Invalid name format. You need to have at least two words and no numbers %}
+            <input
+              type="text"
+              id="person_bank_account_holder"
+              name="person[bank_account_holder]"
+              class="form-control"
+              value="{{ model.invoice_address.name }}"
+              autocomplete="on"
+              required
+              pattern="^[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s(?:[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s?)+$"
+            >
+            <span id="invalid_bah" class="help-block{% if model.invalid_bah? != true %} hidden{% endif %}">
+              {% t Invalid name format. You need to have at least two words and no numbers or symbols %}
+            </span>
+            <span id="single_bah" class="help-block hidden">
+              {% t Enter full name (e.g. John Smith) %}
             </span>
             
           </div>
