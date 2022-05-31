@@ -52,7 +52,7 @@
               pattern="^[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s(?:[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s?)+$"
             >
             <span id="invalid_bah" class="help-block{% if model.invalid_bah? != true %} hidden{% endif %}">
-              {% t Invalid name format. You need to have at least two words and no numbers or symbols %}
+              {% t Invalid name format. Only letters are accepted. %}
             </span>
             <span id="single_bah" class="help-block hidden">
               {% t Enter full name (e.g. John Smith) %}
