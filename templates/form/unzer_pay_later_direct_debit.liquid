@@ -2,6 +2,7 @@
   <form class="form-horizontal" method="post" autocomplete="off" action="process_unzer_pay_later">
     <input type="hidden" name="session_id" value="{{ model.session_id }}" />
     <input type="hidden" name="upl_session_id" value="{{ model.upl_session_id }}" />
+    <div id="required_text" class="hidden">{% t This field is required. %}</div>
     <div class="row">
       <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
           <img src="/assets/v2/images/brands/unzer-pay-later-direct_debit.svg" alt="Unzer Pay Later" title="Unzer Pay Later Direct Debit" style="width:100%">
@@ -32,24 +33,40 @@
           <div class="col-xs-12">
             <label for="person_dob" class="control-label">{% t Date of Birth %}</label>
             <input type="date" id="person_dob" name="person[dob]" class="form-control" required>
-            {% if model.invalid_dob? %}
-              <span class="help-block">{% t Invalid Date of Birth. You need to be 18 years old or older %}</span>
-            {% endif %}
+            <span class="help-block{% if model.invalid_dob? != true %} hidden{% endif %}">
+              {% t The age must be at least 18 %}
+            </span>
           </div>
         </div>
         <div class="form-group">
           <div class="col-xs-12">
             <label for="person_bank_account_holder" class="control-label">{% t Bank account holder %}</label>
-            <input type="text" id="person_bank_account_holder" name="person[bank_account_holder]" class="form-control" value="{{ model.invoice_address.name }}" autocomplete="on" required>
+            <input
+              type="text"
+              id="person_bank_account_holder"
+              name="person[bank_account_holder]"
+              class="form-control"
+              value="{{ model.invoice_address.name }}"
+              autocomplete="on"
+              required
+              pattern="^[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s(?:[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s?)+$"
+            >
+            <span id="invalid_bah" class="help-block{% if model.invalid_bah? != true %} hidden{% endif %}">
+              {% t Invalid name format. Only letters are accepted. %}
+            </span>
+            <span id="single_bah" class="help-block hidden">
+              {% t Enter full name (e.g. John Smith) %}
+            </span>
+            
           </div>
         </div>
         <div class="form-group{% if model.invalid_iban? %} has-error{% endif %}">
           <div class="col-xs-12">
             <label for="person_iban" class="control-label">{% t IBAN %}</label>
             <input type="text" id="person_iban" name="person[iban]" class="form-control" autocomplete="on" required>
-            {% if model.invalid_iban? %}
-              <span class="help-block">{% t Invalid IBAN format. Only IBANs from Austria and Germany are accepted. The IBAN must start with the letters DE followed by 20 digits or letters AT followed by 18 digits. %}
-            {% endif %}
+            <span class="help-block{% if model.invalid_iban? != true %} hidden{% endif %}">
+              {% t Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90) %}
+            </span>
           </div>
         </div>
         <div class="checkbox">
