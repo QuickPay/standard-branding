@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2022-05-18 09:30+0000\n"
+"PO-Revision-Date: 2022-06-02 08:33+0000\n"
 "Last-Translator: Kristian <kgb@quickpay.net>\n"
-"Language-Team: German <https://translate.quickpay.net/projects/quickpay/standard-branding/de/>\n"
+"Language-Team: German <https://translate.quickpay.net/projects/quickpay/"
+"standard-branding/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -315,7 +316,7 @@ msgstr "Wenn Sie auf die Schaltfläche unten klicken, öffnet sich das Zahlungsf
 #: templates/form/unzer_pay_later_invoice.liquid:5
 #: templates/form/unzer_pay_later_direct_debit.liquid:5
 msgid "This field is required."
-msgstr ""
+msgstr "Dieses Feld ist erforderlich."
 
 #: templates/form/unzer_pay_later_invoice.liquid:17
 #: templates/form/unzer_pay_later_direct_debit.liquid:16
@@ -330,7 +331,7 @@ msgstr "Geburtsdatum"
 #: templates/form/unzer_pay_later_invoice.liquid:38
 #: templates/form/unzer_pay_later_direct_debit.liquid:37
 msgid "The age must be at least 18"
-msgstr ""
+msgstr "Das Alter muss mindestens 18 Jahre betragen"
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -354,11 +355,11 @@ msgstr "Kontoinhaber"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:55
 msgid "Invalid name format. Only letters are accepted."
-msgstr ""
+msgstr "Ungültiges Namensformat. Es werden nur Buchstaben akzeptiert."
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:58
 msgid "Enter full name (e.g. John Smith)"
-msgstr ""
+msgstr "Vollständigen Namen eingeben (z.B. Max Mustermann)"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:65
 msgid "IBAN"
@@ -367,6 +368,8 @@ msgstr "IBAN"
 #: templates/form/unzer_pay_later_direct_debit.liquid:68
 msgid "Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90)"
 msgstr ""
+"Ungültiges IBAN-Format. Gebe eine gültige IBAN ein (z.B. DE 12 1001 1001 "
+"1234 5678 90)"
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
