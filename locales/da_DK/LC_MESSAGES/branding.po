@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
 "PO-Revision-Date: 2022-05-18 09:31+0000\n"
 "Last-Translator: Kristian <kgb@quickpay.net>\n"
-"Language-Team: Danish <https://translate.quickpay.net/projects/quickpay/"
-"standard-branding/da/>\n"
+"Language-Team: Danish <https://translate.quickpay.net/projects/quickpay/standard-branding/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -168,9 +167,9 @@ msgstr "Bank"
 
 #: templates/form/sofort_ideal.liquid:43 templates/form/klarna.liquid:102
 #: templates/form/trustly_ideal.liquid:40
-#: templates/form/unzer_pay_later_invoice.liquid:52
+#: templates/form/unzer_pay_later_invoice.liquid:50
 #: templates/form/swish.liquid:29 templates/form/trustly.liquid:40
-#: templates/form/unzer_pay_later_direct_debit.liquid:65
+#: templates/form/unzer_pay_later_direct_debit.liquid:82
 #: templates/form_dankort_acs.liquid:28
 msgid "Proceed"
 msgstr "Fortsæt"
@@ -284,16 +283,16 @@ msgid "When you click the button below, the Przelewy24 payment window will open.
 msgstr "Przelewy24 betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/trustly_ideal.liquid:26
-#: templates/form/unzer_pay_later_invoice.liquid:22
+#: templates/form/unzer_pay_later_invoice.liquid:23
 #: templates/form/trustly.liquid:26
-#: templates/form/unzer_pay_later_direct_debit.liquid:21
+#: templates/form/unzer_pay_later_direct_debit.liquid:22
 msgid "First name"
 msgstr "Fornavn"
 
 #: templates/form/trustly_ideal.liquid:33
-#: templates/form/unzer_pay_later_invoice.liquid:28
+#: templates/form/unzer_pay_later_invoice.liquid:29
 #: templates/form/trustly.liquid:33
-#: templates/form/unzer_pay_later_direct_debit.liquid:27
+#: templates/form/unzer_pay_later_direct_debit.liquid:28
 msgid "Last name"
 msgstr "Efternavn"
 
@@ -313,20 +312,25 @@ msgstr "WeChat betalingsvinduet åbner, når du klikker på knappen herunder."
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
 msgstr "MobilePay Subscriptions betalingsvinduet åbner, når du klikker på knappen herunder."
 
-#: templates/form/unzer_pay_later_invoice.liquid:16
-#: templates/form/unzer_pay_later_direct_debit.liquid:15
+#: templates/form/unzer_pay_later_invoice.liquid:5
+#: templates/form/unzer_pay_later_direct_debit.liquid:5
+msgid "This field is required."
+msgstr ""
+
+#: templates/form/unzer_pay_later_invoice.liquid:17
+#: templates/form/unzer_pay_later_direct_debit.liquid:16
 msgid "Email Address"
 msgstr "E-mailadresse"
 
-#: templates/form/unzer_pay_later_invoice.liquid:34
-#: templates/form/unzer_pay_later_direct_debit.liquid:33
+#: templates/form/unzer_pay_later_invoice.liquid:35
+#: templates/form/unzer_pay_later_direct_debit.liquid:34
 msgid "Date of Birth"
 msgstr "Fødselsdato"
 
-#: templates/form/unzer_pay_later_invoice.liquid:37
-#: templates/form/unzer_pay_later_direct_debit.liquid:36
-msgid "Invalid Date of Birth. You need to 18 or older"
-msgstr "Ugyldig fødselsdato. Du skal være 18 år eller ældre"
+#: templates/form/unzer_pay_later_invoice.liquid:38
+#: templates/form/unzer_pay_later_direct_debit.liquid:37
+msgid "The age must be at least 18"
+msgstr ""
 
 #: templates/form/swish.liquid:12
 msgid "Mobile number"
@@ -344,20 +348,25 @@ msgstr "Resurs betalingsvinduet åbner, når du klikker på knappen herunder."
 msgid "When you click the button below, the Sofort payment window will open."
 msgstr "Sofort betalingsvinduet åbner, når du klikker på knappen herunder."
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:42
+#: templates/form/unzer_pay_later_direct_debit.liquid:43
 msgid "Bank account holder"
 msgstr "Bankkontoindehaver"
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:48
+#: templates/form/unzer_pay_later_direct_debit.liquid:55
+msgid "Invalid name format. Only letters are accepted."
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:58
+msgid "Enter full name (e.g. John Smith)"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:65
 msgid "IBAN"
 msgstr "IBAN"
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:51
-msgid "Invalid IBAN format. Only IBANs from Austria and Germany are accepted. The IBAN must start with the letters DE followed by 20 digits or letters AT followed by 18 digits."
+#: templates/form/unzer_pay_later_direct_debit.liquid:68
+msgid "Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90)"
 msgstr ""
-"Ugyldigt IBAN format. Kun IBANs fra Østrig eller Tyskland er accepteret. "
-"IBAN skal starte med DE og efterfulgt af 20 tal, eller starte med AT og "
-"følges af 18 tal."
 
 #: templates/form/paypal.liquid:11
 msgid "When you click the button below, the PayPal payment window will open."
@@ -458,6 +467,12 @@ msgstr "Ordrenummer"
 #: templates/order_info.liquid:6
 msgid "expires in"
 msgstr "udløber om"
+
+#~ msgid "Invalid Date of Birth. You need to 18 or older"
+#~ msgstr "Ugyldig fødselsdato. Du skal være 18 år eller ældre"
+
+#~ msgid "Invalid IBAN format. Only IBANs from Austria and Germany are accepted. The IBAN must start with the letters DE followed by 20 digits or letters AT followed by 18 digits."
+#~ msgstr "Ugyldigt IBAN format. Kun IBANs fra Østrig eller Tyskland er accepteret. IBAN skal starte med DE og efterfulgt af 20 tal, eller starte med AT og følges af 18 tal."
 
 #~ msgid "Email"
 #~ msgstr "Email"

@@ -172,9 +172,9 @@ msgstr "Bank"
 
 #: templates/form/sofort_ideal.liquid:43 templates/form/klarna.liquid:102
 #: templates/form/trustly_ideal.liquid:40
-#: templates/form/unzer_pay_later_invoice.liquid:52
+#: templates/form/unzer_pay_later_invoice.liquid:50
 #: templates/form/swish.liquid:29 templates/form/trustly.liquid:40
-#: templates/form/unzer_pay_later_direct_debit.liquid:65
+#: templates/form/unzer_pay_later_direct_debit.liquid:82
 #: templates/form_dankort_acs.liquid:28
 msgid "Proceed"
 msgstr "Kontynuuj"
@@ -293,16 +293,16 @@ msgid "When you click the button below, the Przelewy24 payment window will open.
 msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności Trustly."
 
 #: templates/form/trustly_ideal.liquid:26
-#: templates/form/unzer_pay_later_invoice.liquid:22
+#: templates/form/unzer_pay_later_invoice.liquid:23
 #: templates/form/trustly.liquid:26
-#: templates/form/unzer_pay_later_direct_debit.liquid:21
+#: templates/form/unzer_pay_later_direct_debit.liquid:22
 msgid "First name"
 msgstr "Imię"
 
 #: templates/form/trustly_ideal.liquid:33
-#: templates/form/unzer_pay_later_invoice.liquid:28
+#: templates/form/unzer_pay_later_invoice.liquid:29
 #: templates/form/trustly.liquid:33
-#: templates/form/unzer_pay_later_direct_debit.liquid:27
+#: templates/form/unzer_pay_later_direct_debit.liquid:28
 msgid "Last name"
 msgstr "Nazwisko"
 
@@ -325,19 +325,24 @@ msgstr "Po kliknięciu poniższego przycisku otworzy się okno płatności iDeal
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
 msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności MobilePay."
 
-#: templates/form/unzer_pay_later_invoice.liquid:16
-#: templates/form/unzer_pay_later_direct_debit.liquid:15
+#: templates/form/unzer_pay_later_invoice.liquid:5
+#: templates/form/unzer_pay_later_direct_debit.liquid:5
+msgid "This field is required."
+msgstr ""
+
+#: templates/form/unzer_pay_later_invoice.liquid:17
+#: templates/form/unzer_pay_later_direct_debit.liquid:16
 msgid "Email Address"
 msgstr ""
 
-#: templates/form/unzer_pay_later_invoice.liquid:34
-#: templates/form/unzer_pay_later_direct_debit.liquid:33
+#: templates/form/unzer_pay_later_invoice.liquid:35
+#: templates/form/unzer_pay_later_direct_debit.liquid:34
 msgid "Date of Birth"
 msgstr ""
 
-#: templates/form/unzer_pay_later_invoice.liquid:37
-#: templates/form/unzer_pay_later_direct_debit.liquid:36
-msgid "Invalid Date of Birth. You need to 18 or older"
+#: templates/form/unzer_pay_later_invoice.liquid:38
+#: templates/form/unzer_pay_later_direct_debit.liquid:37
+msgid "The age must be at least 18"
 msgstr ""
 
 #: templates/form/swish.liquid:12
@@ -356,16 +361,24 @@ msgstr "Po kliknięciu poniższego przycisku otworzy się okno płatności Resur
 msgid "When you click the button below, the Sofort payment window will open."
 msgstr "Po kliknięciu poniższego przycisku, otworzy się okno płatności Sofort."
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:42
+#: templates/form/unzer_pay_later_direct_debit.liquid:43
 msgid "Bank account holder"
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:48
+#: templates/form/unzer_pay_later_direct_debit.liquid:55
+msgid "Invalid name format. Only letters are accepted."
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:58
+msgid "Enter full name (e.g. John Smith)"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:65
 msgid "IBAN"
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:51
-msgid "Invalid IBAN format. Only IBANs from Austria and Germany are accepted. The IBAN must start with the letters DE followed by 20 digits or letters AT followed by 18 digits."
+#: templates/form/unzer_pay_later_direct_debit.liquid:68
+msgid "Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90)"
 msgstr ""
 
 #: templates/form/paypal.liquid:11
