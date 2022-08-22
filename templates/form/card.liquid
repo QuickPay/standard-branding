@@ -10,12 +10,14 @@
 
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
         {% if config.enable_card_holder_field %}
-          <div class="form-group">
-            <div class="col-xs-12">
-              <label for="cardholder" class="control-label">{% t Name on card %}</label>
-              <input type="text" id="cardholder" name="cardholder" class="form-control" autocomplete="cc-name" autofocus="autofocus" {% if config.enable_prefill_name %}value="{{ model.name_on_card }}"{% endif %}>
+          {% unless config.moto %}
+            <div class="form-group">
+              <div class="col-xs-12">
+                <label for="cardholder" class="control-label">{% t Name on card %}</label>
+                <input type="text" id="cardholder" name="cardholder" class="form-control" autocomplete="cc-name" autofocus="autofocus" {% if config.enable_prefill_name %}value="{{ model.name_on_card }}"{% endif %}>
+              </div>
             </div>
-          </div>
+          {% endunless %}
         {% endif %}
 
         <div class="form-group has-feedback">
@@ -45,11 +47,14 @@
           </div>
 
           <div class="col-xs-6">
-            <label for="cvd" id="cvd-label" class="control-label">CVV/CVD</label> <img class="icon clickable" style="margin-bottom: 3px" src="{{ images.question-circle.svg }}" alt="CVV/CVD" data-toggle="#cvd-help">
-            <input type="tel" id="cvd" name="cvd" class="form-control" autocomplete="cc-csc" aria-describedby="cvd" maxlength="4" pattern="[0-9]*" data-mask="9999" inputmode="numeric">
-            <span id="cvd-check" class="form-control-feedback" aria-hidden="true" style="display: none"><img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark"></span>
-            <span id="cvd-sr" class="sr-only">(success)</span>
+            {% unless config.moto %}
+              <label for="cvd" id="cvd-label" class="control-label">CVV/CVD</label> <img class="icon clickable" style="margin-bottom: 3px" src="{{ images.question-circle.svg }}" alt="CVV/CVD" data-toggle="#cvd-help">
+              <input type="tel" id="cvd" name="cvd" class="form-control" autocomplete="cc-csc" aria-describedby="cvd" maxlength="4" pattern="[0-9]*" data-mask="9999" inputmode="numeric">
+              <span id="cvd-check" class="form-control-feedback" aria-hidden="true" style="display: none"><img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark"></span>
+              <span id="cvd-sr" class="sr-only">(success)</span>
+            {% endunless config.moto %}
           </div>
+          
         </div>
 
         <div id="cvd-help" class="text-center bubble bubble-cvd">
