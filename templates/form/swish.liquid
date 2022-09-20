@@ -8,7 +8,19 @@
 
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
         <div class="form-group">
-          <div class="col-xs-12">
+
+          <div class="col-xs-5">
+            <label for="swish-country-select" class="control-label">{% t Country %}</label>
+            <select id="swish-country-select" class="form-control" style= "height: 40px !important;">
+              <option value="45">🇩🇰 +45</option>
+              <option value="46">🇸🇪 +46</option>
+              <option value="47">🇳🇴 +47</option>
+              <option value="49">🇩🇪 +49</option>
+              <option value="358">🇫🇮 +358</option>
+            </select>
+          </div>
+
+          <div class="col-xs-7">
             <label for="mobile" class="control-label">{% t Mobile number %}</label>
             <input
               type="tel"
