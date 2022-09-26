@@ -1,5 +1,5 @@
 <div class="container">
-  <form class="form-horizontal" method="post" autocomplete="on" action="process_swish">
+  <form class="form-horizontal" method="post" autocomplete="on" action="process_swish" id="swishform">
     <input type="hidden" name="session_id" value="{{ model.session_id }}" />
     <div class="row">
       <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
@@ -10,16 +10,36 @@
         <div class="form-group">
 
           <div class="col-xs-5">
-            <label for="swish-country-select" class="control-label">{% t Country %}</label>
-            <select id="swish-country-select" class="form-control" style= "height: 40px !important;">
-              <option value="45">🇩🇰 +45</option>
-              <option value="46">🇸🇪 +46</option>
-              <option value="47">🇳🇴 +47</option>
-              <option value="49">🇩🇪 +49</option>
-              <option value="358">🇫🇮 +358</option>
+            <label for="swish-country-select" class="control-label" >{% t Country %}</label>
+            <select id="swish-country-select" class="form-control" name="country_code" form="swishform" style= "height: 40px !important;">
+              <option value=""> - Select - </option>
+              {% for country_code in model.country_codes %}
+                  <option value="{{ country_code }}" {% if model.mobile_number_first_2 == country_code || model.mobile_number_first_3 == country_code %}selected{% endif %}>
+                    {% case country_code %}
+                    {% when '31' %}
+                      {% t 🇳🇱 +31 %}
+                    {% when '41' %}
+                      {% t 🇨🇭 +41 %}
+                    {% when '43' %}
+                      {% t 🇦🇹 +43 %}
+                    {% when '44' %}
+                      {% t 🇬🇧 +44 %}
+                    {% when '45' %}
+                      {% t 🇩🇰 +45 %}
+                    {% when '46' %}
+                      {% t 🇸🇪 +46 %}
+                    {% when '47' %}
+                      {% t 🇳🇴 +47 %}
+                    {% when '49' %}
+                      {% t 🇩🇪 +49 %}
+                    {% when '358' %}
+                      {% t 🇫🇮 +358 %}
+                    {% endcase %}
+                  </option>
+                {% endfor %}
             </select>
           </div>
-
+          
           <div class="col-xs-7">
             <label for="mobile" class="control-label">{% t Mobile number %}</label>
             <input
@@ -28,7 +48,7 @@
               name="mobile"
               class="form-control"
               autocomplete="tel"
-              pattern="^\s*(?:\+?(\d{1,9}))?[-. (]*[0-9\s]*"
+              pattern="^\s*(?:\+?(\d{1,9}))?[-. (]*[0-14\s]*"
               inputmode="numeric"
               value="{{ model.mobile_number }}"
               placeholder="07XXXXXX"
