@@ -14,7 +14,7 @@
             <select id="swish-country-select" class="form-control" name="country_code" style= "height: 40px !important;">
               <option value=""> - Select - </option>
               {% for country_code in model.country_codes %}
-                  <option value="{{ country_code }}" {% if model.mobile_number_first_2 == country_code || model.mobile_number_first_3 == country_code %}selected{% endif %}>
+                  <option value="{{ country_code }}" {% if model.country_codes_in_number contains country_code %}selected{% endif %}>
                     {% case country_code %}
                     {% when '31' %}
                       {% t 🇳🇱 +31 %}
