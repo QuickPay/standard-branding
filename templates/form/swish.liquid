@@ -1,5 +1,5 @@
 <div class="container">
-  <form class="form-horizontal" method="post" autocomplete="on" action="process_swish" id="swishform">
+  <form class="form-horizontal" method="post" autocomplete="on" action="process_swish">
     <input type="hidden" name="session_id" value="{{ model.session_id }}" />
     <div class="row">
       <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
@@ -11,7 +11,7 @@
 
           <div class="col-xs-5">
             <label for="swish-country-select" class="control-label" >{% t Country %}</label>
-            <select id="swish-country-select" class="form-control" name="country_code" form="swishform" style= "height: 40px !important;">
+            <select id="swish-country-select" class="form-control" name="country_code" style= "height: 40px !important;">
               <option value=""> - Select - </option>
               {% for country_code in model.country_codes %}
                   <option value="{{ country_code }}" {% if model.mobile_number_first_2 == country_code || model.mobile_number_first_3 == country_code %}selected{% endif %}>
