@@ -8,10 +8,10 @@
       </div>
 
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
-        <div class="form-group{% if model.invalid_number? %} has-error{% endif %}">
+        <div class="form-group{% if model.invalid_number? or model.country_not_chosen? %} has-error{% endif %}">
           <div class="col-xs-5">
             <label for="swish-country-select" class="control-label" >{% t Country %}</label>
-            <select id="swish-country-select" class="form-control" name="country_code" style= "height: 40px !important;">
+            <select id="swish-country-select" class="form-control" name="country_code" style= "height: 40px !important;" required>
               <option value=""> - Select - </option>
               {% for country_code in model.country_codes %}
                   <option value="{{ country_code }}" {% if model.country_codes_in_number contains country_code %}selected{% endif %}>
@@ -38,6 +38,9 @@
                   </option>
                 {% endfor %}
             </select>
+            <span id="no_country_selected" class="help-block{% if model.country_not_chosen? != true %} hidden{% endif %}">
+              {% t Choose a country %}
+            </span>
           </div>
           
           <div class="col-xs-7">
@@ -52,6 +55,7 @@
               inputmode="numeric"
               value="{{ model.mobile_number }}"
               placeholder="07XXXXXX"
+              required
             />
             <span id="invalid_number_length" class="help-block{% if model.invalid_number? != true %} hidden{% endif %}">
               {% t Number too long for selected country %}
