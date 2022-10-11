@@ -1,7 +1,6 @@
 <div class="container">
-  <form class="form-horizontal" method="post" autocomplete="on" action="process_swish">
+  <form class="form-horizontal" method="post" autocomplete="on" action="process_swish" id="swish-form">
     <input type="hidden" name="session_id" value="{{ model.session_id }}" />
-    <input type="hidden" name="mobile_with_country_code" id="mwcc"/>
     <div class="row">
       <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
           <img src="/assets/v2/images/brands/swish.svg" alt="swish" title="swish" style="width:100%">
@@ -65,7 +64,7 @@
 
         <div class="form-group">
           <div class="col-xs-12">
-            <button type="submit" class="btn btn-info btn">{% t Proceed %}</button>
+            <button type="submit" class="btn btn-info btn" id="button-proceed">{% t Proceed %} </button>
           </div>
         </div>
       </div>
