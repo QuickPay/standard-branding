@@ -1,0 +1,19 @@
+<div class="container">
+ <form action="{{ model.redirect_url }}" method="GET" target="_top" class="autosubmit">
+   {% for field in model.params %}
+      <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />
+   {% endfor %}
+
+   <div class="row">
+     <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+         <img src="/assets/v2/images/brands/przelewy24.svg" alt="Przelewy24" title="Przelewy24" style="width:100%">
+     </div>
+
+     <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+       <p>{% t When you click the button below, the Przelewy24 payment window will open. %}</p>
+       <p>{% t When finished, you will be redirected back to your receipt. %}</p>
+       <button type="submit" class="btn btn-info btn">{% t Proceed to payment %}</button>
+     </div>
+   </div>
+ </form>
+</div>

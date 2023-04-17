@@ -1,4 +1,4 @@
-<form id="secure_3d_form" name="AuthenticationRequest" action="{{ model.mpi_url }}" method="post" target="_top">
+<form id="secure_3d_form" name="AuthenticationRequest" action="{{ model.mpi_url }}" method="post">
   {% for field in model.form %}
     <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />
   {% endfor %}
