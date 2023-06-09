@@ -12,12 +12,11 @@
           <h1 id="merchant-name" class="text-center-xs">{{ model.displayname }}</h1>
         {% endif %}
       </div>
+      {% include "order_info" %}
     </div>
-    {% include "order_info" %}
   </div>
-</div>
 
-{% include "content" %}
+  {% include "content" %}
 
 {% if model.show_cancel? %}
   <div class="container">
