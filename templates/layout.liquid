@@ -1,29 +1,32 @@
-<div id="header">
+<div class="wrapper">
+  <div id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center-xs">
+          {% if model.logo_url %}
+            <img id="merchant-logo" class="" src="{{ model.logo_url }}" alt="{{ model.displayname }}">
+          {% else %}
+            <h1 id="merchant-name" class="text-center-xs">{{ model.displayname }}</h1>
+          {% endif %}
+        </div>
+      </div>
+      {% include "order_info" %}
+    </div>
+  </div>
+
+  {% include "content" %}
+
+  {% if model.show_cancel? %}
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 text-center-xs">
-        {% if model.logo_url %}
-          <img id="merchant-logo" class="" src="{{ model.logo_url }}" alt="{{ model.displayname }}">
-        {% else %}
-          <h1 id="merchant-name" class="text-center-xs">{{ model.displayname }}</h1>
-        {% endif %}
+      <div class="col-sm-12 col-xs-12">
+        <a class="btn btn-default btn-cancel center-xy" href="/{{ model.session_id }}/cancel-payment" data-confirm="{% t You are about to abort the payment. Are you sure? %}"><img class="icon icon-ban" src="{{ images.ban.svg }}" alt="Cancel">{% t Cancel Payment %}</a>
       </div>
     </div>
-    {% include "order_info" %}
   </div>
-</div>
+  {% endif %}
 
-{% include "content" %}
-
-{% if model.show_cancel? %}
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 col-xs-12">
-      <a class="btn btn-default btn-cancel center-xy" href="/{{ model.session_id }}/cancel-payment" data-confirm="{% t You are about to abort the payment. Are you sure? %}"><img class="icon icon-ban" src="{{ images.ban.svg }}" alt="Cancel">{% t Cancel Payment %}</a>
-    </div>
-  </div>
 </div>
-{% endif %}
 
 <div id="footer">
   <div id="gateway-info">
