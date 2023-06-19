@@ -79,15 +79,15 @@ a.btn, button[type="submit"] {
  *
  */
 
-#header {
+.header {
   padding: 30px 0;
 }
 
-#header h1#merchant-name {
+.header h1#merchant-name {
   padding: 0;
   margin: 0 0 0px 0;
 }
-#header img#merchant-logo {
+.header img#merchant-logo {
   max-width: 100%;
   margin-bottom: 20px;
 }
@@ -482,4 +482,114 @@ h4 img.icon {
   margin: 12px 0;
   width: 100%;
   height: 42px;
+}
+
+/* New CSS - incorperate into existing once tested */ 
+
+body {
+  background-color: #F1F1F3;
+}
+
+.wrapper {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 450px;
+}
+
+.header {
+  padding: 0;
+}
+
+.header-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 40px 0 40px 0;
+  border-bottom: 1px solid #dedede;
+}
+
+.header h1#merchant-name {
+  font-size: 26px;
+}
+
+.payment-container {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 1.6px 3.6px #0002,0 .3px .9px #0000001c;
+}
+
+.header, .form-container {
+  /*box-shadow: 0 1.6px 3.6px #0002,0 .3px .9px #0000001c;*/
+}
+
+#active-form form {
+  display: flex;
+  padding: 20px 40px 20px 40px;
+  width: 450px;
+}
+
+.form-container {
+
+}
+
+.form-card-brands {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 0 !important; /*currently overriding other CSS, remove once said styling is gone*/
+  padding-bottom: 0 !important; /*currently overriding other CSS, remove once said styling is gone*/
+  max-width: 60%;
+  flex-wrap: wrap;
+}
+
+#active-form .form-card-brands .card-brand {
+  height: 20px;
+  width: auto;
+  box-shadow: none; /*currently overriding other CSS, remove once said styling is gone*/
+}
+
+/*.form-card-brands img {
+  max-width: 30px;
+  max-height: 30px;
+}*/
+
+.card-info {
+  justify-content: space-between;
+}
+
+.card-info h5 {
+  font-size: 18px;
+}
+
+.btn-info {
+  background-color: #1338ff;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #008fff;
+  border: none;
+}
+
+#alternative-payment-methods .payment-method .btn {
+  border-radius: 10px;
+}
+
+#alternative-payment-methods .payment-method .btn:hover {
+  border-color: #1338ff;
+  box-shadow: 0px 0px 3px #1338ff;
+}
+
+.form-control:focus {
+  border-color: #1338ff;
+  box-shadow: 0px 0px 3px #1338ff;
 }
