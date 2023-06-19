@@ -1,9 +1,14 @@
 <div id="order-info">
   <div class="row">
     <div class="col-xs-12 text-center-xs">
-      <div class="item"><span class="subscript">{% t Order number %}</span> {{ model.order_id }}</div>
+      <div class="item">
+        <span class="subscript">{% t Order number %}</span>
+        {{ model.order_id }}</div>
       {% if model.deadline? %}
-        <div class="item"><span class="subscript">{% t expires in %}</span> <span id="time_left">{{ model.time_left }}</span></div>
+        <div class="item">
+          <span class="subscript">{% t expires in %}</span>
+          <span id="time_left">{{ model.time_left }}</span>
+        </div>
       {% endif %}
     </div>
   </div>

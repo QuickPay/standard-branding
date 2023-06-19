@@ -95,15 +95,15 @@ div.btn {
  *
  */
 
-#header {
+.header {
   padding: 30px 0;
 }
 
-#header h1#merchant-name {
+.header h1#merchant-name {
   padding: 0;
   margin: 0 0 0px 0;
 }
-#header img#merchant-logo {
+.header img#merchant-logo {
   max-width: 100%;
   margin-bottom: 20px;
 }

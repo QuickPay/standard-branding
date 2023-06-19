@@ -1,26 +1,30 @@
-<div id="active-form" class="well-xs well-greyish-xs well-sm well-greyish-sm">
+<div id="active-form" class="form-container">
   {% include "form/error" %}
   {% include model.form_template %}
 </div>
-
+<!--
 {% unless model.alternative_payment_methods == empty and model.undo_payment_method? == false %}
-  <div id="alternative-payment-methods">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 text-center-xs">
-          <h4>{% t Other Payment Methods %}</h4>
-        </div>
-        {% if model.undo_payment_method? %}
-          <div class="col-sm-4 col-xs-6 payment-method">
-            <a href="{{ model.session_id }}/payment-method-undo/" class="btn btn-default">
-              <img src="/assets/v2/images/brands/card.svg" alt="{% t Cards %}" title="{% t Cards %}"/>
-            </a>
-          </div>
-        {% endif %}
-        {% for method in model.alternative_payment_methods %}
-          {% include "payment_methods_list" method=method %}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+<div id="alternative-payment-methods">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 text-center-xs">
+<h4>{% t Other Payment Methods %}</h4>
+</div>
+{% if model.undo_payment_method? %}
+<div class="col-sm-4 col-xs-6 payment-method">
+<a href="{{ model.session_id }}/payment-method-undo/" class="btn btn-default">
+<img
+src="/assets/v2/images/brands/card.svg"
+alt="{% t Cards %}"
+title="{% t Cards %}" />
+</a>
+</div>
+{% endif %}
+{% for method in model.alternative_payment_methods %}
+{% include "payment_methods_list" method=method %}
+{% endfor %}
+</div>
+</div>
+</div>
 {% endunless %}
+-->
