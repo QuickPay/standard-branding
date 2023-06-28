@@ -90,8 +90,7 @@
             maxlength="2"
             pattern="[0-9]*"
             data-mask="99"
-            inputmode="numeric"
-            style="padding-right: 28px !important">
+            inputmode="numeric">
           <span
             id="expiration-month-check"
             class="form-control-feedback"
@@ -115,8 +114,7 @@
             maxlength="2"
             pattern="[0-9]*"
             data-mask="99"
-            inputmode="numeric"
-            style="padding-right: 28px !important">
+            inputmode="numeric">
           <span
             id="expiration-year-check"
             class="form-control-feedback"
@@ -166,8 +164,8 @@
 
     </div>
 
-    <div id="cvd-help" class="text-center bubble bubble-cvd">
-      <p class="text-left">{% t The CVV/CVD increases the level of security.Usually the card verification data is a three digit number, placed at the backside of the card. %}</p>
+    <div id="cvd-help" class="bubble bubble-cvd">
+      <p>{% t The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card. %}</p>
       <img src="{{ images.cvd_help.png }}">
     </div>
 
