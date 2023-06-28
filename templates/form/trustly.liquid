@@ -8,7 +8,7 @@
       <div class="col-sm-8 col-sm-pull-4 col-xs-12">
         <p>{% t When you click the button below, the Trustly payment window will open. %}</p>
         <p>{% t When finished, you will be redirected back to your receipt. %}</p>
-        <a href="{{ model.trustly_url }}" class="btn btn-info btn autoclick">{% t Proceed to payment %}</a>
+        <a href="{{ model.trustly_url }}" class="btn btn-info autoclick">{% t Proceed to payment %}</a>
       </div>
     </div>
   {% else %}
@@ -37,7 +37,7 @@
 
           <div class="form-group">
             <div class="col-xs-12">
-              <button type="submit" class="btn btn-info btn">{% t Proceed %}</button>
+              <button type="submit" class="btn btn-info">{% t Proceed %}</button>
             </div>
           </div>
         </div>

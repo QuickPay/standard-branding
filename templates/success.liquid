@@ -1,9 +1,8 @@
-<div class="well-xs well-greyish-xs well-sm well-greyish-sm" data-session-id="{{ model.session_id }}">
-  <div class="container">
-    <div class="row">
+<div class="flex well-sm" data-session-id="{{ model.session_id }}">
+<div class="container">
       <div class="col-xs-12">
-        <h3 class="center-y text-center-xs">
-          <img class="icon" src="{{ images.check-circle-o.svg }}">
+        <div class="highlighted-text center-y text-center-xs">
+          <img class="icon-md" src="{{ images.check-circle-o.svg }}">
           {% if model.transaction_type == "payout" %}
             {% t You have completed the payout %}
           {% elsif model.transaction_type == "card" %}
@@ -13,8 +12,7 @@
           {% else %}
             {% t You have completed the payment %}
           {% endif %}
-        </h3>
+        </div>
       </div>
-    </div>
-  </div>
+      </div>
 </div>
