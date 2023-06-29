@@ -43,10 +43,10 @@ img {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
+  color: #555555;
+  background-color: #ffffff;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid #dbdbdb;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -68,8 +68,8 @@ img {
 label {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 5px;
-  font-weight: bold;
+  /*margin-bottom: 5px;
+  font-weight: bold;*/
 }
 
 .form-control-feedback {
@@ -144,7 +144,7 @@ label {
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
-  min-height: 1px;
+  /*min-height: 1px;*/
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -251,7 +251,7 @@ input[type="text"], input[type="tel"], input[type="number"] {
   height: 40px !important;
   font-family: Monaco, Menlo, Consolas, monospace;
   font-size: 16px !important;
-  letter-spacing: 1.2px;
+  letter-spacing: 2.2px;
 }
 
 input[type="radio"] {
@@ -292,13 +292,9 @@ div.btn {
  *
  */
 
-.header {
-  padding: 30px 0;
-}
-
 .header h1#merchant-name {
   padding: 0;
-  margin: 0 0 0px 0;
+  margin: 0 0 5px 0;
 }
 .header img#merchant-logo {
   max-width: 100%;
@@ -403,10 +399,6 @@ div.btn {
  *
  */
 
-#active-form .form-card-brands {
-  padding-bottom: 20px;
-}
-
 #active-form .form-card-brands .card-brand {
   width: 60px;
   height: 38px;
@@ -486,15 +478,6 @@ div.btn {
 }
 
 @media (max-width: 480px) {
-  .well-xs {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .well-greyish-xs {
-    background: #efefef;
-    border-top: 1px solid #dedede;
-    border-bottom: 1px solid #dedede;
-  }
   .well-blueish-xs {
     background: #f2f7fa;
     border-top: 1px solid #d9dee1;
@@ -509,21 +492,11 @@ div.btn {
 }
 
 @media (min-width: 481px) {
-  .well-greyish-sm {
-    background: #efefef;
-    border-top: 1px solid #dedede;
-    border-bottom: 1px solid #dedede;
-  }
   .well-blueish-sm {
     background: #f2f7fa;
     border-top: 1px solid #d9dee1;
     border-bottom: 1px solid #d9dee1;
     color: #557e94
-  }
-
-  #active-form .form-card-brands {
-    padding-top: 19px;
-    padding-bottom: 0;
   }
 }
 
@@ -535,8 +508,10 @@ div.btn {
   border-radius: 5px;
   background: #f2f7fa;
   color: #557e94;
-  display:none;
+  display: none;
+  margin-bottom: 10px;
 }
+
 .bubble *:first-child {
   margin-top: 0;
   padding-top: 0;
@@ -581,34 +556,37 @@ div.btn {
 }
 
 img.icon {
-  height: 16px !important;
+  height: 16px;
   width: 16px;
   margin-left: 3px;
   margin-right: 3px;
 }
 
+img.icon-sm {
+  height: 24px;
+  width: 24px;
+  margin-right: 9px
+}
+
+img.icon-md {
+  height: 32px;
+  width: 32px;
+  margin-right: 12px;
+}
+
+img.icon-info {
+  margin-bottom: 3px;
+  margin-left: 0px;
+}
+
 img.icon-rotate {
-    -webkit-animation:spin 3s linear infinite;
-    -moz-animation:spin 3s linear infinite;
-    animation:spin 3s linear infinite;
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-h1 img.icon {
-  height: 48px !important;
-  width: 48px;
-  margin-left: 0 !important;
-  margin-right: 9px !important;
-}
-
-h2 img.icon {
-  height: 40px !important;
-  width: 40px;
-  margin-left: 0 !important;
-  margin-right: 9px !important;
-}
 
 h3 img.icon {
   height: 32px !important;
@@ -657,20 +635,14 @@ h4 img.icon {
   justify-content: center;
 }
 
-.text-left {
-  text-align: left !important;
-  justify-content: flex-start;
-}
 .text-right {
-  text-align: right !important;
+  text-align: right;
   justify-content: flex-end;
 }
+
 .text-center {
-  text-align: center !important;
+  text-align: center;
   justify-content: center;
-}
-.text-justify {
-  text-align: justify !important;
 }
 
 /*
