@@ -1,7 +1,6 @@
 <div class="wrapper">
   <div class="payment-container">
-    <div class="header">
-      <div class="header-content">
+      <div class="header">
         {% if model.logo_url %}
           <img
             id="merchant-logo"
@@ -13,7 +12,6 @@
         {% endif %}
         {% include "order_info" %}
       </div>
-    </div>
 
     {% include "content" %}
 
@@ -65,7 +63,7 @@
     <div id="gateway-info-inner">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12" style="text-align: center">
+          <div class="col-xs-12 text-center">
             <button class="btn btn-default" data-hide="#gateway-info"><img
                 class="icon"
                 src="{{ images.arrow-down.svg }}"
@@ -89,7 +87,7 @@
     <div id="language-selector-inner">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12" style="text-align: center">
+          <div class="col-xs-12 text-center">
             <button class="btn btn-default" data-hide="#language-selector"><img
                 class="icon"
                 src="{{ images.arrow-down.svg }}"
@@ -207,7 +205,7 @@
             alt="About QuickPay">
         </div>
         <div class="col-xs-6 text-right">
-          <span class="center-y text-right">
+          <span>
             <img
               class="icon clickable"
               src="{{ images.lock.svg }}"
