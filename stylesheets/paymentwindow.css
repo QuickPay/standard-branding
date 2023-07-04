@@ -68,6 +68,7 @@ img {
 label {
   display: inline-block;
   max-width: 100%;
+  color: #474747;
   /*margin-bottom: 5px;
   font-weight: bold;*/
 }
@@ -157,8 +158,16 @@ label {
   width: 8.33333333%;
 }
 
+.col-xs-4 {
+  width: 33.33333333%;
+}
+
 .col-xs-6 {
   width: 50%;
+}
+
+.col-xs-8 {
+  width: 66.66666667%;
 }
 
 .col-xs-11 {
@@ -325,8 +334,8 @@ div.btn {
   position: fixed;
   bottom: 39px;
   width: 100%;
-  background: #28303A;
-  color: #a2afbf;
+  background: #ffffff;
+  color: #474747;
   border-top: 1px solid #dedede;
   display: none;
   z-index: 998;
@@ -370,8 +379,8 @@ div.btn {
   width: 100%;
   height: 40px;
   line-height: 40px;
-  background: #28303A;
-  color: #fff;
+  background: #ffffff;
+  color: #474747;
   z-index: 999;
 }
 #footer #bottom-bar img {

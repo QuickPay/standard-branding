@@ -204,7 +204,7 @@
         </div>
         <div class="col-xs-6 text-right">
           <span>
-            <img
+            <!--<img
               class="icon clickable"
               src="{{ images.lock.svg }}"
               alt="About Quickpay"
@@ -214,7 +214,7 @@
               class="clickable"
               data-toggle="#gateway-info"
               data-hide="#language-selector">Secure</span>
-            &nbsp;&nbsp;
+            &nbsp;&nbsp;-->
             <img
               class="icon clickable"
               src="{{ images.globe.svg }}"
@@ -223,9 +223,20 @@
               data-hide="#gateway-info">
             <span
               class="clickable"
+              id="language-toggle"
               data-toggle="#language-selector"
               data-hide="#gateway-info">{{ model.language | upcase }}</span>
           </span>
+        </div>
+        <div class="col-xs-8 text-right">
+          <span
+              class="clickable secured-text"
+              data-toggle="#gateway-info">{% t Secure payment with %}</span>
+          <img
+            class="clickable footer-logo"
+            src="{{ images.quickpay_logo.svg }}"
+            data-toggle="#gateway-info"
+            alt="About Quickpay">
         </div>
       </div>
     </div>
