@@ -72,11 +72,11 @@
         </div>
         <div id="gateway-description" class="row">
           <div class="col-sm-6 col-xs-12">
-            <p>QuickPay is your secure, reliable and dynamic payment service provider. Learn more about our services at
+            <p>Quickpay is your secure, reliable and dynamic payment service provider. Learn more about our services at
               <a href="https://www.quickpay.net">www.quickpay.net</a>.</p>
           </div>
           <div class="col-sm-6 col-xs-12">
-            <p>QuickPay operates at the highest level of security and is certified by the PCI Security Standards Council.</p>
+            <p>Quickpay operates at the highest level of security and is certified by the PCI Security Standards Council.</p>
           </div>
         </div>
       </div>
@@ -197,37 +197,41 @@
   <div id="bottom-bar">
     <div class="container">
       <div class="row">
-        <div class="col-xs-6">
-          <img
-            class="clickable"
-            src="{{ images.quickpay_logo_inverse.png }}"
-            data-toggle="#gateway-info"
-            alt="About QuickPay">
-        </div>
-        <div class="col-xs-6 text-right">
+        <div class="col-xs-4">
           <span>
-            <img
+            <!--<img
               class="icon clickable"
               src="{{ images.lock.svg }}"
-              alt="About QuickPay"
+              alt="About Quickpay"
               data-toggle="#gateway-info"
               data-hide="#language-selector">
             <span
               class="clickable"
               data-toggle="#gateway-info"
               data-hide="#language-selector">Secure</span>
-            &nbsp;&nbsp;
+            &nbsp;&nbsp;-->
             <img
               class="icon clickable"
               src="{{ images.globe.svg }}"
-              alt="About QuickPay"
+              alt="About Quickpay"
               data-toggle="#language-selector"
               data-hide="#gateway-info">
             <span
               class="clickable"
+              id="language-toggle"
               data-toggle="#language-selector"
               data-hide="#gateway-info">{{ model.language | upcase }}</span>
           </span>
+        </div>
+        <div class="col-xs-8 text-right">
+          <span
+              class="clickable secured-text"
+              data-toggle="#gateway-info">{% t Secure payment with %}</span>
+          <img
+            class="clickable footer-logo"
+            src="{{ images.quickpay_logo.svg }}"
+            data-toggle="#gateway-info"
+            alt="About Quickpay">
         </div>
       </div>
     </div>
