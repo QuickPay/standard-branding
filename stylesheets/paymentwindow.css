@@ -256,10 +256,10 @@ h1, h2, h3, h4, h5 {
 }
 
 input[type="text"], input[type="tel"], input[type="number"] {
-  padding-left: 8px !important;
-  height: 40px !important;
+  padding-left: 8px;
+  height: 40px;
   font-family: Monaco, Menlo, Consolas, monospace;
-  font-size: 16px !important;
+  font-size: 16px;
   letter-spacing: 2.2px;
 }
 
@@ -269,15 +269,15 @@ input[type="radio"] {
 }
 
 select {
-  line-height: 16px !important;
-  font-size: 16px !important;
+  line-height: 16px;
+  font-size: 16px;
 }
 
 a.btn, button[type="submit"], button[type="button"] {
   width: 100%;
   padding: 11px;
-  line-height: 16px !important;
-  font-size: 16px !important;
+  line-height: 16px;
+  font-size: 16px;
 }
 
 a.btn, button[type="submit"] {
@@ -307,7 +307,6 @@ div.btn {
 }
 .header img#merchant-logo {
   max-width: 100%;
-  margin-bottom: 20px;
 }
 
 .btn-cancel {
@@ -317,9 +316,9 @@ div.btn {
   background-color: #ffffff;
 }
 .btn-cancel:hover {
-  color: #c9302c !important;
-  background: #f9e3e3 !important;
-  border-color: #f4cdcd !important;
+  color: #c9302c;
+  background: #f9e3e3;
+  border-color: #f4cdcd;
 }
 .btn-cancel img.icon-ban {
   opacity: 0.5;
@@ -440,7 +439,8 @@ div.btn {
   width: 100%;
 }
 
-#active-form #fee, #active-form #redirect-msg {
+#active-form #fee, 
+#active-form #redirect-msg {
   margin: 10px 0 0 0;
   padding: 0;
   color: #888;
@@ -496,7 +496,7 @@ div.btn {
 
   .text-center-xs {
     text-align: center;
-    justify-content: center !important;
+    justify-content: center;
   }
 }
 
