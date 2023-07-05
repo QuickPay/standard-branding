@@ -2,15 +2,25 @@
   <div class="payment-container">
       <div class="header">
         {% if model.logo_url %}
-          <img
+        <div class="header-content-logo">
+        <div class="logo-container"> 
+        <img
             id="merchant-logo"
             class=""
             src="{{ model.logo_url }}"
             alt="{{ model.displayname }}">
+            </div> 
+          <div>
+            <h1 id="merchant-name">{{ model.displayname }}</h1>
+            {% include "order_info" %}
+          </div>
+        </div>
         {% else %}
-          <h1 id="merchant-name" class="text-center-xs">{{ model.displayname }}</h1>
+        <div class="header-content text-center-xs">
+          <h1 id="merchant-name">{{ model.displayname }}</h1>
+          {% include "order_info" %}
+        </div>
         {% endif %}
-        {% include "order_info" %}
       </div>
 
     {% include "content" %}
