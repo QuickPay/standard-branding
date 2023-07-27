@@ -28,7 +28,7 @@
       {% unless model.moto %}
         <div class="form-group">
           <div class="col-xs-12">
-            <label for="cardholder" class="control-label">{% t Name on card %}</label>
+            <label for="cardholder">{% t Name on card %}</label>
             <input
               type="text"
               id="cardholder"
@@ -44,7 +44,7 @@
 
     <div class="form-group has-feedback">
       <div class="col-xs-12">
-        <label for="cardnumber" class="control-label">{% t Card number %}</label>
+        <label for="cardnumber">{% t Card number %}</label>
         <input
           type="tel"
           id="cardnumber"
@@ -73,7 +73,7 @@
     <div class="form-group has-feedback">
       <div class="col-xs-6">
         <div>
-          <label for="expiration-month" class="control-label">{% t Expiration date %}</label>
+          <label for="expiration-month">{% t Expiration date %}</label>
         </div>
         <div class="col-xs-6 expiration-month-col">
           <input
@@ -128,8 +128,7 @@
         {% unless model.moto %}
           <label
             for="cvd"
-            id="cvd-label"
-            class="control-label">CVV/CVD</label>
+            id="cvd-label">CVV/CVD</label>
           <img
             class="icon icon-info clickable"
             src="{{ images.question-circle.svg }}"
@@ -213,8 +212,8 @@
         {% endcapture %}
         <button
           type="submit"
-          class="btn btn-info"
-          data-card-valid-swap="btn-success,btn-info">{{ button_text }}</button>
+          class="btn btn-primary"
+          data-card-valid-swap="btn-success,btn-primary">{{ button_text }}</button>
         {% if model.calculate_fee %}
           <p id="fee" class="text-center">
             {% t Payment fee %}:

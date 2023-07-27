@@ -14,7 +14,7 @@
             <div class="col-xs-12">
               <p>{% t When you click the button below, the iDeal payment window will open. %}</p>
               <p>{% t When finished, you will be redirected back to your receipt. %}</p>
-              <button type="submit" class="btn btn-info">{% t Proceed to payment %}</button>
+              <button type="submit" class="btn btn-primary">{% t Proceed to payment %}</button>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@
         <div class="col-sm-8 col-sm-pull-4 col-xs-12">
           <div class="form-group">
             <div class="col-xs-12">
-              <label for="sender_bank" class="control-label">{% t Bank %}</label>
+              <label for="sender_bank">{% t Bank %}</label>
               <select id="sender_bank" class="form-control" name="sender_bank">
                 {% for bank in model.sofort_ideal_banks %}
                   <option value="{{ bank.code }}">{{ bank.name }}</option>
@@ -40,7 +40,7 @@
 
           <div class="form-group">
             <div class="col-xs-12">
-              <button type="submit" class="btn btn-info">{% t Proceed %}</button>
+              <button type="submit" class="btn btn-primary">{% t Proceed %}</button>
             </div>
           </div>
         </div>
