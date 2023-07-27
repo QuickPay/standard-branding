@@ -3,29 +3,27 @@
     <div class="row">
       <div class="col-xs-12 text-center-xs">
         {% if model.logo_url %}
-        <div class="header-content-logo">
-        <div class="logo-container"> 
-        <img
-            id="merchant-logo"
-            class=""
-            src="{{ model.logo_url }}"
-            alt="{{ model.displayname }}">
-            </div> 
+          <div class="header-content-logo">
+          <div class="logo-container"> 
+            <img
+              id="merchant-logo"
+              src="{{ model.logo_url }}"
+              alt="{{ model.displayname }}">
+          </div> 
           <div>
             <h1 id="merchant-name">{{ model.displayname }}</h1>
             {% include "order_info" %}
           </div>
         </div>
         {% else %}
-        <div class="header-content text-center-xs">
-          <h1 id="merchant-name">{{ model.displayname }}</h1>
-          {% include "order_info" %}
-        </div>
+          <div class="header-content text-center-xs">
+            <h1 id="merchant-name">{{ model.displayname }}</h1>
+            {% include "order_info" %}
+          </div>
         {% endif %}
       </div>
 
     {% include "content" %}
-
   </div>
 
   {% unless model.alternative_payment_methods == empty and model.undo_payment_method? == false %}
@@ -73,7 +71,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
-            <button class="btn btn-default" data-hide="#gateway-info"><img
+            <button class="btn" data-hide="#gateway-info"><img
                 class="icon"
                 src="{{ images.arrow-down.svg }}"
                 alt="Close"></button>
@@ -97,7 +95,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
-            <button class="btn btn-default" data-hide="#language-selector"><img
+            <button class="btn" data-hide="#language-selector"><img
                 class="icon"
                 src="{{ images.arrow-down.svg }}"
                 alt="Close"></button>
@@ -215,17 +213,6 @@
         </div>
         <div class="col-xs-6 text-right">
           <span>
-            <!--<img
-              class="icon clickable"
-              src="{{ images.lock.svg }}"
-              alt="About Quickpay"
-              data-toggle="#gateway-info"
-              data-hide="#language-selector">
-            <span
-              class="clickable"
-              data-toggle="#gateway-info"
-              data-hide="#language-selector">Secure</span>
-            &nbsp;&nbsp;-->
             <img
               class="icon clickable"
               src="{{ images.globe.svg }}"

@@ -1,35 +1,5 @@
 /* Bootstrap classes */ 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.5em;
-}
-
-a {
-  text-decoration: none;
-}
-
-h4, h5, h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-img {
-  vertical-align: middle;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .row {
   margin-left: -15px;
@@ -42,10 +12,9 @@ img {
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.42857143;
+  /* line-height: 1.42857143; */
   color: #555555;
   background-color: #ffffff;
-  background-image: none;
   border: 1px solid #dbdbdb;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -75,62 +44,24 @@ label {
 
 .form-control-feedback {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 25px;
+  right: 15px;
   z-index: 2;
   display: block;
   width: 34px;
   height: 34px;
   line-height: 34px;
   text-align: center;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
-.form-horizontal .has-feedback .form-control-feedback {
+/* .has-feedback .form-control-feedback {
   right: 15px;
 }
 
 .has-feedback label~.form-control-feedback {
   top: 25px;
-}
-
-.btn {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  border-radius: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.btn:active {
-  outline: 0;
-  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
-  box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
-}
-
-.btn-success {
-  color: #fff;
-  background-color: #5cb85c;
-}
-
-.btn-success:hover {
-  color: #fff;
-  background-color: #449d44;
-}
+} */
 
 .sr-only {
   position: absolute;
@@ -143,14 +74,19 @@ label {
   border: 0;
 }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+/* --- Columns --- */ 
+/* Add more classes as needed. Based on a 12 column layout, meaning that col-(screen size)-12 fills the entire row, 
+while col-(screen size)-1 takes up a twelth of the row */ 
+
+.col-xs-1, .col-sm-3, .col-xs-4, .col-sm-4, .col-xs-6, .col-sm-6, 
+.col-xs-8, .col-sm-8, .col-sm-9, .col-xs-11, .col-xs-12, .col-sm-12 {
   position: relative;
   /*min-height: 1px;*/
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1, .col-xs-4, .col-xs-6, .col-xs-8, .col-xs-11, .col-xs-12 {
   float: left;
 }
 
@@ -183,7 +119,7 @@ label {
 }
 
 @media (min-width: 481px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-9, .col-sm-12 {
       float: left;
   }
 
@@ -220,20 +156,12 @@ label {
   }
 }
 
-
-/*
- * Bootstrap overrides
- */
-.form-horizontal .control-label {
-  padding-top: 0;
-  margin-bottom: 3px;
+/* ----- General HTML elements ----- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-
-/*
- * General HTML elements
- *
- */
 
 html, body {
   margin: 0;
@@ -241,18 +169,30 @@ html, body {
 }
 
 body {
-  background: #fff;
-  margin-bottom: 60px;
-  color: #28303A;
-  border-top: 0px solid #28303A;
-}
-
-body, td {
   font-family: arial, tahoma, verdana, sans-serif;
+  font-size: 14px;
+  color: #28303A;
+  line-height: 1.5em;
+  background-color: #F1F1F3;
+  margin-bottom: 60px;
+  /* border-top: 0px solid #28303A; */
 }
 
-h1, h2, h3, h4, h5 {
+/* h1, h2, h3, h4, h5 {
   font-weight: bold;
+} */
+
+h4, h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+img {
+  vertical-align: middle;
 }
 
 input[type="text"], input[type="tel"], input[type="number"] {
@@ -273,15 +213,17 @@ select {
   font-size: 16px;
 }
 
-a.btn, button[type="submit"], button[type="button"] {
-  width: 100%;
-  padding: 11px;
-  line-height: 16px;
-  font-size: 16px;
+a {
+  text-decoration: none;
 }
 
-a.btn, button[type="submit"] {
-  margin-top: 15px;
+/* ----- Layout ----- */
+
+.wrapper {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 350px;
 }
 
 div.btn {
@@ -301,32 +243,62 @@ div.btn {
  *
  */
 
-.header h1#merchant-name {
-  padding: 0;
-  margin: 0 0 5px 0;
-}
-.header img#merchant-logo {
-  max-width: 100%;
-}
-
-.btn-cancel {
-  margin: 30px 0;
-  width: 100%;
-  color: #999;
+.payment-container {
+  border-radius: 10px;
   background-color: #ffffff;
-}
-.btn-cancel:hover {
-  color: #c9302c;
-  background: #f9e3e3;
-  border-color: #f4cdcd;
-}
-.btn-cancel img.icon-ban {
-  opacity: 0.5;
-}
-.btn-cancel:hover img.icon-ban {
-  opacity: 1.0;
+  box-shadow: 0 1.6px 3.6px #00000020,0 .3px .9px #0000001c;
 }
 
+.cancel-container {
+  float: left;
+  width: 100%;
+ /* padding: 15px; */
+  padding: 10px 0;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .payment-container {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .cancel-container {
+    padding: 15px;
+  }
+}
+
+/* --- Footer --- */ 
+#footer #bottom-bar {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #ffffff;
+  color: #474747;
+  z-index: 999;
+}
+
+#bottom-bar span.clickable {
+  vertical-align: middle;
+}
+
+#footer #bottom-bar img.footer-logo {
+  height: 18px;
+}
+
+#language-toggle {
+  font-size: 12px;
+}
+
+.secured-text {
+  font-size: 10px;
+  color: #888888;
+}
 
 #footer #gateway-info,
 #footer #language-selector {
@@ -364,70 +336,65 @@ div.btn {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-#footer #gateway-info button:hover,
+
+/* #footer #gateway-info button:hover,
 #footer #language-selector button:hover {
   background: #efefef;
   border: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+} */
+
+@media (min-width: 481px) {
+  #bottom-bar .col-xs-8, #bottom-bar .col-xs-4 {
+    padding: 0;
+  }
 }
 
-#footer #bottom-bar {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-  background: #ffffff;
-  color: #474747;
-  z-index: 999;
-}
-#footer #bottom-bar img {
-  height: 24px;
-}
-
-
-/*
- * Order Info
- *
- */
-
-#order-info .item {
+/* --- Buttons --- */ 
+.btn {
   display: inline-block;
+  /* margin-bottom: 0; */
+  /* font-weight: normal; */
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-#order-info .item .subscript {
-  font-size: 12px;
-  color: #999;
+a.btn, button[type="submit"] {
+  width: 100%;
+  padding: 11px;
+  margin-top: 15px;
+  line-height: 1em;
+  font-size: 16px;
 }
 
-
-/*
- * Active Form
- *
- */
-
-#active-form .form-card-brands .card-brand {
-  width: 60px;
-  height: 38px;
-  margin: 5px 0px 5px 3px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px #ccc;
-  background: #fff;
+.btn:active {
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+  box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
 }
 
-#active-form .form-card-brands .card-brand-dim {
-  filter: grayscale(1);
-  opacity: 0.3;
+.btn-primary {
+  background-color: #1338ff;
 }
-/*
-#active-form .form-control-feedback {
-  width: 28px !important;
-}
-*/
-#active-form .form-control-feedback img.check-icon {
-  width: 20px;
-  height: 20px;
+
+.btn-primary, .btn-success {
+  color: #ffffff;
+  border-radius: 20px;
+  /* border: none; */
 }
 
 .inline-option {
@@ -439,47 +406,238 @@ div.btn {
   width: 100%;
 }
 
-#active-form #fee, 
-#active-form #redirect-msg {
+ /* ----- Payment Window ----- */ 
+
+ /* --- Header --- */
+ .header {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.header img#merchant-logo {
+  max-width: 100%;
+}
+
+.header #merchant-logo {
+  padding: 10px;
+}
+
+.header #merchant-name {
+  font-size: 24px;
+  line-height: 1.1em;
+  word-break: break-word;
+  margin: 0 0 3px 0;
+}
+
+.header-content {
+  padding: 40px 0 30px 0;
+}
+
+.header-content-logo {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding: 30px 0 20px 0;
+}
+
+.logo-container {
+  /*background: #F2E9CA;*/
+  background: #f3f3f3;
+  height: 100px;
+  width: 100px;
+  min-width: 100px;
+  margin-right: 25px;
+  border-radius: 50px;
+  /* border: 2px solid #e9e9e9; */
+  align-items: center;
+  display: flex;
+}
+
+ #order-info .item {
+  display: inline-block;
+}
+
+#order-info .item .subscript {
+  font-size: 12px;
+  color: #999999;
+}
+
+@media (max-width: 480px) {
+  .header h1#merchant-name {
+    font-size: 22px;
+  }
+
+  .logo-container {
+    height: 80px;
+    width: 80px;
+    min-width: 80px;
+  }
+}
+
+/* --- Form --- */ 
+ #active-form form {
+  /*display: flex;*/
+  padding: 10px 40px 20px 40px;
+  /*width: 450px;*/
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.form-card-brands {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* padding-bottom: 0; */
+  max-width: 60%;
+  flex-wrap: wrap;
+}
+
+.form-card-brands .card-brand {
+  height: 20px;
+  width: auto;
+  margin: 5px 0px 5px 3px;
+  border-radius: 5px;
+}
+
+.form-card-brands .card-brand-dim {
+  filter: grayscale(1);
+  opacity: 0.3;
+}
+
+.form-group label {
+  margin-bottom: 3px;
+}
+
+.form-control-feedback img.check-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.form-control:focus {
+  border-color: #1338ff;
+  box-shadow: 0px 0px 3px #1338ff;
+  outline: 0;
+}
+
+.form-control::placeholder {
+  color: #a9a9a9;
+  opacity: 1;
+}
+
+#expiration-month-check, 
+#expiration-year-check {
+  top: 2px;
+}
+
+#expiration-month-check {
+  right: 2.5px;
+}
+
+#expiration-year-check {
+  right: 0;
+}
+
+.expiration-month-col {
+  padding-right: 2px;
+  padding-left: 0;
+}
+
+.expiration-year-col {
+  padding-right: 0;
+  padding-left: 2px;
+}
+
+#fee, #redirect-msg {
   margin: 10px 0 0 0;
   padding: 0;
-  color: #888;
+  color: #888888;
   font-size: 12px;
 }
 
+@media (max-width: 480px) {
+  #active-form form {
+    width: 100%;
+  }
+}
 
-/*
- * Alternative Payment Methods
- *
- */
+/* ----- Alternative Payment Methods ----- */
 
 #alternative-payment-methods {
-  padding: 20px 0;
+  padding: 20px;
 }
+
+@media (min-width: 481px) {
+  #alternative-payment-methods {
+    padding: 20px 10px;
+  }
+}
+
 #alternative-payment-methods .payment-method .btn {
   margin-top: 10px;
-  border-color: #dedede;
-  background: #fff;
+  border: 1px solid #dedede;
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-height: 90px;
 }
+
 #alternative-payment-methods .payment-method .btn:hover {
-  border-color: #4ba8d6;
-  box-shadow: 0px 0px 3px #4ba8d6;
+  border-color: #1338ff;
+  box-shadow: 0px 0px 3px #1338ff;
 }
+
 #alternative-payment-methods .payment-method .btn img {
   width: 100%;
-  max-width: 256px;
+  /* max-width: 256px; */
   max-height: 66px;
 }
 
-
-/*
- * Misc. elements
- *
- */
-
-.container {
-  max-width: 480px;
+#alternative-payment-methods .col-sm-4 {
+  padding-right: 4px;
+  padding-left: 4px;
 }
+
+/* --- ApplePay --- */
+
+#alternative-payment-methods .payment-method-apple-pay > .btn {
+  overflow: hidden;
+}
+
+#alternative-payment-methods .payment-method-apple-pay.disabled > .btn { /*MLO - Disabled class applied via Payment - remember to test*/
+  cursor: not-allowed;
+  background: #dfdfdf;
+}
+
+#alternative-payment-methods .payment-method-apple-pay.disabled .apple-pay-btn {
+  background-color: #dfdfdf;
+}
+
+#alternative-payment-methods .payment-method-apple-pay.disabled > .btn:hover {
+  border-color: #dedede;
+  box-shadow: none;
+}
+
+.apple-pay-btn {
+  display: block;
+  background-image: -webkit-named-image(apple-pay-logo-black);
+  background-color: #ffffff;
+  background-size: 100% 75%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 12px 0;
+  width: 100%;
+  height: 42px;
+}
+
+/* ----- Misc. elements ----- */
 
 .well-sm {
   padding-top: 20px;
@@ -493,11 +651,6 @@ div.btn {
     border-bottom: 1px solid #d9dee1;
     color: #557e94
   }
-
-  .text-center-xs {
-    text-align: center;
-    justify-content: center;
-  }
 }
 
 @media (min-width: 481px) {
@@ -509,6 +662,7 @@ div.btn {
   }
 }
 
+/* --- Info bubbles --- */
 .bubble {
   position: relative;
   width: 100%;
@@ -525,6 +679,7 @@ div.btn {
   margin-top: 0;
   padding-top: 0;
 }
+
 .bubble *:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -544,9 +699,9 @@ div.btn {
 }
 
 .bubble:before {
-    top: -15px;
-    z-index: 1;
-    border-bottom-color: #acbdc7;
+  top: -15px;
+  z-index: 1;
+  border-bottom-color: #acbdc7;
 }
 
 .bubble.bubble-cvd:before,
@@ -563,6 +718,12 @@ div.btn {
 .bubble.bubble-btc-address:after {
   left: 40%;
 }
+
+#cvd-help img {
+  width: 100%;
+}
+
+/* --- Icons --- */ 
 
 img.icon {
   height: 16px;
@@ -627,10 +788,10 @@ h4 img.icon {
   cursor: pointer;
 }
 
-.error {
+/* .error {
   color: #d9534f;
   font-size: 16px;
-}
+} */
 
 .center-y {
   display: flex;
