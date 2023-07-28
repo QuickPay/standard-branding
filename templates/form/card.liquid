@@ -222,6 +222,12 @@
             </span>
           </p>
         {% endif %}
+        {% if model.calculate_fee and config.reservation_notice %}
+          <hr/>
+        {% endif %}
+        {% if config.reservation_notice %}
+          <div class="reservation-notice">{{ config.reservation_notice }}</div>
+        {% endif %}
       </div>
     </div>
   </div>

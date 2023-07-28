@@ -216,6 +216,12 @@ a {
   text-decoration: none;
 }
 
+hr {
+  height: 1px;
+  background-color: #e9e9e9;
+  border: none;
+}
+
 /* ----- Layout ----- */
 
 .wrapper {
@@ -567,11 +573,16 @@ a.btn, button[type="submit"] {
   padding-left: 2px;
 }
 
-#fee, #redirect-msg {
+#fee, #redirect-msg, .reservation-notice {
   margin: 10px 0 0 0;
   padding: 0;
   color: #888888;
   font-size: 12px;
+}
+
+.reservation-notice {
+  text-align: center;
+  margin-top: 12px;
 }
 
 @media (max-width: 480px) {
