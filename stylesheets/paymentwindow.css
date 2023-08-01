@@ -810,6 +810,10 @@ img.icon-rotate {
   margin-bottom: 10px;
 }
 
+.hidden {
+  display: none;
+}
+
 /* .flex {
   display: flex;
 } */
