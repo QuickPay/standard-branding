@@ -593,17 +593,17 @@ a.btn, button[type="submit"] {
 
 /* ----- Alternative Payment Methods ----- */
 
-#alternative-payment-methods {
+.alternative-payment-methods {
   padding: 20px;
 }
 
 @media (min-width: 481px) {
-  #alternative-payment-methods {
+  .alternative-payment-methods {
     padding: 20px 10px;
   }
 }
 
-#alternative-payment-methods .payment-method .btn {
+.alternative-payment-methods .payment-method .btn {
   margin-top: 10px;
   border: 1px solid #dedede;
   background-color: #ffffff;
@@ -611,38 +611,42 @@ a.btn, button[type="submit"] {
   min-height: 90px;
 }
 
-#alternative-payment-methods .payment-method .btn:hover {
+.alternative-payment-methods .payment-method .btn:hover {
   border-color: #1338ff;
   box-shadow: 0px 0px 3px #1338ff;
 }
 
-#alternative-payment-methods .payment-method .btn img {
+.alternative-payment-methods .payment-method .btn img {
   width: 100%;
   /* max-width: 256px; */
   max-height: 66px;
 }
 
-#alternative-payment-methods .col-sm-4 {
+.alternative-payment-methods .col-sm-4 {
   padding-right: 4px;
   padding-left: 4px;
 }
 
+#selector .payment-method .btn {
+  min-height: auto;
+}
+
 /* --- ApplePay --- */
 
-#alternative-payment-methods .payment-method-apple-pay > .btn {
+.alternative-payment-methods .payment-method-apple-pay > .btn {
   overflow: hidden;
 }
 
-#alternative-payment-methods .payment-method-apple-pay.disabled > .btn { /*MLO - Disabled class applied via Payment - remember to test*/
+.alternative-payment-methods .payment-method-apple-pay.disabled > .btn { /*MLO - Disabled class applied via Payment - remember to test*/
   cursor: not-allowed;
   background: #dfdfdf;
 }
 
-#alternative-payment-methods .payment-method-apple-pay.disabled .apple-pay-btn {
+.alternative-payment-methods .payment-method-apple-pay.disabled .apple-pay-btn {
   background-color: #dfdfdf;
 }
 
-#alternative-payment-methods .payment-method-apple-pay.disabled > .btn:hover {
+.alternative-payment-methods .payment-method-apple-pay.disabled > .btn:hover {
   border-color: #dedede;
   box-shadow: none;
 }
@@ -666,24 +670,6 @@ a.btn, button[type="submit"] {
 .well-sm {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-@media (max-width: 480px) {
-  .well-blueish-xs {
-    background: #f2f7fa;
-    border-top: 1px solid #d9dee1;
-    border-bottom: 1px solid #d9dee1;
-    color: #557e94
-  }
-}
-
-@media (min-width: 481px) {
-  .well-blueish-sm {
-    background: #f2f7fa;
-    border-top: 1px solid #d9dee1;
-    border-bottom: 1px solid #d9dee1;
-    color: #557e94
-  }
 }
 
 /* --- Info bubbles --- */
