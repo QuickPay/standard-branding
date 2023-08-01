@@ -413,6 +413,12 @@ a.btn, button[type="submit"] {
 }
 
  /* ----- Payment Window ----- */ 
+ .content-container {
+  display: flex;
+  /* padding-top: 10px;
+  padding-bottom: 20px; */
+  padding: 20px;
+}
 
  /* --- Header --- */
  .header {
@@ -483,9 +489,13 @@ a.btn, button[type="submit"] {
 }
 
 /* --- Form --- */ 
+#active-form {
+  margin-top: -10px;
+}
+
  #active-form form {
   /*display: flex;*/
-  padding: 10px 40px 20px 40px;
+  padding: 0 20px;
   /*width: 450px;*/
 }
 
@@ -650,13 +660,6 @@ a.btn, button[type="submit"] {
   margin: 12px 0;
   width: 100%;
   height: 42px;
-}
-
-/* ----- Misc. elements ----- */
-
-.well-sm {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /* --- Info bubbles --- */

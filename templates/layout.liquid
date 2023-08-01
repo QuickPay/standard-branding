@@ -15,15 +15,16 @@
             {% include "order_info" %}
           </div>
         </div>
-        {% else %}
-          <div class="header-content text-center-xs">
-            <h1 id="merchant-name">{{ model.displayname }}</h1>
-            {% include "order_info" %}
-          </div>
-        {% endif %}
-      </div>
-
-    {% include "content" %}
+      {% else %}
+        <div class="header-content text-center-xs">
+          <h1 id="merchant-name">{{ model.displayname }}</h1>
+          {% include "order_info" %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="content-container">
+      {% include "content" %}
+    </div>
   </div>
 
   {% unless model.alternative_payment_methods == empty and model.undo_payment_method? == false %}
