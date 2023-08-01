@@ -1,10 +1,8 @@
 <div class="container">
-  <div id="3d_wait">
-    <div class="highlighted-text center-y text-center-xs">
-      <img class="icon-md icon-rotate" src="{{ images.cog.svg }}">
-      {% t Running 3-D Secure checks. Please wait... %}
-      </div>
-    </div>
+  <div id="3d_wait" class="highlighted-text center-y text-center-xs">
+    <img class="icon-md icon-rotate" src="{{ images.cog.svg }}">
+    {% t Running 3-D Secure checks. Please wait... %}
+  </div>
 </div>
 
 {% if model.method_url %}
