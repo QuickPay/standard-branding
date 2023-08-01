@@ -1,19 +1,13 @@
-<div class="flex well-sm" data-session-id="{{ model.session_id }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h3 class="center-y text-center-xs">
-          <img class="icon" src="{{ images.info-circle.svg }}">
-          {% t Order expired %}
-      </h3>
-      </div>
-      <div class="col-xs-12">
-        <p class="text-center-xs">{% t You did not finish the purchase within the time frame. %}
-          {% if model.cancel_url %}
-            <a href="{{ model.cancel_url }}">{% t Click here to continue %}</a>.
-          {% endif %}
-        </p>
-      </div>
-    </div>
+<div class="container" data-session-id="{{ model.session_id }}">
+  <div class="highlighted-text center-y">
+    <img class="icon-md" src="{{ images.info-circle.svg }}">
+    {% t Order expired %}
+  </div>
+  <div>
+    <p class="text-center-xs">{% t You did not finish the purchase within the time frame. %}
+      {% if model.cancel_url %}
+        <a href="{{ model.cancel_url }}">{% t Click here to continue %}</a>.
+      {% endif %}
+    </p>
   </div>
 </div>

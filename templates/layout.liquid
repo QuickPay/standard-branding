@@ -1,8 +1,8 @@
 <div class="wrapper">
   <div class="payment-container">
-      <div class="header">
-        {% if model.logo_url %}
-          <div class="header-content-logo">
+    <div class="header">
+      {% if model.logo_url %}
+        <div class="header-content-logo">
           <div class="logo-container"> 
             <img
               id="merchant-logo"
@@ -14,15 +14,16 @@
             {% include "order_info" %}
           </div>
         </div>
-        {% else %}
-          <div class="header-content text-center-xs">
-            <h1 id="merchant-name">{{ model.displayname }}</h1>
-            {% include "order_info" %}
-          </div>
-        {% endif %}
-      </div>
-
-    {% include "content" %}
+      {% else %}
+        <div class="header-content text-center-xs">
+          <h1 id="merchant-name">{{ model.displayname }}</h1>
+          {% include "order_info" %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="content-container">
+      {% include "content" %}
+    </div>
   </div>
 
   {% unless model.alternative_payment_methods == empty and model.undo_payment_method? == false %}

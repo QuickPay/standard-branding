@@ -426,6 +426,12 @@ a.btn, button[type="submit"] {
 }
 
  /* ----- Payment Window ----- */ 
+ .content-container {
+  display: flex;
+  /* padding-top: 10px;
+  padding-bottom: 20px; */
+  padding: 20px;
+}
 
  /* --- Header --- */
  .header {
@@ -496,9 +502,13 @@ a.btn, button[type="submit"] {
 }
 
 /* --- Form --- */ 
+#active-form {
+  margin-top: -10px;
+}
+
  #active-form form {
   /*display: flex;*/
-  padding: 10px 40px 20px 40px;
+  padding: 0 20px;
   /*width: 450px;*/
 }
 
@@ -665,13 +675,6 @@ a.btn, button[type="submit"] {
   height: 42px;
 }
 
-/* ----- Misc. elements ----- */
-
-.well-sm {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 /* --- Info bubbles --- */
 .bubble {
   position: relative;
@@ -768,20 +771,6 @@ img.icon-rotate {
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-h3 img.icon {
-  height: 32px !important;
-  width: 32px;
-  margin-left: 0 !important;
-  margin-right: 9px !important;
-}
-
-h4 img.icon {
-  height: 24px !important;
-  width: 24px;
-  margin-left: 0 !important;
-  margin-right: 6px !important;
-}
-
 /* ----- Utility classes ----- */
 
 .clickable {
@@ -818,11 +807,12 @@ h4 img.icon {
 .highlighted-text {
   font-size: 16px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.flex {
+/* .flex {
   display: flex;
-}
+} */
 
 @media (max-width: 480px) {
   .text-center-xs {

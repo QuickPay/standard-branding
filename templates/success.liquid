@@ -1,18 +1,14 @@
-<div class="flex well-sm" data-session-id="{{ model.session_id }}">
-<div class="container">
-      <div class="col-xs-12">
-        <div class="highlighted-text center-y text-center-xs">
-          <img class="icon-md" src="{{ images.check-circle-o.svg }}">
-          {% if model.transaction_type == "payout" %}
-            {% t You have completed the payout %}
-          {% elsif model.transaction_type == "card" %}
-            {% t You have saved the card %}
-          {% elsif model.transaction_type == "subscription" %}
-            {% t You have completed the subscription %}
-          {% else %}
-            {% t You have completed the payment %}
-          {% endif %}
-        </div>
-      </div>
-      </div>
+<div class="container" data-session-id="{{ model.session_id }}">
+  <div class="highlighted-text center-y">
+    <img class="icon-md" src="{{ images.check-circle-o.svg }}">
+      {% if model.transaction_type == "payout" %}
+        {% t You have completed the payout %}
+      {% elsif model.transaction_type == "card" %}
+        {% t You have saved the card %}
+      {% elsif model.transaction_type == "subscription" %}
+        {% t You have completed the subscription %}
+      {% else %}
+        {% t You have completed the payment %}
+      {% endif %}
+  </div>
 </div>
