@@ -203,7 +203,7 @@ input[type="text"], input[type="tel"], input[type="number"] {
   letter-spacing: 2.2px;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"], input[type="radio"] {
   vertical-align: -1px;
 }
 
@@ -540,6 +540,11 @@ a.btn, button[type="submit"] {
   opacity: 0.3;
 }
 
+.inline-option {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
 .form-group label {
   margin-bottom: 3px;
 }
@@ -717,6 +722,10 @@ a.btn, button[type="submit"] {
   border-bottom-color: #acbdc7;
 }
 
+.bubble-cardbrand {
+  margin-top: 15px;
+}
+
 .bubble.bubble-cvd:before,
 .bubble.bubble-cvd:after {
   right: 20%;
@@ -725,11 +734,6 @@ a.btn, button[type="submit"] {
 .bubble.bubble-three-d:before,
 .bubble.bubble-three-d:after {
   left: 20%;
-}
-
-.bubble.bubble-btc-address:before,
-.bubble.bubble-btc-address:after {
-  left: 40%;
 }
 
 #cvd-help img {
