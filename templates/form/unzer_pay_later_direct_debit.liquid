@@ -1,88 +1,66 @@
 <div class="container">
-  <form class="form-horizontal" method="post" autocomplete="off" action="process_unzer_pay_later">
+  <form method="post" autocomplete="off" action="process_unzer_pay_later">
     <input type="hidden" name="session_id" value="{{ model.session_id }}" />
     <input type="hidden" name="upl_session_id" value="{{ model.upl_session_id }}" />
     <div id="required_text" class="hidden">{% t This field is required. %}</div>
-    <div class="row">
-      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
-          <img src="/assets/v2/images/brands/unzer-pay-later-direct_debit.svg" alt="Unzer Pay Later" title="Unzer Pay Later Direct Debit" style="width:100%">
+    <div class="text-right">
+      <img src="/assets/v2/images/brands/unzer-pay-later-direct_debit.svg" class="logo-image" alt="Unzer Pay Later logo">
+    </div>
+    <noscript>
+      <iframe style="width: 100px; height: 100px; border: 0; position: absolute; top: -5000px;" src="{{ model.noscript_url }}"></iframe>
+    </noscript>
+    <div>
+      <div class="form-group">
+        <label for="person_email">{% t Email Address %}</label>
+        <input type="text" id="person_email" name="person[email]" value="{{ model.invoice_address.email}}" {% if model.invoice_address.email %}readonly="true" {% endif %} class="form-control" autocomplete="on">
       </div>
-      <noscript>
-        <iframe style="width: 100px; height: 100px; border: 0; position: absolute; top: -5000px;" src="{{ model.noscript_url }}"></iframe>
-      </noscript>
-      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
-        <div class="form-group">
-          <div class="col-xs-12">
-            <label for="person_email">{% t Email Address %}</label>
-            <input type="text" id="person_email" name="person[email]" value="{{ model.invoice_address.email}}" {% if model.invoice_address.email %}readonly="true" {% endif %} class="form-control" autocomplete="on">
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-xs-12">
-            <label for="first_name">{% t First name %}</label>
-            <input type="text" id="first_name" class="form-control" name="person[first_name]" value="{{ model.first_name }}" {% if model.first_name %}readonly="true" {% endif %} autocomplete="on" required>
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-xs-12">
-            <label for="last_name">{% t Last name %}</label>
-            <input type="text" id="last_name" class="form-control" name="person[last_name]" value="{{ model.last_name }}" {% if model.last_name %}readonly="true" {% endif %} autocomplete="on" required>
-          </div>
-        </div>
-        <div class="form-group{% if model.invalid_dob? %} has-error{% endif %}">
-          <div class="col-xs-12">
-            <label for="person_dob">{% t Date of Birth %}</label>
-            <input type="date" id="person_dob" name="person[dob]" class="form-control" required>
-            <span class="help-block{% if model.invalid_dob? != true %} hidden{% endif %}">
-              {% t The age must be at least 18 %}
-            </span>
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-xs-12">
-            <label for="person_bank_account_holder">{% t Bank account holder %}</label>
-            <input
-              type="text"
-              id="person_bank_account_holder"
-              name="person[bank_account_holder]"
-              class="form-control"
-              value="{{ model.invoice_address.name }}"
-              autocomplete="on"
-              required
-              pattern="^[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s(?:[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s?)+$"
-            >
-            <span id="invalid_bah" class="help-block{% if model.invalid_bah? != true %} hidden{% endif %}">
-              {% t Invalid name format. Only letters are accepted. %}
-            </span>
-            <span id="single_bah" class="help-block hidden">
-              {% t Enter full name (e.g. John Smith) %}
-            </span>
-            
-          </div>
-        </div>
-        <div class="form-group{% if model.invalid_iban? %} has-error{% endif %}">
-          <div class="col-xs-12">
-            <label for="person_iban">{% t IBAN %}</label>
-            <input type="text" id="person_iban" name="person[iban]" class="form-control" autocomplete="on" required>
-            <span class="help-block{% if model.invalid_iban? != true %} hidden{% endif %}">
-              {% t Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90) %}
-            </span>
-          </div>
-        </div>
-        <div class="checkbox">
-          <label for="user_consent">
-            <input type="checkbox" id="user_consent" name="user_consent" required>
-            <b>
-              {{ model.identity_consent }}
-            </b>
-          </label>
-        </div>
-        <div class="form-group">
-          <div class="col-xs-12">
-            <button type="submit" class="btn btn-primary">{% t Proceed %}</button>
-          </div>
-        </div>
+      <div class="form-group">
+        <label for="first_name">{% t First name %}</label>
+        <input type="text" id="first_name" class="form-control" name="person[first_name]" value="{{ model.first_name }}" {% if model.first_name %}readonly="true" {% endif %} autocomplete="on" required>
       </div>
+      <div class="form-group">
+        <label for="last_name">{% t Last name %}</label>
+        <input type="text" id="last_name" class="form-control" name="person[last_name]" value="{{ model.last_name }}" {% if model.last_name %}readonly="true" {% endif %} autocomplete="on" required>
+      </div>
+      <div class="form-group{% if model.invalid_dob? %} has-error{% endif %}">
+        <label for="person_dob">{% t Date of Birth %}</label>
+        <input type="date" id="person_dob" name="person[dob]" class="form-control" required>
+        <span class="help-block{% if model.invalid_dob? != true %} hidden{% endif %}">
+          {% t The age must be at least 18 %}
+        </span>
+      </div>
+      <div class="form-group">
+        <label for="person_bank_account_holder">{% t Bank account holder %}</label>
+        <input
+          type="text"
+          id="person_bank_account_holder"
+          name="person[bank_account_holder]"
+          class="form-control"
+          value="{{ model.invoice_address.name }}"
+          autocomplete="on"
+          required
+          pattern="^[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s(?:[^\d+!#$%&'()*+,./\\:;<=>?@[\]^`{}|~\s]+\s?)+$">
+        <span id="invalid_bah" class="help-block{% if model.invalid_bah? != true %} hidden{% endif %}">
+          {% t Invalid name format. Only letters are accepted. %}
+        </span>
+        <span id="single_bah" class="help-block hidden">
+          {% t Enter full name (e.g. John Smith) %}
+        </span>
+      </div>
+      <div class="form-group{% if model.invalid_iban? %} has-error{% endif %}">
+        <label for="person_iban">{% t IBAN %}</label>
+        <input type="text" id="person_iban" name="person[iban]" class="form-control" autocomplete="on" required>
+        <span class="help-block{% if model.invalid_iban? != true %} hidden{% endif %}">
+          {% t Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90) %}
+        </span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="user_consent" name="user_consent" required>
+        <label for="user_consent">
+          <b>{{ model.identity_consent }}</b>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">{% t Proceed %}</button>
     </div>
   </form>
 </div>
