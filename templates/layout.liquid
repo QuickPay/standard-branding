@@ -5,10 +5,7 @@
         {% if model.logo_url %}
           <div class="header-content-logo">
           <div class="logo-container"> 
-            <img
-              id="merchant-logo"
-              src="{{ model.logo_url }}"
-              alt="{{ model.displayname }}">
+            <img id="merchant-logo" src="{{ model.logo_url }}" alt="{{ model.displayname }}">
           </div> 
           <div>
             <h1 id="merchant-name">{{ model.displayname }}</h1>
@@ -35,10 +32,7 @@
       {% if model.undo_payment_method? %}
         <div class="col-sm-4 col-xs-6 payment-method">
           <a href="{{ model.session_id }}/payment-method-undo/" class="btn">
-            <img
-              src="/assets/v2/images/brands/card.svg"
-              alt="{% t Cards %}"
-              title="{% t Cards %}" />
+            <img src="/assets/v2/images/brands/card.svg" alt="{% t Cards %}" title="{% t Cards %}" />
           </a>
         </div>
       {% endif %}
@@ -66,135 +60,125 @@
 
 <div id="footer">
   <div id="gateway-info">
-    <div id="gateway-info-inner">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <button class="btn" data-hide="#gateway-info"><img
-                class="icon"
-                src="{{ images.arrow-down.svg }}"
-                alt="Close"></button>
-          </div>
+    <div id="#gateway-info-inner" class="container">
+      <div class="col-xs-12 text-center">
+        <button class="btn" data-hide="#gateway-info">
+          <img class="icon" src="{{ images.arrow-down.svg }}" alt="Close">
+        </button>
+      </div>
+      <div id="gateway-description">
+        <div class="col-sm-6 col-xs-12">
+          <p>Quickpay is your secure, reliable and dynamic payment service provider. Learn more about our services at
+            <a href="https://www.quickpay.net">www.quickpay.net</a>.
+          </p>
         </div>
-        <div id="gateway-description" class="row">
-          <div class="col-sm-6 col-xs-12">
-            <p>Quickpay is your secure, reliable and dynamic payment service provider. Learn more about our services at
-              <a href="https://www.quickpay.net">www.quickpay.net</a>.</p>
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <p>Quickpay operates at the highest level of security and is certified by the PCI Security Standards Council.</p>
-          </div>
+        <div class="col-sm-6 col-xs-12">
+          <p>Quickpay operates at the highest level of security and is certified by the PCI Security Standards Council.</p>
         </div>
       </div>
     </div>
   </div>
 
   <div id="language-selector">
-    <div id="language-selector-inner">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <button class="btn" data-hide="#language-selector"><img
-                class="icon"
-                src="{{ images.arrow-down.svg }}"
-                alt="Close"></button>
-          </div>
+    <div id="language-selector-inner" class="container">
+      <div class="col-xs-12 text-center">
+        <button class="btn" data-hide="#language-selector">
+          <img class="icon" src="{{ images.arrow-down.svg }}" alt="Close">
+        </button>
+      </div>
+      <div id="language-list">
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=bg">български</a>
         </div>
-        <div id="language-list" class="row">
-
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=bg">български</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=da">Dansk</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=de">Deutsch</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=el">Ελληνικά</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=en">English</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=es">Español</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=et">Eesti keel</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=fi">Suomalainen</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=fo">Føroyskt</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=fr">Français</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=hr">Hrvatski</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=hu">Magyar</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=is">Íslensku</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=it">Italiano</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=ja">日本語</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=kl">Kalaallisut</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=ko">한국어</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=lt">Lietuviškai</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=nl">Nederlands</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=no">Norsk</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=pl">Polskie</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=pt">Português</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=ro">Română</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=ru">Pусский</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=sk">Slovenský</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=sl">Slovenščina</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=sr">Српски</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=sv">Svenska</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=tr">Türk</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=uk">Українська</a>
-          </div>
-          <div class="col-sm-3 col-xs-4">
-            <a href="/{{ model.session_id }}/update-language?language=zh">中文</a>
-          </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=da">Dansk</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=de">Deutsch</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=el">Ελληνικά</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=en">English</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=es">Español</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=et">Eesti keel</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=fi">Suomalainen</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=fo">Føroyskt</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=fr">Français</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=hr">Hrvatski</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=hu">Magyar</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=is">Íslensku</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=it">Italiano</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=ja">日本語</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=kl">Kalaallisut</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=ko">한국어</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=lt">Lietuviškai</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=nl">Nederlands</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=no">Norsk</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=pl">Polskie</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=pt">Português</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=ro">Română</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=ru">Pусский</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=sk">Slovenský</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=sl">Slovenščina</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=sr">Српски</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=sv">Svenska</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=tr">Türk</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=uk">Українська</a>
+        </div>
+        <div class="col-sm-3 col-xs-4">
+          <a href="/{{ model.session_id }}/update-language?language=zh">中文</a>
         </div>
       </div>
     </div>
