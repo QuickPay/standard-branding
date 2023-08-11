@@ -1,17 +1,8 @@
-<form
-  class="form-horizontal"
-  autocomplete="on"
-  action="{{ model.form_action }}"
-  method="post">
-  <input
-    type="hidden"
-    name="session_id"
-    value="{{ model.session_id }}" />
+<form class="form-horizontal" autocomplete="on" action="{{ model.form_action }}" method="post">
+  <input type="hidden" name="session_id" value="{{ model.session_id }}" />
   <div>
     <div class="card-info">
-      <div>
-        <h4>{% t Pay with card %}</h4>
-      </div>
+      <h4>{% t Pay with card %}</h4>
       <div class="form-card-brands">
         {% for method in model.card_payment_methods %}
           <img
@@ -36,7 +27,9 @@
               class="form-control"
               autocomplete="cc-name"
               autofocus="autofocus"
-              {% if config.enable_prefill_name %}value="{{ model.name_on_card }}"{% endif %}>
+              {% if config.enable_prefill_name %}
+                value="{{ model.name_on_card }}"
+              {% endif %}>
           </div>
         </div>
       {% endunless %}
@@ -52,20 +45,15 @@
           class="form-control"
           autocomplete="cc-number"
           {% unless config.enable_card_holder_field %}
-          autofocus="autofocus"
+            autofocus="autofocus"
           {% endunless %}
           aria-describedby="cardnumberSuccess"
           pattern="[0-9\s]*"
           data-mask="#"
           inputmode="numeric">
-        <span
-          id="cardnumber-check"
-          class="form-control-feedback"
-          aria-hidden="true"
-          style="display: none"><img
-            class="check-icon"
-            src="{{ images.check.svg }}"
-            alt="Checkmark"></span>
+        <span id="cardnumber-check" class="form-control-feedback" aria-hidden="true" style="display: none">
+          <img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark">
+        </span>
         <span id="cardnumber-sr" class="sr-only">(success)</span>
       </div>
     </div>
@@ -80,15 +68,11 @@
           data-toggle="#cardbrand-help">
         <div class="inline-option">
           <input type="radio" name="brand" id="cardbrandVisa" value="visa">
-          <label for="cardbrandVisa">
-            Visa
-          </label>
+          <label for="cardbrandVisa">Visa</label>
         </div>
         <div class="inline-option">
           <input type="radio" name="brand" id="cardbrandDankort" value="dankort">
-          <label for="cardbrandDankort">
-            Dankort
-          </label>
+          <label for="cardbrandDankort">Dankort</label>
         </div>
         <div id="cardbrand-help" class="bubble bubble-cardbrand">
           <p>{% t Choose whether to use Visa or Dankort to complete the transaction with your Visa/Dankort card. %}</p>
@@ -98,9 +82,7 @@
 
     <div class="form-group">
       <div class="col-xs-6">
-        <div>
-          <label for="expiration-month">{% t Expiration date %}</label>
-        </div>
+        <label for="expiration-month">{% t Expiration date %}</label>
         <div class="col-xs-6 expiration-month-col">
           <input
             type="tel"
@@ -114,14 +96,9 @@
             pattern="[0-9]*"
             data-mask="99"
             inputmode="numeric">
-          <span
-            id="expiration-month-check"
-            class="form-control-feedback"
-            aria-hidden="true"
-            style="display: none"><img
-              class="check-icon"
-              src="{{ images.check.svg }}"
-              alt="Checkmark"></span>
+          <span id="expiration-month-check" class="form-control-feedback" aria-hidden="true" style="display: none">
+            <img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark">
+          </span>
           <span id="expiration-month-sr" class="sr-only">(success)</span>
         </div>
 
@@ -138,23 +115,16 @@
             pattern="[0-9]*"
             data-mask="99"
             inputmode="numeric">
-          <span
-            id="expiration-year-check"
-            class="form-control-feedback"
-            aria-hidden="true"
-            style="display: none"><img
-              class="check-icon"
-              src="{{ images.check.svg }}"
-              alt="Checkmark"></span>
+          <span id="expiration-year-check" class="form-control-feedback" aria-hidden="true" style="display: none">
+            <img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark">
+          </span>
           <span id="expiration-year-sr" class="sr-only">(success)</span>
         </div>
       </div>
 
       <div class="col-xs-6">
         {% unless model.moto %}
-          <label
-            for="cvd"
-            id="cvd-label">CVV/CVD</label>
+          <label for="cvd" id="cvd-label">CVV/CVD</label>
           <img
             class="icon icon-info clickable"
             src="{{ images.question-circle.svg }}"
@@ -171,18 +141,12 @@
             pattern="[0-9]*"
             data-mask="9999"
             inputmode="numeric">
-          <span
-            id="cvd-check"
-            class="form-control-feedback"
-            aria-hidden="true"
-            style="display: none"><img
-              class="check-icon"
-              src="{{ images.check.svg }}"
-              alt="Checkmark"></span>
+          <span id="cvd-check" class="form-control-feedback" aria-hidden="true" style="display: none">
+            <img class="check-icon" src="{{ images.check.svg }}" alt="Checkmark">
+          </span>
           <span id="cvd-sr" class="sr-only">(success)</span>
         {% endunless %}
       </div>
-
     </div>
 
     <div id="cvd-help" class="bubble bubble-cvd">
@@ -191,26 +155,15 @@
     </div>
 
     {% if config.enable_3d_card_field %}
-      <div
-        class="form-group"
-        id="3d-field"
-        style="display: none">
-        <div class="col-xs-12 checkbox">
-            <label><input
-                type="checkbox"
-                id="3d"
-                name="3d"
-                value="1">
-              <strong>{% t Enable 3D Secure %}</strong>
-            </label>
-            <img
-              class="icon icon-info clickable"
-              src="{{ images.question-circle.svg }}"
-              alt="CVV/CVD"
-              data-toggle="#three-d-help">
-          </div>
+      <div class="form-group" id="3d-field" style="display: none">
+        <div class="col-xs-12">
+          <input type="checkbox" id="3d" name="3d" value="1">  
+          <label for="3d">
+            <strong>{% t Enable 3D Secure %}</strong>
+          </label>
+          <img class="icon icon-info clickable" src="{{ images.question-circle.svg }}" alt="CVV/CVD" data-toggle="#three-d-help">
+        </div>
       </div>
-
       <div id="three-d-help" class="bubble bubble-three-d">
         <p>{% t 3D Secure is a 2 step verification service using a text message to your phone. %}</p>
         <p>{% t Your credit card issuer may require you to use 3D Secure as an extra precaution. %}</p>
@@ -236,10 +189,9 @@
             <span id="total-field">{{ model.formatted_amount }} {{ model.currency }}</span>
           {% endif %}
         {% endcapture %}
-        <button
-          type="submit"
-          class="btn btn-primary"
-          data-card-valid-swap="btn-success,btn-primary">{{ button_text }}</button>
+        <button type="submit" class="btn btn-primary" data-card-valid-swap="btn-success,btn-primary">
+          {{ button_text }}
+        </button>
         {% if model.calculate_fee %}
           <p id="fee" class="text-center">
             {% t Payment fee %}:
