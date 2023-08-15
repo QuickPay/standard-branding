@@ -415,6 +415,13 @@ h4 img.icon {
   margin-right: 6px !important;
 }
 
+.reservation-notice {
+  color: #888888;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 12px;
+}
+
 /*
  * Utility classes
  *
