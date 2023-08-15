@@ -31,6 +31,7 @@
                   id="cardholder"
                   name="cardholder"
                   class="form-control"
+                  maxlength="44"
                   autocomplete="cc-name"
                   autofocus="autofocus"
                   {% if config.enable_prefill_name %}value="{{ model.name_on_card }}"{% endif %}>
