@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2022-06-02 08:33+0000\n"
+"PO-Revision-Date: 2023-08-15 15:04+0200\n"
 "Last-Translator: Kristian <kgb@quickpay.net>\n"
 "Language-Team: Danish <https://translate.quickpay.net/projects/quickpay/standard-branding/da/>\n"
 "Language: da_DK\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.1\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -150,9 +150,8 @@ msgid "Card number"
 msgstr "Kortnummer"
 
 #: templates/form/card.liquid:73
-#, fuzzy
 msgid "Card type"
-msgstr "Kortnummer"
+msgstr "Korttype"
 
 #: templates/form/card.liquid:93
 msgid "Expiration date"
@@ -292,7 +291,6 @@ msgid "When you click the button below, the PayPal payment window will open."
 msgstr "PayPal betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form/paypalpayments.liquid:12
-#, fuzzy
 msgid "When you click the button below, the PayPalPayments payment window will open."
 msgstr "PayPal betalingsvinduet åbner, når du klikker på knappen herunder."
 
@@ -433,9 +431,8 @@ msgid "expires in"
 msgstr "udløber om"
 
 #: templates/selector.liquid:5
-#, fuzzy
 msgid "Select Payment Method"
-msgstr "Andre betalingsmetoder"
+msgstr "Vælg betalingsmetode"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"

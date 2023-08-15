@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2020-10-09 08:31+0000\n"
+"PO-Revision-Date: 2023-08-15 15:02+0200\n"
 "Last-Translator: Johan Færch <jf@quickpay.net>\n"
 "Language-Team: Swedish <http://translate.quickpay.net/projects/quickpay/standard-branding/sv/>\n"
 "Language: sv_SE\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -84,14 +84,12 @@ msgid "Starting 3D Secure payment. Please wait..."
 msgstr "Påbörjar betalning via 3D Secure. Var god vänta..."
 
 #: templates/form/3ds_auth.liquid:7
-#, fuzzy
 msgid "Running 3-D Secure checks. Please wait..."
-msgstr "Påbörjar betalning via 3D Secure. Var god vänta..."
+msgstr "Kör 3-D Secure-kontroller. Var god vänta…"
 
 #: templates/form/anydaysplit.liquid:12
-#, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för PayPal att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Anyday att öppnas."
 
 #: templates/form/anydaysplit.liquid:13 templates/form/bancontact.liquid:14
 #: templates/form/bitcoin.liquid:28 templates/form/blik.liquid:14
@@ -124,9 +122,8 @@ msgid "Proceed to payment"
 msgstr "Fortsätt till betalning"
 
 #: templates/form/bancontact.liquid:13
-#, fuzzy
 msgid "When you click the button below, the Bancontact payment window will open."
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Klarna att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Bancontact att öppnas."
 
 #: templates/form/bitcoin.liquid:21
 msgid "The Bitcoin address was copied to your clipboard."
@@ -141,9 +138,8 @@ msgid "Open in wallet"
 msgstr "Öppna i plånboken"
 
 #: templates/form/blik.liquid:13
-#, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Klarna att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för BLIK att öppnas."
 
 #: templates/form/card.liquid:28
 msgid "Name on card"
@@ -154,9 +150,8 @@ msgid "Card number"
 msgstr "Kortnummer"
 
 #: templates/form/card.liquid:73
-#, fuzzy
 msgid "Card type"
-msgstr "Kortnummer"
+msgstr "Korttyp"
 
 #: templates/form/card.liquid:93
 msgid "Expiration date"
@@ -281,12 +276,11 @@ msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Klarn
 
 #: templates/form/mobilepay.liquid:13
 msgid "When you click the button below, the MobilePay payment window will open."
-msgstr "När du klickar på knappen nedan, kommer fönstret för mobila betalningar att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för MobilePay Online att öppnas."
 
 #: templates/form/mobilepay_online.liquid:7
-#, fuzzy
 msgid "When you click the button below, the MobilePay Online window will open"
-msgstr "När du klickar på knappen nedan, kommer fönstret för mobila betalningar att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för MobilePay Online att öppnas"
 
 #: templates/form/mobilepay_subscriptions.liquid:13
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
@@ -297,7 +291,6 @@ msgid "When you click the button below, the PayPal payment window will open."
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för PayPal att öppnas."
 
 #: templates/form/paypalpayments.liquid:12
-#, fuzzy
 msgid "When you click the button below, the PayPalPayments payment window will open."
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för PayPal att öppnas."
 
@@ -306,13 +299,12 @@ msgid "When you click the button below, the paysafecard payment window will open
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för paysafecard att öppnas."
 
 #: templates/form/przelewy24.liquid:13
-#, fuzzy
 msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Trustly att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Przelewy24 att öppnas."
 
 #: templates/form/resurs.liquid:26
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Trustly att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Resurs att öppnas."
 
 #: templates/form/sofort.liquid:8
 msgid "When you click the button below, the Sofort payment window will open."
@@ -327,7 +319,6 @@ msgid "Bank"
 msgstr "Bank"
 
 #: templates/form/sofortppro.liquid:13
-#, fuzzy
 msgid "When you click the button below, the SofortPPRO payment window will open."
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Sofort att öppnas."
 
@@ -358,42 +349,42 @@ msgstr "Efternamn"
 #: templates/form/unzer_pay_later_direct_debit.liquid:5
 #: templates/form/unzer_pay_later_invoice.liquid:5
 msgid "This field is required."
-msgstr ""
+msgstr "Detta fält är obligatoriskt."
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:16
 #: templates/form/unzer_pay_later_invoice.liquid:17
 msgid "Email Address"
-msgstr ""
+msgstr "Email Address"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:34
 #: templates/form/unzer_pay_later_invoice.liquid:35
 msgid "Date of Birth"
-msgstr ""
+msgstr "Födelsedatum"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:37
 #: templates/form/unzer_pay_later_invoice.liquid:38
 msgid "The age must be at least 18"
-msgstr ""
+msgstr "Åldern måste vara minst 18 år"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:43
 msgid "Bank account holder"
-msgstr ""
+msgstr "Bankkontoinnehavare"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:55
 msgid "Invalid name format. Only letters are accepted."
-msgstr ""
+msgstr "Ogiltigt namnformat. Endast bokstäver är tillåtna."
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:58
 msgid "Enter full name (e.g. John Smith)"
-msgstr ""
+msgstr "Ange fullständigt namn (t.ex. John Smith)."
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:65
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:68
 msgid "Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90)"
-msgstr ""
+msgstr "Ogiltigt IBAN-format. Ange ett giltigt IBAN (t.ex. DE 12 1001 1001 1234 5678 90)"
 
 #: templates/form/viabill.liquid:11
 msgid "When you click the button below, the ViaBill payment window will open."
@@ -401,17 +392,15 @@ msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för ViaBi
 
 #: templates/form/vipps.liquid:13
 msgid "When you click the button below, the Vipps payment window will open."
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för ViaBill att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Vipps att öppnas."
 
 #: templates/form/vippspsp.liquid:7
-#, fuzzy
 msgid "When you click the button below, the Vipps PSP window will open"
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för ViaBill att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Vipps att öppnas"
 
 #: templates/form/wechat.liquid:13
-#, fuzzy
 msgid "When you click the button below, the WeChat payment window will open."
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för iDeal att öppnas."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för WeChat att öppnas."
 
 #: templates/form.liquid:11
 msgid "Other Payment Methods"
@@ -442,23 +431,20 @@ msgid "expires in"
 msgstr "utgår om"
 
 #: templates/selector.liquid:5
-#, fuzzy
 msgid "Select Payment Method"
-msgstr "Andra Betalmetoder"
+msgstr "Välj betalningsmetod"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"
 msgstr "Du har nu slutfört betalningen"
 
 #: templates/success.liquid:10
-#, fuzzy
 msgid "You have saved the card"
-msgstr "Du har avbrutit betalningen"
+msgstr "Du har sparat kortet"
 
 #: templates/success.liquid:12
-#, fuzzy
 msgid "You have completed the subscription"
-msgstr "Du har nu slutfört betalningen"
+msgstr "Du har slutfört prenumerationen"
 
 #: templates/success.liquid:14
 msgid "You have completed the payment"
@@ -485,9 +471,8 @@ msgid "Please wait..."
 msgstr "Var god vänta..."
 
 #: templates/waiting.liquid:24
-#, fuzzy
 msgid "The process may take some time."
-msgstr "Processen kan ta upp till 5 minuter."
+msgstr "Processen kan ta lite tid."
 
 #: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
