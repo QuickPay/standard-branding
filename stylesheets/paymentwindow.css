@@ -57,6 +57,11 @@ input[type="text"], input[type="tel"], input[type="number"] {
   letter-spacing: 1.2px;
 }
 
+input[type="radio"] {
+  margin-top: -1px;
+  vertical-align: middle;
+}
+
 select {
   line-height: 16px !important;
   font-size: 16px !important;
@@ -214,6 +219,11 @@ a.btn, button[type="submit"] {
 #active-form .form-control-feedback img.check-icon {
   width: 20px;
   height: 20px;
+}
+
+.inline-option {
+  display: inline-block;
+  margin: 0 0 0 10px;
 }
 
 #active-form #cvd-help img {
@@ -403,6 +413,13 @@ h4 img.icon {
   width: 24px;
   margin-left: 0 !important;
   margin-right: 6px !important;
+}
+
+.reservation-notice {
+  color: #888888;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 12px;
 }
 
 /*
