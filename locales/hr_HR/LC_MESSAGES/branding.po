@@ -145,55 +145,60 @@ msgstr "Otvoriti u novčaniku"
 msgid "When you click the button below, the BLIK payment window will open."
 msgstr "Klikom na donji gumb otvoriti će se prozor za plaćanje putem Paypala."
 
-#: templates/form/card.liquid:16
+#: templates/form/card.liquid:28
 msgid "Name on card"
 msgstr "Ime na kartici"
 
-#: templates/form/card.liquid:25
+#: templates/form/card.liquid:45
 msgid "Card number"
 msgstr "Broj kartice"
 
-#: templates/form/card.liquid:35
+#: templates/form/card.liquid:73
+#, fuzzy
+msgid "Card type"
+msgstr "Broj kartice"
+
+#: templates/form/card.liquid:93
 msgid "Expiration date"
 msgstr "Datum isteka"
 
-#: templates/form/card.liquid:61
+#: templates/form/card.liquid:184
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr "CVV/CVD kod podiže razinu sigurnosti. Obično je podatak za verifikaciju kartice 3-znamenkasti broj koji se nalazi na poleđini kartice."
 
-#: templates/form/card.liquid:69
+#: templates/form/card.liquid:200
 msgid "Enable 3D Secure"
 msgstr "Omogući 3D Secure"
 
-#: templates/form/card.liquid:75
+#: templates/form/card.liquid:213
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr "3D Secure metoda je usluga verfikacije plaćanja u 2 koraka putem poruke poslane na vaštelefon."
 
-#: templates/form/card.liquid:76
+#: templates/form/card.liquid:214
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr "Izdavatelj vaše kartice može tražiti od vas da koristite 3D Secure kao dodatnu predostrožnost."
 
-#: templates/form/card.liquid:84
+#: templates/form/card.liquid:222
 msgid "Pay"
 msgstr "Plati"
 
-#: templates/form/card.liquid:86
+#: templates/form/card.liquid:225
 msgid "Create subscription"
 msgstr "Stvori pretplatu"
 
-#: templates/form/card.liquid:91
+#: templates/form/card.liquid:231
 msgid "Save card"
 msgstr "Sačuvaj karticu"
 
-#: templates/form/card.liquid:93
+#: templates/form/card.liquid:233
 msgid "Receive"
 msgstr "Primi"
 
-#: templates/form/card.liquid:99
+#: templates/form/card.liquid:243
 msgid "Payment fee"
 msgstr "Naknada plaćanja"
 
-#: templates/form/card.liquid:99
+#: templates/form/card.liquid:245
 msgid "Fill in card number"
 msgstr "Upišite broj kartice"
 
@@ -442,6 +447,11 @@ msgstr "Broj narudžbe"
 #: templates/order_info.liquid:6
 msgid "expires in"
 msgstr "ističe"
+
+#: templates/selector.liquid:5
+#, fuzzy
+msgid "Select Payment Method"
+msgstr "Druge metode plaćanja"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"

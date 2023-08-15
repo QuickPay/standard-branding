@@ -145,55 +145,60 @@ msgstr ""
 msgid "When you click the button below, the BLIK payment window will open."
 msgstr "Tá tú trýstir á knøttin niðanfyri, letur PayPal gjaldingarvindeygað upp."
 
-#: templates/form/card.liquid:16
+#: templates/form/card.liquid:28
 msgid "Name on card"
 msgstr "Navn á kortið"
 
-#: templates/form/card.liquid:25
+#: templates/form/card.liquid:45
 msgid "Card number"
 msgstr "Kortnummar"
 
-#: templates/form/card.liquid:35
+#: templates/form/card.liquid:73
+#, fuzzy
+msgid "Card type"
+msgstr "Kortnummar"
+
+#: templates/form/card.liquid:93
 msgid "Expiration date"
 msgstr "Útgongudagur"
 
-#: templates/form/card.liquid:61
+#: templates/form/card.liquid:184
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr "CW/CVD kodan økir um trygdina. Vanliga er CVD (Card Verification Data) kodan trý tey seinastu tølini, aftanfyri á kortinum. "
 
-#: templates/form/card.liquid:69
+#: templates/form/card.liquid:200
 msgid "Enable 3D Secure"
 msgstr "Gilda 3D Secure"
 
-#: templates/form/card.liquid:75
+#: templates/form/card.liquid:213
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr "3D Secure er ein váttanartænasta í 2 stigum, har SMS-boð verða send á telefon tína."
 
-#: templates/form/card.liquid:76
+#: templates/form/card.liquid:214
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr "Útgevarin av korti tínum krevur møguliga at tú nýtir 3D Secure sum eitt eyka fyrivarni."
 
-#: templates/form/card.liquid:84
+#: templates/form/card.liquid:222
 msgid "Pay"
 msgstr "Gjald"
 
-#: templates/form/card.liquid:86
+#: templates/form/card.liquid:225
 msgid "Create subscription"
 msgstr "Stovna hald"
 
-#: templates/form/card.liquid:91
+#: templates/form/card.liquid:231
 msgid "Save card"
 msgstr "Goym kort"
 
-#: templates/form/card.liquid:93
+#: templates/form/card.liquid:233
 msgid "Receive"
 msgstr ""
 
-#: templates/form/card.liquid:99
+#: templates/form/card.liquid:243
 msgid "Payment fee"
 msgstr "Gjaldingar avgjald"
 
-#: templates/form/card.liquid:99
+#: templates/form/card.liquid:245
 msgid "Fill in card number"
 msgstr "Útfyll kortnummar "
 
@@ -444,6 +449,11 @@ msgstr "Bíleggingarnummar "
 #: templates/order_info.liquid:6
 msgid "expires in"
 msgstr "gongur út um"
+
+#: templates/selector.liquid:5
+#, fuzzy
+msgid "Select Payment Method"
+msgstr "Aðrir gjaldsháttir"
 
 #: templates/success.liquid:8
 #, fuzzy

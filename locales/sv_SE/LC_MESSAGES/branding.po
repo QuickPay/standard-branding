@@ -145,55 +145,60 @@ msgstr "Öppna i plånboken"
 msgid "When you click the button below, the BLIK payment window will open."
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Klarna att öppnas."
 
-#: templates/form/card.liquid:16
+#: templates/form/card.liquid:28
 msgid "Name on card"
 msgstr "Kortinnehavarens namn"
 
-#: templates/form/card.liquid:25
+#: templates/form/card.liquid:45
 msgid "Card number"
 msgstr "Kortnummer"
 
-#: templates/form/card.liquid:35
+#: templates/form/card.liquid:73
+#, fuzzy
+msgid "Card type"
+msgstr "Kortnummer"
+
+#: templates/form/card.liquid:93
 msgid "Expiration date"
 msgstr "Utgångsdatum"
 
-#: templates/form/card.liquid:61
+#: templates/form/card.liquid:184
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr "Verifikationsnumret ökar säkerheten för dig som kund. Vanligtvis är detta ett nummer som består av tre siffror, vilka återfinns på kortets baksida."
 
-#: templates/form/card.liquid:69
+#: templates/form/card.liquid:200
 msgid "Enable 3D Secure"
 msgstr "Aktivera 3D Secure"
 
-#: templates/form/card.liquid:75
+#: templates/form/card.liquid:213
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr "3D Secure är en 2-stegs verifikationstjänst som skickar ett text meddelande till din mobil."
 
-#: templates/form/card.liquid:76
+#: templates/form/card.liquid:214
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr "Din kortutgivare kan ha som krav att du använder 3D Secure som en extra säkerhetsåtgärd."
 
-#: templates/form/card.liquid:84
+#: templates/form/card.liquid:222
 msgid "Pay"
 msgstr "Betala"
 
-#: templates/form/card.liquid:86
+#: templates/form/card.liquid:225
 msgid "Create subscription"
 msgstr "Skapa prenumeration"
 
-#: templates/form/card.liquid:91
+#: templates/form/card.liquid:231
 msgid "Save card"
 msgstr "Spara kort"
 
-#: templates/form/card.liquid:93
+#: templates/form/card.liquid:233
 msgid "Receive"
 msgstr "Ta emot"
 
-#: templates/form/card.liquid:99
+#: templates/form/card.liquid:243
 msgid "Payment fee"
 msgstr "Betalningsavgift"
 
-#: templates/form/card.liquid:99
+#: templates/form/card.liquid:245
 msgid "Fill in card number"
 msgstr "Fyll i kortnummer"
 
@@ -435,6 +440,11 @@ msgstr "Ordernummer"
 #: templates/order_info.liquid:6
 msgid "expires in"
 msgstr "utgår om"
+
+#: templates/selector.liquid:5
+#, fuzzy
+msgid "Select Payment Method"
+msgstr "Andra Betalmetoder"
 
 #: templates/success.liquid:8
 msgid "You have completed the payout"
