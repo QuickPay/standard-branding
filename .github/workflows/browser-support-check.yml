@@ -1,0 +1,20 @@
+name: Browser Support Check
+
+on: [push]
+
+jobs:
+  browser-support-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 22
+          cache: "yarn"
+
+      - name: Yarn install
+        run: yarn install --frozen-lockfile
+
+      - name: Browser Support Check
+        run: node css_browser_support.mjs

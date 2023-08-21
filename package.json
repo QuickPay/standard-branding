@@ -1,0 +1,12 @@
+{
+  "name": "standard-branding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:QuickPay/standard-branding.git",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "doiuse": "^6.0.2",
+    "postcss": "^8.4.28"
+  }
+}
