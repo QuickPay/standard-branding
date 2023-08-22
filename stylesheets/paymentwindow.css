@@ -692,7 +692,9 @@ label {
   min-height: auto;
 }
 
-/* --- ApplePay --- */
+/* --- Apple Pay and Google Pay --- */
+/* These payment methods are browser/device dependent and load differently to other payment methods. 
+The "disabled" class is applied dynamically. */
 
 .alternative-payment-methods .payment-method-apple-pay > .btn {
   overflow: hidden;
