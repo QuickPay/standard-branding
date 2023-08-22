@@ -26,7 +26,7 @@
 
   {% unless model.alternative_payment_methods == empty and model.undo_payment_method? == false %}
     <div class="alternative-payment-methods">
-      <div class="col-xs-12 text-center-xs">
+      <div class="text-center">
         <h4>{% t Other Payment Methods %}</h4>
       </div>
       {% if model.undo_payment_method? %}
