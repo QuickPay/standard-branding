@@ -653,7 +653,7 @@ label {
   /* margin: 0 -4px; */
 }
 
-.alternative-payment-methods#selector {
+.alternative-payment-methods.selector {
   padding: 0 10px 20px 10px;
 }
 
@@ -688,7 +688,7 @@ label {
   padding-left: 4px;
 }
 
-#selector .payment-method .btn {
+.selector .payment-method .btn {
   min-height: auto;
 }
 
@@ -700,7 +700,8 @@ The "disabled" class is applied dynamically. */
   overflow: hidden;
 }
 
-.alternative-payment-methods .payment-method-apple-pay.disabled > .btn { /*MLO - Disabled class applied via Payment - remember to test*/
+.alternative-payment-methods .payment-method-apple-pay.disabled > .btn,
+.alternative-payment-methods .payment-method-google-pay.disabled > .btn { /*MLO - Disabled class applied via Payment - remember to test*/
   cursor: not-allowed;
   background: #dfdfdf;
 }
@@ -709,7 +710,8 @@ The "disabled" class is applied dynamically. */
   background-color: #dfdfdf;
 }
 
-.alternative-payment-methods .payment-method-apple-pay.disabled > .btn:hover {
+.alternative-payment-methods .payment-method-apple-pay.disabled > .btn:hover,
+.alternative-payment-methods .payment-method-google-pay.disabled > .btn:hover {
   border-color: #dedede;
   box-shadow: none;
 }
