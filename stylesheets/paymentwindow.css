@@ -662,7 +662,7 @@ The "disabled" class is applied dynamically. */
 }
 
 .alternative-payment-methods .payment-method-apple-pay.disabled > .btn,
-.alternative-payment-methods .payment-method-google-pay.disabled > .btn { /*MLO - Disabled class applied via Payment - remember to test*/
+.alternative-payment-methods .payment-method-google-pay.disabled > .btn {
   cursor: not-allowed;
   background: #dfdfdf;
 }
@@ -679,7 +679,7 @@ The "disabled" class is applied dynamically. */
 
 .apple-pay-btn {
   display: block;
-  background-image: -webkit-named-image(apple-pay-logo-black); /*MLO - Is this something that's only supported in Safari?*/
+  background-image: -webkit-named-image(apple-pay-logo-black); /*Only supported in Safari*/
   background-color: #ffffff;
   background-size: 100% 75%;
   background-repeat: no-repeat;
