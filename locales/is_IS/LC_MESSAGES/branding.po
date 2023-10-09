@@ -76,10 +76,6 @@ msgstr "Smelltu hér til að byrja aftur"
 msgid "Try again"
 msgstr "Reyndu aftur"
 
-#: templates/form/3d_secure.liquid:13
-msgid "Starting 3D Secure payment. Please wait..."
-msgstr "Byrjun 3D Secure greiðslu. Vinsamlegast bíðið..."
-
 #: templates/form/3ds_auth.liquid:7
 #, fuzzy
 msgid "Running 3-D Secure checks. Please wait..."
@@ -101,7 +97,7 @@ msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu 
 #: templates/form/sofort_ideal.liquid:16 templates/form/sofortppro.liquid:14
 #: templates/form/trustly.liquid:10 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/vipps.liquid:14
-#: templates/form/vippspsp.liquid:8 templates/form/wechat.liquid:14
+#: templates/form/vippspsp.liquid:8 templates/form/wechatpay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Þegar þú hefur klárað, verður þér vísað aftur til kvittuninnar þinnar."
 
@@ -116,7 +112,7 @@ msgstr "Þegar þú hefur klárað, verður þér vísað aftur til kvittuninnar
 #: templates/form/swipp.liquid:9 templates/form/trustly.liquid:11
 #: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/vipps.liquid:15 templates/form/vippspsp.liquid:9
-#: templates/form/wechat.liquid:15
+#: templates/form/wechatpay.liquid:15
 msgid "Proceed to payment"
 msgstr "Halda áfram til greiðslu"
 
@@ -411,9 +407,9 @@ msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglu
 msgid "When you click the button below, the Vipps PSP window will open"
 msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
 
-#: templates/form/wechat.liquid:13
+#: templates/form/wechatpay.liquid:13
 #, fuzzy
-msgid "When you click the button below, the WeChat payment window will open."
+msgid "When you click the button below, the WeChatPay payment window will open."
 msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
 
 #: templates/form.liquid:11
@@ -497,6 +493,9 @@ msgstr "Ferlið getur tekið allt að 5 mínútur."
 #: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Smelltu hér ef vinnsla tekur langan tíma"
+
+#~ msgid "Starting 3D Secure payment. Please wait..."
+#~ msgstr "Byrjun 3D Secure greiðslu. Vinsamlegast bíðið..."
 
 #~ msgid "Email"
 #~ msgstr "Netfang"
