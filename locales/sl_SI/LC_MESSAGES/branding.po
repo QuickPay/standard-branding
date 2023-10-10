@@ -79,10 +79,6 @@ msgstr "Kliknite tukaj in začnite znova."
 msgid "Try again"
 msgstr "Poskusite ponovno"
 
-#: templates/form/3d_secure.liquid:13
-msgid "Starting 3D Secure payment. Please wait..."
-msgstr "Zagon 3-D Secure plačila. Prosimo, počakajte..."
-
 #: templates/form/3ds_auth.liquid:7
 #, fuzzy
 msgid "Running 3-D Secure checks. Please wait..."
@@ -104,7 +100,7 @@ msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 #: templates/form/sofort_ideal.liquid:16 templates/form/sofortppro.liquid:14
 #: templates/form/trustly.liquid:10 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/vipps.liquid:14
-#: templates/form/vippspsp.liquid:8 templates/form/wechat.liquid:14
+#: templates/form/vippspsp.liquid:8 templates/form/wechatpay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Ko končate, boste preusmerjeni nazaj na svoje naročilo."
 
@@ -119,7 +115,7 @@ msgstr "Ko končate, boste preusmerjeni nazaj na svoje naročilo."
 #: templates/form/swipp.liquid:9 templates/form/trustly.liquid:11
 #: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/vipps.liquid:15 templates/form/vippspsp.liquid:9
-#: templates/form/wechat.liquid:15
+#: templates/form/wechatpay.liquid:15
 msgid "Proceed to payment"
 msgstr "Nadaljuj na plačilo"
 
@@ -410,9 +406,9 @@ msgstr "Ko kliknete na spodnji gumb, se bo odprlo Vipps okno za plačilo."
 msgid "When you click the button below, the Vipps PSP window will open"
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo Vipps okno za plačilo."
 
-#: templates/form/wechat.liquid:13
+#: templates/form/wechatpay.liquid:13
 #, fuzzy
-msgid "When you click the button below, the WeChat payment window will open."
+msgid "When you click the button below, the WeChatPay payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo iDeal okno za plačilo."
 
 #: templates/form.liquid:11
@@ -496,6 +492,9 @@ msgstr "Ta postopek lahko traja do 5 minut."
 #: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Kliknite tukaj, če obdelava traja dlje časa."
+
+#~ msgid "Starting 3D Secure payment. Please wait..."
+#~ msgstr "Zagon 3-D Secure plačila. Prosimo, počakajte..."
 
 #~ msgid "Email"
 #~ msgstr "E-mail"

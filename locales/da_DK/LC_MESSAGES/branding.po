@@ -79,10 +79,6 @@ msgstr "Klik her for at starte forfra"
 msgid "Try again"
 msgstr "Prøv igen"
 
-#: templates/form/3d_secure.liquid:13
-msgid "Starting 3D Secure payment. Please wait..."
-msgstr "Starter 3D Secure betaling. Vent venligst..."
-
 #: templates/form/3ds_auth.liquid:7
 msgid "Running 3-D Secure checks. Please wait..."
 msgstr "Kører 3-D Secure. Vent venligst.."
@@ -102,7 +98,7 @@ msgstr "Anyday betalingsvinduet åbner, når du klikker på knappen herunder."
 #: templates/form/sofort_ideal.liquid:16 templates/form/sofortppro.liquid:14
 #: templates/form/trustly.liquid:10 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/vipps.liquid:14
-#: templates/form/vippspsp.liquid:8 templates/form/wechat.liquid:14
+#: templates/form/vippspsp.liquid:8 templates/form/wechatpay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Når betaligen er gennemført, kommer du retur til din kvittering."
 
@@ -117,7 +113,7 @@ msgstr "Når betaligen er gennemført, kommer du retur til din kvittering."
 #: templates/form/swipp.liquid:9 templates/form/trustly.liquid:11
 #: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/vipps.liquid:15 templates/form/vippspsp.liquid:9
-#: templates/form/wechat.liquid:15
+#: templates/form/wechatpay.liquid:15
 msgid "Proceed to payment"
 msgstr "Fortsæt til betaling"
 
@@ -398,8 +394,9 @@ msgstr "Vipps betalingsvinduet åbner, når du klikker på knappen herunder."
 msgid "When you click the button below, the Vipps PSP window will open"
 msgstr "Vipps betalingsvinduet åbner, når du klikker på knappen herunder"
 
-#: templates/form/wechat.liquid:13
-msgid "When you click the button below, the WeChat payment window will open."
+#: templates/form/wechatpay.liquid:13
+#, fuzzy
+msgid "When you click the button below, the WeChatPay payment window will open."
 msgstr "WeChat betalingsvinduet åbner, når du klikker på knappen herunder."
 
 #: templates/form.liquid:11
@@ -477,6 +474,9 @@ msgstr "Processen kan tage op til 5 minutter."
 #: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "Klik her hvis processen tager for lang tid"
+
+#~ msgid "Starting 3D Secure payment. Please wait..."
+#~ msgstr "Starter 3D Secure betaling. Vent venligst..."
 
 #~ msgid "Invalid Date of Birth. You need to 18 or older"
 #~ msgstr "Ugyldig fødselsdato. Du skal være 18 år eller ældre"

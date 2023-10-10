@@ -79,10 +79,6 @@ msgstr "やり直すにはこちらをクリックしてください"
 msgid "Try again"
 msgstr "再度お試しください"
 
-#: templates/form/3d_secure.liquid:13
-msgid "Starting 3D Secure payment. Please wait..."
-msgstr "3Dセキュア決済を開始しています。お待ち下さい...。"
-
 #: templates/form/3ds_auth.liquid:7
 #, fuzzy
 msgid "Running 3-D Secure checks. Please wait..."
@@ -104,7 +100,7 @@ msgstr "下のボタンをクリックすると、Paypalの支払いウィンド
 #: templates/form/sofort_ideal.liquid:16 templates/form/sofortppro.liquid:14
 #: templates/form/trustly.liquid:10 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/vipps.liquid:14
-#: templates/form/vippspsp.liquid:8 templates/form/wechat.liquid:14
+#: templates/form/vippspsp.liquid:8 templates/form/wechatpay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "完了後はレシート画面に転送されます。"
 
@@ -119,7 +115,7 @@ msgstr "完了後はレシート画面に転送されます。"
 #: templates/form/swipp.liquid:9 templates/form/trustly.liquid:11
 #: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/vipps.liquid:15 templates/form/vippspsp.liquid:9
-#: templates/form/wechat.liquid:15
+#: templates/form/wechatpay.liquid:15
 msgid "Proceed to payment"
 msgstr "支払いに進む"
 
@@ -414,9 +410,9 @@ msgstr "以下のボタンをクリックすると、ViaBillの支払い画面�
 msgid "When you click the button below, the Vipps PSP window will open"
 msgstr "以下のボタンをクリックすると、ViaBillの支払い画面が開きます。"
 
-#: templates/form/wechat.liquid:13
+#: templates/form/wechatpay.liquid:13
 #, fuzzy
-msgid "When you click the button below, the WeChat payment window will open."
+msgid "When you click the button below, the WeChatPay payment window will open."
 msgstr "以下のボタンをクリックすると、ViaBillの支払い画面が開きます。"
 
 #: templates/form.liquid:11
@@ -500,6 +496,9 @@ msgstr "この処理には最大5分ほどかかる場合があります。"
 #: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "処理時間が長い場合はこちらをクリックして下さい。"
+
+#~ msgid "Starting 3D Secure payment. Please wait..."
+#~ msgstr "3Dセキュア決済を開始しています。お待ち下さい...。"
 
 #~ msgid "Email"
 #~ msgstr "メール"

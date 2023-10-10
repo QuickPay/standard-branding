@@ -78,10 +78,6 @@ msgstr "Yeniden başlamak için buraya tıklayın"
 msgid "Try again"
 msgstr "Yeniden deneyin"
 
-#: templates/form/3d_secure.liquid:13
-msgid "Starting 3D Secure payment. Please wait..."
-msgstr "3D Güvenli ödeme başlatılıyor. Lütfen bekleyin..."
-
 #: templates/form/3ds_auth.liquid:7
 #, fuzzy
 msgid "Running 3-D Secure checks. Please wait..."
@@ -103,7 +99,7 @@ msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açı
 #: templates/form/sofort_ideal.liquid:16 templates/form/sofortppro.liquid:14
 #: templates/form/trustly.liquid:10 templates/form/trustly_ideal.liquid:10
 #: templates/form/viabill.liquid:12 templates/form/vipps.liquid:14
-#: templates/form/vippspsp.liquid:8 templates/form/wechat.liquid:14
+#: templates/form/vippspsp.liquid:8 templates/form/wechatpay.liquid:14
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "İşleminizi bitirdiğinizde makbuzunuza yönlendirileceksiniz."
 
@@ -118,7 +114,7 @@ msgstr "İşleminizi bitirdiğinizde makbuzunuza yönlendirileceksiniz."
 #: templates/form/swipp.liquid:9 templates/form/trustly.liquid:11
 #: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
 #: templates/form/vipps.liquid:15 templates/form/vippspsp.liquid:9
-#: templates/form/wechat.liquid:15
+#: templates/form/wechatpay.liquid:15
 msgid "Proceed to payment"
 msgstr "Ödemeye geçin"
 
@@ -413,9 +409,9 @@ msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi aç�
 msgid "When you click the button below, the Vipps PSP window will open"
 msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır."
 
-#: templates/form/wechat.liquid:13
+#: templates/form/wechatpay.liquid:13
 #, fuzzy
-msgid "When you click the button below, the WeChat payment window will open."
+msgid "When you click the button below, the WeChatPay payment window will open."
 msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır."
 
 #: templates/form.liquid:11
@@ -499,6 +495,9 @@ msgstr "Bu işlem 5 dakika kadar sürebilir."
 #: templates/waiting.liquid:24
 msgid "Click here if processing takes a long time"
 msgstr "İşlemin uzun sürmesi halinde buraya tıklayın"
+
+#~ msgid "Starting 3D Secure payment. Please wait..."
+#~ msgstr "3D Güvenli ödeme başlatılıyor. Lütfen bekleyin..."
 
 #~ msgid "Email"
 #~ msgstr "E-posta"
