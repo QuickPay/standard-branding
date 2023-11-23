@@ -1,7 +1,10 @@
 <div class="container">
-  <form action="{{ model.redirect_url }}" method="GET" target="_top" class="autosubmit">
+  <form action="paypal_jsdk">
+    <div id="paypal-button-container"></div>
+  </form>
+  <form method="GET" target="_top" id="redirect-form" style="visibility:hidden;">
     {% for field in model.params %}
-      <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />
+      <input type="hidden" name="{{ field[0] }}" value="{{ field[1] }}" />
     {% endfor %}
 
     <div class="row">
