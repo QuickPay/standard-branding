@@ -1,9 +1,8 @@
 <div class="container">
-  <form action="{{ model.redirect_url }}" method="GET" target="_top" class="autosubmit">
-    {% for field in model.params %}
-      <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />
-    {% endfor %}
-
+  <form action="paypal_jsdk">
+    <div id="paypal-button-container"></div>
+  </form>
+  <form method="GET" target="_top" id="redirect-form" style="visibility:hidden;">
     <div class="row">
       <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
           <img src="/assets/v2/images/brands/paypal-payments.svg" alt="PayPalPayments" title="PayPalPayments" style="width:100%">
