@@ -130,7 +130,7 @@ msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för BLIK 
 
 #: templates/form/card.liquid:5
 msgid "Pay with card"
-msgstr ""
+msgstr "Betal med kreditkort"
 
 #: templates/form/card.liquid:22
 msgid "Name on card"
@@ -146,7 +146,7 @@ msgstr "Korttyp"
 
 #: templates/form/card.liquid:79
 msgid "Choose whether to use Visa or Dankort to complete the transaction with your Visa/Dankort card."
-msgstr ""
+msgstr "Välj om du vill använda Visa eller Dankort för att slutna transaktionen med din Visa/Dankort-kort. "
 
 #: templates/form/card.liquid:87
 msgid "Expiration date"

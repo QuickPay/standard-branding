@@ -130,7 +130,7 @@ msgstr "Wenn Sie unten auf die Schaltfläche klicken, öffnet sich das Zahlungsf
 
 #: templates/form/card.liquid:5
 msgid "Pay with card"
-msgstr ""
+msgstr "Mit Karte bezahlen"
 
 #: templates/form/card.liquid:22
 msgid "Name on card"
@@ -147,7 +147,7 @@ msgstr "Kartennummer"
 
 #: templates/form/card.liquid:79
 msgid "Choose whether to use Visa or Dankort to complete the transaction with your Visa/Dankort card."
-msgstr ""
+msgstr "Waehlen Sie, ob Sie Visa oder Dankort verwenden, um die Transaktion mit Ihrer Visa/Dankort-Karte abzuschließen."
 
 #: templates/form/card.liquid:87
 msgid "Expiration date"
