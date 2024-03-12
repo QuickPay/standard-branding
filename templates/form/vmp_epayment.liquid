@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
+        <img src="{{ model.image_path }}" alt="vmp-epayment" title="Vipps MobilePay" style="width:100%">
+    </div>
+    <div class="col-sm-8 col-sm-pull-4 col-xs-12">
+      <p>{% t When you click the button below, the Vipps-MobilePay window will open %}</p>
+      <p>{% t When finished, you will be redirected back to your receipt. %}</p>
+      <a class="btn btn-info {% unless !model.error %}autoclick{% endunless %}" href="{{ model.redirect_url }}">{% t Proceed to payment %}</a>
+    </div>
+  </div>
+</div>
