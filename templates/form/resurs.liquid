@@ -4,28 +4,22 @@
     {% for field in model.params %}
       <input type="hidden" name="{{ field[0] }}" value='{{ field[1] }}' />
     {% endfor %}
-    <div class="row">
-      <div class="col-sm-4 col-sm-push-8 col-xs-6 col-xs-push-3">
-          <img src="/assets/v2/images/brands/resurs.svg" alt="Resurs" title="Resurs" style="width:100%">
-      </div>
-      <div class="col-sm-8 col-sm-pull-4 col-xs-12">
-        <p>
-          {% for method in model.resurs_methods %}
-            <div class="row row-no-gutters" style="margin: 0">
-              <div class="col-xs-1" style="padding: 0">
-                <input type="radio" name="resurs_method" id="resurs_method_{{ method['id'] }}" value="{{ method['id'] }}" />
-              </div>
-              <div class="col-xs-11" style="padding: 0">
-                <label for="resurs_method_{{ method['id'] }}">{{ method['description'] }}
-                  (<a href="{{ method['legal_url'] }}">{{ method['legal_description'] }}</a>)
-                </label>
-              </div>
-            </div>
-          {% endfor %}
-        </p>
+    <div class="text-center">
+      <img src="/assets/v2/images/brands/resurs.svg" alt="Resurs logo">
+    </div>
+    <div>
+      {% for method in model.resurs_methods %}
+        <div class="inline-box">
+          <input type="radio" name="resurs_method" id="resurs_method_{{ method['id'] }}" value="{{ method['id'] }}" />
+          <label for="resurs_method_{{ method['id'] }}">{{ method['description'] }}
+            (<a href="{{ method['legal_url'] }}">{{ method['legal_description'] }}</a>)
+          </label>
+        </div>
+      {% endfor %}
+      <div>
         <p>{% t When you click the button below, the Resurs payment window will open. %}</p>
         <p>{% t When finished, you will be redirected back to your receipt. %}</p>
-        <button type="submit" class="btn btn-info btn">{% t Proceed to payment %}</button>
+        <button type="submit" class="btn btn-primary">{% t Proceed to payment %}</button>
       </div>
     </div>
   </form>

@@ -18,338 +18,275 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: templates/cancelled.liquid:7
+#: templates/cancelled.liquid:3
 msgid "You have cancelled the payment"
 msgstr "Preklicali ste plačilo"
 
-#: templates/deadline.liquid:7
+#: templates/deadline.liquid:4
 msgid "Order expired"
 msgstr "Naročilo je poteklo"
 
-#: templates/deadline.liquid:11
+#: templates/deadline.liquid:7
 msgid "You did not finish the purchase within the time frame."
 msgstr "Nakupa niste dokončali v predvidenem času."
 
-#: templates/deadline.liquid:13
+#: templates/deadline.liquid:9
 msgid "Click here to continue"
 msgstr "Kliknite tukaj za nadaljevanje"
 
-#: templates/error.liquid:9
+#: templates/error.liquid:6
 msgid "The order is already paid."
 msgstr "Naročilo je že plačano."
 
-#: templates/error.liquid:11
+#: templates/error.liquid:8
 msgid "Continue to the shop"
 msgstr "Nadaljuj v trgovino"
 
-#: templates/error.liquid:13
+#: templates/error.liquid:10
 msgid "An unknown error happened."
 msgstr "Prišlo je do neznane napake."
 
-#: templates/error.liquid:13 templates/error.liquid:17
-#: templates/form/error.liquid:14
+#: templates/error.liquid:10 templates/error.liquid:14
+#: templates/form/error.liquid:11
 msgid "Please try again."
 msgstr "Prosimo, poskusite ponovno."
 
-#: templates/error.liquid:15
+#: templates/error.liquid:12
 msgid "Unable to complete payment"
 msgstr "Plačila ni mogoče opraviti"
 
-#: templates/error.liquid:17 templates/error.liquid:19
+#: templates/error.liquid:14 templates/error.liquid:16
 msgid "3D Secure authorization failed."
 msgstr "3-D Secure avtorizacija ni uspela."
 
-#: templates/error.liquid:19 templates/error.liquid:21
+#: templates/error.liquid:16 templates/error.liquid:18
 msgid "Please try again or select another payment method."
 msgstr "Prosimo, poskusite ponovno, ali izberite drugi način plačila."
 
-#: templates/error.liquid:21
+#: templates/error.liquid:18
 msgid "3D Secure enrollment failed."
 msgstr "3-D Secure vpis ni uspel."
 
-#: templates/error.liquid:23
+#: templates/error.liquid:20
 msgid "The payment details have changed since you initiated the payment."
 msgstr "Podatki o plačniku so se spremenili, odkar ste začeli plačilo."
 
-#: templates/error.liquid:25
+#: templates/error.liquid:22
 msgid "Click here to start over"
 msgstr "Kliknite tukaj in začnite znova."
 
-#: templates/error.liquid:36
+#: templates/error.liquid:33
 msgid "Try again"
 msgstr "Poskusite ponovno"
 
-#: templates/form/3ds_auth.liquid:7
+#: templates/footer.liquid:137
+#, fuzzy
+msgid "Secure payment with"
+msgstr "Drugi načini plačila"
+
+#: templates/form/3ds_auth.liquid:4
 #, fuzzy
 msgid "Running 3-D Secure checks. Please wait..."
 msgstr "Zagon 3-D Secure plačila. Prosimo, počakajte..."
 
-#: templates/form/anydaysplit.liquid:12
+#: templates/form/anydaysplit.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 
-#: templates/form/anydaysplit.liquid:13 templates/form/bancontact.liquid:14
-#: templates/form/bitcoin.liquid:28 templates/form/blik.liquid:14
-#: templates/form/klarnapayments.liquid:10 templates/form/mobilepay.liquid:14
-#: templates/form/mobilepay_online.liquid:8
-#: templates/form/mobilepay_subscriptions.liquid:14
-#: templates/form/paypal.liquid:12 templates/form/paypalpayments.liquid:13
-#: templates/form/paysafecard.liquid:12 templates/form/przelewy24.liquid:14
-#: templates/form/resurs.liquid:27 templates/form/sofort.liquid:9
-#: templates/form/sofort_ideal.liquid:16 templates/form/sofortppro.liquid:14
-#: templates/form/trustly.liquid:10 templates/form/trustly_ideal.liquid:10
-#: templates/form/viabill.liquid:12 templates/form/vipps.liquid:14
-#: templates/form/vippspsp.liquid:8 templates/form/wechatpay.liquid:14
+#: templates/form/anydaysplit.liquid:11 templates/form/bancontact.liquid:11
+#: templates/form/blik.liquid:11 templates/form/klarnapayments.liquid:8
+#: templates/form/mobilepay_online.liquid:7
+#: templates/form/mobilepay_subscriptions.liquid:11
+#: templates/form/paypal.liquid:11 templates/form/paypalpayments.liquid:11
+#: templates/form/paysafecard.liquid:11 templates/form/przelewy24.liquid:12
+#: templates/form/resurs.liquid:21 templates/form/sofort.liquid:8
+#: templates/form/sofort_ideal.liquid:12 templates/form/sofortppro.liquid:11
+#: templates/form/trustly.liquid:8 templates/form/trustly_ideal.liquid:8
+#: templates/form/viabill.liquid:11 templates/form/vipps.liquid:11
+#: templates/form/vippspsp.liquid:7 templates/form/wechatpay.liquid:11
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Ko končate, boste preusmerjeni nazaj na svoje naročilo."
 
-#: templates/form/anydaysplit.liquid:14 templates/form/bancontact.liquid:15
-#: templates/form/blik.liquid:15 templates/form/klarnapayments.liquid:11
-#: templates/form/mobilepay.liquid:15 templates/form/mobilepay_online.liquid:9
-#: templates/form/mobilepay_subscriptions.liquid:15
-#: templates/form/paypal.liquid:13 templates/form/paypalpayments.liquid:14
-#: templates/form/paysafecard.liquid:13 templates/form/przelewy24.liquid:15
-#: templates/form/resurs.liquid:28 templates/form/sofort.liquid:10
-#: templates/form/sofort_ideal.liquid:17 templates/form/sofortppro.liquid:15
-#: templates/form/swipp.liquid:9 templates/form/trustly.liquid:11
-#: templates/form/trustly_ideal.liquid:11 templates/form/viabill.liquid:13
-#: templates/form/vipps.liquid:15 templates/form/vippspsp.liquid:9
-#: templates/form/wechatpay.liquid:15
+#: templates/form/anydaysplit.liquid:12 templates/form/bancontact.liquid:12
+#: templates/form/blik.liquid:12 templates/form/klarnapayments.liquid:9
+#: templates/form/mobilepay_online.liquid:8
+#: templates/form/mobilepay_subscriptions.liquid:12
+#: templates/form/paypal.liquid:12 templates/form/paypalpayments.liquid:12
+#: templates/form/paysafecard.liquid:12 templates/form/przelewy24.liquid:13
+#: templates/form/resurs.liquid:22 templates/form/sofort.liquid:9
+#: templates/form/sofort_ideal.liquid:13 templates/form/sofortppro.liquid:12
+#: templates/form/trustly.liquid:9 templates/form/trustly_ideal.liquid:9
+#: templates/form/viabill.liquid:12 templates/form/vipps.liquid:12
+#: templates/form/vippspsp.liquid:8 templates/form/wechatpay.liquid:12
 msgid "Proceed to payment"
 msgstr "Nadaljuj na plačilo"
 
-#: templates/form/bancontact.liquid:13
+#: templates/form/bancontact.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Bancontact payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 
-#: templates/form/bitcoin.liquid:21
-msgid "The Bitcoin address was copied to your clipboard."
-msgstr "Bitcoin naslov je bil kopiran v odložišče."
-
-#: templates/form/bitcoin.liquid:21
-msgid "Could not copy the Bitcoin address to your clipboard"
-msgstr "Bitcoin naslova ni bilo mogoče kopirati v odložišče."
-
-#: templates/form/bitcoin.liquid:26
-msgid "Open in wallet"
-msgstr "Odpri v denarnici"
-
-#: templates/form/blik.liquid:13
+#: templates/form/blik.liquid:10
 #, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 
-#: templates/form/card.liquid:28
+#: templates/form/card.liquid:5
+msgid "Pay with card"
+msgstr ""
+
+#: templates/form/card.liquid:22
 msgid "Name on card"
 msgstr "Ime na kartici"
 
-#: templates/form/card.liquid:45
+#: templates/form/card.liquid:41
 msgid "Card number"
 msgstr "Številka kartice"
 
-#: templates/form/card.liquid:73
+#: templates/form/card.liquid:64
 #, fuzzy
 msgid "Card type"
 msgstr "Številka kartice"
 
-#: templates/form/card.liquid:93
+#: templates/form/card.liquid:79
+msgid "Choose whether to use Visa or Dankort to complete the transaction with your Visa/Dankort card."
+msgstr ""
+
+#: templates/form/card.liquid:87
 msgid "Expiration date"
 msgstr "Datum izteka"
 
-#: templates/form/card.liquid:184
+#: templates/form/card.liquid:156
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
 msgstr "CVV/CVD številka poveča stopnjo varnosti. Številka za potrditev kartice je običajno sestavljena iz treh števil, navedena pa je na zadnji strani kartice."
 
-#: templates/form/card.liquid:200
+#: templates/form/card.liquid:165
 msgid "Enable 3D Secure"
 msgstr "Omogoči 3-D Secure"
 
-#: templates/form/card.liquid:213
+#: templates/form/card.liquid:171
 msgid "3D Secure is a 2 step verification service using a text message to your phone."
 msgstr "3-D Secure je storitev za 2-stopenjsko preverjanje pristnosti prek sporočila, ki ga prejmete na svoj telefon."
 
-#: templates/form/card.liquid:214
+#: templates/form/card.liquid:172
 msgid "Your credit card issuer may require you to use 3D Secure as an extra precaution."
 msgstr "Vaš izdajatelj kreditne kartice lahko zahteva, da uporabljate 3-D Secure kot dodatni varnostni ukrep."
 
-#: templates/form/card.liquid:222
+#: templates/form/card.liquid:180
 msgid "Pay"
 msgstr "Plačaj"
 
-#: templates/form/card.liquid:225
+#: templates/form/card.liquid:183
 msgid "Create subscription"
 msgstr "Ustvari naročnino"
 
-#: templates/form/card.liquid:231
+#: templates/form/card.liquid:189
 msgid "Save card"
 msgstr "Shrani kartico"
 
-#: templates/form/card.liquid:233
+#: templates/form/card.liquid:191
 msgid "Receive"
 msgstr "Prejmi"
 
-#: templates/form/card.liquid:243
+#: templates/form/card.liquid:200
 msgid "Payment fee"
 msgstr "Provizija za plačilo"
 
-#: templates/form/card.liquid:245
+#: templates/form/card.liquid:202
 msgid "Fill in card number"
 msgstr "Vnesite številko kartice"
 
-#: templates/form/error.liquid:14
+#: templates/form/error.liquid:11
 msgid "An error happened."
 msgstr "Prišlo je do napake."
 
-#: templates/form/error.liquid:16
+#: templates/form/error.liquid:13
 msgid "You tried to make a live payment on a test transaction."
 msgstr "Poskusili ste plačati v živo s testno transakcijo."
 
-#: templates/form/error.liquid:18
+#: templates/form/error.liquid:15
 msgid "You tried to make a test payment on a live transaction."
 msgstr "Poskusili ste opraviti testno plačilo za transakcijo v živo."
 
-#: templates/form/klarna.liquid:24
-msgid "Gender"
-msgstr "Spol"
-
-#: templates/form/klarna.liquid:26
-msgid "Male"
-msgstr "Moški"
-
-#: templates/form/klarna.liquid:27
-msgid "Female"
-msgstr "Ženski"
-
-#: templates/form/klarna.liquid:31 templates/form/klarna.liquid:67
-msgid "Country"
-msgstr "Država"
-
-#: templates/form/klarna.liquid:37 templates/form/klarna.liquid:73
-msgid "Denmark"
-msgstr "Danska"
-
-#: templates/form/klarna.liquid:39 templates/form/klarna.liquid:75
-msgid "Sweden"
-msgstr "Švedska"
-
-#: templates/form/klarna.liquid:41 templates/form/klarna.liquid:77
-msgid "Norway"
-msgstr "Norveška"
-
-#: templates/form/klarna.liquid:43 templates/form/klarna.liquid:79
-msgid "Finland"
-msgstr "Finska"
-
-#: templates/form/klarna.liquid:45 templates/form/klarna.liquid:81
-msgid "Netherlands"
-msgstr "Nizozemska"
-
-#: templates/form/klarna.liquid:47 templates/form/klarna.liquid:83
-msgid "Germany"
-msgstr "Nemčija"
-
-#: templates/form/klarna.liquid:49 templates/form/klarna.liquid:85
-msgid "Austria"
-msgstr "Avstrija"
-
-#: templates/form/klarna.liquid:58
-msgid "Social security number"
-msgstr "Davčna številka"
-
-#: templates/form/klarna.liquid:94
-msgid "Company Registration Number"
-msgstr "Matična številka"
-
-#: templates/form/klarna.liquid:102 templates/form/sofort_ideal.liquid:43
-#: templates/form/swish.liquid:29 templates/form/trustly.liquid:40
-#: templates/form/trustly_ideal.liquid:40
-#: templates/form/unzer_pay_later_direct_debit.liquid:82
-#: templates/form/unzer_pay_later_invoice.liquid:50
-#: templates/form_dankort_acs.liquid:28
-msgid "Proceed"
-msgstr "Nadaljuj"
-
-#: templates/form/klarnapayments.liquid:9
+#: templates/form/klarnapayments.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Klarna payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 
-#: templates/form/mobilepay.liquid:13
-msgid "When you click the button below, the MobilePay payment window will open."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo MobilePay okno za plačilo."
-
-#: templates/form/mobilepay_online.liquid:7
+#: templates/form/mobilepay_online.liquid:6
 #, fuzzy
 msgid "When you click the button below, the MobilePay Online window will open"
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo MobilePay okno za plačilo."
 
-#: templates/form/mobilepay_subscriptions.liquid:13
+#: templates/form/mobilepay_subscriptions.liquid:10
 #, fuzzy
 msgid "When you click the button below, the MobilePay Subscriptions window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo MobilePay okno za plačilo."
 
-#: templates/form/paypal.liquid:11
+#: templates/form/paypal.liquid:10
 msgid "When you click the button below, the PayPal payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 
-#: templates/form/paypalpayments.liquid:12
+#: templates/form/paypalpayments.liquid:10
 #, fuzzy
 msgid "When you click the button below, the PayPalPayments payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 
-#: templates/form/paysafecard.liquid:11
+#: templates/form/paysafecard.liquid:10
 msgid "When you click the button below, the paysafecard payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo paysafecard okno za plačilo."
 
-#: templates/form/przelewy24.liquid:13
+#: templates/form/przelewy24.liquid:11
 #, fuzzy
 msgid "When you click the button below, the Przelewy24 payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo Trustly okno za plačilo."
 
-#: templates/form/resurs.liquid:26
+#: templates/form/resurs.liquid:20
 msgid "When you click the button below, the Resurs payment window will open."
 msgstr "Ko kliknete spodnji gumb, se bo odprlo Resurs okno za plačilo."
 
-#: templates/form/sofort.liquid:8
+#: templates/form/sofort.liquid:7
 msgid "When you click the button below, the Sofort payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo Sofort okno za plačilo."
 
-#: templates/form/sofort_ideal.liquid:15 templates/form/trustly_ideal.liquid:9
+#: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 msgid "When you click the button below, the iDeal payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo iDeal okno za plačilo."
 
-#: templates/form/sofort_ideal.liquid:32
+#: templates/form/sofort_ideal.liquid:23
 msgid "Bank"
 msgstr "Banka"
 
-#: templates/form/sofortppro.liquid:13
+#: templates/form/sofort_ideal.liquid:30 templates/form/swish.liquid:20
+#: templates/form/trustly.liquid:27 templates/form/trustly_ideal.liquid:27
+#: templates/form/unzer_pay_later_direct_debit.liquid:63
+#: templates/form/unzer_pay_later_invoice.liquid:38
+msgid "Proceed"
+msgstr "Nadaljuj"
+
+#: templates/form/sofortppro.liquid:10
 #, fuzzy
 msgid "When you click the button below, the SofortPPRO payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo Sofort okno za plačilo."
 
-#: templates/form/swipp.liquid:3
-msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo Swipp okno za plačilo. Ko končate, boste preusmerjeni nazaj na svoje naročilo."
-
-#: templates/form/swish.liquid:12
+#: templates/form/swish.liquid:8
 msgid "Mobile number"
 msgstr "Mobilna številka"
 
-#: templates/form/trustly.liquid:9
+#: templates/form/trustly.liquid:7
 msgid "When you click the button below, the Trustly payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo Trustly okno za plačilo."
 
-#: templates/form/trustly.liquid:26 templates/form/trustly_ideal.liquid:26
-#: templates/form/unzer_pay_later_direct_debit.liquid:22
-#: templates/form/unzer_pay_later_invoice.liquid:23
+#: templates/form/trustly.liquid:20 templates/form/trustly_ideal.liquid:20
+#: templates/form/unzer_pay_later_direct_debit.liquid:18
+#: templates/form/unzer_pay_later_invoice.liquid:18
 msgid "First name"
 msgstr "Ime"
 
-#: templates/form/trustly.liquid:33 templates/form/trustly_ideal.liquid:33
-#: templates/form/unzer_pay_later_direct_debit.liquid:28
-#: templates/form/unzer_pay_later_invoice.liquid:29
+#: templates/form/trustly.liquid:24 templates/form/trustly_ideal.liquid:24
+#: templates/form/unzer_pay_later_direct_debit.liquid:22
+#: templates/form/unzer_pay_later_invoice.liquid:22
 msgid "Last name"
 msgstr "Priimek"
 
@@ -358,140 +295,189 @@ msgstr "Priimek"
 msgid "This field is required."
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:16
-#: templates/form/unzer_pay_later_invoice.liquid:17
+#: templates/form/unzer_pay_later_direct_debit.liquid:14
+#: templates/form/unzer_pay_later_invoice.liquid:14
 msgid "Email Address"
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:34
-#: templates/form/unzer_pay_later_invoice.liquid:35
+#: templates/form/unzer_pay_later_direct_debit.liquid:26
+#: templates/form/unzer_pay_later_invoice.liquid:26
 msgid "Date of Birth"
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:37
-#: templates/form/unzer_pay_later_invoice.liquid:38
+#: templates/form/unzer_pay_later_direct_debit.liquid:29
+#: templates/form/unzer_pay_later_invoice.liquid:29
 msgid "The age must be at least 18"
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:43
+#: templates/form/unzer_pay_later_direct_debit.liquid:33
 msgid "Bank account holder"
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:55
+#: templates/form/unzer_pay_later_direct_debit.liquid:44
 msgid "Invalid name format. Only letters are accepted."
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:58
+#: templates/form/unzer_pay_later_direct_debit.liquid:47
 msgid "Enter full name (e.g. John Smith)"
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:65
+#: templates/form/unzer_pay_later_direct_debit.liquid:51
 msgid "IBAN"
 msgstr ""
 
-#: templates/form/unzer_pay_later_direct_debit.liquid:68
+#: templates/form/unzer_pay_later_direct_debit.liquid:54
 msgid "Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90)"
 msgstr ""
 
-#: templates/form/viabill.liquid:11
+#: templates/form/viabill.liquid:10
 msgid "When you click the button below, the ViaBill payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo ViaBill okno za plačilo."
 
-#: templates/form/vipps.liquid:13
+#: templates/form/vipps.liquid:10
 msgid "When you click the button below, the Vipps payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo Vipps okno za plačilo."
 
-#: templates/form/vippspsp.liquid:7
+#: templates/form/vippspsp.liquid:6
 #, fuzzy
 msgid "When you click the button below, the Vipps PSP window will open"
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo Vipps okno za plačilo."
 
-#: templates/form/wechatpay.liquid:13
+#: templates/form/wechatpay.liquid:10
 #, fuzzy
 msgid "When you click the button below, the WeChatPay payment window will open."
 msgstr "Ko kliknete na spodnji gumb, se bo odprlo iDeal okno za plačilo."
 
-#: templates/form.liquid:11
+#: templates/layout.liquid:29
 msgid "Other Payment Methods"
 msgstr "Drugi načini plačila"
 
-#: templates/form.liquid:16
+#: templates/layout.liquid:34
 msgid "Cards"
 msgstr "Kartice"
 
-#: templates/form_dankort_acs.liquid:4
-msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo Dankort okno za plačilo. Ko končate, boste preusmerjeni nazaj na svoje naročilo."
-
-#: templates/layout.liquid:29
+#: templates/layout.liquid:46
 #, fuzzy
 msgid "You are about to abort the payment. Are you sure?"
 msgstr "Prekinili boste plačilo. Ali ste prepričani?"
 
-#: templates/layout.liquid:32
+#: templates/layout.liquid:47
 msgid "Cancel Payment"
 msgstr "Prekliči plačilo"
 
-#: templates/order_info.liquid:4
+#: templates/order_info.liquid:3
 msgid "Order number"
 msgstr "Številka naročila"
 
-#: templates/order_info.liquid:6
-msgid "expires in"
+#: templates/order_info.liquid:8
+#, fuzzy
+msgid "Expires in"
 msgstr "poteče čez"
 
-#: templates/selector.liquid:5
-#, fuzzy
-msgid "Select Payment Method"
-msgstr "Drugi načini plačila"
-
-#: templates/success.liquid:8
+#: templates/success.liquid:4
 msgid "You have completed the payout"
 msgstr "Opravili ste izplačilo"
 
-#: templates/success.liquid:10
+#: templates/success.liquid:6
 #, fuzzy
 msgid "You have saved the card"
 msgstr "Preklicali ste plačilo"
 
-#: templates/success.liquid:12
+#: templates/success.liquid:8
 #, fuzzy
 msgid "You have completed the subscription"
 msgstr "Opravili ste izplačilo"
 
-#: templates/success.liquid:14
+#: templates/success.liquid:10
 msgid "You have completed the payment"
 msgstr "Opravili ste plačilo"
 
-#: templates/waiting.liquid:8
+#: templates/waiting.liquid:5
 msgid "Open Swish App"
 msgstr "Odpri Swish aplikacijo"
 
-#: templates/waiting.liquid:12
+#: templates/waiting.liquid:8
 msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
 msgstr "Za zaključek plačila odprite vašo Swish aplikacijo na vašem mobilniku in avtorizirajte plačilo"
 
-#: templates/waiting.liquid:13
+#: templates/waiting.liquid:9
 #, fuzzy
 msgid "You have 3 minutes to complete the payment"
 msgstr "Opravili ste plačilo"
 
-#: templates/waiting.liquid:14
+#: templates/waiting.liquid:11
 msgid "Waiting for authorization"
 msgstr "Čakam na avtorizacijo"
 
-#: templates/waiting.liquid:20
+#: templates/waiting.liquid:17
 msgid "Please wait..."
 msgstr "Prosimo, počakajte..."
 
-#: templates/waiting.liquid:24
+#: templates/waiting.liquid:20
 #, fuzzy
 msgid "The process may take some time."
 msgstr "Ta postopek lahko traja do 5 minut."
 
-#: templates/waiting.liquid:24
+#: templates/waiting.liquid:21
 msgid "Click here if processing takes a long time"
 msgstr "Kliknite tukaj, če obdelava traja dlje časa."
+
+#~ msgid "The Bitcoin address was copied to your clipboard."
+#~ msgstr "Bitcoin naslov je bil kopiran v odložišče."
+
+#~ msgid "Could not copy the Bitcoin address to your clipboard"
+#~ msgstr "Bitcoin naslova ni bilo mogoče kopirati v odložišče."
+
+#~ msgid "Open in wallet"
+#~ msgstr "Odpri v denarnici"
+
+#~ msgid "Gender"
+#~ msgstr "Spol"
+
+#~ msgid "Male"
+#~ msgstr "Moški"
+
+#~ msgid "Female"
+#~ msgstr "Ženski"
+
+#~ msgid "Country"
+#~ msgstr "Država"
+
+#~ msgid "Denmark"
+#~ msgstr "Danska"
+
+#~ msgid "Sweden"
+#~ msgstr "Švedska"
+
+#~ msgid "Norway"
+#~ msgstr "Norveška"
+
+#~ msgid "Finland"
+#~ msgstr "Finska"
+
+#~ msgid "Netherlands"
+#~ msgstr "Nizozemska"
+
+#~ msgid "Germany"
+#~ msgstr "Nemčija"
+
+#~ msgid "Austria"
+#~ msgstr "Avstrija"
+
+#~ msgid "Social security number"
+#~ msgstr "Davčna številka"
+
+#~ msgid "Company Registration Number"
+#~ msgstr "Matična številka"
+
+#~ msgid "When you click the button below, the MobilePay payment window will open."
+#~ msgstr "Ko kliknete na spodnji gumb, se bo odprlo MobilePay okno za plačilo."
+
+#~ msgid "When you click the button below, the Swipp payment window will open. When finished, you will be redirected back to your receipt."
+#~ msgstr "Ko kliknete na spodnji gumb, se bo odprlo Swipp okno za plačilo. Ko končate, boste preusmerjeni nazaj na svoje naročilo."
+
+#~ msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
+#~ msgstr "Ko kliknete na spodnji gumb, se bo odprlo Dankort okno za plačilo. Ko končate, boste preusmerjeni nazaj na svoje naročilo."
 
 #~ msgid "Starting 3D Secure payment. Please wait..."
 #~ msgstr "Zagon 3-D Secure plačila. Prosimo, počakajte..."

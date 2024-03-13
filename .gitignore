@@ -3,3 +3,4 @@
 .com.apple.*
 locales/*/LC_MESSAGES/branding.po~
 stylesheets/bootstrap-config.json
+.vscode/settings.json
