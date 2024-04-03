@@ -1,8 +1,8 @@
 <div class="col-sm-4 col-xs-6 payment-method payment-method-{{ method.name }}">
   {% if method.name == "paypal-payments" %}
-    <div id="paypal-button-container" title="{{ method.nice_name }}" class="btn btn-default"></div>
+    <div id="paypal-button-container" title="{{ method.nice_name }}" class="paypal-btn"></div>
   {% else %}
-    <a href="{% if method.payment_request_api_method? %}#{% else %}{{ model.session_id }}/payment-method/{{ method.name }}{% endif %}" class="btn btn-default">
+    <a href="{% if method.payment_request_api_method? %}#{% else %}{{ model.session_id }}/payment-method/{{ method.name }}{% endif %}" class="btn">
       {% if method.name == "apple-pay" %}
         <div class="apple-pay-btn" title="{{ method.nice_name }}"></div>
       {% elsif method.name == "vmp-epayment" %}
@@ -12,7 +12,7 @@
           <img src="{{ method.base_image_path }}/vmp-mobilepay.svg" alt="VMP MobilePay" title="VMP MobilePay"/>
         {% endif %}
       {% else %}
-        <img src="{{ method.image_path }}" alt="{{ method.nice_name }}" title="{{ method.nice_name }}"/>
+        <img src="{{ method.image_path }}" alt="{{ method.nice_name }}" />
       {% endif %}
     </a>
   {% endif %}
