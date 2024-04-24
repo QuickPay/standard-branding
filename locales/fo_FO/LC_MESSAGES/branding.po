@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-28 08:21+0000\n"
-"PO-Revision-Date: 2018-01-05 12:08+0000\n"
+"PO-Revision-Date: 2024-04-24 12:31+0200\n"
 "Last-Translator: Thomas <tj@pil.dk>\n"
 "Language-Team: Faroese <http://translate.quickpay.net/projects/quickpay/standard-branding/fo/>\n"
 "Language: fo_FO\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.9\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: templates/cancelled.liquid:7
 msgid "You have cancelled the payment"
@@ -28,11 +28,11 @@ msgstr "Bílegging útgingin"
 
 #: templates/deadline.liquid:11
 msgid "You did not finish the purchase within the time frame."
-msgstr "Tú fullførdi ikki keypi innan fyri tíðarrammuna. "
+msgstr "Tú fullførdi ikki keypi innan fyri tíðarrammuna."
 
 #: templates/deadline.liquid:13
 msgid "Click here to continue"
-msgstr "Trýst her fyri at halda framm."
+msgstr "Trýst her fyri at halda framm"
 
 #: templates/error.liquid:9
 msgid "The order is already paid."
@@ -53,11 +53,11 @@ msgstr "Vinarliga royn aftur."
 
 #: templates/error.liquid:15
 msgid "Unable to complete payment"
-msgstr "Gjaldingin var ikki fullførd."
+msgstr "Gjaldingin var ikki fullførd"
 
 #: templates/error.liquid:17 templates/error.liquid:19
 msgid "3D Secure authorization failed."
-msgstr "3D Secure heimildin miseydnaðist"
+msgstr "3D Secure heimildin miseydnaðist."
 
 #: templates/error.liquid:19 templates/error.liquid:21
 msgid "Please try again or select another payment method."
@@ -65,11 +65,11 @@ msgstr "Vinarliga royn aftur, ella nýt annan gjaldshátt."
 
 #: templates/error.liquid:21
 msgid "3D Secure enrollment failed."
-msgstr "3D Secure innriting miseydnaðist"
+msgstr "3D Secure innriting miseydnaðist."
 
 #: templates/error.liquid:23
 msgid "The payment details have changed since you initiated the payment."
-msgstr "Staklutir í gjaldingini eru broyttir, síðani tú byrjaði gjaldingina. "
+msgstr "Staklutir í gjaldingini eru broyttir, síðani tú byrjaði gjaldingina."
 
 #: templates/error.liquid:25
 msgid "Click here to start over"
@@ -143,7 +143,7 @@ msgstr "Tá tú trýstir á knøttin niðanfyri, letur PayPal gjaldingarvindeyga
 
 #: templates/form/card.liquid:28
 msgid "Name on card"
-msgstr "Navn á kortið"
+msgstr "Navn á korteigara"
 
 #: templates/form/card.liquid:45
 msgid "Card number"
@@ -156,11 +156,11 @@ msgstr "Kortnummar"
 
 #: templates/form/card.liquid:93
 msgid "Expiration date"
-msgstr "Útgongudagur"
+msgstr "Lokadagur"
 
 #: templates/form/card.liquid:184
 msgid "The CVV/CVD increases the level of security. Usually the card verification data is a three digit number, placed at the backside of the card."
-msgstr "CW/CVD kodan økir um trygdina. Vanliga er CVD (Card Verification Data) kodan trý tey seinastu tølini, aftanfyri á kortinum. "
+msgstr "Trygdartølini (Card Verification Data) økja um trygdina fyri teg sum kunda. Vanliga er hetta eitt nummar, sett saman av trimum tølum, ið eru at finna á baksíðuni á kortinum."
 
 #: templates/form/card.liquid:200
 msgid "Enable 3D Secure"
@@ -176,7 +176,7 @@ msgstr "Útgevarin av korti tínum krevur møguliga at tú nýtir 3D Secure sum 
 
 #: templates/form/card.liquid:222
 msgid "Pay"
-msgstr "Gjald"
+msgstr "Rinda"
 
 #: templates/form/card.liquid:225
 msgid "Create subscription"
@@ -196,7 +196,7 @@ msgstr "Gjaldingar avgjald"
 
 #: templates/form/card.liquid:245
 msgid "Fill in card number"
-msgstr "Útfyll kortnummar "
+msgstr "Útfyll kortnummar"
 
 #: templates/form/error.liquid:14
 msgid "An error happened."
@@ -427,7 +427,7 @@ msgstr "Gjaldskort"
 
 #: templates/form_dankort_acs.liquid:4
 msgid "When you click the button below, the Dankort payment window will open. When finished, you will be redirected back to your receipt."
-msgstr "Tá tú trýstir á knøttin niðanfyri, letur Dankort gjaldingar vindeyga upp. Tá tú ert liðugur, verður tú leiddur til kvittan tína. "
+msgstr "Tá tú trýstir á knøttin niðanfyri, letur Dankort gjaldingar vindeyga upp. Tá tú ert liðugur, verður tú leiddur til kvittan tína."
 
 #: templates/layout.liquid:29
 #, fuzzy
@@ -440,7 +440,7 @@ msgstr "Strika gjalding"
 
 #: templates/order_info.liquid:4
 msgid "Order number"
-msgstr "Bíleggingarnummar "
+msgstr "Bíleggingarnummar"
 
 #: templates/order_info.liquid:6
 msgid "expires in"
