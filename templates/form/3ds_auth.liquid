@@ -11,6 +11,12 @@
   </div>
 </div>
 
+{% if model.method_url %}
+<iframe class="hidden" name="threeDSMethodIframe"></iframe>
 
+<form id="threeds_method_form" action="{{ model.method_url }}" method="post" target="threeDSMethodIframe">
+  <input type="hidden" name="threeDSMethodData" value="{{ model.method_data }}"/>
+</form>
+{% endif %}
 
 <form id="threeds_auth_form" action="{{ model.auth_url }}" method="post"></form>
