@@ -782,6 +782,18 @@ a.btn, button[type="submit"] {
   opacity: 1.0;
 }
 
+.btn.disabled,.btn[disabled],fieldset[disabled] .btn {
+  cursor: not-allowed;
+  opacity: .65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+a.btn.disabled,fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+
 /* --- Info bubbles --- */
 .bubble {
   position: relative;
