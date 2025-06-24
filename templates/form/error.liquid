@@ -1,10 +1,6 @@
-{% if model.acquirer_error_message or model.error %}
+{% if model.error %}
   <div class="highlighted-text text-center">
     <img class="icon-md" src="{{ images.frown-o.svg }}">
-    {% if model.acquirer_error_message %}
-      {{ model.acquirer_error_message }}
-    {% endif %}
-
     {% if model.error %}
       {% case model.error %}
         {% when "try_again" %}
@@ -14,6 +10,12 @@
         {% when "test_payment_on_live_transaction" %}
           {% t You tried to make a test payment on a live transaction. %}
       {% endcase %}
+    {% endif %}
+
+    {% if model.acquirer_error_message %}
+      <div class=acquirer-text text-center">
+      {{ model.acquirer_error_message }}
+      </div>
     {% endif %}
   </div>
 {% endif %}
