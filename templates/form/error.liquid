@@ -12,9 +12,9 @@
       {% endcase %}
     {% endif %}
 
-    {% if model.acquirer_error_message_new %}
-      <div class=acquirer-text text-center">
-        {{ model.acquirer_error_message_new }}
+    {% if model.error_message %}
+      <div class=error-text text-center">
+        {{ model.error_message }}
       </div>
     {% endif %}
   </div>
