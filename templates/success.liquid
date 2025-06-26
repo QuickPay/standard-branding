@@ -1,5 +1,5 @@
 <div class="container highlighted-text center-y" data-session-id="{{ model.session_id }}">
-  <img class="icon-md" src="{{ images.check-circle-o.svg }}">
+  <img class="icon-md" alt="Check" src="{{ images.check-circle-o.svg }}">
   {% if model.transaction_type == "payout" %}
     {% t You have completed the payout %}
   {% elsif model.transaction_type == "card" %}

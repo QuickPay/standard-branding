@@ -1,7 +1,7 @@
 <div class="container" data-session-id="{{ model.session_id }}">
   {% if model.selected_payment_method == "swish" %}
     <div class="highlighted-text center-y text-center-xs">
-      <img class="icon-md" src="{{ images.info-circle.svg }}">
+      <img class="icon-md" alt="Info" src="{{ images.info-circle.svg }}">
       {% t Open Swish App %}
     </div>
     <div class="text-center-xs">
@@ -13,7 +13,7 @@
     </div>
   {% else %}
     <div class="highlighted-text center-y text-center-xs">
-      <img class="icon-md icon-rotate" src="{{ images.cog.svg }}">
+      <img class="icon-md icon-rotate" alt="Loading" src="{{ images.cog.svg }}">
       {% t Please wait... %}
     </div>
     <div class="text-center-xs">

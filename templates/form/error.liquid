@@ -1,6 +1,6 @@
 {% if model.error %}
   <div class="highlighted-text text-center">
-    <img class="icon-md" src="{{ images.frown-o.svg }}">
+    <img class="icon-md" alt="Error Message" src="{{ images.frown-o.svg }}">
     {% if model.error %}
       {% case model.error %}
         {% when "try_again" %}

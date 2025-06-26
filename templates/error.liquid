@@ -1,6 +1,6 @@
 <div class="container" data-session-id="{{ model.session_id }}">
   <div class="highlighted-text center-y">
-    <img class="icon-md" src="{{ images.frown-o.svg }}">
+    <img class="icon-md" alt="Error Message" src="{{ images.frown-o.svg }}">
       {% case model.error %}
         {% when "already_paid" %}
           {% t The order is already paid. %}
