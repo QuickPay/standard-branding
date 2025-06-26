@@ -282,7 +282,7 @@ img.footer-logo {
 
 .secured-text {
   font-size: 10px;
-  color: #888888;
+  color: #595959;
 }
 
 #gateway-info,
@@ -443,7 +443,7 @@ img#merchant-logo {
 
 #order-info .item .subscript {
   font-size: 12px;
-  color: #999999;
+  color: #595959;
 }
 
 @media (max-width: 480px) {
@@ -764,7 +764,7 @@ a.btn, button[type="submit"] {
 
 .btn-cancel {
   margin-bottom: 60px;
-  color: #999999;
+  color: #595959;
   background-color: #ffffff;
 }
 
