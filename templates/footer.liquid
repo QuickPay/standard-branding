@@ -1,63 +1,3 @@
-<div id="header">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 text-center-xs">
-        {% if model.logo_url %}
-          <div class="header-content-logo">
-          <div class="logo-container"> 
-            <img id="merchant-logo" src="{{ model.logo_url }}" alt="{{ model.displayname }}">
-          </div> 
-          <div>
-            <h1 id="merchant-name">{{ model.displayname }}</h1>
-            {% include "order_info" %}
-          </div>
-        </div>
-      {% else %}
-        <div class="header-content text-center-xs">
-          <h1 id="merchant-name">{{ model.displayname }}</h1>
-          {% include "order_info" %}
-        </div>
-      {% endif %}
-    </div>
-    <div class="content-container">
-      {% include "content" %}
-    </div>
-  </div>
-
-  {% unless model.alternative_payment_methods == empty and model.undo_payment_method? == false %}
-    <div class="alternative-payment-methods">
-      <div class="text-center">
-        <h4>{% t Other Payment Methods %}</h4>
-      </div>
-      {% if model.undo_payment_method? %}
-        <div class="col-sm-4 col-xs-6 payment-method">
-          <a href="{{ model.session_id }}/payment-method-undo/" class="btn">
-            <img src="/assets/v2/images/brands/card.svg" alt="{% t Cards %}" title="{% t Cards %}" />
-          </a>
-        </div>
-      {% endif %}
-      {% for method in model.alternative_payment_methods %}
-        {% include "payment_methods_list" method=method %}
-      {% endfor %}
-    </div>
-  {% endunless %}
-
-{% if model.show_cancel? %}
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-xs-12">
-        <a
-          class="btn btn-default btn-cancel center-xy"
-          href="/{{ model.session_id }}/cancel-payment"
-          data-confirm="{% t You are about to abort the payment. Are you sure? %}"><img
-            class="icon icon-ban"
-            src="{{ images.ban.svg }}"
-            alt="Cancel">{% t Cancel Payment %}</a>
-      </div>
-    </div>
-  </div>
-{% endif %}
-
 <div id="footer">
   <div id="gateway-info">
     <div id="#gateway-info-inner" class="container">
@@ -186,39 +126,17 @@
 
   <div id="bottom-bar">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-6">
-          <img
-            class="clickable"
-            src="{{ images.quickpay_logo_inverse.svg }}"
-            data-toggle="#gateway-info"
-            alt="About Quickpay">
-        </div>
-        <div class="col-xs-6 text-right">
-          <span>
-            <img
-              class="icon clickable"
-              src="{{ images.globe.svg }}"
-              alt="About Quickpay"
-              data-toggle="#language-selector"
-              data-hide="#gateway-info">
-            <span
-              class="clickable"
-              id="language-toggle"
-              data-toggle="#language-selector"
-              data-hide="#gateway-info">{{ model.language | upcase }}</span>
-          </span>
-        </div>
-        <div class="col-xs-8 text-right">
-          <span
-              class="clickable secured-text"
-              data-toggle="#gateway-info">{% t Secure payment with %}</span>
-          <img
-            class="clickable footer-logo"
-            src="{{ images.quickpay_logo.svg }}"
-            data-toggle="#gateway-info"
-            alt="About Quickpay">
-        </div>
+      <div class="col-xs-4">
+        <span class="clickable" id="language-toggle" data-toggle="#language-selector" data-hide="#gateway-info">
+          <img class="icon" alt="Language Selector" src="{{ images.globe.svg }}">
+          <span>{{ model.language | upcase }}</span>
+        </span>
+      </div>
+      <div class="col-xs-8 text-right">
+        <span class="clickable" id="gateway-toggle" data-toggle="#gateway-info" data-hide="#language-selector">
+          <span class="secured-text">{% t Secure payment with %}</span>
+          <img class="footer-logo" src="{{ images.quickpay_logo.svg }}" alt="Quickpay logo">
+        </span>
       </div>
     </div>
   </div>

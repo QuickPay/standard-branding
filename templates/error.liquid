@@ -1,41 +1,37 @@
-<div class="well-xs well-greyish-xs well-sm well-greyish-sm" data-session-id="{{ model.session_id }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h3 class="center-y text-center-xs">
-          <img class="icon" src="{{ images.frown-o.svg }}">
-          {% case model.error %}
-          {% when "already_paid" %}
-            {% t The order is already paid. %}
-          {% when "continue_to_shop" %}
-            {% t Continue to the shop %}
-          {% when "try_again" %}
-            {% t An unknown error happened. %} {% t Please try again. %}
-          {% when "unable_to_complete" %}
-            {% t Unable to complete payment %}
-          {% when "secure_3d_auth_failed" %}
-            {% t 3D Secure authorization failed. %} {% t Please try again. %}
-          {% when "secure_3d_auth_failed_other_options" %}
-            {% t 3D Secure authorization failed. %} {% t Please try again or select another payment method. %}
-          {% when "secure_3d_not_enrolled" %}
-            {% t 3D Secure enrollment failed. %} {% t Please try again or select another payment method. %}
-          {% when "payment_link_changed" %}
-            {% t The payment details have changed since you initiated the payment. %}
-          {% when "payment_link_changed_link" %}
-            {% t Click here to start over %}
-          {% endcase %}
-        </h3>
-      </div>
-      <div class="col-xs-12">
-        {% if model.description %}
-          <p>{{ model.description }}</p>
-        {% endif %}
-      </div>
-      <div class="col-xs-12">
-        {% if model.retry %}
-          <p class="text-center"><a class="btn btn-info" href="/{{ model.session_id }}/payment-method-undo">{% t Try again %}</a></p>
-        {% endif %}
-      </div>
-    </div>
+<div class="container" data-session-id="{{ model.session_id }}">
+  <div class="highlighted-text center-y">
+    <img class="icon-md" alt="Error Message" src="{{ images.frown-o.svg }}">
+      {% case model.error %}
+        {% when "already_paid" %}
+          {% t The order is already paid. %}
+        {% when "continue_to_shop" %}
+          {% t Continue to the shop %}
+        {% when "try_again" %}
+          {% t An unknown error happened. %} {% t Please try again. %}
+        {% when "unable_to_complete" %}
+          {% t Unable to complete payment %}
+        {% when "secure_3d_auth_failed" %}
+          {% t 3D Secure authorization failed. %} {% t Please try again. %}
+        {% when "secure_3d_auth_failed_other_options" %}
+          {% t 3D Secure authorization failed. %} {% t Please try again or select another payment method. %}
+        {% when "secure_3d_not_enrolled" %}
+          {% t 3D Secure enrollment failed. %} {% t Please try again or select another payment method. %}
+        {% when "payment_link_changed" %}
+          {% t The payment details have changed since you initiated the payment. %}
+        {% when "payment_link_changed_link" %}
+          {% t Click here to start over %}
+      {% endcase %}
+  </div>
+  <div>
+    {% if model.description %}
+      <p>{{ model.description }}</p>
+    {% endif %}
+  </div>
+  <div>
+    {% if model.retry %}
+      <p class="text-center">
+        <a class="btn btn-primary" href="/{{ model.session_id }}/payment-method-undo">{% t Try again %}</a>
+      </p>
+    {% endif %}
   </div>
 </div>

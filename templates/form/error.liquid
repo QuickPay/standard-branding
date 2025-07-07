@@ -1,25 +1,23 @@
-{% if model.acquirer_error_message or model.error %}
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h4 class="center-y text-center-xs" style="margin-top: 0">
-          <img class="icon" src="{{ images.frown-o.svg }}">
-          {% if model.acquirer_error_message %}
-            {{ model.acquirer_error_message }}
-          {% endif %}
+{% if model.error %}
+  <div class="highlighted-text text-center">
+    <img class="icon-md" alt="Error Message" src="{{ images.frown-o.svg }}">
+    {% if model.error %}
+      {% case model.error %}
+        {% when "try_again" %}
+          {% t An error happened. %} {% t Please try again. %}
+        {% when "live_payment_on_test_transaction" %}
+          {% t You tried to make a live payment on a test transaction. %}
+        {% when "test_payment_on_live_transaction" %}
+          {% t You tried to make a test payment on a live transaction. %}
+      {% endcase %}
+    {% endif %}
 
-          {% if model.error %}
-            {% case model.error %}
-            {% when "try_again" %}
-              {% t An error happened. %} {% t Please try again. %}
-            {% when "live_payment_on_test_transaction" %}
-              {% t You tried to make a live payment on a test transaction. %}
-            {% when "test_payment_on_live_transaction" %}
-              {% t You tried to make a test payment on a live transaction. %}
-            {% endcase %}
-          {% endif %}
-        </h4>
+    {% if model.error_message %}
+      <div class=error-text text-center">
+        {{ model.error_message }}
       </div>
-    </div>
+    {% endif %}
   </div>
 {% endif %}
+
+

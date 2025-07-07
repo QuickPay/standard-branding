@@ -1,12 +1,4 @@
-<div class="well-xs well-greyish-xs well-sm well-greyish-sm" data-session-id="{{ model.session_id }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h3 class="center-y text-center-xs">
-          <img class="icon" src="{{ images.info-circle.svg }}">
-          {% t You have cancelled the payment %}
-        </h3>
-      </div>
-    </div>
-  </div>
+<div class="container highlighted-text center-y" data-session-id="{{ model.session_id }}">
+  <img class="icon-md" alt="Info" src="{{ images.info-circle.svg }}">
+  {% t You have cancelled the payment %}
 </div>
