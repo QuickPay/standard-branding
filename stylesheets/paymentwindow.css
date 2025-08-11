@@ -44,6 +44,11 @@ input[type="checkbox"], input[type="radio"] {
   vertical-align: -1px;
 }
 
+input[type="radio"] {
+  margin-top: -1px;
+  vertical-align: middle;
+}
+
 select {
   line-height: 16px;
   font-size: 16px;
@@ -122,92 +127,9 @@ while col-(screen size)-1 takes up a twelth of the row */
   .col-sm-12 {
     width: 100%;
   }
-
-  .col-sm-push-8 {
-    left: 66.66666667%;
-  }
-
-  .col-sm-pull-4 {
-    right: 33.33333333%;
-  }
-}
-
-/* ----- General HTML elements ----- */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: arial, tahoma, verdana, sans-serif;
-  font-size: 14px;
-  color: #28303A;
-  line-height: 1.5em;
-  background-color: #F1F1F3;
-  margin-bottom: 60px;
-  /* border-top: 0px solid #28303A; */
-}
-
-/* h1, h2, h3, h4, h5 {
-  font-weight: bold;
-} */
-
-h4, h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-img {
-  vertical-align: middle;
-}
-
-input[type="text"], input[type="tel"], input[type="number"] {
-  padding-left: 8px;
-  height: 40px;
-  font-family: Monaco, Menlo, Consolas, monospace;
-  font-size: 16px;
-  letter-spacing: 2.2px;
-}
-
-input[type="radio"] {
-  margin-top: -1px;
-  vertical-align: middle;
-}
-
-select {
-  line-height: 16px;
-  font-size: 16px;
-}
-
-a {
-  text-decoration: none;
-}
-
-hr {
-  height: 1px;
-  background-color: #e9e9e9;
-  border: none;
 }
 
 /* ----- Layout ----- */
-
-.wrapper {
-  width: 450px;
-  margin: 0 auto;
-  margin-top: 60px;
-  margin-bottom: 350px;
-}
-
 div.btn {
   display: flex;
   align-items: center;
@@ -219,11 +141,20 @@ div.btn {
   cursor: auto;
 }
 
-/*
- *
- * Layout
- *
- */
+.wrapper {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 350px;
+}
+
+.container {
+  max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .payment-container {
   border-radius: 10px;
@@ -326,61 +257,6 @@ img.footer-logo {
   #gateway-description, #language-list {
     margin: 0 -25px;
   }
-}
-
-/* --- Buttons --- */ 
-.btn {
-  display: inline-block;
-  /* margin-bottom: 0; */
-  /* font-weight: normal; */
-  text-align: center;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  border-radius: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-a.btn, button[type="submit"] {
-  width: 100%;
-  padding: 11px;
-  margin-top: 15px;
-  line-height: 1em;
-  font-size: 16px;
-}
-
-.btn:active {
-  outline: 0;
-  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
-  box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
-}
-
-.btn-primary {
-  background-color: #1338ff;
-}
-
-.btn-primary, .btn-success {
-  color: #ffffff;
-  border-radius: 20px;
-  /* border: none; */
-}
-
-.inline-option {
-  display: inline-block;
-  margin: 0 0 0 10px;
-}
-
-#active-form #cvd-help img {
-  width: 100%;
 }
 
 /* ----- Payment Window ----- */ 
@@ -889,31 +765,7 @@ img.icon-rotate {
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-h3 img.icon {
-  height: 32px !important;
-  width: 32px;
-  margin-left: 0 !important;
-  margin-right: 9px !important;
-}
-
-h4 img.icon {
-  height: 24px !important;
-  width: 24px;
-  margin-left: 0 !important;
-  margin-right: 6px !important;
-}
-
-.reservation-notice {
-  color: #888888;
-  text-align: center;
-  margin-top: 12px;
-  font-size: 12px;
-}
-
-/*
- * Utility classes
- *
- */
+/* ----- Utility classes ----- */
 
 .clickable {
   cursor: pointer;
@@ -941,41 +793,45 @@ h4 img.icon {
   justify-content: center;
 }
 
-/*
- * ApplePay
- *
- */
+.float-right {
+  float: right;
+}
 
-#alternative-payment-methods .payment-method-apple-pay > .btn {
+.highlighted-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.error-text {
+  font-size: 13px;
+  color: #595959;
+}
+
+.hidden {
+  display: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
   overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
-#alternative-payment-methods .payment-method-apple-pay.disabled > .btn {
-  cursor: not-allowed;
-  background: #dfdfdf;
+.logo-image {
+  width: 100px; 
 }
 
-#alternative-payment-methods .payment-method-apple-pay.disabled .apple-pay-btn {
-  background-color: #dfdfdf;
-}
-
-#alternative-payment-methods .payment-method-apple-pay.disabled > .btn:hover {
-  border-color: #dedede;
-  box-shadow: none;
-}
-
-.apple-pay-btn {
-  display: block;
-  background-image: -webkit-named-image(apple-pay-logo-black);
-  background-color: white;
-  background-size: 100% 75%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 12px 0;
-  width: 100%;
-  height: 42px;
+@media (max-width: 480px) {
+  .text-center-xs {
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 /*
