@@ -110,7 +110,7 @@ msgstr "아래의 버튼을 클릭하면 안전 결제창이 열립니다."
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
-msgid "When you click the button below, the iDeal payment window will open."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
 msgstr "아래의 버튼을 클릭하면 ViaBill 결제창이 열립니다."
 
 #: templates/form/sofort_ideal.liquid:23

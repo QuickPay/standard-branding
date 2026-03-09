@@ -108,8 +108,8 @@ msgid "When you click the button below, the Resurs payment window will open."
 msgstr "Ko kliknete spodnji gumb, se bo odprlo Resurs okno za plačilo."
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo iDeal okno za plačilo."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo iDEAL | Wero okno za plačilo."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"
@@ -189,7 +189,7 @@ msgstr ""
 #: templates/form/wechatpay.liquid:10
 #, fuzzy
 msgid "When you click the button below, the WeChatPay payment window will open."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo iDeal okno za plačilo."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo iDEAL | Wero okno za plačilo."
 
 #: templates/form/trustly.liquid:7
 msgid "When you click the button below, the Trustly payment window will open."

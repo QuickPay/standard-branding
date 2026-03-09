@@ -102,8 +102,8 @@ msgid "When you click the button below, the Resurs payment window will open."
 msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för Resurs att öppnas."
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för iDeal att öppnas."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
+msgstr "När du klickar på knappen nedan, kommer betalningsfönstret för iDEAL | Wero att öppnas."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"
