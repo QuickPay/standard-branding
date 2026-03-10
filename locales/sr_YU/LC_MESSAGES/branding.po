@@ -51,7 +51,7 @@ msgstr "Kliknite ovde ako obrada potraje dugo"
 #: templates/form/anydaysplit.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se PayPal prozor za plaćanje."
+msgstr "Kada kliknete na dugme ispod, otvoriće se Anyday prozor za plaćanje."
 
 #: templates/form/anydaysplit.liquid:11 templates/form/vmp_epayment.liquid:8
 #: templates/form/paypalpayments.liquid:11 templates/form/przelewy24.liquid:12
@@ -86,7 +86,7 @@ msgstr "Nastavite na plaćanje"
 #: templates/form/vmp_epayment.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Vipps-MobilePay window will open"
-msgstr "Kada kliknete na dugme ispod, otvoriće se ViaBill prozor za plaćanje."
+msgstr "Kada kliknete na dugme ispod, otvoriće se Vipps-MobilePay prozor za plaćanje."
 
 #: templates/form/paypalpayments.liquid:10
 #, fuzzy
@@ -96,7 +96,7 @@ msgstr "Kada kliknete na dugme ispod, otvoriće se PayPal prozor za plaćanje."
 #: templates/form/przelewy24.liquid:11
 #, fuzzy
 msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se Trustly prozor za plaćanje."
+msgstr "Kada kliknete na dugme ispod, otvoriće se Przelewy24 prozor za plaćanje."
 
 #: templates/form/3ds_auth.liquid:4
 #, fuzzy
@@ -106,12 +106,12 @@ msgstr "Započinje se 3D Secure plaćanje. Molimo vas da sačekate..."
 #: templates/form/resurs.liquid:20
 #, fuzzy
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se Trustly prozor za plaćanje."
+msgstr "Kada kliknete na dugme ispod, otvoriće se Resurs prozor za plaćanje."
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se ViaBill prozor za plaćanje."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
+msgstr "Kada kliknete na dugme ispod, otvoriće se iDEAL | Wero prozor za plaćanje."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"
@@ -127,13 +127,13 @@ msgstr "Nastavi"
 
 #: templates/form/paysafecard.liquid:10
 #, fuzzy
-msgid "When you click the button below, the paysafecard payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se PayPal prozor za plaćanje."
+msgid "When you click the button below, the Paysafecard payment window will open."
+msgstr "Kada kliknete na dugme ispod, otvoriće se Paysafecard prozor za plaćanje."
 
 #: templates/form/bancontact.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Bancontact payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se PayPal prozor za plaćanje."
+msgstr "Kada kliknete na dugme ispod, otvoriće se Bancontact prozor za plaćanje."
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:5
 #: templates/form/unzer_pay_later_invoice.liquid:5
@@ -192,7 +192,7 @@ msgstr ""
 #: templates/form/wechatpay.liquid:10
 #, fuzzy
 msgid "When you click the button below, the WeChatPay payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se ViaBill prozor za plaćanje."
+msgstr "Kada kliknete na dugme ispod, otvoriće se WeChatPay prozor za plaćanje."
 
 #: templates/form/trustly.liquid:7
 msgid "When you click the button below, the Trustly payment window will open."
@@ -206,7 +206,7 @@ msgstr "Kada kliknete na dugme ispod, otvoriće se Sofort prozor za plaćanje."
 #: templates/form/vipps.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Vipps payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se ViaBill prozor za plaćanje."
+msgstr "Kada kliknete na dugme ispod, otvoriće se Vipps prozor za plaćanje."
 
 #: templates/form/vippspsp.liquid:6
 #, fuzzy
@@ -329,7 +329,7 @@ msgstr "Popunite broj kartice"
 #: templates/form/klarnapayments.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Klarna payment window will open."
-msgstr "Kada kliknete na dugme ispod, otvoriće se PayPal prozor za plaćanje."
+msgstr "Kada kliknete na dugme ispod, otvoriće se Klarna prozor za plaćanje."
 
 #: templates/cancelled.liquid:3
 msgid "You have cancelled the payment"

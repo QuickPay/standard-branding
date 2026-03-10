@@ -110,8 +110,8 @@ msgstr "Tá tú trýstir á knøttin niðanfyri, letur Sofort gjaldingar vindeyg
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Tá tú trýstur á knøttin niðanfyri, letur ViaBill gjaldingar vindeyga upp."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
+msgstr "Tá tú trýstur á knøttin niðanfyri, letur iDEAL | Wero gjaldingar vindeyga upp."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"

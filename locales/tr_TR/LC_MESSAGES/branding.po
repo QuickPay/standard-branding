@@ -50,7 +50,7 @@ msgstr "İşlemin uzun sürmesi halinde buraya tıklayın"
 #: templates/form/anydaysplit.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Anyday ödeme penceresi açılacaktır."
 
 #: templates/form/anydaysplit.liquid:11 templates/form/vmp_epayment.liquid:8
 #: templates/form/paypalpayments.liquid:11 templates/form/przelewy24.liquid:12
@@ -85,7 +85,7 @@ msgstr "Ödemeye geçin"
 #: templates/form/vmp_epayment.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Vipps-MobilePay window will open"
-msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Vipps-MobilePay ödeme penceresi açılacaktır."
 
 #: templates/form/paypalpayments.liquid:10
 #, fuzzy
@@ -95,7 +95,7 @@ msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açı
 #: templates/form/przelewy24.liquid:11
 #, fuzzy
 msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda Trustly ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Przelewy24 ödeme penceresi açılacaktır."
 
 #: templates/form/3ds_auth.liquid:4
 #, fuzzy
@@ -105,12 +105,12 @@ msgstr "3D Güvenli ödeme başlatılıyor. Lütfen bekleyin..."
 #: templates/form/resurs.liquid:20
 #, fuzzy
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda Trustly ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Resurs ödeme penceresi açılacaktır."
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
+msgstr "Aşağıdaki düğmeye tıkladığınızda iDEAL | Wero ödeme penceresi açılacaktır."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"
@@ -126,13 +126,13 @@ msgstr "İlerleyin"
 
 #: templates/form/paysafecard.liquid:10
 #, fuzzy
-msgid "When you click the button below, the paysafecard payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açılacaktır."
+msgid "When you click the button below, the Paysafecard payment window will open."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Paysafecard ödeme penceresi açılacaktır."
 
 #: templates/form/bancontact.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Bancontact payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Bancontact ödeme penceresi açılacaktır."
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:5
 #: templates/form/unzer_pay_later_invoice.liquid:5
@@ -191,7 +191,7 @@ msgstr ""
 #: templates/form/wechatpay.liquid:10
 #, fuzzy
 msgid "When you click the button below, the WeChatPay payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda WeChatPay ödeme penceresi açılacaktır."
 
 #: templates/form/trustly.liquid:7
 msgid "When you click the button below, the Trustly payment window will open."
@@ -205,12 +205,12 @@ msgstr "Aşağıdaki düğmeye tıkladığınızda Sofort ödeme penceresi açı
 #: templates/form/vipps.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Vipps payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Vipps ödeme penceresi açılacaktır."
 
 #: templates/form/vippspsp.liquid:6
 #, fuzzy
 msgid "When you click the button below, the Vipps PSP window will open"
-msgstr "Aşağıdaki düğmeye tıkladığınızda ViaBill ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Vipps ödeme penceresi açılacaktır."
 
 #: templates/form/paypal.liquid:10
 msgid "When you click the button below, the PayPal payment window will open."
@@ -219,7 +219,7 @@ msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açı
 #: templates/form/blik.liquid:10
 #, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda BLIK ödeme penceresi açılacaktır."
 
 #: templates/form/mobilepay_subscriptions.liquid:10
 #, fuzzy
@@ -328,7 +328,7 @@ msgstr "Kart numarasını girin"
 #: templates/form/klarnapayments.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Klarna payment window will open."
-msgstr "Aşağıdaki düğmeye tıkladığınızda PayPal ödeme penceresi açılacaktır."
+msgstr "Aşağıdaki düğmeye tıkladığınızda Klarna ödeme penceresi açılacaktır."
 
 #: templates/cancelled.liquid:3
 msgid "You have cancelled the payment"

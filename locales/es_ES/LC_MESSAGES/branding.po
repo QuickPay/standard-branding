@@ -110,8 +110,8 @@ msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago Sofor
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago de ViaBill."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
+msgstr "Al hacer clic en el botón de abajo, se abrirá la ventana de pago de iDEAL | Wero."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"

@@ -110,8 +110,8 @@ msgstr "Napsauttaessasi alla olevaa nappia Sofort-maksuikkuna avautuu."
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Napsauttaessasi alla olevaa nappia ViaBill-maksuikkuna avautuu."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
+msgstr "Napsauttaessasi alla olevaa nappia iDEAL | Wero-maksuikkuna avautuu."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"

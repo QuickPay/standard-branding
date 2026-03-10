@@ -110,8 +110,8 @@ msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θ�
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής ViaBill."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
+msgstr "Όταν κάνετε κλικ στο παρακάτω κουμπί, θα ανοίξει το παράθυρο πληρωμής iDEAL | Wero."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"

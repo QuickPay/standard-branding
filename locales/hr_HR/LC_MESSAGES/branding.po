@@ -110,8 +110,8 @@ msgstr "Klikom na donji gumb otvoriti će se prozor za plaćanje putem Trustly o
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Klikom na donji gumb otvoriti će se prozor za plaćanje putem ViaBill opcije."
+msgid "When you click the button below, the iDEAL | Wero payment window will open."
+msgstr "Klikom na donji gumb otvoriti će se prozor za plaćanje putem iDEAL | Wero opcije."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"
