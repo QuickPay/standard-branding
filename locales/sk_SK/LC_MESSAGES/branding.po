@@ -51,7 +51,7 @@ msgstr "Ak proces bude trvať príliš dlho, kliknite sem"
 #: templates/form/anydaysplit.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Anyday."
 
 #: templates/form/anydaysplit.liquid:11 templates/form/vmp_epayment.liquid:8
 #: templates/form/paypalpayments.liquid:11 templates/form/przelewy24.liquid:12
@@ -86,7 +86,7 @@ msgstr "Prejsť na platbu"
 #: templates/form/vmp_epayment.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Vipps-MobilePay window will open"
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Vipps-MobilePay."
 
 #: templates/form/paypalpayments.liquid:10
 #, fuzzy
@@ -96,7 +96,7 @@ msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami P
 #: templates/form/przelewy24.liquid:11
 #, fuzzy
 msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Trustly."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Przelewy24."
 
 #: templates/form/3ds_auth.liquid:4
 #, fuzzy
@@ -106,12 +106,12 @@ msgstr "Inicializuje sa 3D Secure platba. Prosím, počkajte..."
 #: templates/form/resurs.liquid:20
 #, fuzzy
 msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Trustly."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Resurs."
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
 msgid "When you click the button below, the iDEAL | Wero payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami ViaBill."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami iDEAL | Wero."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"
@@ -220,7 +220,7 @@ msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami P
 #: templates/form/blik.liquid:10
 #, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami BLIK."
 
 #: templates/form/mobilepay_subscriptions.liquid:10
 #, fuzzy
@@ -329,7 +329,7 @@ msgstr "Zadajte číslo karty"
 #: templates/form/klarnapayments.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Klarna payment window will open."
-msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami PayPal."
+msgstr "Ak kliknete na tlačidlo uvedené nižšie, otvorí sa okno s platbami Klarna."
 
 #: templates/cancelled.liquid:3
 msgid "You have cancelled the payment"

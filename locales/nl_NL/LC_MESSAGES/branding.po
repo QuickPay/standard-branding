@@ -189,11 +189,11 @@ msgstr ""
 #: templates/form/wechatpay.liquid:10
 #, fuzzy
 msgid "When you click the button below, the WeChatPay payment window will open."
-msgstr "Wanneer je op de onderstaande knop drukt, wordt het iDEAL | Wero betalingsvenster geopend."
+msgstr "Wanneer je op de onderstaande knop drukt, wordt het WeChatPay betalingsvenster geopend."
 
 #: templates/form/trustly.liquid:7
 msgid "When you click the button below, the Trustly payment window will open."
-msgstr "Wanneer u op de onderstaande knop klikt word het Sofort betalingsvenster geopend."
+msgstr "Wanneer u op de onderstaande knop klikt word het Trustly betalingsvenster geopend."
 
 #: templates/form/sofortppro.liquid:10
 #, fuzzy
@@ -216,7 +216,7 @@ msgstr "Wanneer u op de onderstaande knop klikt word het PayPal betalingsvenster
 #: templates/form/blik.liquid:10
 #, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
-msgstr "Wanneer u op de onderstaande knop klikt word het PayPal betalingsvenster geopend."
+msgstr "Wanneer u op de onderstaande knop klikt word het BLIK betalingsvenster geopend."
 
 #: templates/form/mobilepay_subscriptions.liquid:10
 #, fuzzy

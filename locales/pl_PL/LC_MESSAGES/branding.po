@@ -189,7 +189,7 @@ msgstr ""
 #: templates/form/wechatpay.liquid:10
 #, fuzzy
 msgid "When you click the button below, the WeChatPay payment window will open."
-msgstr "Po kliknięciu poniższego przycisku otworzy się okno płatności iDEAL | Wero."
+msgstr "Po kliknięciu poniższego przycisku otworzy się okno płatności WeChatPay."
 
 #: templates/form/trustly.liquid:7
 msgid "When you click the button below, the Trustly payment window will open."

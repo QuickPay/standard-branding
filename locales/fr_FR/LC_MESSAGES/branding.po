@@ -111,7 +111,7 @@ msgstr "La page de paiement Trustly s'ouvrira lorsque vous aurez appuyé sur le 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
 msgid "When you click the button below, the iDEAL | Wero payment window will open."
-msgstr "La page de paiement ViaBill s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous."
+msgstr "La page de paiement iDEAL | Wero s'ouvrira lorsque vous aurez appuyé sur le bouton ci-dessous."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"

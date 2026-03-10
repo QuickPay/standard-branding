@@ -51,7 +51,7 @@ msgstr "Якщо операція триватиме довше, натисні�
 #: templates/form/anydaysplit.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
-msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно PayPal."
+msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно Anyday."
 
 #: templates/form/anydaysplit.liquid:11 templates/form/vmp_epayment.liquid:8
 #: templates/form/paypalpayments.liquid:11 templates/form/przelewy24.liquid:12
@@ -86,7 +86,7 @@ msgstr "Перейти до платежу"
 #: templates/form/vmp_epayment.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Vipps-MobilePay window will open"
-msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно ViaBill."
+msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно Vipps-MobilePay."
 
 #: templates/form/paypalpayments.liquid:10
 #, fuzzy
@@ -96,7 +96,7 @@ msgstr "Коли ви натиснете на кнопку знизу, відк�
 #: templates/form/przelewy24.liquid:11
 #, fuzzy
 msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "Коли ви натиснете на кнопку знизу, відкриється вікно платежу Trustly."
+msgstr "Коли ви натиснете на кнопку знизу, відкриється вікно платежу Przelewy24."
 
 #: templates/form/3ds_auth.liquid:4
 #, fuzzy
@@ -190,7 +190,7 @@ msgstr ""
 #: templates/form/wechatpay.liquid:10
 #, fuzzy
 msgid "When you click the button below, the WeChatPay payment window will open."
-msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно iDEAL | Wero."
+msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно WeChatPay."
 
 #: templates/form/trustly.liquid:7
 msgid "When you click the button below, the Trustly payment window will open."
@@ -204,12 +204,12 @@ msgstr "Коли ви натиснете на кнопку знизу, відк�
 #: templates/form/vipps.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Vipps payment window will open."
-msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно ViaBill."
+msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно Vipps."
 
 #: templates/form/vippspsp.liquid:6
 #, fuzzy
 msgid "When you click the button below, the Vipps PSP window will open"
-msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно ViaBill."
+msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно Vipps."
 
 #: templates/form/paypal.liquid:10
 msgid "When you click the button below, the PayPal payment window will open."
@@ -218,7 +218,7 @@ msgstr "Коли ви натиснете на кнопку знизу, відк�
 #: templates/form/blik.liquid:10
 #, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
-msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно PayPal."
+msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно BLIK."
 
 #: templates/form/mobilepay_subscriptions.liquid:10
 #, fuzzy
@@ -327,7 +327,7 @@ msgstr "Введіть номер картки"
 #: templates/form/klarnapayments.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Klarna payment window will open."
-msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно PayPal."
+msgstr "Коли ви натиснете на кнопку знизу, відкриється платіжне вікно Klarna."
 
 #: templates/cancelled.liquid:3
 msgid "You have cancelled the payment"

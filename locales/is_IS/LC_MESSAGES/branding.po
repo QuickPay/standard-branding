@@ -108,7 +108,7 @@ msgstr "Þegar þú smellir á hnappinn hér að neðan, opnast Trustly greiðsl
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
 msgid "When you click the button below, the iDEAL | Wero payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
+msgstr "Þegar þú smellir á hnappinn hér að neðan mun iDEAL | Wero greiðsluglugginn opnast."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"

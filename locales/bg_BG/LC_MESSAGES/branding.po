@@ -111,7 +111,7 @@ msgstr "Когато кликнете върху бутона по-долу, щ�
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 #, fuzzy
 msgid "When you click the button below, the iDEAL | Wero payment window will open."
-msgstr "Когато кликнете върху бутона по-долу, ще се отвори прозорец за плащане във ViaBill."
+msgstr "Когато кликнете върху бутона по-долу, ще се отвори прозорец за плащане във iDEAL | Wero."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"

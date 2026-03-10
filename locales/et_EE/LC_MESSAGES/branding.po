@@ -108,7 +108,7 @@ msgstr "Kui klõpsad alloleval nupul avaneb Resurs makse aken."
 
 #: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
 msgid "When you click the button below, the iDEAL | Wero payment window will open."
-msgstr "Allpool asuvale nupule klõpsates avaneb iDeali makseaken."
+msgstr "Allpool asuvale nupule klõpsates avaneb iDEAL | Wero makseaken."
 
 #: templates/form/sofort_ideal.liquid:23
 msgid "Bank"

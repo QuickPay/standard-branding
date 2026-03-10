@@ -51,7 +51,7 @@ msgstr "Kliknite tukaj, če obdelava traja dlje časa."
 #: templates/form/anydaysplit.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo Anyday okno za plačilo."
 
 #: templates/form/anydaysplit.liquid:11 templates/form/vmp_epayment.liquid:8
 #: templates/form/paypalpayments.liquid:11 templates/form/przelewy24.liquid:12
@@ -86,7 +86,7 @@ msgstr "Nadaljuj na plačilo"
 #: templates/form/vmp_epayment.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Vipps-MobilePay window will open"
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo Vipps okno za plačilo."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo Vipps-MobilePay okno za plačilo."
 
 #: templates/form/paypalpayments.liquid:10
 #, fuzzy
@@ -96,7 +96,7 @@ msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 #: templates/form/przelewy24.liquid:11
 #, fuzzy
 msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo Trustly okno za plačilo."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo Przelewy24 okno za plačilo."
 
 #: templates/form/3ds_auth.liquid:4
 #, fuzzy
@@ -124,13 +124,13 @@ msgid "Proceed"
 msgstr "Nadaljuj"
 
 #: templates/form/paysafecard.liquid:10
-msgid "When you click the button below, the paysafecard payment window will open."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo paysafecard okno za plačilo."
+msgid "When you click the button below, the Paysafecard payment window will open."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo Paysafecard okno za plačilo."
 
 #: templates/form/bancontact.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Bancontact payment window will open."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo Bancontact okno za plačilo."
 
 #: templates/form/unzer_pay_later_direct_debit.liquid:5
 #: templates/form/unzer_pay_later_invoice.liquid:5
@@ -189,7 +189,7 @@ msgstr ""
 #: templates/form/wechatpay.liquid:10
 #, fuzzy
 msgid "When you click the button below, the WeChatPay payment window will open."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo iDEAL | Wero okno za plačilo."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo WeChatPay okno za plačilo."
 
 #: templates/form/trustly.liquid:7
 msgid "When you click the button below, the Trustly payment window will open."
@@ -216,7 +216,7 @@ msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
 #: templates/form/blik.liquid:10
 #, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
-msgstr "Ko kliknete na spodnji gumb, se bo odprlo PayPal okno za plačilo."
+msgstr "Ko kliknete na spodnji gumb, se bo odprlo BLIK okno za plačilo."
 
 #: templates/form/mobilepay_subscriptions.liquid:10
 #, fuzzy
