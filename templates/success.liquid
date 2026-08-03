@@ -1,6 +1,16 @@
 <div class="container highlighted-text center-y" data-session-id="{{ model.session_id }}">
   <img class="icon-md" alt="Check" src="{{ images.check-circle-o.svg }}">
-  {% if model.transaction_type == "payout" %}
+  {% if model.already_completed? %}
+    {% if model.transaction_type == "payout" %}
+      {% t You have already completed the payout %}
+    {% elsif model.transaction_type == "card" %}
+      {% t You have already saved the card %}
+    {% elsif model.transaction_type == "subscription" %}
+      {% t You have already completed the subscription %}
+    {% else %}
+      {% t You have already completed the payment %}
+    {% endif %}
+  {% elsif model.transaction_type == "payout" %}
     {% t You have completed the payout %}
   {% elsif model.transaction_type == "card" %}
     {% t You have saved the card %}

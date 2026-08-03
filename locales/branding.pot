@@ -344,6 +344,22 @@ msgstr ""
 msgid "Expires in"
 msgstr ""
 
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr ""
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr ""
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr ""
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr ""
+
 #: templates/success.liquid:4
 msgid "You have completed the payout"
 msgstr ""
