@@ -498,3 +498,19 @@ msgstr "Kiti mokėjimo būdai"
 
 #~ msgid "Email"
 #~ msgstr "El. paštas"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Jau užbaigėte išmokėjimą."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Jau išsaugojote kortelę."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Jau užbaigėte prenumeratą."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Jau užbaigėte mokėjimą."

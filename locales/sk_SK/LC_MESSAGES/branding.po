@@ -498,3 +498,19 @@ msgstr "Ostatné metódy platby"
 
 #~ msgid "Email"
 #~ msgstr "E-mailová adresa"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Výplatu ste už dokončili."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Kartu ste už uložili."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Predplatné ste už dokončili."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Platbu ste už dokončili."

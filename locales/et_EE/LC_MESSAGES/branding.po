@@ -491,3 +491,19 @@ msgstr "Muud maksevahendid"
 
 #~ msgid "Email"
 #~ msgstr "E-post"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Olete väljamakse juba lõpetanud."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Olete kaardi juba salvestanud."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Olete tellimuse juba lõpetanud."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Olete makse juba lõpetanud."

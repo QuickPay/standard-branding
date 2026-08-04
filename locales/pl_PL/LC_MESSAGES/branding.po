@@ -494,3 +494,19 @@ msgstr "Inne metody płatności"
 
 #~ msgid "Email"
 #~ msgstr "Email"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Wypłata została już zrealizowana."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Karta została już zapisana."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Subskrypcja została już aktywowana."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Płatność została już zrealizowana."

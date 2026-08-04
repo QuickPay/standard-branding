@@ -410,3 +410,19 @@ msgstr ""
 #: templates/footer.liquid:137
 msgid "Secure payment with"
 msgstr ""
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "თქვენ უკვე დაასრულეთ თანხის გამოტანა."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "თქვენ უკვე შეინახეთ ბარათი."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "თქვენ უკვე დაასრულეთ გამოწერა."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "თქვენ უკვე დაასრულეთ გადახდა."

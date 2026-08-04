@@ -498,3 +498,19 @@ msgstr "Други начини на плащане"
 
 #~ msgid "Email"
 #~ msgstr "Имейл"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Вече завършихте изплащането."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Вече запазихте картата."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Вече завършихте абонамента."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Вече завършихте плащането."
