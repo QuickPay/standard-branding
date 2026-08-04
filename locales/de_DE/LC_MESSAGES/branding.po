@@ -518,3 +518,19 @@ msgstr "Andere Zahlungsmethoden"
 
 #~ msgid "Total"
 #~ msgstr "Total"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Sie haben die Auszahlung bereits abgeschlossen."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Sie haben die Karte bereits gespeichert."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Sie haben das Abonnement bereits abgeschlossen."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Sie haben die Zahlung bereits abgeschlossen."

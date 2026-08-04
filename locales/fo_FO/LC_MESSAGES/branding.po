@@ -498,3 +498,19 @@ msgstr "Aðrir gjaldsháttir"
 #, fuzzy
 #~ msgid "Swedish"
 #~ msgstr "Svøríki"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Tú hevur longu fullført útgjaldingina."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Tú hevur longu goymt kortið."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Tú hevur longu fullført áskriftina."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Tú hevur longu fullført gjaldingina."

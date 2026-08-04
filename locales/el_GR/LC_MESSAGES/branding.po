@@ -498,3 +498,19 @@ msgstr "Άλλοι τρόποι πληρωμής"
 
 #~ msgid "Email"
 #~ msgstr "Email"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Έχετε ήδη ολοκληρώσει την εκταμίευση."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Έχετε ήδη αποθηκεύσει την κάρτα."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Έχετε ήδη ολοκληρώσει τη συνδρομή."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Έχετε ήδη ολοκληρώσει την πληρωμή."

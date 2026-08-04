@@ -496,3 +496,19 @@ msgstr "Інші форми оплати"
 
 #~ msgid "Email"
 #~ msgstr "Ел. адреса"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Ви вже завершили виплату."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Ви вже зберегли картку."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Ви вже завершили підписку."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Ви вже завершили платіж."

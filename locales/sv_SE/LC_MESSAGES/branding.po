@@ -510,3 +510,19 @@ msgstr "Välj betalningsmetod"
 
 #~ msgid "Total"
 #~ msgstr "Summa"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Du har redan slutfört utbetalningen."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Du har redan sparat kortet."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Du har redan slutfört prenumerationen."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Du har redan slutfört betalningen."

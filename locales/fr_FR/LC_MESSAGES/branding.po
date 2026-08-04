@@ -507,3 +507,19 @@ msgstr "Autres modes de paiement"
 #, fuzzy
 #~ msgid "Swedish"
 #~ msgstr "Suède"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Vous avez déjà effectué le versement."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Vous avez déjà enregistré la carte."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Vous avez déjà finalisé l'abonnement."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Vous avez déjà effectué le paiement."

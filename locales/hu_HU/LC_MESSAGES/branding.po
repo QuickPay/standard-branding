@@ -498,3 +498,19 @@ msgstr "Egyéb fizetési módszerek"
 
 #~ msgid "Email"
 #~ msgstr "Email"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Már teljesítette a kifizetést."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Már elmentette a kártyát."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Már teljesítette az előfizetést."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Már teljesítette a fizetést."

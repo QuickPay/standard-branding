@@ -497,3 +497,19 @@ msgstr "其它支付方式"
 
 #~ msgid "Email"
 #~ msgstr "电邮"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "您已完成提现。"
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "您已保存银行卡。"
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "您已完成订阅。"
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "您已完成付款。"

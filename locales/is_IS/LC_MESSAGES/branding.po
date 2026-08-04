@@ -495,3 +495,19 @@ msgstr "Aðrir greiðslumátar"
 
 #~ msgid "Email"
 #~ msgstr "Netfang"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Þú hefur þegar lokið útgreiðslunni."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Þú hefur þegar vistað kortið."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Þú hefur þegar lokið áskriftinni."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Þú hefur þegar lokið greiðslunni."

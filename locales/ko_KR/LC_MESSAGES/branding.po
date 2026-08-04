@@ -498,3 +498,19 @@ msgstr "다른 결제 수단"
 
 #~ msgid "Email"
 #~ msgstr "이메일"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "이미 출금을 완료하셨습니다."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "이미 카드를 저장하셨습니다."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "이미 구독을 완료하셨습니다."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "이미 결제를 완료하셨습니다."

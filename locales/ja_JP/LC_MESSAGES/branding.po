@@ -498,3 +498,19 @@ msgstr "その他の支払い方法"
 
 #~ msgid "Email"
 #~ msgstr "メール"
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "すでに払い出しを完了しています。"
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "すでにカードを保存済みです。"
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "すでにサブスクリプションの登録を完了しています。"
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "すでに支払いを完了しています。"

@@ -492,3 +492,19 @@ msgstr "Velg betalingsmetode"
 
 #~ msgid "Please try again or select another payment option."
 #~ msgstr "3D Secure autorisering feilet. Vennligst prøv igjen eller velg en annen betalingsmåte."
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Du har allerede fullført utbetalingen."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Du har allerede lagret kortet."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Du har allerede fullført abonnementet."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Du har allerede fullført betalingen."

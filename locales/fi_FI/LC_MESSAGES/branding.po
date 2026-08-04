@@ -500,3 +500,19 @@ msgstr "Muita maksutapoja"
 
 #~ msgid "Please try again or select another payment option."
 #~ msgstr "Ole hyvä ja yritä uudelleen tai valitse toinen maksuvaihtoehto."
+
+#: templates/success.liquid:5
+msgid "You have already completed the payout"
+msgstr "Olet jo suorittanut tilityksen."
+
+#: templates/success.liquid:7
+msgid "You have already saved the card"
+msgstr "Olet jo tallentanut kortin."
+
+#: templates/success.liquid:9
+msgid "You have already completed the subscription"
+msgstr "Olet jo suorittanut tilauksen."
+
+#: templates/success.liquid:11
+msgid "You have already completed the payment"
+msgstr "Olet jo suorittanut maksun."
