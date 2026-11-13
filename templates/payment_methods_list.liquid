@@ -11,6 +11,8 @@
         {% else %}
           <img src="{{ method.base_image_path }}/vmp-mobilepay.svg" alt="VMP MobilePay" title="VMP MobilePay"/>
         {% endif %}
+      {% elsif method.name == "anyday-split" and model.language == "da" %}
+        <img src="{{ method.base_image_path }}/anyday-split-dk.svg" alt="{{ method.nice_name }}"/>
       {% else %}
         <img src="{{ method.image_path }}" alt="{{ method.nice_name }}" />
       {% endif %}
